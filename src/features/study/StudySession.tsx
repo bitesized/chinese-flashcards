@@ -25,14 +25,19 @@
  * `queue`'s source without changing this component's navigation logic.
  */
 
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from 'react';
 import type { KeyboardEvent } from 'react';
 import { Card } from './Card.js';
 import styles from './StudySession.module.css';
 import { loadDeck } from '../../services/decks.js';
 import { shuffle } from '../../services/shuffle.js';
+import { isSpeechAvailable, speak, subscribeSpeechAvailability } from '../../services/speech.js';
 import type { Card as CardData, Deck, HskLevel } from '../../domain/card.js';
 import type { Settings } from '../../domain/runtime.js';
+
+function useSpeechAvailable(): boolean {
+  return useSyncExternalStore(subscribeSpeechAvailability, isSpeechAvailable);
+}
 
 export interface StudySessionProps {
   level: HskLevel;
@@ -98,8 +103,27 @@ export function StudySession({ level, settings, onTogglePinyin, onExit }: StudyS
     return new Map(loadState.deck.cards.map((c) => [c.id, c] as const));
   }, [loadState]);
 
+  // Computed before the handlers below so handleFlip/handleSpeak can read
+  // it directly; undefined while loading/erroring/at the end state, where
+  // nothing that reads it can actually be triggered by the user anyway.
+  const currentCard = cardsById.get(queue[position] ?? '');
+
+  const speechAvailable = useSpeechAvailable();
+
+  function handleSpeak() {
+    if (currentCard) speak(currentCard.headword, settings.speechRate);
+  }
+
   function handleFlip() {
-    setFace((f) => (f === 'front' ? 'back' : 'front'));
+    // Not the setFace((f) => ...) updater form: an updater function is
+    // expected to be pure (React may invoke it more than once), and this
+    // one needs to trigger a real side effect (speaking) exactly once, for
+    // the one specific transition that reveals the meaning.
+    const next = face === 'front' ? 'back' : 'front';
+    setFace(next);
+    if (next === 'back' && settings.autoplayOnReveal) {
+      handleSpeak();
+    }
   }
 
   function handleNext() {
@@ -140,6 +164,10 @@ export function StudySession({ level, settings, onTogglePinyin, onExit }: StudyS
       case 'b':
       case 'B':
         onTogglePinyin('back');
+        break;
+      case 's':
+      case 'S':
+        handleSpeak();
         break;
       default:
         break;
@@ -212,8 +240,6 @@ export function StudySession({ level, settings, onTogglePinyin, onExit }: StudyS
     );
   }
 
-  const currentId = queue[position] as string;
-  const currentCard = cardsById.get(currentId);
   if (!currentCard) {
     return (
       <div className={styles.centeredMessage} role="alert">
@@ -262,6 +288,8 @@ export function StudySession({ level, settings, onTogglePinyin, onExit }: StudyS
           pinyinFront={settings.pinyinFront}
           pinyinBack={settings.pinyinBack}
           onFlip={handleFlip}
+          speechAvailable={speechAvailable}
+          onSpeak={handleSpeak}
         />
       </div>
 

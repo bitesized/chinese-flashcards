@@ -62,4 +62,31 @@ describe('loadSettings / saveSettings', () => {
     window.localStorage.setItem('chinese-flashcards:settings', JSON.stringify('a string'));
     expect(loadSettings()).toEqual(DEFAULT_SETTINGS);
   });
+
+  it('does not reset a pre-WO-012 settings object missing speechRate/autoplayOnReveal (WO-012 AC7)', () => {
+    // Same schemaVersion (1) as today, shaped exactly like a settings object
+    // saved before WO-012 added these two fields — schemaVersion was not
+    // bumped for this addition (see runtime.ts), so a stored object like
+    // this must merge with defaults, not be discarded wholesale.
+    const preWo012Stored = {
+      schemaVersion: DEFAULT_SETTINGS.schemaVersion,
+      pinyinFront: false,
+      pinyinBack: true,
+      cardOrder: 'sequential',
+      theme: 'dark',
+      lastLevels: ['2'],
+    };
+    window.localStorage.setItem('chinese-flashcards:settings', JSON.stringify(preWo012Stored));
+    const loaded = loadSettings();
+    // The pre-existing fields survive exactly as stored...
+    expect(loaded.pinyinFront).toBe(false);
+    expect(loaded.pinyinBack).toBe(true);
+    expect(loaded.cardOrder).toBe('sequential');
+    expect(loaded.theme).toBe('dark');
+    expect(loaded.lastLevels).toEqual(['2']);
+    // ...and the two new fields are filled in from defaults, not left
+    // undefined or crashing anything that reads them.
+    expect(loaded.speechRate).toBe(DEFAULT_SETTINGS.speechRate);
+    expect(loaded.autoplayOnReveal).toBe(DEFAULT_SETTINGS.autoplayOnReveal);
+  });
 });

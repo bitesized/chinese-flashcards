@@ -17,10 +17,11 @@
  */
 
 import { describe, expect, it, vi } from 'vitest';
-import { render, screen } from '@testing-library/react';
+import { fireEvent, render, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { SettingsScreen } from './SettingsScreen.js';
 import { DEFAULT_SETTINGS } from '../../domain/runtime.js';
+import { SPEECH_RATE_MAX, SPEECH_RATE_MIN } from '../../services/speech.js';
 import type { Settings } from '../../domain/runtime.js';
 
 describe('SettingsScreen (FR-11; each axis independent of the others)', () => {
@@ -75,5 +76,41 @@ describe('SettingsScreen (FR-11; each axis independent of the others)', () => {
     screen.getByRole('button', { name: /Back/ }).focus();
     await user.keyboard('{Enter}');
     expect(onBack).toHaveBeenCalledTimes(1);
+  });
+});
+
+describe('SettingsScreen — speech rate and autoplay (WO-012, FR-45, FR-46)', () => {
+  it('labels the speech-rate slider with its current value', () => {
+    const settings: Settings = { ...DEFAULT_SETTINGS, speechRate: 0.7 };
+    render(<SettingsScreen settings={settings} onChange={() => {}} onBack={() => {}} />);
+    expect(screen.getByLabelText('Speech speed (0.70×)')).toBeInTheDocument();
+  });
+
+  it('changing the slider calls onChange with only speechRate updated', () => {
+    const settings: Settings = { ...DEFAULT_SETTINGS, speechRate: 0.7 };
+    const onChange = vi.fn();
+    render(<SettingsScreen settings={settings} onChange={onChange} onBack={() => {}} />);
+    fireEvent.change(screen.getByLabelText('Speech speed (0.70×)'), { target: { value: '1.1' } });
+    expect(onChange).toHaveBeenCalledWith({ ...settings, speechRate: 1.1 });
+  });
+
+  it('the slider is bounded to the service-exported rate range', () => {
+    render(<SettingsScreen settings={DEFAULT_SETTINGS} onChange={() => {}} onBack={() => {}} />);
+    const slider = screen.getByRole('slider');
+    expect(slider).toHaveAttribute('min', String(SPEECH_RATE_MIN));
+    expect(slider).toHaveAttribute('max', String(SPEECH_RATE_MAX));
+  });
+
+  it('autoplay-on-reveal defaults off and toggles independently of other settings', async () => {
+    const settings: Settings = { ...DEFAULT_SETTINGS, autoplayOnReveal: false };
+    const onChange = vi.fn();
+    const user = userEvent.setup();
+    render(<SettingsScreen settings={settings} onChange={onChange} onBack={() => {}} />);
+
+    const group = screen.getByRole('group', { name: 'Autoplay on reveal' });
+    expect(group.querySelector('[aria-pressed="true"]')).toHaveTextContent('Off');
+
+    await user.click(within(group).getByRole('button', { name: 'On' }));
+    expect(onChange).toHaveBeenCalledWith({ ...settings, autoplayOnReveal: true });
   });
 });

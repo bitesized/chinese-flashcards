@@ -21,6 +21,7 @@ import { render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { StudySession } from './StudySession.js';
 import { loadDeck } from '../../services/decks.js';
+import { speak } from '../../services/speech.js';
 import { DEFAULT_SETTINGS } from '../../domain/runtime.js';
 import type { Settings } from '../../domain/runtime.js';
 import type { Card, Deck } from '../../domain/card.js';
@@ -29,7 +30,14 @@ vi.mock('../../services/decks.js', () => ({
   loadDeck: vi.fn(),
 }));
 
+vi.mock('../../services/speech.js', () => ({
+  isSpeechAvailable: vi.fn().mockReturnValue(true),
+  subscribeSpeechAvailability: vi.fn().mockImplementation(() => () => {}),
+  speak: vi.fn(),
+}));
+
 const loadDeckMock = vi.mocked(loadDeck);
+const speakMock = vi.mocked(speak);
 
 // DEFAULT_SETTINGS.cardOrder is 'shuffled' (FR-32) — these tests assert
 // exact card identity and order, so they pin 'sequential' explicitly rather
@@ -66,6 +74,7 @@ function makeDeck(cardCount = 2): Deck {
 describe('StudySession', () => {
   beforeEach(() => {
     loadDeckMock.mockReset();
+    speakMock.mockReset();
   });
 
   it('shows a loading state, then the first card once the deck resolves', async () => {
@@ -174,5 +183,66 @@ describe('StudySession', () => {
 
     await user.click(screen.getByRole('button', { name: /^Restart$/ }));
     expect(await screen.findByText('1 / 1')).toBeInTheDocument();
+  });
+
+  it('the S key speaks the current card (FR-40, keyboard operability)', async () => {
+    loadDeckMock.mockResolvedValue(makeDeck(1));
+    const user = userEvent.setup();
+    render(
+      <StudySession
+        level="1"
+        settings={SEQUENTIAL_SETTINGS}
+        onTogglePinyin={() => {}}
+        onExit={() => {}}
+      />,
+    );
+    await waitFor(() => expect(screen.getAllByText('字0').length).toBeGreaterThan(0));
+    screen.getByRole('button', { name: /showing character/i }).focus();
+    await user.keyboard('s');
+    expect(speakMock).toHaveBeenCalledWith('字0', SEQUENTIAL_SETTINGS.speechRate);
+  });
+
+  it('autoplay-on-reveal speaks on flip-to-back but never on navigation (FR-41, FR-46)', async () => {
+    loadDeckMock.mockResolvedValue(makeDeck(2));
+    const autoplaySettings: Settings = { ...SEQUENTIAL_SETTINGS, autoplayOnReveal: true };
+    const user = userEvent.setup();
+    render(
+      <StudySession
+        level="1"
+        settings={autoplaySettings}
+        onTogglePinyin={() => {}}
+        onExit={() => {}}
+      />,
+    );
+    await waitFor(() => expect(screen.getAllByText('字0').length).toBeGreaterThan(0));
+
+    // Advancing to a new card (still on its front face) must never autoplay.
+    await user.click(screen.getByRole('button', { name: /Next/ }));
+    expect(speakMock).not.toHaveBeenCalled();
+
+    // Flipping to reveal the meaning does autoplay.
+    await user.click(screen.getByRole('button', { name: /showing character/i }));
+    expect(speakMock).toHaveBeenCalledTimes(1);
+    expect(speakMock).toHaveBeenCalledWith('字1', autoplaySettings.speechRate);
+
+    // Flipping back to the front is not a "reveal" and must not autoplay again.
+    await user.click(screen.getByRole('button', { name: /showing meaning/i }));
+    expect(speakMock).toHaveBeenCalledTimes(1);
+  });
+
+  it('does not autoplay on flip when autoplayOnReveal is off (the default)', async () => {
+    loadDeckMock.mockResolvedValue(makeDeck(1));
+    const user = userEvent.setup();
+    render(
+      <StudySession
+        level="1"
+        settings={SEQUENTIAL_SETTINGS}
+        onTogglePinyin={() => {}}
+        onExit={() => {}}
+      />,
+    );
+    await waitFor(() => expect(screen.getAllByText('字0').length).toBeGreaterThan(0));
+    await user.click(screen.getByRole('button', { name: /showing character/i }));
+    expect(speakMock).not.toHaveBeenCalled();
   });
 });

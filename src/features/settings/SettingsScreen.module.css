@@ -86,6 +86,17 @@
   color: var(--color-accent-ink);
 }
 
+.slider {
+  /* The visual track can stay thin; the element's own box is padded out to
+     the touch-target floor (NFR-6) so the hit area is the full height, not
+     just the rendered track/thumb. */
+  width: 45%;
+  min-width: 140px;
+  min-height: var(--touch-target-min);
+  accent-color: var(--color-accent);
+  cursor: pointer;
+}
+
 .resetButton {
   align-self: flex-start;
   min-height: var(--touch-target-min);

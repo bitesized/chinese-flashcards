@@ -42,9 +42,22 @@ export interface CardProps {
   pinyinFront: boolean;
   pinyinBack: boolean;
   onFlip: () => void;
+  /** FR-43: whether a Mandarin voice is available on this device. When
+   *  false, the speak control renders disabled with a plain explanation
+   *  rather than being hidden or silently inert. */
+  speechAvailable: boolean;
+  onSpeak: () => void;
 }
 
-export function Card({ card, face, pinyinFront, pinyinBack, onFlip }: CardProps) {
+export function Card({
+  card,
+  face,
+  pinyinFront,
+  pinyinBack,
+  onFlip,
+  speechAvailable,
+  onSpeak,
+}: CardProps) {
   const [showAllSenses, setShowAllSenses] = useState(false);
   const isBack = face === 'back';
 
@@ -59,6 +72,38 @@ export function Card({ card, face, pinyinFront, pinyinBack, onFlip }: CardProps)
       event.preventDefault();
       onFlip();
     }
+  }
+
+  // Buttons nested inside the flip target (this component's own "more"
+  // button, and the speak button below) must stop a Space/Enter keydown
+  // from bubbling to the outer flipper's own onKeyDown — otherwise
+  // activating a nested button via keyboard also flips the card, since a
+  // native button's keydown bubbles even though its resulting click does
+  // not travel back up through the same handler.
+  function stopKeyPropagation(event: KeyboardEvent<HTMLButtonElement>) {
+    event.stopPropagation();
+  }
+
+  function speakButton() {
+    return (
+      <button
+        type="button"
+        className={styles.speakButton}
+        disabled={!speechAvailable}
+        aria-label={
+          speechAvailable
+            ? `Play pronunciation of ${card.headword}`
+            : 'Speech unavailable: no Mandarin voice found on this device'
+        }
+        onClick={(event) => {
+          event.stopPropagation();
+          onSpeak();
+        }}
+        onKeyDown={stopKeyPropagation}
+      >
+        {speechAvailable ? 'Listen' : 'No voice available'}
+      </button>
+    );
   }
 
   return (
@@ -85,6 +130,7 @@ export function Card({ card, face, pinyinFront, pinyinBack, onFlip }: CardProps)
               {card.reading}
             </p>
           )}
+          {speakButton()}
           <span className={styles.revealAffordance}>Tap to reveal</span>
         </div>
 
@@ -97,6 +143,7 @@ export function Card({ card, face, pinyinFront, pinyinBack, onFlip }: CardProps)
               {card.reading}
             </p>
           )}
+          {speakButton()}
           <ol className={styles.senseList}>
             {senses.map((sense) => (
               <li key={sense}>{sense}</li>
@@ -110,6 +157,7 @@ export function Card({ card, face, pinyinFront, pinyinBack, onFlip }: CardProps)
                 event.stopPropagation();
                 setShowAllSenses(true);
               }}
+              onKeyDown={stopKeyPropagation}
             >
               Show {card.senses.length - MAX_SENSES_SHOWN} more
             </button>

@@ -17,15 +17,16 @@
  */
 
 /**
- * Settings (ux-specification.md §4.4), scoped to WO-011/M2 only:
- * front/back Pinyin, card order, theme, reset-to-defaults. Everything
- * scheduler- or audio-dependent (new-cards-per-day, day-start-hour,
- * export/import, speech rate, autoplay) is explicitly out of scope until
- * M4/M5 — see the work order's Context.
+ * Settings (ux-specification.md §4.4). WO-011/M2: front/back Pinyin, card
+ * order, theme, reset-to-defaults. WO-012/M4 added speech rate and
+ * autoplay-on-reveal. Everything scheduler-dependent (new-cards-per-day,
+ * day-start-hour, export/import) remains out of scope until M5 — see
+ * WO-012's Context.
  */
 
 import styles from './SettingsScreen.module.css';
 import { DEFAULT_SETTINGS } from '../../domain/runtime.js';
+import { SPEECH_RATE_MAX, SPEECH_RATE_MIN, SPEECH_RATE_STEP } from '../../services/speech.js';
 import type { Settings } from '../../domain/runtime.js';
 
 export interface SettingsScreenProps {
@@ -125,6 +126,44 @@ export function SettingsScreen({ settings, onChange, onBack }: SettingsScreenPro
               {theme.slice(1)}
             </button>
           ))}
+        </div>
+      </div>
+
+      <div className={styles.row}>
+        <label className={styles.rowLabel} htmlFor="speech-rate">
+          Speech speed ({settings.speechRate.toFixed(2)}×)
+        </label>
+        <input
+          id="speech-rate"
+          type="range"
+          className={styles.slider}
+          min={SPEECH_RATE_MIN}
+          max={SPEECH_RATE_MAX}
+          step={SPEECH_RATE_STEP}
+          value={settings.speechRate}
+          onChange={(event) => onChange({ ...settings, speechRate: Number(event.target.value) })}
+        />
+      </div>
+
+      <div className={styles.row}>
+        <span className={styles.rowLabel}>Autoplay on reveal</span>
+        <div className={styles.segmented} role="group" aria-label="Autoplay on reveal">
+          <button
+            type="button"
+            className={styles.segmentButton}
+            aria-pressed={settings.autoplayOnReveal}
+            onClick={() => onChange({ ...settings, autoplayOnReveal: true })}
+          >
+            On
+          </button>
+          <button
+            type="button"
+            className={styles.segmentButton}
+            aria-pressed={!settings.autoplayOnReveal}
+            onClick={() => onChange({ ...settings, autoplayOnReveal: false })}
+          >
+            Off
+          </button>
         </div>
       </div>
 

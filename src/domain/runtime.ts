@@ -48,6 +48,12 @@ export interface Settings {
   pinyinFront: boolean; // default true — DEC-007
   pinyinBack: boolean; // default true — DEC-007
   cardOrder: 'shuffled' | 'sequential'; // default 'shuffled' — FR-32
+  /** Web Speech API rate multiplier, continuous rather than a fixed
+   *  normal/slow pair (FR-45's stated minimum; a slider exceeds it) — range
+   *  and default chosen by ear against a real voice, not derived from a
+   *  spec (see speech.ts). */
+  speechRate: number; // default 0.7 — FR-45, added WO-012
+  autoplayOnReveal: boolean; // default false — FR-41/FR-46, added WO-012
   theme: 'system' | 'light' | 'dark'; // default 'system'
   lastLevels: HskLevel[]; // FR-25 — not yet acted on until M3
 }
@@ -59,6 +65,8 @@ export const DEFAULT_SETTINGS: Settings = {
   pinyinFront: true,
   pinyinBack: true,
   cardOrder: 'shuffled',
+  speechRate: 0.7,
+  autoplayOnReveal: false,
   theme: 'system',
   lastLevels: [],
 };

@@ -140,6 +140,25 @@
   min-height: var(--touch-target-min);
 }
 
+.speakButton {
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: var(--control-radius);
+  color: var(--color-accent);
+  font-family: var(--font-en-ui);
+  font-size: var(--text-small);
+  cursor: pointer;
+  padding: var(--space-2) var(--space-4);
+  min-height: var(--touch-target-min);
+  min-width: var(--touch-target-min);
+}
+
+.speakButton:disabled {
+  color: var(--color-ink-muted);
+  cursor: default;
+  border-color: var(--color-border);
+}
+
 .revealAffordance {
   font-family: var(--font-en-ui);
   font-size: var(--text-small);
