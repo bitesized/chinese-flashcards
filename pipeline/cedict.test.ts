@@ -455,6 +455,11 @@ describe('parseCedict — full pinned corpus, end-to-end (criterion 13)', () => 
   });
 
   it('leaves no leaked CL:, and no sense produced by the trad|simp normalisation still carries a pipe', () => {
+    // Two assertions per sense across the full pinned corpus (tens of
+    // thousands of senses) reliably clears Vitest's 5s default on a
+    // slower CI runner even though the parse itself is fast — a longer
+    // timeout, not a smaller check, is the correct fix (testing-strategy.md
+    // §2 criterion 13 wants this exhaustive).
     const result = parseCedict(raw);
     for (const entry of result.entries) {
       for (const sense of entry.senses) {
@@ -462,7 +467,7 @@ describe('parseCedict — full pinned corpus, end-to-end (criterion 13)', () => 
         expect(sense).not.toContain('|');
       }
     }
-  });
+  }, 15000);
 });
 
 describe('loadCedict — reads the pinned file from disk (thin I/O shell)', () => {
