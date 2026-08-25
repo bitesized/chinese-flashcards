@@ -32,16 +32,38 @@ jobs:
       - name: Licence compatibility check
         run: npm run license-check
 
-      - name: Build data
+      - name: Build data (pipeline stages 1-9, invariant gates)
         run: npm run build:data
-        # Parses CC-CEDICT, matches HSK levels, validates (fails the build
-        # on any invariant violation not covered by a committed waiver —
-        # data/overrides/waived-words.json), and emits public/decks/*.json.
+        # WO-008: parses CC-CEDICT, matches HSK, validates (fails the build
+        # on any testing-strategy.md §3 gate violation not covered by a
+        # committed waiver — data/overrides/waived-words.json), and emits
+        # public/decks/*.json + data/build/report.md + review-queue.json.
 
       - name: Fail if the data build drifted from committed output
-        run: git diff --exit-code -- public/decks data/build/review-queue.json
-        # Compiled decks are committed specifically so a content change
-        # shows up as a reviewable diff. builtAt in data/build/report.md
-        # legitimately differs on every run, so the report itself is
-        # intentionally excluded from this check; the decks and review
-        # queue must not be.
+        run: |
+          set -euo pipefail
+          for f in public/decks/hsk-*.json; do
+            diff <(jq 'del(.meta.builtAt)' "$f") <(git show HEAD:"$f" | jq 'del(.meta.builtAt)')
+          done
+          git diff --exit-code -- public/decks/manifest.json data/build/review-queue.json
+        # Compiled decks are committed (data-pipeline.md §9) specifically so
+        # a content change shows up as a reviewable diff. Each deck's own
+        # meta.builtAt legitimately differs on every run (same reason
+        # data/build/report.md is excluded entirely) so it's stripped
+        # before comparing — build-data.test.ts already establishes this is
+        # the only field a rebuild is allowed to change. Everything else in
+        # the decks, plus the manifest and review queue, must not drift.
+
+      # --- Slots for later work orders (testing-strategy.md §7) ---
+      #
+      # - name: E2E (Playwright)
+      #   run: npm run test:e2e
+      #   # Added once the journeys in testing-strategy.md §4 exist to run.
+      #
+      # - name: Accessibility (axe-core)
+      #   run: npm run test:a11y
+      #   # Added alongside the first components White ships (NFR-6-10).
+      #
+      # - name: Performance budgets (Lighthouse CI)
+      #   run: npx lhci autorun
+      #   # Added once there is a build worth budgeting (NFR-1-4).
