@@ -1,0 +1,22 @@
+{
+  "character": "岁",
+  "readings": [
+    {
+      "reading": "suì",
+      "readingNumeric": "sui4",
+      "senses": [
+        "variant of 岁, year",
+        "years old"
+      ]
+    },
+    {
+      "reading": "suì",
+      "readingNumeric": "sui4",
+      "senses": [
+        "classifier for years (of age)",
+        "year",
+        "year (of crop harvests)"
+      ]
+    }
+  ]
+}

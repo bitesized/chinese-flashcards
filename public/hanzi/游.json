@@ -1,0 +1,30 @@
+{
+  "character": "游",
+  "readings": [
+    {
+      "reading": "Yóu",
+      "readingNumeric": "You2",
+      "senses": [
+        "surname You"
+      ]
+    },
+    {
+      "reading": "yóu",
+      "readingNumeric": "you2",
+      "senses": [
+        "to swim",
+        "variant of 游"
+      ]
+    },
+    {
+      "reading": "yóu",
+      "readingNumeric": "you2",
+      "senses": [
+        "to walk",
+        "to tour",
+        "to roam",
+        "to travel"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "character": "差",
+  "readings": [
+    {
+      "reading": "chā",
+      "readingNumeric": "cha1",
+      "senses": [
+        "difference; discrepancy",
+        "(math.) difference (amount remaining after a subtraction)",
+        "(literary) a little; somewhat; slightly"
+      ]
+    },
+    {
+      "reading": "chà",
+      "readingNumeric": "cha4",
+      "senses": [
+        "different",
+        "wrong; mistaken",
+        "to fall short; to lack",
+        "not up to standard; inferior",
+        "Taiwan pr. chā"
+      ]
+    },
+    {
+      "reading": "chāi",
+      "readingNumeric": "chai1",
+      "senses": [
+        "to send (on an errand)",
+        "(archaic) person sent on such an errand",
+        "job; official post"
+      ]
+    },
+    {
+      "reading": "cī",
+      "readingNumeric": "ci1",
+      "senses": [
+        "used in 参差"
+      ]
+    }
+  ]
+}

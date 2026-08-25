@@ -1,0 +1,21 @@
+{
+  "character": "哟",
+  "readings": [
+    {
+      "reading": "yō",
+      "readingNumeric": "yo1",
+      "senses": [
+        "Oh! (interjection indicating slight surprise)",
+        "also pr. yāo"
+      ]
+    },
+    {
+      "reading": "yo",
+      "readingNumeric": "yo5",
+      "senses": [
+        "(sentence-final particle expressing exhortation)",
+        "(syllable filler in a song)"
+      ]
+    }
+  ]
+}

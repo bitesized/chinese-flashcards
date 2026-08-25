@@ -1,0 +1,21 @@
+{
+  "character": "猫",
+  "readings": [
+    {
+      "reading": "māo",
+      "readingNumeric": "mao1",
+      "senses": [
+        "cat",
+        "(dialect) to hide oneself",
+        "(loanword) (coll.) modem"
+      ]
+    },
+    {
+      "reading": "máo",
+      "readingNumeric": "mao2",
+      "senses": [
+        "used in 猫腰"
+      ]
+    }
+  ]
+}

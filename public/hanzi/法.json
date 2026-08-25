@@ -1,0 +1,43 @@
+{
+  "character": "法",
+  "readings": [
+    {
+      "reading": "fǎ",
+      "readingNumeric": "fa3",
+      "senses": [
+        "variant of 法"
+      ]
+    },
+    {
+      "reading": "Fǎ",
+      "readingNumeric": "Fa3",
+      "senses": [
+        "France",
+        "French",
+        "abbr. for 法国",
+        "Taiwan pr. Fà"
+      ]
+    },
+    {
+      "reading": "fǎ",
+      "readingNumeric": "fa3",
+      "senses": [
+        "law",
+        "method",
+        "way",
+        "to emulate",
+        "(Buddhism) dharma",
+        "(abbr. for 法家) the Legalists",
+        "(physics) farad (abbr. for 法拉)"
+      ]
+    },
+    {
+      "reading": "fǎ",
+      "readingNumeric": "fa3",
+      "senses": [
+        "old variant of 法",
+        "law"
+      ]
+    }
+  ]
+}

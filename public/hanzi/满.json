@@ -1,0 +1,29 @@
+{
+  "character": "满",
+  "readings": [
+    {
+      "reading": "Mǎn",
+      "readingNumeric": "Man3",
+      "senses": [
+        "Manchu ethnic group"
+      ]
+    },
+    {
+      "reading": "mǎn",
+      "readingNumeric": "man3",
+      "senses": [
+        "to fill",
+        "full",
+        "filled",
+        "packed",
+        "fully",
+        "completely",
+        "quite",
+        "to reach the limit",
+        "to satisfy",
+        "satisfied",
+        "contented"
+      ]
+    }
+  ]
+}

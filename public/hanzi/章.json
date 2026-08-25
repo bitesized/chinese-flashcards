@@ -1,0 +1,26 @@
+{
+  "character": "章",
+  "readings": [
+    {
+      "reading": "Zhāng",
+      "readingNumeric": "Zhang1",
+      "senses": [
+        "surname Zhang"
+      ]
+    },
+    {
+      "reading": "zhāng",
+      "readingNumeric": "zhang1",
+      "senses": [
+        "chapter",
+        "section",
+        "clause",
+        "movement (of symphony)",
+        "seal",
+        "badge",
+        "regulation",
+        "order"
+      ]
+    }
+  ]
+}

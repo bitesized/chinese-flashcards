@@ -1,0 +1,21 @@
+{
+  "character": "哇",
+  "readings": [
+    {
+      "reading": "wā",
+      "readingNumeric": "wa1",
+      "senses": [
+        "Wow!",
+        "sound of a child's crying",
+        "sound of vomiting"
+      ]
+    },
+    {
+      "reading": "wa",
+      "readingNumeric": "wa5",
+      "senses": [
+        "replaces 啊 when following the vowel \"u\" or \"ao\""
+      ]
+    }
+  ]
+}

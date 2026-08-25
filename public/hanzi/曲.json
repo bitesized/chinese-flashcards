@@ -1,0 +1,44 @@
+{
+  "character": "曲",
+  "readings": [
+    {
+      "reading": "Qū",
+      "readingNumeric": "Qu1",
+      "senses": [
+        "surname Qu"
+      ]
+    },
+    {
+      "reading": "qū",
+      "readingNumeric": "qu1",
+      "senses": [
+        "bent",
+        "crooked",
+        "wrong"
+      ]
+    },
+    {
+      "reading": "qǔ",
+      "readingNumeric": "qu3",
+      "senses": [
+        "tune",
+        "song"
+      ]
+    },
+    {
+      "reading": "qū",
+      "readingNumeric": "qu1",
+      "senses": [
+        "variant of 曲"
+      ]
+    },
+    {
+      "reading": "qū",
+      "readingNumeric": "qu1",
+      "senses": [
+        "fermentation starter; leaven (molds, yeasts or bacteria used in fermenting soy products or brewing etc)",
+        "Taiwan pr. qú"
+      ]
+    }
+  ]
+}

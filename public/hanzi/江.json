@@ -1,0 +1,21 @@
+{
+  "character": "江",
+  "readings": [
+    {
+      "reading": "Jiāng",
+      "readingNumeric": "Jiang1",
+      "senses": [
+        "surname Jiang",
+        "(bound form) Yangtze River",
+        "(bound form) Jiangsu Province (abbr. for 江苏)"
+      ]
+    },
+    {
+      "reading": "jiāng",
+      "readingNumeric": "jiang1",
+      "senses": [
+        "river"
+      ]
+    }
+  ]
+}

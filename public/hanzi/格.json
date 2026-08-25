@@ -1,0 +1,30 @@
+{
+  "character": "格",
+  "readings": [
+    {
+      "reading": "gē",
+      "readingNumeric": "ge1",
+      "senses": [
+        "used in 格登",
+        "used in 格格"
+      ]
+    },
+    {
+      "reading": "gé",
+      "readingNumeric": "ge2",
+      "senses": [
+        "square; lattice; grid; frame",
+        "compartment; partition; slot (within a larger unit)",
+        "(bound form) standard; norm; specification",
+        "(bound form) character; disposition; moral quality; style; aesthetic tone",
+        "(bound form) rhetorical form; stylistic pattern",
+        "(bound form) (linguistics) grammatical case",
+        "(literary) to correct; to rectify",
+        "(literary) to arrive at; to reach",
+        "(literary) to obstruct; to hinder",
+        "(literary) to investigate exhaustively",
+        "classifier for compartments, slots or cells within a larger unit"
+      ]
+    }
+  ]
+}

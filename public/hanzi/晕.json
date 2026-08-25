@@ -1,0 +1,27 @@
+{
+  "character": "晕",
+  "readings": [
+    {
+      "reading": "yūn",
+      "readingNumeric": "yun1",
+      "senses": [
+        "confused",
+        "dizzy",
+        "giddy",
+        "to faint",
+        "to swoon",
+        "to lose consciousness",
+        "to pass out"
+      ]
+    },
+    {
+      "reading": "yùn",
+      "readingNumeric": "yun4",
+      "senses": [
+        "dizzy",
+        "halo",
+        "ring around moon or sun"
+      ]
+    }
+  ]
+}

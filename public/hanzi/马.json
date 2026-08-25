@@ -1,0 +1,22 @@
+{
+  "character": "马",
+  "readings": [
+    {
+      "reading": "Mǎ",
+      "readingNumeric": "Ma3",
+      "senses": [
+        "surname Ma",
+        "abbr. for Malaysia 马来西亚"
+      ]
+    },
+    {
+      "reading": "mǎ",
+      "readingNumeric": "ma3",
+      "senses": [
+        "horse",
+        "horse or cavalry piece in Chinese chess",
+        "knight in Western chess"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "character": "席",
+  "readings": [
+    {
+      "reading": "Xí",
+      "readingNumeric": "Xi2",
+      "senses": [
+        "surname Xi"
+      ]
+    },
+    {
+      "reading": "xí",
+      "readingNumeric": "xi2",
+      "senses": [
+        "woven mat",
+        "seat",
+        "banquet",
+        "place in a democratic assembly",
+        "classifier for banquets, conversations etc"
+      ]
+    },
+    {
+      "reading": "xí",
+      "readingNumeric": "xi2",
+      "senses": [
+        "woven mat (variant of 席)"
+      ]
+    }
+  ]
+}

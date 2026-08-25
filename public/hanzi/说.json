@@ -1,0 +1,29 @@
+{
+  "character": "说",
+  "readings": [
+    {
+      "reading": "shuì",
+      "readingNumeric": "shui4",
+      "senses": [
+        "to persuade"
+      ]
+    },
+    {
+      "reading": "shuō",
+      "readingNumeric": "shuo1",
+      "senses": [
+        "to speak; to talk; to say",
+        "to explain; to comment",
+        "to scold; to tell off",
+        "(bound form) theory; doctrine"
+      ]
+    },
+    {
+      "reading": "shuō",
+      "readingNumeric": "shuo1",
+      "senses": [
+        "variant of 说"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "character": "旗",
+  "readings": [
+    {
+      "reading": "qí",
+      "readingNumeric": "qi2",
+      "senses": [
+        "flag",
+        "variant of 旗"
+      ]
+    },
+    {
+      "reading": "qí",
+      "readingNumeric": "qi2",
+      "senses": [
+        "banner",
+        "flag",
+        "(in Qing times) Manchu (cf. 八旗)",
+        "administrative subdivision in inner Mongolia equivalent to 县 county"
+      ]
+    }
+  ]
+}

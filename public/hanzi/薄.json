@@ -1,0 +1,46 @@
+{
+  "character": "薄",
+  "readings": [
+    {
+      "reading": "Bó",
+      "readingNumeric": "Bo2",
+      "senses": [
+        "surname Bo"
+      ]
+    },
+    {
+      "reading": "báo",
+      "readingNumeric": "bao2",
+      "senses": [
+        "thin",
+        "cold in manner",
+        "indifferent",
+        "weak",
+        "light",
+        "infertile"
+      ]
+    },
+    {
+      "reading": "bó",
+      "readingNumeric": "bo2",
+      "senses": [
+        "meager",
+        "slight",
+        "weak",
+        "ungenerous or unkind",
+        "frivolous",
+        "to despise",
+        "to belittle",
+        "to look down on",
+        "to approach or near"
+      ]
+    },
+    {
+      "reading": "bò",
+      "readingNumeric": "bo4",
+      "senses": [
+        "see 薄荷"
+      ]
+    }
+  ]
+}

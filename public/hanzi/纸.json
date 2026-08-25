@@ -1,0 +1,20 @@
+{
+  "character": "纸",
+  "readings": [
+    {
+      "reading": "zhǐ",
+      "readingNumeric": "zhi3",
+      "senses": [
+        "variant of 纸"
+      ]
+    },
+    {
+      "reading": "zhǐ",
+      "readingNumeric": "zhi3",
+      "senses": [
+        "paper",
+        "classifier for documents, letters etc"
+      ]
+    }
+  ]
+}

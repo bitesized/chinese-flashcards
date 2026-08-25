@@ -1,0 +1,31 @@
+{
+  "character": "抹",
+  "readings": [
+    {
+      "reading": "mā",
+      "readingNumeric": "ma1",
+      "senses": [
+        "to wipe"
+      ]
+    },
+    {
+      "reading": "mǒ",
+      "readingNumeric": "mo3",
+      "senses": [
+        "to smear",
+        "to wipe",
+        "to erase",
+        "classifier for wisps of cloud, light-beams etc"
+      ]
+    },
+    {
+      "reading": "mò",
+      "readingNumeric": "mo4",
+      "senses": [
+        "to plaster",
+        "to go around",
+        "to skirt"
+      ]
+    }
+  ]
+}

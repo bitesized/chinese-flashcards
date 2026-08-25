@@ -5,6 +5,8 @@ playwright-report
 test-results
 public/decks
 public/fonts
+public/strokes
+public/hanzi
 
 # Compiled by tsconfig.build-data.json (npm run build:data), in place next
 # to their .ts sources — see pipeline/build-data.ts. Generated, gitignored.

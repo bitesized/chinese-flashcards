@@ -1,0 +1,22 @@
+{
+  "character": "班",
+  "readings": [
+    {
+      "reading": "Bān",
+      "readingNumeric": "Ban1",
+      "senses": [
+        "surname Ban"
+      ]
+    },
+    {
+      "reading": "bān",
+      "readingNumeric": "ban1",
+      "senses": [
+        "team; class; grade",
+        "(military) squad",
+        "work shift",
+        "classifier for groups of people and scheduled transport vehicles"
+      ]
+    }
+  ]
+}

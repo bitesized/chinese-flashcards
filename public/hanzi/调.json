@@ -1,0 +1,38 @@
+{
+  "character": "调",
+  "readings": [
+    {
+      "reading": "diào",
+      "readingNumeric": "diao4",
+      "senses": [
+        "to transfer",
+        "to move (troops or cadres)",
+        "to investigate",
+        "to enquire into",
+        "accent",
+        "view",
+        "argument",
+        "key (in music)",
+        "mode (music)",
+        "tune",
+        "tone",
+        "melody"
+      ]
+    },
+    {
+      "reading": "tiáo",
+      "readingNumeric": "tiao2",
+      "senses": [
+        "to harmonize",
+        "to reconcile",
+        "to blend",
+        "to suit well",
+        "to adjust",
+        "to regulate",
+        "to season (food)",
+        "to provoke",
+        "to incite"
+      ]
+    }
+  ]
+}

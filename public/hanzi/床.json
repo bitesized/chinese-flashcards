@@ -1,0 +1,22 @@
+{
+  "character": "床",
+  "readings": [
+    {
+      "reading": "chuáng",
+      "readingNumeric": "chuang2",
+      "senses": [
+        "bed; couch (furniture that one can lie down on)",
+        "bed; bottom (of rivers, oceans, gardens etc)",
+        "frame; chassis",
+        "classifier for blankets, quilts etc"
+      ]
+    },
+    {
+      "reading": "chuáng",
+      "readingNumeric": "chuang2",
+      "senses": [
+        "variant of 床"
+      ]
+    }
+  ]
+}

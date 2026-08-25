@@ -1,0 +1,31 @@
+{
+  "character": "哈",
+  "readings": [
+    {
+      "reading": "Hā",
+      "readingNumeric": "Ha1",
+      "senses": [
+        "abbr. for 哈萨克斯坦, Kazakhstan",
+        "abbr. for 哈尔滨, Harbin"
+      ]
+    },
+    {
+      "reading": "hā",
+      "readingNumeric": "ha1",
+      "senses": [
+        "(interj.) ha!",
+        "(onom. for laughter)",
+        "(slang) to be infatuated with; to adore",
+        "(bound form) husky (dog) (abbr. for 哈士奇)"
+      ]
+    },
+    {
+      "reading": "hǎ",
+      "readingNumeric": "ha3",
+      "senses": [
+        "a Pekinese; a pug",
+        "(dialect) to scold"
+      ]
+    }
+  ]
+}

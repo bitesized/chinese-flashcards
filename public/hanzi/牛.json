@@ -1,0 +1,23 @@
+{
+  "character": "牛",
+  "readings": [
+    {
+      "reading": "Niú",
+      "readingNumeric": "Niu2",
+      "senses": [
+        "surname Niu"
+      ]
+    },
+    {
+      "reading": "niú",
+      "readingNumeric": "niu2",
+      "senses": [
+        "ox",
+        "cow",
+        "bull",
+        "newton (abbr. for 牛顿)",
+        "(slang) awesome"
+      ]
+    }
+  ]
+}

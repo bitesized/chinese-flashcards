@@ -1,0 +1,31 @@
+{
+  "character": "沙",
+  "readings": [
+    {
+      "reading": "Shā",
+      "readingNumeric": "Sha1",
+      "senses": [
+        "surname Sha"
+      ]
+    },
+    {
+      "reading": "shā",
+      "readingNumeric": "sha1",
+      "senses": [
+        "granule",
+        "hoarse",
+        "raspy",
+        "sand",
+        "powder",
+        "abbr. for Tsar or Tsarist Russia"
+      ]
+    },
+    {
+      "reading": "shà",
+      "readingNumeric": "sha4",
+      "senses": [
+        "(dialect) to sift; to sieve"
+      ]
+    }
+  ]
+}

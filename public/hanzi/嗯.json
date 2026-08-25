@@ -1,0 +1,28 @@
+{
+  "character": "嗯",
+  "readings": [
+    {
+      "reading": "ēn",
+      "readingNumeric": "en1",
+      "senses": [
+        "(a groaning sound)"
+      ]
+    },
+    {
+      "reading": "èn",
+      "readingNumeric": "en4",
+      "senses": [
+        "(nonverbal grunt as interjection)",
+        "OK, yeah",
+        "what?"
+      ]
+    },
+    {
+      "reading": "en",
+      "readingNumeric": "en5",
+      "senses": [
+        "interjection indicating approval, appreciation or agreement"
+      ]
+    }
+  ]
+}

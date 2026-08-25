@@ -1,0 +1,34 @@
+{
+  "character": "哦",
+  "readings": [
+    {
+      "reading": "é",
+      "readingNumeric": "e2",
+      "senses": [
+        "to chant"
+      ]
+    },
+    {
+      "reading": "ó",
+      "readingNumeric": "o2",
+      "senses": [
+        "oh (interjection indicating doubt or surprise)"
+      ]
+    },
+    {
+      "reading": "ò",
+      "readingNumeric": "o4",
+      "senses": [
+        "oh (interjection indicating that one has just learned sth)"
+      ]
+    },
+    {
+      "reading": "o",
+      "readingNumeric": "o5",
+      "senses": [
+        "sentence-final particle that conveys informality, warmth, friendliness or intimacy",
+        "may also indicate that one is stating a fact that the other person is not aware of"
+      ]
+    }
+  ]
+}

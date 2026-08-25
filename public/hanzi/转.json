@@ -1,0 +1,35 @@
+{
+  "character": "转",
+  "readings": [
+    {
+      "reading": "zhuǎi",
+      "readingNumeric": "zhuai3",
+      "senses": [
+        "see 转文"
+      ]
+    },
+    {
+      "reading": "zhuǎn",
+      "readingNumeric": "zhuan3",
+      "senses": [
+        "to turn",
+        "to change direction",
+        "to transfer",
+        "to forward (mail)",
+        "(Internet) to share (sb else's content)"
+      ]
+    },
+    {
+      "reading": "zhuàn",
+      "readingNumeric": "zhuan4",
+      "senses": [
+        "to revolve",
+        "to turn",
+        "to circle about",
+        "to walk about",
+        "classifier for revolutions (per minute etc): revs, rpm",
+        "classifier for repeated actions"
+      ]
+    }
+  ]
+}

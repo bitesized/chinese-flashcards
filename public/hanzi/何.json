@@ -1,0 +1,23 @@
+{
+  "character": "何",
+  "readings": [
+    {
+      "reading": "Hé",
+      "readingNumeric": "He2",
+      "senses": [
+        "surname He"
+      ]
+    },
+    {
+      "reading": "hé",
+      "readingNumeric": "he2",
+      "senses": [
+        "what",
+        "how",
+        "why",
+        "which",
+        "carry"
+      ]
+    }
+  ]
+}

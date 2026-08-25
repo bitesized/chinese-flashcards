@@ -1,0 +1,32 @@
+{
+  "character": "比",
+  "readings": [
+    {
+      "reading": "Bǐ",
+      "readingNumeric": "Bi3",
+      "senses": [
+        "Belgium",
+        "Belgian",
+        "abbr. for 比利时"
+      ]
+    },
+    {
+      "reading": "bī",
+      "readingNumeric": "bi1",
+      "senses": [
+        "euphemistic variant of 屄"
+      ]
+    },
+    {
+      "reading": "bǐ",
+      "readingNumeric": "bi3",
+      "senses": [
+        "to compare",
+        "(followed by a noun and adjective) more {adj.} than {noun}",
+        "ratio",
+        "to gesture",
+        "(Taiwan pr. bì in some compounds derived from Classical Chinese)"
+      ]
+    }
+  ]
+}

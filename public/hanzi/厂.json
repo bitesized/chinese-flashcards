@@ -1,0 +1,24 @@
+{
+  "character": "厂",
+  "readings": [
+    {
+      "reading": "hǎn",
+      "readingNumeric": "han3",
+      "senses": [
+        "\"cliff\" radical in Chinese characters (Kangxi radical 27), occurring in 原, 历, 压 etc"
+      ]
+    },
+    {
+      "reading": "chǎng",
+      "readingNumeric": "chang3",
+      "senses": [
+        "factory",
+        "yard",
+        "depot",
+        "workhouse",
+        "works",
+        "(industrial) plant"
+      ]
+    }
+  ]
+}

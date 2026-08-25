@@ -1,0 +1,27 @@
+{
+  "character": "个",
+  "readings": [
+    {
+      "reading": "gě",
+      "readingNumeric": "ge3",
+      "senses": [
+        "used in 自个儿"
+      ]
+    },
+    {
+      "reading": "gè",
+      "readingNumeric": "ge4",
+      "senses": [
+        "(classifier used before a noun that has no specific classifier)",
+        "(bound form) individual"
+      ]
+    },
+    {
+      "reading": "gè",
+      "readingNumeric": "ge4",
+      "senses": [
+        "variant of 个"
+      ]
+    }
+  ]
+}

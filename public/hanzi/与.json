@@ -1,0 +1,28 @@
+{
+  "character": "与",
+  "readings": [
+    {
+      "reading": "yú",
+      "readingNumeric": "yu2",
+      "senses": [
+        "variant of 欤"
+      ]
+    },
+    {
+      "reading": "yǔ",
+      "readingNumeric": "yu3",
+      "senses": [
+        "(formal) and; together with (linking parallel nouns, verbs, or phrases)",
+        "(formal) with; from (marking the other participant in an interaction, comparison, or contrast, e.g. 与他握手 \"shake hands with him\", 与去年不同 \"different from last year\")",
+        "(literary) to give; to grant; to bestow"
+      ]
+    },
+    {
+      "reading": "yù",
+      "readingNumeric": "yu4",
+      "senses": [
+        "to take part in"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "character": "伯",
+  "readings": [
+    {
+      "reading": "bà",
+      "readingNumeric": "ba4",
+      "senses": [
+        "variant of 霸"
+      ]
+    },
+    {
+      "reading": "bǎi",
+      "readingNumeric": "bai3",
+      "senses": [
+        "one hundred (old)"
+      ]
+    },
+    {
+      "reading": "bó",
+      "readingNumeric": "bo2",
+      "senses": [
+        "father's elder brother",
+        "senior",
+        "paternal elder uncle",
+        "eldest of brothers",
+        "respectful form of address",
+        "Count, third of five orders of nobility 五等爵位"
+      ]
+    }
+  ]
+}

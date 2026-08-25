@@ -1,0 +1,38 @@
+{
+  "character": "委",
+  "readings": [
+    {
+      "reading": "Wěi",
+      "readingNumeric": "Wei3",
+      "senses": [
+        "surname Wei"
+      ]
+    },
+    {
+      "reading": "wēi",
+      "readingNumeric": "wei1",
+      "senses": [
+        "used in 委蛇"
+      ]
+    },
+    {
+      "reading": "wěi",
+      "readingNumeric": "wei3",
+      "senses": [
+        "to entrust",
+        "to cast aside",
+        "to shift (blame etc)",
+        "to accumulate",
+        "roundabout",
+        "winding",
+        "dejected",
+        "listless",
+        "committee member",
+        "council",
+        "end",
+        "actually",
+        "certainly"
+      ]
+    }
+  ]
+}

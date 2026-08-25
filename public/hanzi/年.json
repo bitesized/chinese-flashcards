@@ -1,0 +1,28 @@
+{
+  "character": "年",
+  "readings": [
+    {
+      "reading": "Nián",
+      "readingNumeric": "Nian2",
+      "senses": [
+        "surname Nian"
+      ]
+    },
+    {
+      "reading": "nián",
+      "readingNumeric": "nian2",
+      "senses": [
+        "year"
+      ]
+    },
+    {
+      "reading": "nián",
+      "readingNumeric": "nian2",
+      "senses": [
+        "grain",
+        "harvest (old)",
+        "variant of 年"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "character": "挡",
+  "readings": [
+    {
+      "reading": "dǎng",
+      "readingNumeric": "dang3",
+      "senses": [
+        "to resist",
+        "to obstruct",
+        "to hinder",
+        "to keep off",
+        "to block (a blow)",
+        "to get in the way of",
+        "cover",
+        "gear (e.g. in a car's transmission)"
+      ]
+    },
+    {
+      "reading": "dàng",
+      "readingNumeric": "dang4",
+      "senses": [
+        "to arrange",
+        "to put in order"
+      ]
+    },
+    {
+      "reading": "dǎng",
+      "readingNumeric": "dang3",
+      "senses": [
+        "variant of 挡"
+      ]
+    }
+  ]
+}

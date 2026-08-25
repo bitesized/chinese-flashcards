@@ -1,0 +1,27 @@
+{
+  "character": "万",
+  "readings": [
+    {
+      "reading": "mò",
+      "readingNumeric": "mo4",
+      "senses": [
+        "used in 万俟"
+      ]
+    },
+    {
+      "reading": "Wàn",
+      "readingNumeric": "Wan4",
+      "senses": [
+        "surname Wan"
+      ]
+    },
+    {
+      "reading": "wàn",
+      "readingNumeric": "wan4",
+      "senses": [
+        "ten thousand",
+        "a great number"
+      ]
+    }
+  ]
+}

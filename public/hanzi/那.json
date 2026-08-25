@@ -1,0 +1,45 @@
+{
+  "character": "那",
+  "readings": [
+    {
+      "reading": "Nā",
+      "readingNumeric": "Na1",
+      "senses": [
+        "surname Na"
+      ]
+    },
+    {
+      "reading": "Nuó",
+      "readingNumeric": "Nuo2",
+      "senses": [
+        "surname Nuo"
+      ]
+    },
+    {
+      "reading": "nǎ",
+      "readingNumeric": "na3",
+      "senses": [
+        "variant of 哪"
+      ]
+    },
+    {
+      "reading": "nà",
+      "readingNumeric": "na4",
+      "senses": [
+        "(specifier) that; the; those (colloquial pr. nèi)",
+        "(pronoun) that (referring to persons, things or situations)",
+        "then (in that case)"
+      ]
+    },
+    {
+      "reading": "nuó",
+      "readingNumeric": "nuo2",
+      "senses": [
+        "(archaic) many",
+        "beautiful",
+        "how",
+        "old variant of 挪"
+      ]
+    }
+  ]
+}

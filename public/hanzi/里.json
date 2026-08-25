@@ -1,0 +1,40 @@
+{
+  "character": "里",
+  "readings": [
+    {
+      "reading": "lǐ",
+      "readingNumeric": "li3",
+      "senses": [
+        "variant of 里"
+      ]
+    },
+    {
+      "reading": "lǐ",
+      "readingNumeric": "li3",
+      "senses": [
+        "lining",
+        "interior",
+        "inside",
+        "internal",
+        "also written 里"
+      ]
+    },
+    {
+      "reading": "Lǐ",
+      "readingNumeric": "Li3",
+      "senses": [
+        "surname Li"
+      ]
+    },
+    {
+      "reading": "lǐ",
+      "readingNumeric": "li3",
+      "senses": [
+        "li, ancient measure of length, approx. 500 m",
+        "neighborhood",
+        "ancient administrative unit of 25 families",
+        "(Tw) borough, administrative unit between the township 镇 and neighborhood 邻 levels"
+      ]
+    }
+  ]
+}

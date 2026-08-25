@@ -1,0 +1,39 @@
+{
+  "character": "奔",
+  "readings": [
+    {
+      "reading": "bēn",
+      "readingNumeric": "ben1",
+      "senses": [
+        "to hurry",
+        "to rush",
+        "to run quickly",
+        "to elope"
+      ]
+    },
+    {
+      "reading": "bèn",
+      "readingNumeric": "ben4",
+      "senses": [
+        "to go to",
+        "to head for",
+        "towards",
+        "Taiwan pr. bēn"
+      ]
+    },
+    {
+      "reading": "bēn",
+      "readingNumeric": "ben1",
+      "senses": [
+        "variant of 奔"
+      ]
+    },
+    {
+      "reading": "bèn",
+      "readingNumeric": "ben4",
+      "senses": [
+        "variant of 奔"
+      ]
+    }
+  ]
+}

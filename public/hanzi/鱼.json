@@ -1,0 +1,20 @@
+{
+  "character": "鱼",
+  "readings": [
+    {
+      "reading": "Yú",
+      "readingNumeric": "Yu2",
+      "senses": [
+        "surname Yu"
+      ]
+    },
+    {
+      "reading": "yú",
+      "readingNumeric": "yu2",
+      "senses": [
+        "fish",
+        "used in the names of various aquatic animals that are not fish (including abalone 鲍鱼, alligators and crocodiles 鳄鱼 and octopi 章鱼)"
+      ]
+    }
+  ]
+}

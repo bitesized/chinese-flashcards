@@ -1,0 +1,35 @@
+{
+  "character": "后",
+  "readings": [
+    {
+      "reading": "Hòu",
+      "readingNumeric": "Hou4",
+      "senses": [
+        "surname Hou"
+      ]
+    },
+    {
+      "reading": "hòu",
+      "readingNumeric": "hou4",
+      "senses": [
+        "empress",
+        "queen",
+        "(archaic) monarch",
+        "ruler"
+      ]
+    },
+    {
+      "reading": "hòu",
+      "readingNumeric": "hou4",
+      "senses": [
+        "back",
+        "behind",
+        "rear",
+        "afterwards",
+        "after",
+        "later",
+        "post-"
+      ]
+    }
+  ]
+}

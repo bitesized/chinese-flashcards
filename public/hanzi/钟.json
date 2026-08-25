@@ -1,0 +1,30 @@
+{
+  "character": "钟",
+  "readings": [
+    {
+      "reading": "Zhōng",
+      "readingNumeric": "Zhong1",
+      "senses": [
+        "surname Zhong"
+      ]
+    },
+    {
+      "reading": "zhōng",
+      "readingNumeric": "zhong1",
+      "senses": [
+        "handleless cup; goblet",
+        "(bound form) to concentrate (one's affection etc)",
+        "variant of 钟"
+      ]
+    },
+    {
+      "reading": "zhōng",
+      "readingNumeric": "zhong1",
+      "senses": [
+        "a (large) bell",
+        "clock",
+        "amount of time; o'clock (as in 三点钟 \"three o'clock\" or \"three hours\" or 五分钟 \"five minutes\" etc)"
+      ]
+    }
+  ]
+}

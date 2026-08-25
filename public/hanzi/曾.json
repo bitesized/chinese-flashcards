@@ -1,0 +1,31 @@
+{
+  "character": "曾",
+  "readings": [
+    {
+      "reading": "Zēng",
+      "readingNumeric": "Zeng1",
+      "senses": [
+        "surname Zeng"
+      ]
+    },
+    {
+      "reading": "céng",
+      "readingNumeric": "ceng2",
+      "senses": [
+        "once",
+        "already",
+        "ever (in the past)",
+        "former",
+        "previously",
+        "(past tense marker used before verb or clause)"
+      ]
+    },
+    {
+      "reading": "zēng",
+      "readingNumeric": "zeng1",
+      "senses": [
+        "great- (grandfather, grandchild etc)"
+      ]
+    }
+  ]
+}

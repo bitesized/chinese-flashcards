@@ -1,0 +1,64 @@
+{
+  "character": "强",
+  "readings": [
+    {
+      "reading": "Qiáng",
+      "readingNumeric": "Qiang2",
+      "senses": [
+        "surname Qiang"
+      ]
+    },
+    {
+      "reading": "jiàng",
+      "readingNumeric": "jiang4",
+      "senses": [
+        "stubborn",
+        "unyielding"
+      ]
+    },
+    {
+      "reading": "qiáng",
+      "readingNumeric": "qiang2",
+      "senses": [
+        "strong",
+        "powerful",
+        "better",
+        "slightly more than",
+        "vigorous",
+        "violent",
+        "best in their category, e.g. see 百强"
+      ]
+    },
+    {
+      "reading": "qiǎng",
+      "readingNumeric": "qiang3",
+      "senses": [
+        "to force",
+        "to compel",
+        "to strive",
+        "to make an effort"
+      ]
+    },
+    {
+      "reading": "jiàng",
+      "readingNumeric": "jiang4",
+      "senses": [
+        "variant of 强"
+      ]
+    },
+    {
+      "reading": "qiáng",
+      "readingNumeric": "qiang2",
+      "senses": [
+        "variant of 强"
+      ]
+    },
+    {
+      "reading": "qiǎng",
+      "readingNumeric": "qiang3",
+      "senses": [
+        "variant of 强"
+      ]
+    }
+  ]
+}

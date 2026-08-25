@@ -1,0 +1,28 @@
+{
+  "character": "刊",
+  "readings": [
+    {
+      "reading": "kān",
+      "readingNumeric": "kan1",
+      "senses": [
+        "to print",
+        "to publish",
+        "publication",
+        "periodical",
+        "to peel with a knife",
+        "to carve",
+        "to amend"
+      ]
+    },
+    {
+      "reading": "kān",
+      "readingNumeric": "kan1",
+      "senses": [
+        "old variant of 刊",
+        "to peel with a knife",
+        "to carve",
+        "to amend"
+      ]
+    }
+  ]
+}

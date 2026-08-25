@@ -1,0 +1,24 @@
+{
+  "character": "项",
+  "readings": [
+    {
+      "reading": "Xiàng",
+      "readingNumeric": "Xiang4",
+      "senses": [
+        "surname Xiang"
+      ]
+    },
+    {
+      "reading": "xiàng",
+      "readingNumeric": "xiang4",
+      "senses": [
+        "back of neck",
+        "item",
+        "thing",
+        "term (in a mathematical formula)",
+        "sum (of money)",
+        "classifier for principles, items, clauses, tasks, research projects etc"
+      ]
+    }
+  ]
+}

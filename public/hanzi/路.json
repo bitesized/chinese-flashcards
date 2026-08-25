@@ -1,0 +1,23 @@
+{
+  "character": "路",
+  "readings": [
+    {
+      "reading": "Lù",
+      "readingNumeric": "Lu4",
+      "senses": [
+        "surname Lu"
+      ]
+    },
+    {
+      "reading": "lù",
+      "readingNumeric": "lu4",
+      "senses": [
+        "road",
+        "journey",
+        "route",
+        "line (bus etc)",
+        "sort; kind"
+      ]
+    }
+  ]
+}

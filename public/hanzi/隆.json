@@ -1,0 +1,31 @@
+{
+  "character": "隆",
+  "readings": [
+    {
+      "reading": "Lóng",
+      "readingNumeric": "Long2",
+      "senses": [
+        "surname Long",
+        "short for 吉隆坡, Kuala Lumpur"
+      ]
+    },
+    {
+      "reading": "lōng",
+      "readingNumeric": "long1",
+      "senses": [
+        "sound of drums"
+      ]
+    },
+    {
+      "reading": "lóng",
+      "readingNumeric": "long2",
+      "senses": [
+        "grand",
+        "intense",
+        "prosperous",
+        "to swell",
+        "to bulge"
+      ]
+    }
+  ]
+}

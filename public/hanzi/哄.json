@@ -1,0 +1,40 @@
+{
+  "character": "哄",
+  "readings": [
+    {
+      "reading": "hōng",
+      "readingNumeric": "hong1",
+      "senses": [
+        "roar of laughter (onom.)",
+        "hubbub",
+        "to roar (as a crowd)"
+      ]
+    },
+    {
+      "reading": "hǒng",
+      "readingNumeric": "hong3",
+      "senses": [
+        "to deceive",
+        "to coax",
+        "to amuse (a child)"
+      ]
+    },
+    {
+      "reading": "hòng",
+      "readingNumeric": "hong4",
+      "senses": [
+        "variant of 哄"
+      ]
+    },
+    {
+      "reading": "hòng",
+      "readingNumeric": "hong4",
+      "senses": [
+        "tumult",
+        "uproar",
+        "commotion",
+        "disturbance"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "character": "刑",
+  "readings": [
+    {
+      "reading": "Xíng",
+      "readingNumeric": "Xing2",
+      "senses": [
+        "surname Xing"
+      ]
+    },
+    {
+      "reading": "xíng",
+      "readingNumeric": "xing2",
+      "senses": [
+        "punishment",
+        "penalty",
+        "sentence",
+        "torture",
+        "corporal punishment"
+      ]
+    }
+  ]
+}

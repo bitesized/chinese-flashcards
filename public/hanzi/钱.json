@@ -1,0 +1,21 @@
+{
+  "character": "钱",
+  "readings": [
+    {
+      "reading": "Qián",
+      "readingNumeric": "Qian2",
+      "senses": [
+        "surname Qian"
+      ]
+    },
+    {
+      "reading": "qián",
+      "readingNumeric": "qian2",
+      "senses": [
+        "coin",
+        "money",
+        "unit of weight, one tenth of a tael 两"
+      ]
+    }
+  ]
+}

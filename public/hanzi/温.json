@@ -1,0 +1,25 @@
+{
+  "character": "温",
+  "readings": [
+    {
+      "reading": "Wēn",
+      "readingNumeric": "Wen1",
+      "senses": [
+        "surname Wen"
+      ]
+    },
+    {
+      "reading": "wēn",
+      "readingNumeric": "wen1",
+      "senses": [
+        "warm; lukewarm",
+        "to warm up",
+        "(bound form) temperature",
+        "(bound form) mild; soft; tender",
+        "to review (a lesson etc)",
+        "(TCM) fever",
+        "epidemic; pestilence (old variant of 瘟)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "character": "屏",
+  "readings": [
+    {
+      "reading": "bīng",
+      "readingNumeric": "bing1",
+      "senses": [
+        "used in 屏营"
+      ]
+    },
+    {
+      "reading": "bǐng",
+      "readingNumeric": "bing3",
+      "senses": [
+        "to get rid of",
+        "to put aside",
+        "to reject",
+        "to keep control",
+        "to hold (one's breath)"
+      ]
+    },
+    {
+      "reading": "píng",
+      "readingNumeric": "ping2",
+      "senses": [
+        "(standing) screen"
+      ]
+    }
+  ]
+}

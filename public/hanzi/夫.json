@@ -1,0 +1,25 @@
+{
+  "character": "夫",
+  "readings": [
+    {
+      "reading": "fū",
+      "readingNumeric": "fu1",
+      "senses": [
+        "husband",
+        "man",
+        "manual worker",
+        "conscripted laborer (old)"
+      ]
+    },
+    {
+      "reading": "fú",
+      "readingNumeric": "fu2",
+      "senses": [
+        "(classical) this, that",
+        "he, she, they",
+        "(exclamatory final particle)",
+        "(initial particle, introduces an opinion)"
+      ]
+    }
+  ]
+}

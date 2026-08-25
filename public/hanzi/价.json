@@ -1,0 +1,29 @@
+{
+  "character": "价",
+  "readings": [
+    {
+      "reading": "jiè",
+      "readingNumeric": "jie4",
+      "senses": [
+        "(literary) messenger; servant"
+      ]
+    },
+    {
+      "reading": "jià",
+      "readingNumeric": "jia4",
+      "senses": [
+        "price",
+        "value",
+        "(chemistry) valence"
+      ]
+    },
+    {
+      "reading": "jie",
+      "readingNumeric": "jie5",
+      "senses": [
+        "particle used between an adverb and a verb or adjective",
+        "(dialect) particle used after a negative adverb such as 不 or 别 without any other following element"
+      ]
+    }
+  ]
+}

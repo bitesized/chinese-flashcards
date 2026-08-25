@@ -1,0 +1,35 @@
+{
+  "character": "操",
+  "readings": [
+    {
+      "reading": "cāo",
+      "readingNumeric": "cao1",
+      "senses": [
+        "old variant of 操"
+      ]
+    },
+    {
+      "reading": "cāo",
+      "readingNumeric": "cao1",
+      "senses": [
+        "to grasp",
+        "to hold",
+        "to operate",
+        "to manage",
+        "to control",
+        "to steer",
+        "to exercise",
+        "to drill (practice)",
+        "to play",
+        "to speak (a language)"
+      ]
+    },
+    {
+      "reading": "cào",
+      "readingNumeric": "cao4",
+      "senses": [
+        "variant of 肏"
+      ]
+    }
+  ]
+}

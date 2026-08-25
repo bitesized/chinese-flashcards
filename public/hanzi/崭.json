@@ -1,0 +1,38 @@
+{
+  "character": "崭",
+  "readings": [
+    {
+      "reading": "chán",
+      "readingNumeric": "chan2",
+      "senses": [
+        "variant of 崭"
+      ]
+    },
+    {
+      "reading": "zhǎn",
+      "readingNumeric": "zhan3",
+      "senses": [
+        "variant of 崭"
+      ]
+    },
+    {
+      "reading": "chán",
+      "readingNumeric": "chan2",
+      "senses": [
+        "variant of 巉"
+      ]
+    },
+    {
+      "reading": "zhǎn",
+      "readingNumeric": "zhan3",
+      "senses": [
+        "towering",
+        "prominent",
+        "very",
+        "extremely",
+        "(dialect) marvelous",
+        "excellent"
+      ]
+    }
+  ]
+}

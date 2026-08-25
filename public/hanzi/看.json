@@ -1,0 +1,32 @@
+{
+  "character": "看",
+  "readings": [
+    {
+      "reading": "kān",
+      "readingNumeric": "kan1",
+      "senses": [
+        "to look after",
+        "to take care of",
+        "to watch",
+        "to guard"
+      ]
+    },
+    {
+      "reading": "kàn",
+      "readingNumeric": "kan4",
+      "senses": [
+        "to see; to look at",
+        "to read",
+        "to watch",
+        "to visit; to call on",
+        "to consider; to regard as",
+        "to look after",
+        "to treat (a patient or illness)",
+        "to depend on",
+        "to feel (that)",
+        "(after a verb) to give it a try",
+        "to watch out for"
+      ]
+    }
+  ]
+}

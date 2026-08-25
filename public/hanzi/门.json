@@ -1,0 +1,26 @@
+{
+  "character": "门",
+  "readings": [
+    {
+      "reading": "Mén",
+      "readingNumeric": "Men2",
+      "senses": [
+        "surname Men"
+      ]
+    },
+    {
+      "reading": "mén",
+      "readingNumeric": "men2",
+      "senses": [
+        "gate; door; doorway; gateway; opening",
+        "valve; switch; other door-like or gate-like structure",
+        "way to do sth; knack; method; approach",
+        "family; household; lineage",
+        "(bound form) sect; school; faction (religious or academic)",
+        "(bound form) class; category; division; phylum",
+        "classifier for courses, fields of study, branches of technology, relatives by marriage, guns etc",
+        "(suffix) -gate (scandal)"
+      ]
+    }
+  ]
+}

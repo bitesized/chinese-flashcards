@@ -1,0 +1,21 @@
+{
+  "character": "答",
+  "readings": [
+    {
+      "reading": "dā",
+      "readingNumeric": "da1",
+      "senses": [
+        "bound form having the same meaning as the free word 答, used in 答应, 答理 etc"
+      ]
+    },
+    {
+      "reading": "dá",
+      "readingNumeric": "da2",
+      "senses": [
+        "to answer",
+        "to reply",
+        "to respond"
+      ]
+    }
+  ]
+}

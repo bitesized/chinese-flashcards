@@ -1,0 +1,28 @@
+{
+  "character": "论",
+  "readings": [
+    {
+      "reading": "Lún",
+      "readingNumeric": "Lun2",
+      "senses": [
+        "abbr. for 论语, The Analects (of Confucius)"
+      ]
+    },
+    {
+      "reading": "lùn",
+      "readingNumeric": "lun4",
+      "senses": [
+        "opinion",
+        "view",
+        "theory",
+        "doctrine",
+        "to discuss",
+        "to talk about",
+        "to regard",
+        "to consider",
+        "per",
+        "by the (kilometer, hour etc)"
+      ]
+    }
+  ]
+}

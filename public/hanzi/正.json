@@ -1,0 +1,29 @@
+{
+  "character": "正",
+  "readings": [
+    {
+      "reading": "zhēng",
+      "readingNumeric": "zheng1",
+      "senses": [
+        "first month of the lunar year"
+      ]
+    },
+    {
+      "reading": "zhèng",
+      "readingNumeric": "zheng4",
+      "senses": [
+        "straight",
+        "upright",
+        "proper",
+        "main",
+        "principal",
+        "to correct",
+        "to rectify",
+        "exactly",
+        "just (at that time)",
+        "right (in that place)",
+        "(math.) positive"
+      ]
+    }
+  ]
+}

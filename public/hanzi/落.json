@@ -1,0 +1,40 @@
+{
+  "character": "落",
+  "readings": [
+    {
+      "reading": "là",
+      "readingNumeric": "la4",
+      "senses": [
+        "to leave out",
+        "to be missing",
+        "to leave behind or forget to bring",
+        "to lag or fall behind"
+      ]
+    },
+    {
+      "reading": "lào",
+      "readingNumeric": "lao4",
+      "senses": [
+        "colloquial reading for 落 in certain compounds"
+      ]
+    },
+    {
+      "reading": "luò",
+      "readingNumeric": "luo4",
+      "senses": [
+        "to fall or drop",
+        "(of the sun) to set",
+        "(of a tide) to go out",
+        "to lower",
+        "to decline or sink",
+        "to lag or fall behind",
+        "to fall onto",
+        "to rest with",
+        "to get or receive",
+        "to write down",
+        "whereabouts",
+        "settlement"
+      ]
+    }
+  ]
+}

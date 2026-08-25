@@ -1,0 +1,22 @@
+{
+  "character": "扇",
+  "readings": [
+    {
+      "reading": "shān",
+      "readingNumeric": "shan1",
+      "senses": [
+        "to fan",
+        "to slap sb on the face"
+      ]
+    },
+    {
+      "reading": "shàn",
+      "readingNumeric": "shan4",
+      "senses": [
+        "fan",
+        "sliding, hinged or detachable flat part of sth",
+        "classifier for doors, windows etc"
+      ]
+    }
+  ]
+}

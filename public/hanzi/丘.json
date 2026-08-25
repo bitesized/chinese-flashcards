@@ -1,0 +1,29 @@
+{
+  "character": "丘",
+  "readings": [
+    {
+      "reading": "Qiū",
+      "readingNumeric": "Qiu1",
+      "senses": [
+        "surname Qiu"
+      ]
+    },
+    {
+      "reading": "qiū",
+      "readingNumeric": "qiu1",
+      "senses": [
+        "mound",
+        "hillock",
+        "grave",
+        "classifier for fields"
+      ]
+    },
+    {
+      "reading": "qiū",
+      "readingNumeric": "qiu1",
+      "senses": [
+        "hillock; mound (variant of 丘)"
+      ]
+    }
+  ]
+}

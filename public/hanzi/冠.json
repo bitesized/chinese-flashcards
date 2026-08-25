@@ -1,0 +1,31 @@
+{
+  "character": "冠",
+  "readings": [
+    {
+      "reading": "Guàn",
+      "readingNumeric": "Guan4",
+      "senses": [
+        "surname Guan"
+      ]
+    },
+    {
+      "reading": "guān",
+      "readingNumeric": "guan1",
+      "senses": [
+        "hat",
+        "crown",
+        "crest",
+        "cap"
+      ]
+    },
+    {
+      "reading": "guàn",
+      "readingNumeric": "guan4",
+      "senses": [
+        "to put on a hat",
+        "to be first",
+        "to dub"
+      ]
+    }
+  ]
+}

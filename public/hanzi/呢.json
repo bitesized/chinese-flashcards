@@ -1,0 +1,21 @@
+{
+  "character": "呢",
+  "readings": [
+    {
+      "reading": "ne",
+      "readingNumeric": "ne5",
+      "senses": [
+        "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")",
+        "(sentence-final particle) indicating that a state or situation still holds",
+        "(discourse particle) used to mark a slight pause or emphasis in speech"
+      ]
+    },
+    {
+      "reading": "ní",
+      "readingNumeric": "ni2",
+      "senses": [
+        "dense wool fabric (used for coats and jackets)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "character": "闷",
+  "readings": [
+    {
+      "reading": "mēn",
+      "readingNumeric": "men1",
+      "senses": [
+        "stuffy",
+        "shut indoors",
+        "to smother",
+        "to cover tightly"
+      ]
+    },
+    {
+      "reading": "mèn",
+      "readingNumeric": "men4",
+      "senses": [
+        "bored",
+        "depressed",
+        "melancholy",
+        "sealed",
+        "airtight",
+        "tightly closed"
+      ]
+    }
+  ]
+}

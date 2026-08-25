@@ -1,0 +1,35 @@
+{
+  "character": "哪",
+  "readings": [
+    {
+      "reading": "nǎ",
+      "readingNumeric": "na3",
+      "senses": [
+        "how",
+        "which"
+      ]
+    },
+    {
+      "reading": "na",
+      "readingNumeric": "na5",
+      "senses": [
+        "(emphatic sentence-final particle, used instead of 啊 after a word ending in \"n\")"
+      ]
+    },
+    {
+      "reading": "né",
+      "readingNumeric": "ne2",
+      "senses": [
+        "used in 哪吒",
+        "Taiwan pr. nuó"
+      ]
+    },
+    {
+      "reading": "něi",
+      "readingNumeric": "nei3",
+      "senses": [
+        "which? (interrogative, followed by classifier or numeral-classifier)"
+      ]
+    }
+  ]
+}

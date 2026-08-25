@@ -1,0 +1,26 @@
+{
+  "character": "驾",
+  "readings": [
+    {
+      "reading": "Jià",
+      "readingNumeric": "Jia4",
+      "senses": [
+        "surname Jia"
+      ]
+    },
+    {
+      "reading": "jià",
+      "readingNumeric": "jia4",
+      "senses": [
+        "to harness",
+        "to draw (a cart etc)",
+        "to drive",
+        "to pilot",
+        "to sail",
+        "to ride",
+        "your good self",
+        "prefixed word denoting respect (polite 敬辞)"
+      ]
+    }
+  ]
+}

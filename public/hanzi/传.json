@@ -1,0 +1,28 @@
+{
+  "character": "传",
+  "readings": [
+    {
+      "reading": "chuán",
+      "readingNumeric": "chuan2",
+      "senses": [
+        "to pass on",
+        "to spread",
+        "to transmit",
+        "to infect",
+        "to transfer",
+        "to circulate",
+        "to conduct (electricity)"
+      ]
+    },
+    {
+      "reading": "zhuàn",
+      "readingNumeric": "zhuan4",
+      "senses": [
+        "biography",
+        "historical narrative",
+        "commentaries",
+        "relay station"
+      ]
+    }
+  ]
+}

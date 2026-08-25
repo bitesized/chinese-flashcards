@@ -1,0 +1,31 @@
+{
+  "character": "时",
+  "readings": [
+    {
+      "reading": "shí",
+      "readingNumeric": "shi2",
+      "senses": [
+        "old variant of 时"
+      ]
+    },
+    {
+      "reading": "Shí",
+      "readingNumeric": "Shi2",
+      "senses": [
+        "surname Shi"
+      ]
+    },
+    {
+      "reading": "shí",
+      "readingNumeric": "shi2",
+      "senses": [
+        "o'clock",
+        "time",
+        "when",
+        "hour",
+        "season",
+        "period"
+      ]
+    }
+  ]
+}

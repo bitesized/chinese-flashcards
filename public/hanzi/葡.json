@@ -1,0 +1,21 @@
+{
+  "character": "葡",
+  "readings": [
+    {
+      "reading": "Pú",
+      "readingNumeric": "Pu2",
+      "senses": [
+        "Portugal",
+        "Portuguese",
+        "abbr. for 葡萄牙"
+      ]
+    },
+    {
+      "reading": "pú",
+      "readingNumeric": "pu2",
+      "senses": [
+        "used in 葡萄"
+      ]
+    }
+  ]
+}

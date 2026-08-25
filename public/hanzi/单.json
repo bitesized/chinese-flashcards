@@ -1,0 +1,32 @@
+{
+  "character": "单",
+  "readings": [
+    {
+      "reading": "Shàn",
+      "readingNumeric": "Shan4",
+      "senses": [
+        "surname Shan"
+      ]
+    },
+    {
+      "reading": "chán",
+      "readingNumeric": "chan2",
+      "senses": [
+        "used in 单于"
+      ]
+    },
+    {
+      "reading": "dān",
+      "readingNumeric": "dan1",
+      "senses": [
+        "bill",
+        "list",
+        "form",
+        "single",
+        "only",
+        "sole",
+        "odd number"
+      ]
+    }
+  ]
+}

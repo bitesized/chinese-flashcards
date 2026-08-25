@@ -1,0 +1,43 @@
+{
+  "character": "宿",
+  "readings": [
+    {
+      "reading": "sù",
+      "readingNumeric": "su4",
+      "senses": [
+        "old variant of 宿"
+      ]
+    },
+    {
+      "reading": "Sù",
+      "readingNumeric": "Su4",
+      "senses": [
+        "surname Su"
+      ]
+    },
+    {
+      "reading": "sù",
+      "readingNumeric": "su4",
+      "senses": [
+        "lodge for the night",
+        "old",
+        "former"
+      ]
+    },
+    {
+      "reading": "xiǔ",
+      "readingNumeric": "xiu3",
+      "senses": [
+        "night",
+        "classifier for nights"
+      ]
+    },
+    {
+      "reading": "xiù",
+      "readingNumeric": "xiu4",
+      "senses": [
+        "constellation"
+      ]
+    }
+  ]
+}

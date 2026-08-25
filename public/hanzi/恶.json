@@ -1,0 +1,35 @@
+{
+  "character": "恶",
+  "readings": [
+    {
+      "reading": "ě",
+      "readingNumeric": "e3",
+      "senses": [
+        "used in 恶心"
+      ]
+    },
+    {
+      "reading": "è",
+      "readingNumeric": "e4",
+      "senses": [
+        "evil",
+        "fierce",
+        "vicious",
+        "ugly",
+        "coarse",
+        "to harm"
+      ]
+    },
+    {
+      "reading": "wù",
+      "readingNumeric": "wu4",
+      "senses": [
+        "to hate",
+        "to loathe",
+        "ashamed",
+        "to fear",
+        "to slander"
+      ]
+    }
+  ]
+}

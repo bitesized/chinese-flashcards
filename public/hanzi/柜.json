@@ -1,0 +1,28 @@
+{
+  "character": "柜",
+  "readings": [
+    {
+      "reading": "guì",
+      "readingNumeric": "gui4",
+      "senses": [
+        "variant of 柜"
+      ]
+    },
+    {
+      "reading": "jǔ",
+      "readingNumeric": "ju3",
+      "senses": [
+        "Salix multinervis"
+      ]
+    },
+    {
+      "reading": "guì",
+      "readingNumeric": "gui4",
+      "senses": [
+        "cupboard",
+        "cabinet",
+        "wardrobe"
+      ]
+    }
+  ]
+}

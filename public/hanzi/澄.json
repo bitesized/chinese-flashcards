@@ -1,0 +1,37 @@
+{
+  "character": "澄",
+  "readings": [
+    {
+      "reading": "chéng",
+      "readingNumeric": "cheng2",
+      "senses": [
+        "variant of 澄"
+      ]
+    },
+    {
+      "reading": "Chéng",
+      "readingNumeric": "Cheng2",
+      "senses": [
+        "surname Cheng"
+      ]
+    },
+    {
+      "reading": "chéng",
+      "readingNumeric": "cheng2",
+      "senses": [
+        "clear",
+        "limpid",
+        "to clarify",
+        "to purify"
+      ]
+    },
+    {
+      "reading": "dèng",
+      "readingNumeric": "deng4",
+      "senses": [
+        "(of liquid) to settle",
+        "to become clear"
+      ]
+    }
+  ]
+}

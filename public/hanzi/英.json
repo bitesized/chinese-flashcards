@@ -1,0 +1,27 @@
+{
+  "character": "英",
+  "readings": [
+    {
+      "reading": "Yīng",
+      "readingNumeric": "Ying1",
+      "senses": [
+        "United Kingdom",
+        "British",
+        "England",
+        "English",
+        "abbr. for 英国"
+      ]
+    },
+    {
+      "reading": "yīng",
+      "readingNumeric": "ying1",
+      "senses": [
+        "hero",
+        "outstanding",
+        "excellent",
+        "(literary) flower",
+        "blossom"
+      ]
+    }
+  ]
+}

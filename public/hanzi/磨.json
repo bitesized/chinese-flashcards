@@ -1,0 +1,29 @@
+{
+  "character": "磨",
+  "readings": [
+    {
+      "reading": "mó",
+      "readingNumeric": "mo2",
+      "senses": [
+        "to rub",
+        "to grind",
+        "to polish",
+        "to sharpen",
+        "to wear down",
+        "to die out",
+        "to waste time",
+        "to pester",
+        "to insist"
+      ]
+    },
+    {
+      "reading": "mò",
+      "readingNumeric": "mo4",
+      "senses": [
+        "grindstone",
+        "to grind",
+        "to turn round"
+      ]
+    }
+  ]
+}

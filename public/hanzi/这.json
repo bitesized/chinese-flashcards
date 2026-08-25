@@ -1,0 +1,21 @@
+{
+  "character": "这",
+  "readings": [
+    {
+      "reading": "zhè",
+      "readingNumeric": "zhe4",
+      "senses": [
+        "(pronoun) this; these",
+        "(bound form) this; the (followed by a noun)",
+        "(bound form) this; these (followed by a classifier) (in this sense, commonly pr. zhèi, esp. in Beijing)"
+      ]
+    },
+    {
+      "reading": "zhèi",
+      "readingNumeric": "zhei4",
+      "senses": [
+        "(coll.) this"
+      ]
+    }
+  ]
+}

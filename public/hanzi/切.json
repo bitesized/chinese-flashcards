@@ -1,0 +1,26 @@
+{
+  "character": "切",
+  "readings": [
+    {
+      "reading": "qiē",
+      "readingNumeric": "qie1",
+      "senses": [
+        "to cut; to slice; to carve",
+        "(math.) tangential"
+      ]
+    },
+    {
+      "reading": "qiè",
+      "readingNumeric": "qie4",
+      "senses": [
+        "definitely; absolutely (not)",
+        "(scoffing or dismissive interjection) Yeah, right.; Tut!",
+        "to grind",
+        "(bound form) close to",
+        "(bound form) eager",
+        "to correspond to",
+        "(used to indicate that the fanqie 反切 system should be applied to the previous two characters)"
+      ]
+    }
+  ]
+}

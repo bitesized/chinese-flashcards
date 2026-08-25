@@ -1,0 +1,21 @@
+{
+  "character": "港",
+  "readings": [
+    {
+      "reading": "Gǎng",
+      "readingNumeric": "Gang3",
+      "senses": [
+        "Hong Kong (abbr. for 香港)",
+        "surname Gang"
+      ]
+    },
+    {
+      "reading": "gǎng",
+      "readingNumeric": "gang3",
+      "senses": [
+        "harbor",
+        "port"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "character": "露",
+  "readings": [
+    {
+      "reading": "Lù",
+      "readingNumeric": "Lu4",
+      "senses": [
+        "surname Lu"
+      ]
+    },
+    {
+      "reading": "lòu",
+      "readingNumeric": "lou4",
+      "senses": [
+        "to show",
+        "to reveal",
+        "to betray",
+        "to expose"
+      ]
+    },
+    {
+      "reading": "lù",
+      "readingNumeric": "lu4",
+      "senses": [
+        "dew",
+        "syrup",
+        "nectar",
+        "outdoors (not under cover)",
+        "to show",
+        "to reveal",
+        "to betray",
+        "to expose"
+      ]
+    }
+  ]
+}

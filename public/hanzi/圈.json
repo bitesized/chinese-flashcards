@@ -1,0 +1,32 @@
+{
+  "character": "圈",
+  "readings": [
+    {
+      "reading": "juān",
+      "readingNumeric": "juan1",
+      "senses": [
+        "to confine",
+        "to lock up",
+        "to pen in"
+      ]
+    },
+    {
+      "reading": "juàn",
+      "readingNumeric": "juan4",
+      "senses": [
+        "livestock enclosure; pen; fold; sty"
+      ]
+    },
+    {
+      "reading": "quān",
+      "readingNumeric": "quan1",
+      "senses": [
+        "circle; ring; loop",
+        "(fig.) social circle; niche group; community; fandom",
+        "classifier for loops, orbits, laps",
+        "to surround; to encircle",
+        "to circle (sth); to mark with a circle"
+      ]
+    }
+  ]
+}

@@ -44,7 +44,12 @@ describe('LevelSelect — availability (DEC-025: only reviewed levels are select
 
   it('shows a reviewed level as enabled with its real card count', async () => {
     render(
-      <LevelSelect initialSelection={[]} onStartSession={() => {}} onOpenSettings={() => {}} />,
+      <LevelSelect
+        initialSelection={[]}
+        onStartSession={() => {}}
+        onOpenSettings={() => {}}
+        onOpenHanzi={() => {}}
+      />,
     );
     const hsk1 = await screen.findByRole('button', { name: /HSK 1/ });
     expect(hsk1).toBeEnabled();
@@ -59,6 +64,7 @@ describe('LevelSelect — availability (DEC-025: only reviewed levels are select
         initialSelection={[]}
         onStartSession={onStartSession}
         onOpenSettings={() => {}}
+        onOpenHanzi={() => {}}
       />,
     );
     const hsk3 = await screen.findByRole('button', { name: /HSK 3/ });
@@ -70,7 +76,12 @@ describe('LevelSelect — availability (DEC-025: only reviewed levels are select
 
   it('shows a placeholder for a level absent from the manifest without crashing, and it stays disabled', async () => {
     render(
-      <LevelSelect initialSelection={[]} onStartSession={() => {}} onOpenSettings={() => {}} />,
+      <LevelSelect
+        initialSelection={[]}
+        onStartSession={() => {}}
+        onOpenSettings={() => {}}
+        onOpenHanzi={() => {}}
+      />,
     );
     const hsk6 = await screen.findByRole('button', { name: /HSK 6/ });
     expect(hsk6).toBeDisabled();
@@ -84,6 +95,7 @@ describe('LevelSelect — availability (DEC-025: only reviewed levels are select
         initialSelection={[]}
         onStartSession={() => {}}
         onOpenSettings={onOpenSettings}
+        onOpenHanzi={() => {}}
       />,
     );
     await waitFor(() => screen.getByRole('button', { name: 'Settings' }));
@@ -103,7 +115,12 @@ describe('LevelSelect — multi-select and last-level memory (FR-23, FR-25)', ()
 
   it('the Start button is disabled with nothing selected', async () => {
     render(
-      <LevelSelect initialSelection={[]} onStartSession={() => {}} onOpenSettings={() => {}} />,
+      <LevelSelect
+        initialSelection={[]}
+        onStartSession={() => {}}
+        onOpenSettings={() => {}}
+        onOpenHanzi={() => {}}
+      />,
     );
     await screen.findByRole('button', { name: /HSK 1/ });
     expect(screen.getByRole('button', { name: /Start Studying/i })).toBeDisabled();
@@ -117,6 +134,7 @@ describe('LevelSelect — multi-select and last-level memory (FR-23, FR-25)', ()
         initialSelection={[]}
         onStartSession={onStartSession}
         onOpenSettings={() => {}}
+        onOpenHanzi={() => {}}
       />,
     );
     const hsk1 = await screen.findByRole('button', { name: /HSK 1/ });
@@ -135,6 +153,7 @@ describe('LevelSelect — multi-select and last-level memory (FR-23, FR-25)', ()
         initialSelection={[]}
         onStartSession={onStartSession}
         onOpenSettings={() => {}}
+        onOpenHanzi={() => {}}
       />,
     );
     const hsk2 = await screen.findByRole('button', { name: /HSK 2/ });
@@ -149,7 +168,12 @@ describe('LevelSelect — multi-select and last-level memory (FR-23, FR-25)', ()
   it('clicking a selected level again deselects it', async () => {
     const user = userEvent.setup();
     render(
-      <LevelSelect initialSelection={[]} onStartSession={() => {}} onOpenSettings={() => {}} />,
+      <LevelSelect
+        initialSelection={[]}
+        onStartSession={() => {}}
+        onOpenSettings={() => {}}
+        onOpenHanzi={() => {}}
+      />,
     );
     const hsk1 = await screen.findByRole('button', { name: /HSK 1/ });
     await user.click(hsk1);
@@ -161,7 +185,12 @@ describe('LevelSelect — multi-select and last-level memory (FR-23, FR-25)', ()
 
   it('pre-selects initialSelection on mount (last-level memory)', async () => {
     render(
-      <LevelSelect initialSelection={['1']} onStartSession={() => {}} onOpenSettings={() => {}} />,
+      <LevelSelect
+        initialSelection={['1']}
+        onStartSession={() => {}}
+        onOpenSettings={() => {}}
+        onOpenHanzi={() => {}}
+      />,
     );
     const hsk1 = await screen.findByRole('button', { name: /HSK 1/ });
     expect(hsk1).toHaveAttribute('aria-pressed', 'true');
@@ -170,7 +199,12 @@ describe('LevelSelect — multi-select and last-level memory (FR-23, FR-25)', ()
 
   it('drops a remembered level from the selection if it is not actually available (defensive)', async () => {
     render(
-      <LevelSelect initialSelection={['3']} onStartSession={() => {}} onOpenSettings={() => {}} />,
+      <LevelSelect
+        initialSelection={['3']}
+        onStartSession={() => {}}
+        onOpenSettings={() => {}}
+        onOpenHanzi={() => {}}
+      />,
     );
     const hsk3 = await screen.findByRole('button', { name: /HSK 3/ });
     await waitFor(() => expect(hsk3).toHaveAttribute('aria-pressed', 'false'));
@@ -185,6 +219,7 @@ describe('LevelSelect — multi-select and last-level memory (FR-23, FR-25)', ()
         initialSelection={['1']}
         onStartSession={onStartSession}
         onOpenSettings={() => {}}
+        onOpenHanzi={() => {}}
       />,
     );
     await screen.findByRole('button', { name: /HSK 1/ });

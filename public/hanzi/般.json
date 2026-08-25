@@ -1,0 +1,30 @@
+{
+  "character": "般",
+  "readings": [
+    {
+      "reading": "bān",
+      "readingNumeric": "ban1",
+      "senses": [
+        "sort",
+        "kind",
+        "class",
+        "way",
+        "manner"
+      ]
+    },
+    {
+      "reading": "bō",
+      "readingNumeric": "bo1",
+      "senses": [
+        "used in 般若"
+      ]
+    },
+    {
+      "reading": "pán",
+      "readingNumeric": "pan2",
+      "senses": [
+        "see 般乐"
+      ]
+    }
+  ]
+}

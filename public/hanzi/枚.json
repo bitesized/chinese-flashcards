@@ -1,0 +1,22 @@
+{
+  "character": "枚",
+  "readings": [
+    {
+      "reading": "Méi",
+      "readingNumeric": "Mei2",
+      "senses": [
+        "surname Mei"
+      ]
+    },
+    {
+      "reading": "méi",
+      "readingNumeric": "mei2",
+      "senses": [
+        "classifier for small objects: coins, badges, rings, carved seals, chess pieces, eggs, fingerprints etc (more formal than 个)",
+        "classifier for bombs, missiles, satellites etc",
+        "(on product packaging) classifier for flat items (from Japanese 枚 \"mai\")",
+        "(old) stick used as a gag to prevent soldiers from talking while sneaking up on the enemy"
+      ]
+    }
+  ]
+}

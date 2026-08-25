@@ -1,0 +1,42 @@
+{
+  "character": "叉",
+  "readings": [
+    {
+      "reading": "chā",
+      "readingNumeric": "cha1",
+      "senses": [
+        "fork",
+        "pitchfork",
+        "prong",
+        "pick",
+        "cross",
+        "intersect",
+        "\"X\""
+      ]
+    },
+    {
+      "reading": "chá",
+      "readingNumeric": "cha2",
+      "senses": [
+        "to cross",
+        "be stuck"
+      ]
+    },
+    {
+      "reading": "chǎ",
+      "readingNumeric": "cha3",
+      "senses": [
+        "to diverge",
+        "to open (as legs)"
+      ]
+    },
+    {
+      "reading": "chà",
+      "readingNumeric": "cha4",
+      "senses": [
+        "used in 劈叉",
+        "used in 分叉"
+      ]
+    }
+  ]
+}

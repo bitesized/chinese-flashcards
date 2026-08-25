@@ -1,0 +1,21 @@
+{
+  "character": "粥",
+  "readings": [
+    {
+      "reading": "yù",
+      "readingNumeric": "yu4",
+      "senses": [
+        "used in 荤粥"
+      ]
+    },
+    {
+      "reading": "zhōu",
+      "readingNumeric": "zhou1",
+      "senses": [
+        "congee",
+        "gruel",
+        "porridge"
+      ]
+    }
+  ]
+}

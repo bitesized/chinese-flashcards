@@ -1,0 +1,22 @@
+{
+  "character": "句",
+  "readings": [
+    {
+      "reading": "gōu",
+      "readingNumeric": "gou1",
+      "senses": [
+        "variant of 勾"
+      ]
+    },
+    {
+      "reading": "jù",
+      "readingNumeric": "ju4",
+      "senses": [
+        "sentence",
+        "clause",
+        "phrase",
+        "classifier for phrases or lines of verse"
+      ]
+    }
+  ]
+}

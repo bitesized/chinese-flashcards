@@ -1,0 +1,25 @@
+{
+  "character": "程",
+  "readings": [
+    {
+      "reading": "Chéng",
+      "readingNumeric": "Cheng2",
+      "senses": [
+        "surname Cheng"
+      ]
+    },
+    {
+      "reading": "chéng",
+      "readingNumeric": "cheng2",
+      "senses": [
+        "rule",
+        "order",
+        "regulations",
+        "formula",
+        "journey",
+        "procedure",
+        "sequence"
+      ]
+    }
+  ]
+}

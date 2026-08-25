@@ -1,0 +1,30 @@
+{
+  "character": "都",
+  "readings": [
+    {
+      "reading": "Dū",
+      "readingNumeric": "Du1",
+      "senses": [
+        "surname Du"
+      ]
+    },
+    {
+      "reading": "dōu",
+      "readingNumeric": "dou1",
+      "senses": [
+        "all; both; entirely",
+        "(used for emphasis) even",
+        "already",
+        "(not) at all"
+      ]
+    },
+    {
+      "reading": "dū",
+      "readingNumeric": "du1",
+      "senses": [
+        "capital city",
+        "metropolis"
+      ]
+    }
+  ]
+}

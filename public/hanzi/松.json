@@ -1,0 +1,29 @@
+{
+  "character": "松",
+  "readings": [
+    {
+      "reading": "Sōng",
+      "readingNumeric": "Song1",
+      "senses": [
+        "surname Song"
+      ]
+    },
+    {
+      "reading": "sōng",
+      "readingNumeric": "song1",
+      "senses": [
+        "pine"
+      ]
+    },
+    {
+      "reading": "sōng",
+      "readingNumeric": "song1",
+      "senses": [
+        "loose",
+        "to loosen",
+        "to relax",
+        "floss (dry, fluffy food product made from shredded, seasoned meat or fish, used as a topping or filling)"
+      ]
+    }
+  ]
+}

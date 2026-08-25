@@ -1,0 +1,40 @@
+{
+  "character": "胡",
+  "readings": [
+    {
+      "reading": "Hú",
+      "readingNumeric": "Hu2",
+      "senses": [
+        "surname Hu"
+      ]
+    },
+    {
+      "reading": "hú",
+      "readingNumeric": "hu2",
+      "senses": [
+        "non-Han people, esp. from central Asia",
+        "reckless",
+        "outrageous",
+        "what?",
+        "why?",
+        "to complete a winning hand at mahjong (also written 和)"
+      ]
+    },
+    {
+      "reading": "hú",
+      "readingNumeric": "hu2",
+      "senses": [
+        "used in 胡同"
+      ]
+    },
+    {
+      "reading": "hú",
+      "readingNumeric": "hu2",
+      "senses": [
+        "beard",
+        "mustache",
+        "whiskers"
+      ]
+    }
+  ]
+}

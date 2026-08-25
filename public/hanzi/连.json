@@ -1,0 +1,26 @@
+{
+  "character": "连",
+  "readings": [
+    {
+      "reading": "Lián",
+      "readingNumeric": "Lian2",
+      "senses": [
+        "surname Lian"
+      ]
+    },
+    {
+      "reading": "lián",
+      "readingNumeric": "lian2",
+      "senses": [
+        "to link",
+        "to join",
+        "to connect",
+        "continuously",
+        "in succession",
+        "including",
+        "(used with 也, 都 etc) even",
+        "company (military)"
+      ]
+    }
+  ]
+}

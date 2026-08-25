@@ -1,0 +1,28 @@
+{
+  "character": "平",
+  "readings": [
+    {
+      "reading": "Píng",
+      "readingNumeric": "Ping2",
+      "senses": [
+        "surname Ping"
+      ]
+    },
+    {
+      "reading": "píng",
+      "readingNumeric": "ping2",
+      "senses": [
+        "flat; level; smooth",
+        "to make even; to level",
+        "equal; on the same level",
+        "(bound form) fair; impartial",
+        "to tie; to draw",
+        "(bound form) average; ordinary",
+        "(bound form) calm; peaceful",
+        "(bound form) to quell; to suppress; to put down",
+        "(abbr. for 平声)",
+        "(coll.) square meter (abbr. for 平方米)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "character": "假",
+  "readings": [
+    {
+      "reading": "gēi",
+      "readingNumeric": "gei1",
+      "senses": [
+        "used in 假掰"
+      ]
+    },
+    {
+      "reading": "jiǎ",
+      "readingNumeric": "jia3",
+      "senses": [
+        "fake",
+        "false",
+        "artificial",
+        "to borrow",
+        "if",
+        "suppose"
+      ]
+    },
+    {
+      "reading": "jià",
+      "readingNumeric": "jia4",
+      "senses": [
+        "vacation"
+      ]
+    },
+    {
+      "reading": "jiǎ",
+      "readingNumeric": "jia3",
+      "senses": [
+        "variant of 假",
+        "to borrow"
+      ]
+    }
+  ]
+}

@@ -30,19 +30,16 @@
  * to more than one level's compiled file), before the queue is built.
  */
 
-import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import type { KeyboardEvent } from 'react';
 import { Card } from './Card.js';
 import styles from './StudySession.module.css';
 import { loadDeck } from '../../services/decks.js';
 import { shuffle } from '../../services/shuffle.js';
-import { isSpeechAvailable, speak, subscribeSpeechAvailability } from '../../services/speech.js';
+import { speak } from '../../services/speech.js';
+import { useSpeechAvailable } from '../../services/useSpeechAvailable.js';
 import type { Card as CardData, HskLevel } from '../../domain/card.js';
 import type { Settings } from '../../domain/runtime.js';
-
-function useSpeechAvailable(): boolean {
-  return useSyncExternalStore(subscribeSpeechAvailability, isSpeechAvailable);
-}
 
 /** "HSK 1" / "HSK 1 & 2" / "HSK 1, 2 & 3" — never a bare comma-joined list,
  *  since this appears in reader-facing copy (loading/error/end-state). */

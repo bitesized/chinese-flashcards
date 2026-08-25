@@ -1,0 +1,22 @@
+{
+  "character": "书",
+  "readings": [
+    {
+      "reading": "Shū",
+      "readingNumeric": "Shu1",
+      "senses": [
+        "abbr. for 书经"
+      ]
+    },
+    {
+      "reading": "shū",
+      "readingNumeric": "shu1",
+      "senses": [
+        "book",
+        "letter",
+        "document",
+        "to write"
+      ]
+    }
+  ]
+}

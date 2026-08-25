@@ -41,6 +41,11 @@
   color: var(--color-ink);
 }
 
+.topBarLinks {
+  display: flex;
+  gap: var(--space-4);
+}
+
 .settingsLink {
   background: none;
   border: none;

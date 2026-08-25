@@ -1,0 +1,33 @@
+{
+  "character": "胳",
+  "readings": [
+    {
+      "reading": "gē",
+      "readingNumeric": "ge1",
+      "senses": [
+        "variant of 胳"
+      ]
+    },
+    {
+      "reading": "gā",
+      "readingNumeric": "ga1",
+      "senses": [
+        "used in 胳肢窝"
+      ]
+    },
+    {
+      "reading": "gē",
+      "readingNumeric": "ge1",
+      "senses": [
+        "armpit"
+      ]
+    },
+    {
+      "reading": "gé",
+      "readingNumeric": "ge2",
+      "senses": [
+        "used in 胳肢"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "character": "征",
+  "readings": [
+    {
+      "reading": "zhēng",
+      "readingNumeric": "zheng1",
+      "senses": [
+        "journey",
+        "trip",
+        "expedition",
+        "to go on long campaign",
+        "to attack"
+      ]
+    },
+    {
+      "reading": "zhēng",
+      "readingNumeric": "zheng1",
+      "senses": [
+        "to invite",
+        "to recruit",
+        "to levy (taxes)",
+        "to draft (troops)",
+        "phenomenon",
+        "symptom",
+        "characteristic sign (used as proof)",
+        "evidence"
+      ]
+    }
+  ]
+}

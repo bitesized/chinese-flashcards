@@ -1,0 +1,33 @@
+{
+  "character": "称",
+  "readings": [
+    {
+      "reading": "chèn",
+      "readingNumeric": "chen4",
+      "senses": [
+        "to fit; to match; to suit",
+        "(coll.) to have; to possess",
+        "Taiwan pr. chèng"
+      ]
+    },
+    {
+      "reading": "chēng",
+      "readingNumeric": "cheng1",
+      "senses": [
+        "to weigh",
+        "to state",
+        "to name",
+        "name",
+        "appellation",
+        "to praise"
+      ]
+    },
+    {
+      "reading": "chèng",
+      "readingNumeric": "cheng4",
+      "senses": [
+        "old variant of 秤"
+      ]
+    }
+  ]
+}

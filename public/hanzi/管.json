@@ -1,0 +1,40 @@
+{
+  "character": "管",
+  "readings": [
+    {
+      "reading": "guǎn",
+      "readingNumeric": "guan3",
+      "senses": [
+        "variant of 管"
+      ]
+    },
+    {
+      "reading": "Guǎn",
+      "readingNumeric": "Guan3",
+      "senses": [
+        "surname Guan"
+      ]
+    },
+    {
+      "reading": "guǎn",
+      "readingNumeric": "guan3",
+      "senses": [
+        "to take care (of)",
+        "to control",
+        "to manage",
+        "to be in charge of",
+        "to look after",
+        "to run",
+        "to care about",
+        "tube",
+        "pipe",
+        "woodwind",
+        "classifier for tube-shaped objects",
+        "particle similar to 把 in 管...叫 constructions",
+        "writing brush",
+        "(coll.) to",
+        "towards"
+      ]
+    }
+  ]
+}

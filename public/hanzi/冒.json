@@ -1,0 +1,30 @@
+{
+  "character": "冒",
+  "readings": [
+    {
+      "reading": "mào",
+      "readingNumeric": "mao4",
+      "senses": [
+        "old variant of 冒"
+      ]
+    },
+    {
+      "reading": "Mào",
+      "readingNumeric": "Mao4",
+      "senses": [
+        "surname Mao"
+      ]
+    },
+    {
+      "reading": "mào",
+      "readingNumeric": "mao4",
+      "senses": [
+        "to emit; to give off; to send out (or up, forth)",
+        "to brave; to face",
+        "(bound form) reckless",
+        "to falsely adopt (sb's identity etc); to feign",
+        "(literary) to cover"
+      ]
+    }
+  ]
+}

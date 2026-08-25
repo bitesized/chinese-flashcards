@@ -1,0 +1,36 @@
+{
+  "character": "将",
+  "readings": [
+    {
+      "reading": "jiāng",
+      "readingNumeric": "jiang1",
+      "senses": [
+        "will",
+        "shall",
+        "to use",
+        "to take",
+        "to checkmate",
+        "just a short while ago",
+        "(introduces object of main verb, used in the same way as 把)"
+      ]
+    },
+    {
+      "reading": "jiàng",
+      "readingNumeric": "jiang4",
+      "senses": [
+        "(bound form) a general",
+        "(literary) to command; to lead",
+        "(Chinese chess) general (on the black side, equivalent to a king in Western chess)"
+      ]
+    },
+    {
+      "reading": "qiāng",
+      "readingNumeric": "qiang1",
+      "senses": [
+        "to desire",
+        "to invite",
+        "to request"
+      ]
+    }
+  ]
+}

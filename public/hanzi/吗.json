@@ -1,0 +1,26 @@
+{
+  "character": "吗",
+  "readings": [
+    {
+      "reading": "má",
+      "readingNumeric": "ma2",
+      "senses": [
+        "(coll.) what?"
+      ]
+    },
+    {
+      "reading": "mǎ",
+      "readingNumeric": "ma3",
+      "senses": [
+        "used in 吗啡"
+      ]
+    },
+    {
+      "reading": "ma",
+      "readingNumeric": "ma5",
+      "senses": [
+        "(question particle for \"yes-no\" questions)"
+      ]
+    }
+  ]
+}

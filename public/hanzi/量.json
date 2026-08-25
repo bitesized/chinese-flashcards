@@ -1,0 +1,24 @@
+{
+  "character": "量",
+  "readings": [
+    {
+      "reading": "liáng",
+      "readingNumeric": "liang2",
+      "senses": [
+        "to measure"
+      ]
+    },
+    {
+      "reading": "liàng",
+      "readingNumeric": "liang4",
+      "senses": [
+        "capacity",
+        "quantity",
+        "amount",
+        "to estimate",
+        "abbr. for 量词, classifier (in Chinese grammar)",
+        "measure word"
+      ]
+    }
+  ]
+}

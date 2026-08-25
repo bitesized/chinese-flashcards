@@ -1,0 +1,29 @@
+{
+  "character": "王",
+  "readings": [
+    {
+      "reading": "Wáng",
+      "readingNumeric": "Wang2",
+      "senses": [
+        "surname Wang"
+      ]
+    },
+    {
+      "reading": "wáng",
+      "readingNumeric": "wang2",
+      "senses": [
+        "king or monarch",
+        "best or strongest of its type",
+        "grand",
+        "great"
+      ]
+    },
+    {
+      "reading": "wàng",
+      "readingNumeric": "wang4",
+      "senses": [
+        "(literary) (of a monarch) to reign over (a kingdom)"
+      ]
+    }
+  ]
+}

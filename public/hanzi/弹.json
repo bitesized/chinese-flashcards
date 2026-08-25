@@ -1,0 +1,32 @@
+{
+  "character": "弹",
+  "readings": [
+    {
+      "reading": "dàn",
+      "readingNumeric": "dan4",
+      "senses": [
+        "crossball",
+        "bullet",
+        "shot",
+        "shell",
+        "ball"
+      ]
+    },
+    {
+      "reading": "tán",
+      "readingNumeric": "tan2",
+      "senses": [
+        "to pluck (a string)",
+        "to play (a string instrument)",
+        "to spring or leap",
+        "to shoot (e.g. with a catapult)",
+        "(of cotton) to fluff or tease",
+        "to flick",
+        "to flip",
+        "to accuse",
+        "to impeach",
+        "elastic (of materials)"
+      ]
+    }
+  ]
+}

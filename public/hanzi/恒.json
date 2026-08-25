@@ -1,0 +1,32 @@
+{
+  "character": "恒",
+  "readings": [
+    {
+      "reading": "Héng",
+      "readingNumeric": "Heng2",
+      "senses": [
+        "surname Heng"
+      ]
+    },
+    {
+      "reading": "héng",
+      "readingNumeric": "heng2",
+      "senses": [
+        "permanent",
+        "constant",
+        "fixed",
+        "usual",
+        "ordinary",
+        "rule (old)",
+        "one of the 64 hexagrams of the Book of Changes (䷟)"
+      ]
+    },
+    {
+      "reading": "héng",
+      "readingNumeric": "heng2",
+      "senses": [
+        "variant of 恒"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "character": "的",
+  "readings": [
+    {
+      "reading": "de",
+      "readingNumeric": "de5",
+      "senses": [
+        "of; ~'s (possessive particle)",
+        "(used after an attribute when it modifies a noun)",
+        "(used at the end of a declarative sentence for emphasis)",
+        "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+        "also pr. dì or di in poetry and songs"
+      ]
+    },
+    {
+      "reading": "dī",
+      "readingNumeric": "di1",
+      "senses": [
+        "a taxi; a cab (abbr. for 的士)"
+      ]
+    },
+    {
+      "reading": "dí",
+      "readingNumeric": "di2",
+      "senses": [
+        "really and truly"
+      ]
+    },
+    {
+      "reading": "dì",
+      "readingNumeric": "di4",
+      "senses": [
+        "(bound form) bull's-eye; target"
+      ]
+    }
+  ]
+}

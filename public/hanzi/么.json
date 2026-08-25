@@ -1,0 +1,33 @@
+{
+  "character": "么",
+  "readings": [
+    {
+      "reading": "má",
+      "readingNumeric": "ma2",
+      "senses": [
+        "exclamatory final particle"
+      ]
+    },
+    {
+      "reading": "ma",
+      "readingNumeric": "ma5",
+      "senses": [
+        "interrogative final particle"
+      ]
+    },
+    {
+      "reading": "me",
+      "readingNumeric": "me5",
+      "senses": [
+        "suffix, used to form interrogative 什么, what?, indefinite 这么 thus, etc"
+      ]
+    },
+    {
+      "reading": "me",
+      "readingNumeric": "me5",
+      "senses": [
+        "variant of 么"
+      ]
+    }
+  ]
+}

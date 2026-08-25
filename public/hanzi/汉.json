@@ -1,0 +1,21 @@
+{
+  "character": "汉",
+  "readings": [
+    {
+      "reading": "Hàn",
+      "readingNumeric": "Han4",
+      "senses": [
+        "Han ethnic group",
+        "Chinese (language)",
+        "the Han dynasty (206 BC-220 AD)"
+      ]
+    },
+    {
+      "reading": "hàn",
+      "readingNumeric": "han4",
+      "senses": [
+        "man"
+      ]
+    }
+  ]
+}

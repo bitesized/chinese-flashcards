@@ -1,0 +1,26 @@
+{
+  "character": "铅",
+  "readings": [
+    {
+      "reading": "qiān",
+      "readingNumeric": "qian1",
+      "senses": [
+        "old variant of 铅"
+      ]
+    },
+    {
+      "reading": "qiān",
+      "readingNumeric": "qian1",
+      "senses": [
+        "lead (chemistry)"
+      ]
+    },
+    {
+      "reading": "yán",
+      "readingNumeric": "yan2",
+      "senses": [
+        "used in 铅山 (the name of a place in Jiangxi)"
+      ]
+    }
+  ]
+}

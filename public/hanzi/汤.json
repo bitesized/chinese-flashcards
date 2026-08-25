@@ -1,0 +1,29 @@
+{
+  "character": "汤",
+  "readings": [
+    {
+      "reading": "Tāng",
+      "readingNumeric": "Tang1",
+      "senses": [
+        "surname Tang"
+      ]
+    },
+    {
+      "reading": "shāng",
+      "readingNumeric": "shang1",
+      "senses": [
+        "rushing current"
+      ]
+    },
+    {
+      "reading": "tāng",
+      "readingNumeric": "tang1",
+      "senses": [
+        "soup",
+        "hot or boiling water",
+        "decoction of medicinal herbs",
+        "water in which sth has been boiled"
+      ]
+    }
+  ]
+}

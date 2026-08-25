@@ -1,0 +1,54 @@
+{
+  "character": "向",
+  "readings": [
+    {
+      "reading": "Xiàng",
+      "readingNumeric": "Xiang4",
+      "senses": [
+        "surname Xiang"
+      ]
+    },
+    {
+      "reading": "xiàng",
+      "readingNumeric": "xiang4",
+      "senses": [
+        "towards",
+        "to face",
+        "to turn towards",
+        "direction",
+        "to support",
+        "to side with",
+        "shortly before",
+        "formerly",
+        "always",
+        "all along",
+        "(suffix) suitable for ...",
+        "oriented to ..."
+      ]
+    },
+    {
+      "reading": "xiàng",
+      "readingNumeric": "xiang4",
+      "senses": [
+        "to tend toward",
+        "to guide",
+        "variant of 向"
+      ]
+    },
+    {
+      "reading": "xiàng",
+      "readingNumeric": "xiang4",
+      "senses": [
+        "variant of 向",
+        "direction",
+        "orientation",
+        "to face",
+        "to turn toward",
+        "to",
+        "towards",
+        "shortly before",
+        "formerly"
+      ]
+    }
+  ]
+}

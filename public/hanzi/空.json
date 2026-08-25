@@ -1,0 +1,27 @@
+{
+  "character": "空",
+  "readings": [
+    {
+      "reading": "kōng",
+      "readingNumeric": "kong1",
+      "senses": [
+        "empty",
+        "air",
+        "sky",
+        "in vain"
+      ]
+    },
+    {
+      "reading": "kòng",
+      "readingNumeric": "kong4",
+      "senses": [
+        "to empty",
+        "vacant",
+        "unoccupied",
+        "space",
+        "leisure",
+        "free time"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "character": "周",
+  "readings": [
+    {
+      "reading": "Zhōu",
+      "readingNumeric": "Zhou1",
+      "senses": [
+        "surname Zhou",
+        "Zhou Dynasty (1046–256 BC)"
+      ]
+    },
+    {
+      "reading": "zhōu",
+      "readingNumeric": "zhou1",
+      "senses": [
+        "to make a circuit",
+        "to circle",
+        "circle",
+        "circumference",
+        "lap",
+        "cycle",
+        "complete",
+        "all",
+        "all over",
+        "thorough",
+        "to help financially"
+      ]
+    },
+    {
+      "reading": "zhōu",
+      "readingNumeric": "zhou1",
+      "senses": [
+        "week",
+        "weekly",
+        "variant of 周"
+      ]
+    }
+  ]
+}

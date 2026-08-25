@@ -1,0 +1,41 @@
+{
+  "character": "乘",
+  "readings": [
+    {
+      "reading": "Chéng",
+      "readingNumeric": "Cheng2",
+      "senses": [
+        "surname Cheng"
+      ]
+    },
+    {
+      "reading": "chéng",
+      "readingNumeric": "cheng2",
+      "senses": [
+        "to ride",
+        "to mount",
+        "to make use of",
+        "to avail oneself of",
+        "to take advantage of",
+        "to multiply (math.)",
+        "Buddhist sect or creed"
+      ]
+    },
+    {
+      "reading": "shèng",
+      "readingNumeric": "sheng4",
+      "senses": [
+        "(archaic) four horse military chariot",
+        "(archaic) four",
+        "generic term for history books"
+      ]
+    },
+    {
+      "reading": "chéng",
+      "readingNumeric": "cheng2",
+      "senses": [
+        "old variant of 乘"
+      ]
+    }
+  ]
+}

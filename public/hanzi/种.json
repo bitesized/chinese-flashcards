@@ -1,0 +1,25 @@
+{
+  "character": "种",
+  "readings": [
+    {
+      "reading": "zhǒng",
+      "readingNumeric": "zhong3",
+      "senses": [
+        "seed",
+        "species",
+        "kind",
+        "type",
+        "classifier for types, kinds, sorts"
+      ]
+    },
+    {
+      "reading": "zhòng",
+      "readingNumeric": "zhong4",
+      "senses": [
+        "to plant",
+        "to grow",
+        "to cultivate"
+      ]
+    }
+  ]
+}

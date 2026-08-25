@@ -1,0 +1,24 @@
+{
+  "character": "徒",
+  "readings": [
+    {
+      "reading": "Tú",
+      "readingNumeric": "Tu2",
+      "senses": [
+        "surname Tu"
+      ]
+    },
+    {
+      "reading": "tú",
+      "readingNumeric": "tu2",
+      "senses": [
+        "(bound form) disciple; apprentice; believer; (derog.) wrongdoer (as in 骗徒 \"swindler\" or 叛徒 \"traitor\" etc)",
+        "(bound form) on foot",
+        "(bound form) bare; empty",
+        "(bound form) to no avail; in vain",
+        "(bound form) merely; just; only",
+        "(bound form) prison sentence"
+      ]
+    }
+  ]
+}

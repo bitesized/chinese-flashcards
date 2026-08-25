@@ -1,0 +1,32 @@
+{
+  "character": "车",
+  "readings": [
+    {
+      "reading": "Chē",
+      "readingNumeric": "Che1",
+      "senses": [
+        "surname Che"
+      ]
+    },
+    {
+      "reading": "chē",
+      "readingNumeric": "che1",
+      "senses": [
+        "car",
+        "vehicle",
+        "machine",
+        "to shape with a lathe",
+        "Kangxi radical 159"
+      ]
+    },
+    {
+      "reading": "jū",
+      "readingNumeric": "ju1",
+      "senses": [
+        "war chariot (archaic)",
+        "rook (in Chinese chess)",
+        "rook (in chess)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "character": "过",
+  "readings": [
+    {
+      "reading": "Guō",
+      "readingNumeric": "Guo1",
+      "senses": [
+        "surname Guo"
+      ]
+    },
+    {
+      "reading": "guò",
+      "readingNumeric": "guo4",
+      "senses": [
+        "to cross",
+        "to go over",
+        "to pass (time)",
+        "to celebrate (a holiday)",
+        "to live",
+        "to get along",
+        "excessively",
+        "too-"
+      ]
+    },
+    {
+      "reading": "guo",
+      "readingNumeric": "guo5",
+      "senses": [
+        "(experienced action marker)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "character": "令",
+  "readings": [
+    {
+      "reading": "líng",
+      "readingNumeric": "ling2",
+      "senses": [
+        "used in 脊令",
+        "used in 令狐 (Taiwan pr. lìng)"
+      ]
+    },
+    {
+      "reading": "lǐng",
+      "readingNumeric": "ling3",
+      "senses": [
+        "classifier for a ream of paper"
+      ]
+    },
+    {
+      "reading": "lìng",
+      "readingNumeric": "ling4",
+      "senses": [
+        "to order",
+        "to command",
+        "an order",
+        "warrant",
+        "writ",
+        "to cause",
+        "to make sth happen",
+        "virtuous",
+        "honorific title",
+        "season",
+        "government position (old)",
+        "type of short song or poem"
+      ]
+    }
+  ]
+}

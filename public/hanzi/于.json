@@ -1,0 +1,33 @@
+{
+  "character": "于",
+  "readings": [
+    {
+      "reading": "Yú",
+      "readingNumeric": "Yu2",
+      "senses": [
+        "surname Yu"
+      ]
+    },
+    {
+      "reading": "yú",
+      "readingNumeric": "yu2",
+      "senses": [
+        "to go",
+        "to take",
+        "sentence-final interrogative particle",
+        "variant of 于"
+      ]
+    },
+    {
+      "reading": "yú",
+      "readingNumeric": "yu2",
+      "senses": [
+        "(of time or place) in; at; on",
+        "(indicating any indirect relation) to; toward; vis-à-vis; with regard to; for",
+        "(indicating a source) from; out of",
+        "(used in comparison) than",
+        "(used in the passive voice) by"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "character": "应",
+  "readings": [
+    {
+      "reading": "Yīng",
+      "readingNumeric": "Ying1",
+      "senses": [
+        "surname Ying",
+        "Taiwan pr. Yìng"
+      ]
+    },
+    {
+      "reading": "yīng",
+      "readingNumeric": "ying1",
+      "senses": [
+        "to agree (to do sth)",
+        "should",
+        "ought to",
+        "must",
+        "(legal) shall"
+      ]
+    },
+    {
+      "reading": "yìng",
+      "readingNumeric": "ying4",
+      "senses": [
+        "to answer",
+        "to respond",
+        "to comply with",
+        "to deal or cope with"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "character": "度",
+  "readings": [
+    {
+      "reading": "dù",
+      "readingNumeric": "du4",
+      "senses": [
+        "to pass",
+        "to spend (time)",
+        "measure",
+        "limit",
+        "extent",
+        "degree of intensity",
+        "degree (angles, temperature etc)",
+        "kilowatt-hour",
+        "classifier for events and occurrences"
+      ]
+    },
+    {
+      "reading": "duó",
+      "readingNumeric": "duo2",
+      "senses": [
+        "to estimate",
+        "Taiwan pr. duò"
+      ]
+    }
+  ]
+}

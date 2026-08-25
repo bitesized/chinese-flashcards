@@ -1,0 +1,33 @@
+{
+  "character": "涂",
+  "readings": [
+    {
+      "reading": "tú",
+      "readingNumeric": "tu2",
+      "senses": [
+        "to apply (paint etc)",
+        "to smear",
+        "to daub",
+        "to blot out",
+        "to scribble",
+        "to scrawl",
+        "(literary) mud",
+        "street"
+      ]
+    },
+    {
+      "reading": "Tú",
+      "readingNumeric": "Tu2",
+      "senses": [
+        "surname Tu"
+      ]
+    },
+    {
+      "reading": "tú",
+      "readingNumeric": "tu2",
+      "senses": [
+        "variant of 途"
+      ]
+    }
+  ]
+}

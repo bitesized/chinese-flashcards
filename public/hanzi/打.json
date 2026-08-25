@@ -1,0 +1,23 @@
+{
+  "character": "打",
+  "readings": [
+    {
+      "reading": "dá",
+      "readingNumeric": "da2",
+      "senses": [
+        "(loanword) dozen",
+        "Taiwan pr. dǎ"
+      ]
+    },
+    {
+      "reading": "dǎ",
+      "readingNumeric": "da3",
+      "senses": [
+        "a semantically light, transitive verb that is combined with various grammatical objects to form compound verbs and verb-object phrases with a diverse range of meanings (e.g. 打伞 \"to hold an umbrella\", 打电话 \"to make a phone call\", 打针 \"to get an injection\", 打手套 \"to knit gloves\", 打气 \"to inflate\")",
+        "to hit; to strike",
+        "to fight",
+        "(coll.) from; since (as in 打那以后 \"since then\")"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "character": "咽",
+  "readings": [
+    {
+      "reading": "yān",
+      "readingNumeric": "yan1",
+      "senses": [
+        "throat; pharynx",
+        "narrow pass"
+      ]
+    },
+    {
+      "reading": "yàn",
+      "readingNumeric": "yan4",
+      "senses": [
+        "variant of 咽"
+      ]
+    },
+    {
+      "reading": "yè",
+      "readingNumeric": "ye4",
+      "senses": [
+        "to choke (in crying)"
+      ]
+    },
+    {
+      "reading": "yàn",
+      "readingNumeric": "yan4",
+      "senses": [
+        "to swallow"
+      ]
+    }
+  ]
+}

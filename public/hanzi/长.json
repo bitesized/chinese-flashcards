@@ -1,0 +1,29 @@
+{
+  "character": "长",
+  "readings": [
+    {
+      "reading": "cháng",
+      "readingNumeric": "chang2",
+      "senses": [
+        "long",
+        "(bound form) length",
+        "(bound form) strong point; forte",
+        "(bound form) to be good at",
+        "(literary) surplus; spare (Taiwan pr. zhàng)"
+      ]
+    },
+    {
+      "reading": "zhǎng",
+      "readingNumeric": "zhang3",
+      "senses": [
+        "chief",
+        "head",
+        "elder",
+        "to grow",
+        "to develop",
+        "to increase",
+        "to enhance"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "character": "药",
+  "readings": [
+    {
+      "reading": "yào",
+      "readingNumeric": "yao4",
+      "senses": [
+        "leaf of the iris",
+        "variant of 药"
+      ]
+    },
+    {
+      "reading": "yào",
+      "readingNumeric": "yao4",
+      "senses": [
+        "medicine",
+        "drug",
+        "substance used for a specific purpose (e.g. poisoning, explosion, fermenting)",
+        "to poison"
+      ]
+    }
+  ]
+}

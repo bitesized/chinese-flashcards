@@ -1,0 +1,24 @@
+{
+  "character": "刀",
+  "readings": [
+    {
+      "reading": "Dāo",
+      "readingNumeric": "Dao1",
+      "senses": [
+        "surname Dao"
+      ]
+    },
+    {
+      "reading": "dāo",
+      "readingNumeric": "dao1",
+      "senses": [
+        "knife; blade; single-edged sword; cutlass",
+        "(slang) (loanword) dollar",
+        "classifier for sets of one hundred sheets (of paper)",
+        "classifier for knife cuts or stabs",
+        "(Internet slang) to bargain; to ask for a small discount (esp. on second-hand marketplaces)",
+        "(Internet slang) to knife (sb) (often used hyperbolically, as in 想刀他 \"I could kill him!\")"
+      ]
+    }
+  ]
+}

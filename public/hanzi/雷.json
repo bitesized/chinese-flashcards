@@ -1,0 +1,23 @@
+{
+  "character": "雷",
+  "readings": [
+    {
+      "reading": "Léi",
+      "readingNumeric": "Lei2",
+      "senses": [
+        "surname Lei"
+      ]
+    },
+    {
+      "reading": "léi",
+      "readingNumeric": "lei2",
+      "senses": [
+        "thunder",
+        "(bound form) (military) mine, as in 地雷 land mine",
+        "(coll.) to shock; to stun; to astound",
+        "(Tw) (coll.) spoiler",
+        "(Tw) (coll.) to reveal plot details to (sb)"
+      ]
+    }
+  ]
+}

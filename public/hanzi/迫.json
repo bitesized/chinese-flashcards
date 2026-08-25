@@ -1,0 +1,33 @@
+{
+  "character": "迫",
+  "readings": [
+    {
+      "reading": "pò",
+      "readingNumeric": "po4",
+      "senses": [
+        "variant of 迫",
+        "to persecute",
+        "to oppress",
+        "embarrassed"
+      ]
+    },
+    {
+      "reading": "pǎi",
+      "readingNumeric": "pai3",
+      "senses": [
+        "used in 迫击炮"
+      ]
+    },
+    {
+      "reading": "pò",
+      "readingNumeric": "po4",
+      "senses": [
+        "to force",
+        "to compel",
+        "to approach or go towards",
+        "urgent",
+        "pressing"
+      ]
+    }
+  ]
+}

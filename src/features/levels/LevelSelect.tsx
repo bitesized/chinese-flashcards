@@ -48,12 +48,14 @@ export interface LevelSelectProps {
   initialSelection: HskLevel[];
   onStartSession: (levels: HskLevel[]) => void;
   onOpenSettings: () => void;
+  onOpenHanzi: () => void;
 }
 
 export function LevelSelect({
   initialSelection,
   onStartSession,
   onOpenSettings,
+  onOpenHanzi,
 }: LevelSelectProps) {
   const [manifest, setManifest] = useState<Manifest | null>(null);
   const [selected, setSelected] = useState<Set<HskLevel>>(() => new Set(initialSelection));
@@ -98,9 +100,14 @@ export function LevelSelect({
     <div className={styles.screen}>
       <div className={styles.topBar}>
         <h1 className={styles.heading}>Chinese Flashcards</h1>
-        <button type="button" className={styles.settingsLink} onClick={onOpenSettings}>
-          Settings
-        </button>
+        <div className={styles.topBarLinks}>
+          <button type="button" className={styles.settingsLink} onClick={onOpenHanzi}>
+            Hanzi
+          </button>
+          <button type="button" className={styles.settingsLink} onClick={onOpenSettings}>
+            Settings
+          </button>
+        </div>
       </div>
 
       <ul className={styles.levelList}>

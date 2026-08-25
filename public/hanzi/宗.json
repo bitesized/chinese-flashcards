@@ -1,0 +1,26 @@
+{
+  "character": "宗",
+  "readings": [
+    {
+      "reading": "Zōng",
+      "readingNumeric": "Zong1",
+      "senses": [
+        "surname Zong"
+      ]
+    },
+    {
+      "reading": "zōng",
+      "readingNumeric": "zong1",
+      "senses": [
+        "school",
+        "sect",
+        "purpose",
+        "model",
+        "ancestor",
+        "clan",
+        "to take as one's model (in academic or artistic work)",
+        "classifier for batches, items, cases (medical or legal), reservoirs"
+      ]
+    }
+  ]
+}

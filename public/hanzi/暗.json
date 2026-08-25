@@ -1,0 +1,32 @@
+{
+  "character": "暗",
+  "readings": [
+    {
+      "reading": "àn",
+      "readingNumeric": "an4",
+      "senses": [
+        "variant of 暗"
+      ]
+    },
+    {
+      "reading": "àn",
+      "readingNumeric": "an4",
+      "senses": [
+        "dark",
+        "to turn dark",
+        "secret; hidden",
+        "(literary) confused; ignorant"
+      ]
+    },
+    {
+      "reading": "àn",
+      "readingNumeric": "an4",
+      "senses": [
+        "(literary) to close (a door)",
+        "to eclipse",
+        "confused; ignorant (variant of 暗)",
+        "dark (variant of 暗)"
+      ]
+    }
+  ]
+}

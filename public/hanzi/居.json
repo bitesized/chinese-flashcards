@@ -1,0 +1,33 @@
+{
+  "character": "居",
+  "readings": [
+    {
+      "reading": "Jū",
+      "readingNumeric": "Ju1",
+      "senses": [
+        "surname Ju"
+      ]
+    },
+    {
+      "reading": "jī",
+      "readingNumeric": "ji1",
+      "senses": [
+        "(archaic) sentence-final particle expressing a doubting attitude"
+      ]
+    },
+    {
+      "reading": "jū",
+      "readingNumeric": "ju1",
+      "senses": [
+        "to reside",
+        "to be (in a certain position)",
+        "to store up",
+        "to be at a standstill",
+        "residence",
+        "house",
+        "restaurant",
+        "classifier for bedrooms"
+      ]
+    }
+  ]
+}

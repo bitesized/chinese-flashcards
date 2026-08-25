@@ -1,0 +1,34 @@
+{
+  "character": "脉",
+  "readings": [
+    {
+      "reading": "mài",
+      "readingNumeric": "mai4",
+      "senses": [
+        "old variant of 脉"
+      ]
+    },
+    {
+      "reading": "mài",
+      "readingNumeric": "mai4",
+      "senses": [
+        "arteries and veins",
+        "vein (on a leaf, insect wing etc)"
+      ]
+    },
+    {
+      "reading": "mò",
+      "readingNumeric": "mo4",
+      "senses": [
+        "see 脉脉"
+      ]
+    },
+    {
+      "reading": "mài",
+      "readingNumeric": "mai4",
+      "senses": [
+        "variant of 脉"
+      ]
+    }
+  ]
+}

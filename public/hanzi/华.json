@@ -1,0 +1,37 @@
+{
+  "character": "华",
+  "readings": [
+    {
+      "reading": "Huá",
+      "readingNumeric": "Hua2",
+      "senses": [
+        "abbr. for China"
+      ]
+    },
+    {
+      "reading": "Huà",
+      "readingNumeric": "Hua4",
+      "senses": [
+        "Mount Hua 华山 in Shaanxi",
+        "surname Hua"
+      ]
+    },
+    {
+      "reading": "huā",
+      "readingNumeric": "hua1",
+      "senses": [
+        "old variant of 花",
+        "flower"
+      ]
+    },
+    {
+      "reading": "huá",
+      "readingNumeric": "hua2",
+      "senses": [
+        "magnificent",
+        "splendid",
+        "flowery"
+      ]
+    }
+  ]
+}

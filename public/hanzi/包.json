@@ -1,0 +1,31 @@
+{
+  "character": "包",
+  "readings": [
+    {
+      "reading": "Bāo",
+      "readingNumeric": "Bao1",
+      "senses": [
+        "surname Bao"
+      ]
+    },
+    {
+      "reading": "bāo",
+      "readingNumeric": "bao1",
+      "senses": [
+        "to cover",
+        "to wrap",
+        "to hold",
+        "to include",
+        "to take charge of",
+        "to contract (to or for)",
+        "package",
+        "wrapper",
+        "container",
+        "bag",
+        "to hold or embrace",
+        "bundle",
+        "packet"
+      ]
+    }
+  ]
+}

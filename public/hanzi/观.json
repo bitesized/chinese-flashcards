@@ -1,0 +1,35 @@
+{
+  "character": "观",
+  "readings": [
+    {
+      "reading": "Guàn",
+      "readingNumeric": "Guan4",
+      "senses": [
+        "surname Guan"
+      ]
+    },
+    {
+      "reading": "guān",
+      "readingNumeric": "guan1",
+      "senses": [
+        "to look at",
+        "to watch",
+        "to observe",
+        "to behold",
+        "to advise",
+        "concept",
+        "point of view",
+        "outlook"
+      ]
+    },
+    {
+      "reading": "guàn",
+      "readingNumeric": "guan4",
+      "senses": [
+        "Taoist monastery",
+        "palace gate watchtower",
+        "platform"
+      ]
+    }
+  ]
+}

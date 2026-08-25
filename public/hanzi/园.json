@@ -1,0 +1,21 @@
+{
+  "character": "园",
+  "readings": [
+    {
+      "reading": "Yuán",
+      "readingNumeric": "Yuan2",
+      "senses": [
+        "surname Yuan"
+      ]
+    },
+    {
+      "reading": "yuán",
+      "readingNumeric": "yuan2",
+      "senses": [
+        "land used for growing plants",
+        "site used for public recreation",
+        "abbr. for a place ending in 园, such as a botanical garden 植物园, kindergarten 幼儿园 etc"
+      ]
+    }
+  ]
+}

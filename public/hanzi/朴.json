@@ -1,0 +1,36 @@
+{
+  "character": "朴",
+  "readings": [
+    {
+      "reading": "Piáo",
+      "readingNumeric": "Piao2",
+      "senses": [
+        "surname Piao",
+        "Korean surname (Park, Pak or Bak)",
+        "also pr. Pú"
+      ]
+    },
+    {
+      "reading": "pō",
+      "readingNumeric": "po1",
+      "senses": [
+        "used in 朴刀"
+      ]
+    },
+    {
+      "reading": "pò",
+      "readingNumeric": "po4",
+      "senses": [
+        "Celtis sinensis var. japonica"
+      ]
+    },
+    {
+      "reading": "pǔ",
+      "readingNumeric": "pu3",
+      "senses": [
+        "(bound form) plain; simple",
+        "Taiwan pr. pú"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "character": "余",
+  "readings": [
+    {
+      "reading": "Yú",
+      "readingNumeric": "Yu2",
+      "senses": [
+        "surname Yu"
+      ]
+    },
+    {
+      "reading": "yú",
+      "readingNumeric": "yu2",
+      "senses": [
+        "(literary) I; me",
+        "variant of 余"
+      ]
+    },
+    {
+      "reading": "yú",
+      "readingNumeric": "yu2",
+      "senses": [
+        "extra",
+        "surplus",
+        "remaining",
+        "remainder after division",
+        "(following numerical value) or more",
+        "in excess of (some number)",
+        "residue (math.)",
+        "after",
+        "I",
+        "me"
+      ]
+    }
+  ]
+}

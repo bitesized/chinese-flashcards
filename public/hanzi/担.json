@@ -1,0 +1,25 @@
+{
+  "character": "担",
+  "readings": [
+    {
+      "reading": "dān",
+      "readingNumeric": "dan1",
+      "senses": [
+        "to undertake",
+        "to carry",
+        "to shoulder",
+        "to take responsibility"
+      ]
+    },
+    {
+      "reading": "dàn",
+      "readingNumeric": "dan4",
+      "senses": [
+        "picul (100 catties, 50 kg)",
+        "two buckets full",
+        "carrying pole and its load",
+        "classifier for loads carried on a shoulder pole"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "character": "中",
+  "readings": [
+    {
+      "reading": "Zhōng",
+      "readingNumeric": "Zhong1",
+      "senses": [
+        "(bound form) China; Chinese",
+        "surname Zhong"
+      ]
+    },
+    {
+      "reading": "zhōng",
+      "readingNumeric": "zhong1",
+      "senses": [
+        "within; among; in",
+        "middle; center",
+        "while (doing sth); during",
+        "(dialect) OK; all right"
+      ]
+    },
+    {
+      "reading": "zhòng",
+      "readingNumeric": "zhong4",
+      "senses": [
+        "to hit (a target)",
+        "to be struck by (a bullet, illness etc)",
+        "to win (a prize or lottery)"
+      ]
+    }
+  ]
+}

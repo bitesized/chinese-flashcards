@@ -1,0 +1,35 @@
+{
+  "character": "累",
+  "readings": [
+    {
+      "reading": "lěi",
+      "readingNumeric": "lei3",
+      "senses": [
+        "to accumulate",
+        "to involve or implicate (Taiwan pr. lèi)",
+        "continuous",
+        "repeated"
+      ]
+    },
+    {
+      "reading": "lèi",
+      "readingNumeric": "lei4",
+      "senses": [
+        "tired",
+        "weary",
+        "to strain",
+        "to wear out",
+        "to work hard"
+      ]
+    },
+    {
+      "reading": "léi",
+      "readingNumeric": "lei2",
+      "senses": [
+        "rope",
+        "to bind together",
+        "to twist around"
+      ]
+    }
+  ]
+}

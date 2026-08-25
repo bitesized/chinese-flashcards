@@ -1,0 +1,23 @@
+{
+  "character": "谈",
+  "readings": [
+    {
+      "reading": "Tán",
+      "readingNumeric": "Tan2",
+      "senses": [
+        "surname Tan"
+      ]
+    },
+    {
+      "reading": "tán",
+      "readingNumeric": "tan2",
+      "senses": [
+        "to speak",
+        "to talk",
+        "to converse",
+        "to chat",
+        "to discuss"
+      ]
+    }
+  ]
+}

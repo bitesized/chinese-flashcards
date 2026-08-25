@@ -1,0 +1,32 @@
+{
+  "character": "帖",
+  "readings": [
+    {
+      "reading": "tiē",
+      "readingNumeric": "tie1",
+      "senses": [
+        "fitting snugly",
+        "appropriate",
+        "suitable",
+        "variant of 贴",
+        "to paste",
+        "to obey"
+      ]
+    },
+    {
+      "reading": "tiě",
+      "readingNumeric": "tie3",
+      "senses": [
+        "invitation card",
+        "notice"
+      ]
+    },
+    {
+      "reading": "tiè",
+      "readingNumeric": "tie4",
+      "senses": [
+        "rubbing from incised inscription"
+      ]
+    }
+  ]
+}

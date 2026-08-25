@@ -1,0 +1,29 @@
+{
+  "character": "号",
+  "readings": [
+    {
+      "reading": "háo",
+      "readingNumeric": "hao2",
+      "senses": [
+        "(bound form) to wail; to howl"
+      ]
+    },
+    {
+      "reading": "hào",
+      "readingNumeric": "hao4",
+      "senses": [
+        "(literary) to call out; to command",
+        "(bound form) bugle; trumpet",
+        "(bound form) signal; bugle call (e.g. 起床号)",
+        "(bound form) mark; sign",
+        "to mark; to label; to assign a number",
+        "(bound form) name; appellation (e.g. 国号, 年号, 辽宁号)",
+        "(after a numeral) number designation (e.g. 237号房间 \"Room 237\")",
+        "day of the month (e.g. 七号 \"the 7th\")",
+        "(bound form) size; type; category (e.g. 五号电池)",
+        "(TCM) to feel (the pulse) (used in 号脉)",
+        "classifier for numbered people or items"
+      ]
+    }
+  ]
+}

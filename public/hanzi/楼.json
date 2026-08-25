@@ -1,0 +1,21 @@
+{
+  "character": "楼",
+  "readings": [
+    {
+      "reading": "Lóu",
+      "readingNumeric": "Lou2",
+      "senses": [
+        "surname Lou"
+      ]
+    },
+    {
+      "reading": "lóu",
+      "readingNumeric": "lou2",
+      "senses": [
+        "house with more than 1 story",
+        "storied building",
+        "floor"
+      ]
+    }
+  ]
+}

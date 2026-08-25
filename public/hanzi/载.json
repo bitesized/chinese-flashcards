@@ -1,0 +1,30 @@
+{
+  "character": "载",
+  "readings": [
+    {
+      "reading": "zǎi",
+      "readingNumeric": "zai3",
+      "senses": [
+        "to record in writing",
+        "to carry (i.e. publish in a newspaper etc)",
+        "Taiwan pr. zài",
+        "year"
+      ]
+    },
+    {
+      "reading": "zài",
+      "readingNumeric": "zai4",
+      "senses": [
+        "to carry",
+        "to convey",
+        "to load",
+        "to hold",
+        "to fill up",
+        "and",
+        "also",
+        "as well as",
+        "simultaneously"
+      ]
+    }
+  ]
+}

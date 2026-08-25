@@ -1,0 +1,28 @@
+{
+  "character": "泡",
+  "readings": [
+    {
+      "reading": "pāo",
+      "readingNumeric": "pao1",
+      "senses": [
+        "puffed; swollen; spongy",
+        "small lake (esp. in place names)",
+        "classifier for urine or feces"
+      ]
+    },
+    {
+      "reading": "pào",
+      "readingNumeric": "pao4",
+      "senses": [
+        "bubble; foam",
+        "blister",
+        "to soak; to steep; to infuse",
+        "to dawdle; to loiter",
+        "to pick up (a girl)",
+        "to get off with (a sexual partner)",
+        "classifier for occurrences of an action",
+        "classifier for number of infusions"
+      ]
+    }
+  ]
+}

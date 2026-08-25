@@ -1,0 +1,24 @@
+{
+  "character": "罢",
+  "readings": [
+    {
+      "reading": "bà",
+      "readingNumeric": "ba4",
+      "senses": [
+        "to stop",
+        "to cease",
+        "to dismiss",
+        "to suspend",
+        "to quit",
+        "to finish"
+      ]
+    },
+    {
+      "reading": "ba",
+      "readingNumeric": "ba5",
+      "senses": [
+        "(final particle, same as 吧)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "character": "段",
+  "readings": [
+    {
+      "reading": "Duàn",
+      "readingNumeric": "Duan4",
+      "senses": [
+        "surname Duan"
+      ]
+    },
+    {
+      "reading": "duàn",
+      "readingNumeric": "duan4",
+      "senses": [
+        "paragraph",
+        "section",
+        "segment",
+        "stage (of a process)",
+        "classifier for stories, periods of time, lengths of thread etc"
+      ]
+    }
+  ]
+}

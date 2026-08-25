@@ -1,0 +1,29 @@
+{
+  "character": "乌",
+  "readings": [
+    {
+      "reading": "Wū",
+      "readingNumeric": "Wu1",
+      "senses": [
+        "abbr. for country names that begin with 乌: Ukraine 乌克兰, Uzbekistan 乌兹别克斯坦 etc",
+        "surname Wu"
+      ]
+    },
+    {
+      "reading": "wū",
+      "readingNumeric": "wu1",
+      "senses": [
+        "crow",
+        "black"
+      ]
+    },
+    {
+      "reading": "wù",
+      "readingNumeric": "wu4",
+      "senses": [
+        "used in 乌拉",
+        "used in 乌拉草"
+      ]
+    }
+  ]
+}

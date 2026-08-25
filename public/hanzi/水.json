@@ -1,0 +1,25 @@
+{
+  "character": "水",
+  "readings": [
+    {
+      "reading": "Shuǐ",
+      "readingNumeric": "Shui3",
+      "senses": [
+        "surname Shui",
+        "Shui ethnic group"
+      ]
+    },
+    {
+      "reading": "shuǐ",
+      "readingNumeric": "shui3",
+      "senses": [
+        "water",
+        "(after a name) ... River",
+        "to swim (used mostly in 会水 and 水性)",
+        "(coll.) lacking in substance; shoddy",
+        "(bound form) additional cost; extra income",
+        "classifier for washings of a garment"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "character": "堡",
+  "readings": [
+    {
+      "reading": "bǎo",
+      "readingNumeric": "bao3",
+      "senses": [
+        "(bound form) fortress; stronghold",
+        "(often used to transliterate -berg, -burg etc in place names)",
+        "(bound form) burger (abbr. for 汉堡)"
+      ]
+    },
+    {
+      "reading": "bǔ",
+      "readingNumeric": "bu3",
+      "senses": [
+        "village (used in place names)"
+      ]
+    },
+    {
+      "reading": "pù",
+      "readingNumeric": "pu4",
+      "senses": [
+        "variant of 铺",
+        "used in place names"
+      ]
+    }
+  ]
+}

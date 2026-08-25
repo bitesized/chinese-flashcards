@@ -1,0 +1,28 @@
+{
+  "character": "圣",
+  "readings": [
+    {
+      "reading": "kū",
+      "readingNumeric": "ku1",
+      "senses": [
+        "(literary) to dig with persistent effort (e.g. to gather wild vegetables)"
+      ]
+    },
+    {
+      "reading": "shèng",
+      "readingNumeric": "sheng4",
+      "senses": [
+        "variant of 圣"
+      ]
+    },
+    {
+      "reading": "shèng",
+      "readingNumeric": "sheng4",
+      "senses": [
+        "(bound form) peerless (in wisdom, moral virtue, skill etc)",
+        "(bound form) peerless individual; paragon (sage, saint, emperor, master of a skill etc)",
+        "(bound form) holy; sacred"
+      ]
+    }
+  ]
+}

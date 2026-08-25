@@ -1,0 +1,23 @@
+{
+  "character": "哼",
+  "readings": [
+    {
+      "reading": "hēng",
+      "readingNumeric": "heng1",
+      "senses": [
+        "to groan",
+        "to snort",
+        "to hum",
+        "to croon",
+        "humph!"
+      ]
+    },
+    {
+      "reading": "hng",
+      "readingNumeric": "hng5",
+      "senses": [
+        "interjection expressing dissatisfaction or suspicion"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "character": "食",
+  "readings": [
+    {
+      "reading": "shí",
+      "readingNumeric": "shi2",
+      "senses": [
+        "to eat",
+        "food",
+        "animal feed",
+        "eclipse"
+      ]
+    },
+    {
+      "reading": "sì",
+      "readingNumeric": "si4",
+      "senses": [
+        "to feed (a person or animal)"
+      ]
+    }
+  ]
+}

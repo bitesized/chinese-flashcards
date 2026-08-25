@@ -1,0 +1,22 @@
+{
+  "character": "番",
+  "readings": [
+    {
+      "reading": "Pān",
+      "readingNumeric": "Pan1",
+      "senses": [
+        "surname Pan"
+      ]
+    },
+    {
+      "reading": "fān",
+      "readingNumeric": "fan1",
+      "senses": [
+        "(bound form) foreign (non-Chinese); barbarian",
+        "classifier for processes or actions that take time and effort",
+        "(classifier) a kind; a sort",
+        "(classifier) (used after the verb 翻 to indicate how many times a quantity doubles, as in 翻一番 \"to double\")"
+      ]
+    }
+  ]
+}

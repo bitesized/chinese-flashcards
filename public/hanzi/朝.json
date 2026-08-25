@@ -1,0 +1,33 @@
+{
+  "character": "朝",
+  "readings": [
+    {
+      "reading": "Cháo",
+      "readingNumeric": "Chao2",
+      "senses": [
+        "abbr. for 朝鲜 Korea"
+      ]
+    },
+    {
+      "reading": "cháo",
+      "readingNumeric": "chao2",
+      "senses": [
+        "imperial or royal court",
+        "government",
+        "dynasty",
+        "reign of a sovereign or emperor",
+        "court or assembly held by a sovereign or emperor",
+        "to make a pilgrimage to",
+        "facing",
+        "towards"
+      ]
+    },
+    {
+      "reading": "zhāo",
+      "readingNumeric": "zhao1",
+      "senses": [
+        "morning"
+      ]
+    }
+  ]
+}

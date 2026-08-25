@@ -1,0 +1,42 @@
+{
+  "character": "乐",
+  "readings": [
+    {
+      "reading": "Lè",
+      "readingNumeric": "Le4",
+      "senses": [
+        "surname Le"
+      ]
+    },
+    {
+      "reading": "Yuè",
+      "readingNumeric": "Yue4",
+      "senses": [
+        "surname Yue"
+      ]
+    },
+    {
+      "reading": "lào",
+      "readingNumeric": "lao4",
+      "senses": [
+        "used in place names"
+      ]
+    },
+    {
+      "reading": "lè",
+      "readingNumeric": "le4",
+      "senses": [
+        "happy",
+        "cheerful",
+        "to laugh"
+      ]
+    },
+    {
+      "reading": "yuè",
+      "readingNumeric": "yue4",
+      "senses": [
+        "music"
+      ]
+    }
+  ]
+}

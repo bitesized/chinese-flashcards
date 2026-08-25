@@ -1,0 +1,30 @@
+{
+  "character": "趟",
+  "readings": [
+    {
+      "reading": "tāng",
+      "readingNumeric": "tang1",
+      "senses": [
+        "old variant of 趟"
+      ]
+    },
+    {
+      "reading": "tāng",
+      "readingNumeric": "tang1",
+      "senses": [
+        "to wade",
+        "to trample",
+        "to turn the soil"
+      ]
+    },
+    {
+      "reading": "tàng",
+      "readingNumeric": "tang4",
+      "senses": [
+        "classifier for times, round trips or rows",
+        "a time",
+        "a trip"
+      ]
+    }
+  ]
+}

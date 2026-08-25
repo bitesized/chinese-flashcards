@@ -1,0 +1,21 @@
+{
+  "character": "女",
+  "readings": [
+    {
+      "reading": "nǚ",
+      "readingNumeric": "nu:3",
+      "senses": [
+        "female",
+        "woman",
+        "daughter"
+      ]
+    },
+    {
+      "reading": "rǔ",
+      "readingNumeric": "ru3",
+      "senses": [
+        "old variant of 汝"
+      ]
+    }
+  ]
+}

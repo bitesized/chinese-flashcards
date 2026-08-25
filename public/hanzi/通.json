@@ -1,0 +1,26 @@
+{
+  "character": "通",
+  "readings": [
+    {
+      "reading": "tōng",
+      "readingNumeric": "tong1",
+      "senses": [
+        "to go through",
+        "to know well",
+        "(suffix) expert",
+        "to connect",
+        "to communicate",
+        "open",
+        "to clear",
+        "classifier for letters, telegrams, phone calls etc"
+      ]
+    },
+    {
+      "reading": "tòng",
+      "readingNumeric": "tong4",
+      "senses": [
+        "classifier for an activity, taken in its entirety (tirade of abuse, stint of music playing, bout of drinking etc)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "character": "角",
+  "readings": [
+    {
+      "reading": "Jué",
+      "readingNumeric": "Jue2",
+      "senses": [
+        "surname Jue"
+      ]
+    },
+    {
+      "reading": "jiǎo",
+      "readingNumeric": "jiao3",
+      "senses": [
+        "angle",
+        "corner",
+        "horn",
+        "horn-shaped",
+        "unit of money equal to 0.1 yuan, or 10 cents (a dime)"
+      ]
+    },
+    {
+      "reading": "jué",
+      "readingNumeric": "jue2",
+      "senses": [
+        "role (theater)",
+        "to compete",
+        "ancient three legged wine vessel",
+        "third note of pentatonic scale"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "character": "孔",
+  "readings": [
+    {
+      "reading": "Kǒng",
+      "readingNumeric": "Kong3",
+      "senses": [
+        "surname Kong"
+      ]
+    },
+    {
+      "reading": "kǒng",
+      "readingNumeric": "kong3",
+      "senses": [
+        "hole",
+        "classifier for cave dwellings"
+      ]
+    }
+  ]
+}

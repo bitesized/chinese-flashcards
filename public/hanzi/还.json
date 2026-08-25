@@ -1,0 +1,38 @@
+{
+  "character": "还",
+  "readings": [
+    {
+      "reading": "Huán",
+      "readingNumeric": "Huan2",
+      "senses": [
+        "surname Huan"
+      ]
+    },
+    {
+      "reading": "hái",
+      "readingNumeric": "hai2",
+      "senses": [
+        "still",
+        "still in progress",
+        "still more",
+        "yet",
+        "even more",
+        "in addition",
+        "fairly",
+        "passably (good)",
+        "as early as",
+        "even",
+        "also",
+        "else"
+      ]
+    },
+    {
+      "reading": "huán",
+      "readingNumeric": "huan2",
+      "senses": [
+        "to pay back",
+        "to return"
+      ]
+    }
+  ]
+}

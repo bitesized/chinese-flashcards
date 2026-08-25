@@ -1,0 +1,20 @@
+{
+  "character": "孙",
+  "readings": [
+    {
+      "reading": "Sūn",
+      "readingNumeric": "Sun1",
+      "senses": [
+        "surname Sun"
+      ]
+    },
+    {
+      "reading": "sūn",
+      "readingNumeric": "sun1",
+      "senses": [
+        "grandson",
+        "descendant"
+      ]
+    }
+  ]
+}

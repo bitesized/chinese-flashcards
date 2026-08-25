@@ -1,0 +1,35 @@
+{
+  "character": "板",
+  "readings": [
+    {
+      "reading": "bǎn",
+      "readingNumeric": "ban3",
+      "senses": [
+        "board",
+        "plank",
+        "plate",
+        "shutter",
+        "table tennis bat",
+        "clappers (music)",
+        "accented beat in Chinese music",
+        "hard",
+        "stiff",
+        "to stop smiling or look serious"
+      ]
+    },
+    {
+      "reading": "bǎn",
+      "readingNumeric": "ban3",
+      "senses": [
+        "used in 老板"
+      ]
+    },
+    {
+      "reading": "pàn",
+      "readingNumeric": "pan4",
+      "senses": [
+        "to catch sight of in a doorway (old)"
+      ]
+    }
+  ]
+}

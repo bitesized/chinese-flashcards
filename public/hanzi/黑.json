@@ -1,0 +1,27 @@
+{
+  "character": "黑",
+  "readings": [
+    {
+      "reading": "Hēi",
+      "readingNumeric": "Hei1",
+      "senses": [
+        "short name for Heilongjiang 黑龙江"
+      ]
+    },
+    {
+      "reading": "hēi",
+      "readingNumeric": "hei1",
+      "senses": [
+        "black",
+        "dark",
+        "sinister",
+        "secret",
+        "shady",
+        "illegal",
+        "to hide (sth) away",
+        "to vilify",
+        "(loanword) to hack (computing)"
+      ]
+    }
+  ]
+}

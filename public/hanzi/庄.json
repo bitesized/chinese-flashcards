@@ -1,0 +1,32 @@
+{
+  "character": "庄",
+  "readings": [
+    {
+      "reading": "zhuāng",
+      "readingNumeric": "zhuang1",
+      "senses": [
+        "variant of 庄"
+      ]
+    },
+    {
+      "reading": "Zhuāng",
+      "readingNumeric": "Zhuang1",
+      "senses": [
+        "surname Zhuang"
+      ]
+    },
+    {
+      "reading": "zhuāng",
+      "readingNumeric": "zhuang1",
+      "senses": [
+        "farmstead",
+        "village",
+        "manor",
+        "place of business",
+        "banker (in a gambling game)",
+        "grave or solemn",
+        "holdings of a landlord (in imperial China)"
+      ]
+    }
+  ]
+}

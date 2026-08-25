@@ -1,0 +1,19 @@
+{
+  "character": "秤",
+  "readings": [
+    {
+      "reading": "chēng",
+      "readingNumeric": "cheng1",
+      "senses": [
+        "to weigh (variant of 称)"
+      ]
+    },
+    {
+      "reading": "chèng",
+      "readingNumeric": "cheng4",
+      "senses": [
+        "steelyard balance; Roman balance"
+      ]
+    }
+  ]
+}

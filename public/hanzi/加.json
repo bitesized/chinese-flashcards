@@ -1,0 +1,23 @@
+{
+  "character": "加",
+  "readings": [
+    {
+      "reading": "Jiā",
+      "readingNumeric": "Jia1",
+      "senses": [
+        "Canada (abbr. for 加拿大)",
+        "surname Jia"
+      ]
+    },
+    {
+      "reading": "jiā",
+      "readingNumeric": "jia1",
+      "senses": [
+        "to add",
+        "(math.) plus",
+        "to increase; to augment",
+        "(used before a disyllabic verb, often after an adverb like 不, 大, 稍 etc, to indicate that the action applies to sth previously mentioned, as in 稍加改良 \"make some minor improvements to (it)\")"
+      ]
+    }
+  ]
+}

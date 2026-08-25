@@ -1,0 +1,38 @@
+{
+  "character": "场",
+  "readings": [
+    {
+      "reading": "cháng",
+      "readingNumeric": "chang2",
+      "senses": [
+        "threshing floor",
+        "classifier for events and happenings: spell, episode, bout"
+      ]
+    },
+    {
+      "reading": "chǎng",
+      "readingNumeric": "chang3",
+      "senses": [
+        "large place used for a specific purpose",
+        "stage",
+        "scene (of a play)",
+        "classifier for sporting or recreational activities",
+        "classifier for number of exams"
+      ]
+    },
+    {
+      "reading": "cháng",
+      "readingNumeric": "chang2",
+      "senses": [
+        "variant of 场"
+      ]
+    },
+    {
+      "reading": "chǎng",
+      "readingNumeric": "chang3",
+      "senses": [
+        "variant of 场"
+      ]
+    }
+  ]
+}

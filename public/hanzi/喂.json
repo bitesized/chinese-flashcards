@@ -1,0 +1,34 @@
+{
+  "character": "喂",
+  "readings": [
+    {
+      "reading": "wéi",
+      "readingNumeric": "wei2",
+      "senses": [
+        "hello (when answering the phone)"
+      ]
+    },
+    {
+      "reading": "wèi",
+      "readingNumeric": "wei4",
+      "senses": [
+        "hey",
+        "to feed (an animal, baby, invalid etc)"
+      ]
+    },
+    {
+      "reading": "wèi",
+      "readingNumeric": "wei4",
+      "senses": [
+        "variant of 喂"
+      ]
+    },
+    {
+      "reading": "wèi",
+      "readingNumeric": "wei4",
+      "senses": [
+        "to feed"
+      ]
+    }
+  ]
+}

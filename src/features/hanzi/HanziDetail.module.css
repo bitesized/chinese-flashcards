@@ -1,0 +1,112 @@
+/*
+ * Chinese Flashcards — a spaced-repetition Hanzi flashcard app.
+ * Copyright (C) 2026 the Chinese Flashcards contributors.
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <https://www.gnu.org/licenses/>.
+ */
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  padding: var(--space-6) var(--space-4);
+  padding-top: max(var(--space-6), env(safe-area-inset-top));
+  gap: var(--space-4);
+  max-width: 480px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.topBar {
+  align-self: flex-start;
+}
+
+.iconButton {
+  background: none;
+  border: none;
+  color: var(--color-ink-muted);
+  font-family: var(--font-en-ui);
+  font-size: var(--text-small);
+  cursor: pointer;
+  min-height: var(--touch-target-min);
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--control-radius);
+}
+
+.character {
+  font-family: var(--font-zh);
+  font-size: var(--text-hanzi-back);
+  color: var(--color-ink);
+  margin: 0;
+  line-height: 1;
+}
+
+.speakButton {
+  min-height: var(--touch-target-min);
+  padding: 0 var(--space-6);
+  border-radius: var(--control-radius);
+  border: 1px solid var(--color-border);
+  background: none;
+  color: var(--color-accent);
+  font-family: var(--font-en-ui);
+  font-size: var(--text-ui);
+  cursor: pointer;
+}
+
+.speakButton:disabled {
+  color: var(--color-ink-muted);
+  cursor: default;
+}
+
+.readingList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.readingItem {
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--space-4);
+  text-align: center;
+}
+
+.reading {
+  font-family: var(--font-en);
+  font-size: var(--text-pinyin);
+  color: var(--color-ink-muted);
+  margin: 0 0 var(--space-2);
+}
+
+.senseList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-en);
+  font-size: var(--text-sense);
+  color: var(--color-ink);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.message {
+  font-family: var(--font-en-ui);
+  font-size: var(--text-ui);
+  color: var(--color-ink-muted);
+}

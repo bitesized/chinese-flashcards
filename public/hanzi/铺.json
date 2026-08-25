@@ -1,0 +1,34 @@
+{
+  "character": "铺",
+  "readings": [
+    {
+      "reading": "pù",
+      "readingNumeric": "pu4",
+      "senses": [
+        "variant of 铺",
+        "store"
+      ]
+    },
+    {
+      "reading": "pū",
+      "readingNumeric": "pu1",
+      "senses": [
+        "to spread",
+        "to display",
+        "to set up",
+        "(old) holder for door-knocker"
+      ]
+    },
+    {
+      "reading": "pù",
+      "readingNumeric": "pu4",
+      "senses": [
+        "plank bed",
+        "place to sleep",
+        "shop",
+        "store",
+        "(old) relay station"
+      ]
+    }
+  ]
+}

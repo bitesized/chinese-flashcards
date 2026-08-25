@@ -1,0 +1,32 @@
+{
+  "character": "处",
+  "readings": [
+    {
+      "reading": "chǔ",
+      "readingNumeric": "chu3",
+      "senses": [
+        "to reside",
+        "to live",
+        "to dwell",
+        "to be in",
+        "to be situated at",
+        "to stay",
+        "to get along with",
+        "to be in a position of",
+        "to deal with",
+        "to discipline",
+        "to punish"
+      ]
+    },
+    {
+      "reading": "chù",
+      "readingNumeric": "chu4",
+      "senses": [
+        "(bound form) place; locality",
+        "(bound form) part; aspect",
+        "(bound form) office; department; bureau",
+        "classifier for locations: spot, point"
+      ]
+    }
+  ]
+}

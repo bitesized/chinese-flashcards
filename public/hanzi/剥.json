@@ -1,0 +1,25 @@
+{
+  "character": "剥",
+  "readings": [
+    {
+      "reading": "bāo",
+      "readingNumeric": "bao1",
+      "senses": [
+        "to peel",
+        "to skin",
+        "to shell",
+        "to shuck"
+      ]
+    },
+    {
+      "reading": "bō",
+      "readingNumeric": "bo1",
+      "senses": [
+        "to peel",
+        "to skin",
+        "to flay",
+        "to shuck"
+      ]
+    }
+  ]
+}

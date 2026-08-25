@@ -1,0 +1,32 @@
+{
+  "character": "察",
+  "readings": [
+    {
+      "reading": "Chá",
+      "readingNumeric": "Cha2",
+      "senses": [
+        "short name for Chahar Province 察哈尔"
+      ]
+    },
+    {
+      "reading": "chá",
+      "readingNumeric": "cha2",
+      "senses": [
+        "to examine",
+        "to inquire",
+        "to observe",
+        "to inspect",
+        "to look into",
+        "obvious",
+        "clearly evident"
+      ]
+    },
+    {
+      "reading": "chá",
+      "readingNumeric": "cha2",
+      "senses": [
+        "variant of 察"
+      ]
+    }
+  ]
+}

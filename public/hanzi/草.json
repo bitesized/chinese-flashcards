@@ -1,0 +1,31 @@
+{
+  "character": "草",
+  "readings": [
+    {
+      "reading": "cǎo",
+      "readingNumeric": "cao3",
+      "senses": [
+        "variant of 草"
+      ]
+    },
+    {
+      "reading": "cǎo",
+      "readingNumeric": "cao3",
+      "senses": [
+        "grass",
+        "straw",
+        "manuscript",
+        "draft (of a document)",
+        "careless",
+        "rough"
+      ]
+    },
+    {
+      "reading": "cào",
+      "readingNumeric": "cao4",
+      "senses": [
+        "variant of 肏"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "character": "兴",
+  "readings": [
+    {
+      "reading": "Xīng",
+      "readingNumeric": "Xing1",
+      "senses": [
+        "surname Xing"
+      ]
+    },
+    {
+      "reading": "xīng",
+      "readingNumeric": "xing1",
+      "senses": [
+        "to rise",
+        "to flourish",
+        "to become popular",
+        "to start",
+        "to encourage",
+        "to get up",
+        "(often used in the negative) to permit or allow (dialect)",
+        "maybe (dialect)"
+      ]
+    },
+    {
+      "reading": "xìng",
+      "readingNumeric": "xing4",
+      "senses": [
+        "feeling or desire to do sth",
+        "interest in sth",
+        "excitement"
+      ]
+    }
+  ]
+}

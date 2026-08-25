@@ -1,0 +1,24 @@
+{
+  "character": "题",
+  "readings": [
+    {
+      "reading": "Tí",
+      "readingNumeric": "Ti2",
+      "senses": [
+        "surname Ti"
+      ]
+    },
+    {
+      "reading": "tí",
+      "readingNumeric": "ti2",
+      "senses": [
+        "topic",
+        "problem for discussion",
+        "exam question",
+        "subject",
+        "to inscribe",
+        "to mention"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "character": "凉",
+  "readings": [
+    {
+      "reading": "Liáng",
+      "readingNumeric": "Liang2",
+      "senses": [
+        "the five Liang of the Sixteen Kingdoms, namely: Former Liang 前凉 (314-376), Later Liang 后凉 (386-403), Northern Liang 北凉 (398-439), Southern Liang 南凉 (397-414), Western Liang 西凉 (400-421)"
+      ]
+    },
+    {
+      "reading": "liáng",
+      "readingNumeric": "liang2",
+      "senses": [
+        "cool",
+        "cold"
+      ]
+    },
+    {
+      "reading": "liàng",
+      "readingNumeric": "liang4",
+      "senses": [
+        "to let sth cool down"
+      ]
+    }
+  ]
+}

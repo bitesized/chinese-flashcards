@@ -1,0 +1,25 @@
+{
+  "character": "待",
+  "readings": [
+    {
+      "reading": "dāi",
+      "readingNumeric": "dai1",
+      "senses": [
+        "to stay; to remain"
+      ]
+    },
+    {
+      "reading": "dài",
+      "readingNumeric": "dai4",
+      "senses": [
+        "to wait",
+        "to treat",
+        "to deal with",
+        "to need",
+        "going to (do sth)",
+        "about to",
+        "intending to"
+      ]
+    }
+  ]
+}

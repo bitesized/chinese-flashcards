@@ -1,0 +1,20 @@
+{
+  "character": "姥",
+  "readings": [
+    {
+      "reading": "lǎo",
+      "readingNumeric": "lao3",
+      "senses": [
+        "grandma (maternal)"
+      ]
+    },
+    {
+      "reading": "mǔ",
+      "readingNumeric": "mu3",
+      "senses": [
+        "governess",
+        "old woman"
+      ]
+    }
+  ]
+}

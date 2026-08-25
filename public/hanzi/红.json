@@ -1,0 +1,29 @@
+{
+  "character": "红",
+  "readings": [
+    {
+      "reading": "Hóng",
+      "readingNumeric": "Hong2",
+      "senses": [
+        "surname Hong"
+      ]
+    },
+    {
+      "reading": "gōng",
+      "readingNumeric": "gong1",
+      "senses": [
+        "used in 女红"
+      ]
+    },
+    {
+      "reading": "hóng",
+      "readingNumeric": "hong2",
+      "senses": [
+        "red",
+        "popular",
+        "revolutionary",
+        "bonus"
+      ]
+    }
+  ]
+}

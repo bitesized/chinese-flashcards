@@ -1,0 +1,22 @@
+{
+  "character": "啦",
+  "readings": [
+    {
+      "reading": "lā",
+      "readingNumeric": "la1",
+      "senses": [
+        "(onom.) sound of singing, cheering etc",
+        "(phonetic)",
+        "(dialect) to chat"
+      ]
+    },
+    {
+      "reading": "la",
+      "readingNumeric": "la5",
+      "senses": [
+        "sentence-final particle, contraction of 了啊, indicating exclamation",
+        "particle placed after each item in a list of examples"
+      ]
+    }
+  ]
+}

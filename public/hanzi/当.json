@@ -1,0 +1,51 @@
+{
+  "character": "当",
+  "readings": [
+    {
+      "reading": "dāng",
+      "readingNumeric": "dang1",
+      "senses": [
+        "(onom.) dong",
+        "ding dong (bell)"
+      ]
+    },
+    {
+      "reading": "dāng",
+      "readingNumeric": "dang1",
+      "senses": [
+        "to be",
+        "to act as",
+        "manage",
+        "withstand",
+        "when",
+        "during",
+        "ought",
+        "should",
+        "match equally",
+        "equal",
+        "same",
+        "obstruct",
+        "just at (a time or place)",
+        "on the spot",
+        "right",
+        "just at"
+      ]
+    },
+    {
+      "reading": "dàng",
+      "readingNumeric": "dang4",
+      "senses": [
+        "at or in the very same...",
+        "suitable",
+        "adequate",
+        "fitting",
+        "proper",
+        "to replace",
+        "to regard as",
+        "to think",
+        "to pawn",
+        "(coll.) to fail (a student)"
+      ]
+    }
+  ]
+}

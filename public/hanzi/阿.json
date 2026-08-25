@@ -1,0 +1,25 @@
+{
+  "character": "阿",
+  "readings": [
+    {
+      "reading": "ā",
+      "readingNumeric": "a1",
+      "senses": [
+        "prefix used before monosyllabic names, kinship terms etc to indicate familiarity",
+        "used in transliteration",
+        "(bound form) Afghanistan (abbr. for 阿富汗)",
+        "(bound form) Albania (abbr. for 阿尔巴尼亚)",
+        "(bound form) Algeria (abbr. for 阿尔及利亚)",
+        "(bound form) Argentina (abbr. for 阿根廷)",
+        "also pr. à"
+      ]
+    },
+    {
+      "reading": "ē",
+      "readingNumeric": "e1",
+      "senses": [
+        "(literary) to flatter; to curry favor with"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "character": "国",
+  "readings": [
+    {
+      "reading": "Guó",
+      "readingNumeric": "Guo2",
+      "senses": [
+        "surname Guo"
+      ]
+    },
+    {
+      "reading": "guó",
+      "readingNumeric": "guo2",
+      "senses": [
+        "country; nation; state",
+        "(bound form) national"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "character": "把",
+  "readings": [
+    {
+      "reading": "bǎ",
+      "readingNumeric": "ba3",
+      "senses": [
+        "to hold; to grasp",
+        "to hold a baby in position to help it urinate or defecate",
+        "handlebar",
+        "classifier: handful, bundle, bunch",
+        "classifier for things with handles",
+        "(used to put the object before the verb: 把 + {noun} + {verb})"
+      ]
+    },
+    {
+      "reading": "bà",
+      "readingNumeric": "ba4",
+      "senses": [
+        "handle"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "character": "秘",
+  "readings": [
+    {
+      "reading": "mì",
+      "readingNumeric": "mi4",
+      "senses": [
+        "variant of 秘"
+      ]
+    },
+    {
+      "reading": "bì",
+      "readingNumeric": "bi4",
+      "senses": [
+        "see 秘鲁"
+      ]
+    },
+    {
+      "reading": "mì",
+      "readingNumeric": "mi4",
+      "senses": [
+        "secret",
+        "secretary"
+      ]
+    }
+  ]
+}

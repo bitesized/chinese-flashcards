@@ -1,0 +1,21 @@
+{
+  "character": "米",
+  "readings": [
+    {
+      "reading": "Mǐ",
+      "readingNumeric": "Mi3",
+      "senses": [
+        "surname Mi"
+      ]
+    },
+    {
+      "reading": "mǐ",
+      "readingNumeric": "mi3",
+      "senses": [
+        "uncooked rice",
+        "meter (unit of length)",
+        "(slang) Chinese yuan"
+      ]
+    }
+  ]
+}

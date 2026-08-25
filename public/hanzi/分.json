@@ -1,0 +1,32 @@
+{
+  "character": "分",
+  "readings": [
+    {
+      "reading": "fēn",
+      "readingNumeric": "fen1",
+      "senses": [
+        "to divide; to separate",
+        "to distribute; to allocate",
+        "to distinguish (good and bad)",
+        "(bound form) branch of (an organization); sub- (as in 分局)",
+        "fraction",
+        "one tenth (of certain units)",
+        "unit of length equivalent to 0.33 cm",
+        "minute (unit of time)",
+        "minute (angular measurement unit)",
+        "a point (in sports or games)",
+        "0.01 yuan (unit of money)"
+      ]
+    },
+    {
+      "reading": "fèn",
+      "readingNumeric": "fen4",
+      "senses": [
+        "part",
+        "share",
+        "ingredient",
+        "component"
+      ]
+    }
+  ]
+}

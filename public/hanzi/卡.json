@@ -1,0 +1,32 @@
+{
+  "character": "卡",
+  "readings": [
+    {
+      "reading": "kǎ",
+      "readingNumeric": "ka3",
+      "senses": [
+        "to stop",
+        "to block",
+        "(computing) (coll.) slow",
+        "(loanword) card",
+        "truck (from \"car\")",
+        "calorie (abbr. for 卡路里)",
+        "cassette"
+      ]
+    },
+    {
+      "reading": "qiǎ",
+      "readingNumeric": "qia3",
+      "senses": [
+        "to block",
+        "to be stuck",
+        "to be wedged",
+        "customs station",
+        "a clip",
+        "a fastener",
+        "a checkpost",
+        "Taiwan pr. kǎ"
+      ]
+    }
+  ]
+}

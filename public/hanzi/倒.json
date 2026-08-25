@@ -1,0 +1,29 @@
+{
+  "character": "倒",
+  "readings": [
+    {
+      "reading": "dǎo",
+      "readingNumeric": "dao3",
+      "senses": [
+        "to fall; to collapse; to lie horizontally",
+        "to fail; to go bankrupt",
+        "to overthrow",
+        "to change (trains or buses)",
+        "to move around",
+        "to resell at a profit"
+      ]
+    },
+    {
+      "reading": "dào",
+      "readingNumeric": "dao4",
+      "senses": [
+        "to invert; to place upside down or frontside back",
+        "to pour out",
+        "to tip out; to dump",
+        "inverted; upside down; reversed",
+        "to go backward",
+        "contrary to what one might expect; but; yet"
+      ]
+    }
+  ]
+}

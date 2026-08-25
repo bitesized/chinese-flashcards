@@ -1,0 +1,22 @@
+{
+  "character": "房",
+  "readings": [
+    {
+      "reading": "Fáng",
+      "readingNumeric": "Fang2",
+      "senses": [
+        "surname Fang"
+      ]
+    },
+    {
+      "reading": "fáng",
+      "readingNumeric": "fang2",
+      "senses": [
+        "house",
+        "room",
+        "branch of an extended family",
+        "classifier for family members (or concubines)"
+      ]
+    }
+  ]
+}

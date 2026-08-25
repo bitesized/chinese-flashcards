@@ -1,0 +1,35 @@
+{
+  "character": "拽",
+  "readings": [
+    {
+      "reading": "yè",
+      "readingNumeric": "ye4",
+      "senses": [
+        "variant of 曳"
+      ]
+    },
+    {
+      "reading": "zhuāi",
+      "readingNumeric": "zhuai1",
+      "senses": [
+        "to throw",
+        "to fling"
+      ]
+    },
+    {
+      "reading": "zhuǎi",
+      "readingNumeric": "zhuai3",
+      "senses": [
+        "self-satisfied; cocky (alternative written form of 跩)"
+      ]
+    },
+    {
+      "reading": "zhuài",
+      "readingNumeric": "zhuai4",
+      "senses": [
+        "to pull",
+        "to tug at (sth)"
+      ]
+    }
+  ]
+}

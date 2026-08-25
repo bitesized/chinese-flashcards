@@ -1,0 +1,24 @@
+{
+  "character": "磅",
+  "readings": [
+    {
+      "reading": "bàng",
+      "readingNumeric": "bang4",
+      "senses": [
+        "scale (instrument for weighing)",
+        "to weigh",
+        "(loanword) pound (unit of weight, about 454 grams)",
+        "(printing) point (unit used to measure the size of type)",
+        "(Tw) (printing) pound; ream weight (used to describe paper thickness)"
+      ]
+    },
+    {
+      "reading": "páng",
+      "readingNumeric": "pang2",
+      "senses": [
+        "used in 磅礴",
+        "Taiwan pr. pāng"
+      ]
+    }
+  ]
+}

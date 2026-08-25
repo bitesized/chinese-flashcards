@@ -1,0 +1,51 @@
+{
+  "character": "啊",
+  "readings": [
+    {
+      "reading": "ā",
+      "readingNumeric": "a1",
+      "senses": [
+        "interjection of surprise",
+        "Ah!",
+        "Oh!"
+      ]
+    },
+    {
+      "reading": "á",
+      "readingNumeric": "a2",
+      "senses": [
+        "interjection expressing doubt or requiring answer",
+        "Eh?",
+        "what?"
+      ]
+    },
+    {
+      "reading": "ǎ",
+      "readingNumeric": "a3",
+      "senses": [
+        "interjection of surprise or doubt",
+        "Eh?",
+        "My!",
+        "what's up?"
+      ]
+    },
+    {
+      "reading": "à",
+      "readingNumeric": "a4",
+      "senses": [
+        "interjection or grunt of agreement",
+        "uhm",
+        "Ah, OK",
+        "expression of recognition",
+        "Oh, it's you!"
+      ]
+    },
+    {
+      "reading": "a",
+      "readingNumeric": "a5",
+      "senses": [
+        "modal particle ending sentence, showing affirmation, approval, or consent"
+      ]
+    }
+  ]
+}

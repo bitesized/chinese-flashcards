@@ -1,0 +1,35 @@
+{
+  "character": "钻",
+  "readings": [
+    {
+      "reading": "zuàn",
+      "readingNumeric": "zuan4",
+      "senses": [
+        "variant of 钻"
+      ]
+    },
+    {
+      "reading": "zuān",
+      "readingNumeric": "zuan1",
+      "senses": [
+        "to drill",
+        "to bore",
+        "to get into",
+        "to make one's way into",
+        "to enter (a hole)",
+        "to thread one's way through",
+        "to study intensively",
+        "to dig into",
+        "to curry favor for personal gain"
+      ]
+    },
+    {
+      "reading": "zuàn",
+      "readingNumeric": "zuan4",
+      "senses": [
+        "drill; auger",
+        "diamond"
+      ]
+    }
+  ]
+}

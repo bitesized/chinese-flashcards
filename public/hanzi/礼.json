@@ -1,0 +1,25 @@
+{
+  "character": "礼",
+  "readings": [
+    {
+      "reading": "Lǐ",
+      "readingNumeric": "Li3",
+      "senses": [
+        "surname Li",
+        "abbr. for 礼记, Classic of Rites"
+      ]
+    },
+    {
+      "reading": "lǐ",
+      "readingNumeric": "li3",
+      "senses": [
+        "gift",
+        "rite",
+        "ceremony",
+        "propriety",
+        "etiquette",
+        "courtesy"
+      ]
+    }
+  ]
+}

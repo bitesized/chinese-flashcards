@@ -1,0 +1,35 @@
+{
+  "character": "采",
+  "readings": [
+    {
+      "reading": "cǎi",
+      "readingNumeric": "cai3",
+      "senses": [
+        "to pick",
+        "to pluck",
+        "to collect",
+        "to select",
+        "to choose",
+        "to gather"
+      ]
+    },
+    {
+      "reading": "cǎi",
+      "readingNumeric": "cai3",
+      "senses": [
+        "color",
+        "complexion",
+        "looks",
+        "variant of 彩",
+        "variant of 采"
+      ]
+    },
+    {
+      "reading": "cài",
+      "readingNumeric": "cai4",
+      "senses": [
+        "used in 采邑 and 采地"
+      ]
+    }
+  ]
+}

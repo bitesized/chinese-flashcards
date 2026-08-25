@@ -1,0 +1,23 @@
+{
+  "character": "读",
+  "readings": [
+    {
+      "reading": "dòu",
+      "readingNumeric": "dou4",
+      "senses": [
+        "comma",
+        "phrase marked by pause"
+      ]
+    },
+    {
+      "reading": "dú",
+      "readingNumeric": "du2",
+      "senses": [
+        "to read out; to read aloud",
+        "to read",
+        "to attend (school); to study (a subject in school)",
+        "to pronounce"
+      ]
+    }
+  ]
+}

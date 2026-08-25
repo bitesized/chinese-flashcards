@@ -1,0 +1,35 @@
+{
+  "character": "相",
+  "readings": [
+    {
+      "reading": "Xiāng",
+      "readingNumeric": "Xiang1",
+      "senses": [
+        "surname Xiang"
+      ]
+    },
+    {
+      "reading": "xiāng",
+      "readingNumeric": "xiang1",
+      "senses": [
+        "each other",
+        "one another",
+        "mutually",
+        "fret on the neck of a pipa 琵琶 (a fret on the soundboard is called a 品)"
+      ]
+    },
+    {
+      "reading": "xiàng",
+      "readingNumeric": "xiang4",
+      "senses": [
+        "appearance",
+        "portrait",
+        "picture",
+        "government minister",
+        "(physics) phase",
+        "(literary) to appraise (esp. by scrutinizing physical features)",
+        "to read sb's fortune (by physiognomy, palmistry etc)"
+      ]
+    }
+  ]
+}

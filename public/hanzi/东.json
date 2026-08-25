@@ -1,0 +1,21 @@
+{
+  "character": "东",
+  "readings": [
+    {
+      "reading": "Dōng",
+      "readingNumeric": "Dong1",
+      "senses": [
+        "surname Dong"
+      ]
+    },
+    {
+      "reading": "dōng",
+      "readingNumeric": "dong1",
+      "senses": [
+        "east",
+        "host (i.e. sitting on east side of guest)",
+        "landlord"
+      ]
+    }
+  ]
+}

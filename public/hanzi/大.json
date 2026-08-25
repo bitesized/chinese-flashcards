@@ -1,0 +1,24 @@
+{
+  "character": "大",
+  "readings": [
+    {
+      "reading": "dà",
+      "readingNumeric": "da4",
+      "senses": [
+        "big; large; great",
+        "older (than another person)",
+        "eldest (as in 大姐)",
+        "greatly; freely; fully",
+        "(dialect) father",
+        "(dialect) uncle (father's brother)"
+      ]
+    },
+    {
+      "reading": "dài",
+      "readingNumeric": "dai4",
+      "senses": [
+        "see 大夫"
+      ]
+    }
+  ]
+}

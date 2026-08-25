@@ -1,0 +1,38 @@
+{
+  "character": "划",
+  "readings": [
+    {
+      "reading": "huá",
+      "readingNumeric": "hua2",
+      "senses": [
+        "to row",
+        "to paddle",
+        "profitable",
+        "worth (the effort)",
+        "it pays (to do sth)"
+      ]
+    },
+    {
+      "reading": "huá",
+      "readingNumeric": "hua2",
+      "senses": [
+        "to cut",
+        "to slash",
+        "to scratch (cut into the surface of sth)",
+        "to strike (a match)"
+      ]
+    },
+    {
+      "reading": "huà",
+      "readingNumeric": "hua4",
+      "senses": [
+        "to delimit",
+        "to transfer",
+        "to assign",
+        "to plan",
+        "to draw (a line)",
+        "stroke of a Chinese character"
+      ]
+    }
+  ]
+}

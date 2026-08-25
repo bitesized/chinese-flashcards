@@ -1,0 +1,33 @@
+{
+  "character": "方",
+  "readings": [
+    {
+      "reading": "Fāng",
+      "readingNumeric": "Fang1",
+      "senses": [
+        "surname Fang"
+      ]
+    },
+    {
+      "reading": "fāng",
+      "readingNumeric": "fang1",
+      "senses": [
+        "square",
+        "power or involution (math.)",
+        "upright",
+        "honest",
+        "fair and square",
+        "direction",
+        "side",
+        "party (to a contract, dispute etc)",
+        "place",
+        "method",
+        "prescription (medicine)",
+        "just when",
+        "only or just",
+        "classifier for square things",
+        "abbr. for square or cubic meter"
+      ]
+    }
+  ]
+}

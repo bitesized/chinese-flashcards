@@ -1,0 +1,38 @@
+{
+  "character": "了",
+  "readings": [
+    {
+      "reading": "le",
+      "readingNumeric": "le5",
+      "senses": [
+        "(completed action marker)",
+        "(modal particle indicating change of state, situation now)",
+        "(modal particle intensifying preceding clause)"
+      ]
+    },
+    {
+      "reading": "liǎo",
+      "readingNumeric": "liao3",
+      "senses": [
+        "to finish",
+        "(used with 得 or 不 after a verb to express (im)possibility, as in 忘不了 \"cannot forget\")",
+        "(literary) (usually followed by a negative such as 无 or 不) completely (not); entirely (not); (not) in the least",
+        "variant of 了"
+      ]
+    },
+    {
+      "reading": "liǎo",
+      "readingNumeric": "liao3",
+      "senses": [
+        "(bound form) clear in one's mind; to understand clearly"
+      ]
+    },
+    {
+      "reading": "liào",
+      "readingNumeric": "liao4",
+      "senses": [
+        "unofficial variant of 瞭"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "character": "藏",
+  "readings": [
+    {
+      "reading": "Zàng",
+      "readingNumeric": "Zang4",
+      "senses": [
+        "Tibetan ethnic group",
+        "Tibet Autonomous Region (short name for 西藏自治区)"
+      ]
+    },
+    {
+      "reading": "cáng",
+      "readingNumeric": "cang2",
+      "senses": [
+        "to conceal",
+        "to hide away",
+        "to harbor",
+        "to store",
+        "to collect"
+      ]
+    },
+    {
+      "reading": "zàng",
+      "readingNumeric": "zang4",
+      "senses": [
+        "storehouse",
+        "depository",
+        "Buddhist or Taoist scripture"
+      ]
+    }
+  ]
+}

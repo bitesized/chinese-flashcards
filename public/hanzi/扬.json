@@ -1,0 +1,32 @@
+{
+  "character": "扬",
+  "readings": [
+    {
+      "reading": "Yáng",
+      "readingNumeric": "Yang2",
+      "senses": [
+        "abbr. for Yangzhou 扬州 in Jiangsu",
+        "surname Yang"
+      ]
+    },
+    {
+      "reading": "yáng",
+      "readingNumeric": "yang2",
+      "senses": [
+        "to raise",
+        "to hoist",
+        "the action of tossing or winnowing",
+        "scattering (in the wind)",
+        "to flutter",
+        "to propagate"
+      ]
+    },
+    {
+      "reading": "yáng",
+      "readingNumeric": "yang2",
+      "senses": [
+        "variant of 扬"
+      ]
+    }
+  ]
+}

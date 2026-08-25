@@ -1,0 +1,46 @@
+{
+  "character": "糊",
+  "readings": [
+    {
+      "reading": "hú",
+      "readingNumeric": "hu2",
+      "senses": [
+        "variant of 糊"
+      ]
+    },
+    {
+      "reading": "hū",
+      "readingNumeric": "hu1",
+      "senses": [
+        "to smear; to daub; to cover (a surface with sth sticky or paste-like)",
+        "Taiwan pr. hú"
+      ]
+    },
+    {
+      "reading": "hú",
+      "readingNumeric": "hu2",
+      "senses": [
+        "to paste; to glue",
+        "blurry; unclear; muddled",
+        "(esp. of food) scorched; burnt",
+        "paste; mush; thick gruel"
+      ]
+    },
+    {
+      "reading": "hù",
+      "readingNumeric": "hu4",
+      "senses": [
+        "paste",
+        "cream"
+      ]
+    },
+    {
+      "reading": "hú",
+      "readingNumeric": "hu2",
+      "senses": [
+        "congee",
+        "(in 糊口) to feed oneself"
+      ]
+    }
+  ]
+}

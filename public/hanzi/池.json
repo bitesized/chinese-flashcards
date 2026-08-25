@@ -1,0 +1,21 @@
+{
+  "character": "池",
+  "readings": [
+    {
+      "reading": "Chí",
+      "readingNumeric": "Chi2",
+      "senses": [
+        "surname Chi"
+      ]
+    },
+    {
+      "reading": "chí",
+      "readingNumeric": "chi2",
+      "senses": [
+        "pond",
+        "reservoir",
+        "moat"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "character": "步",
+  "readings": [
+    {
+      "reading": "Bù",
+      "readingNumeric": "Bu4",
+      "senses": [
+        "surname Bu"
+      ]
+    },
+    {
+      "reading": "bù",
+      "readingNumeric": "bu4",
+      "senses": [
+        "a step",
+        "a pace",
+        "walk",
+        "march",
+        "stages in a process",
+        "situation"
+      ]
+    }
+  ]
+}

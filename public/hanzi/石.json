@@ -1,0 +1,31 @@
+{
+  "character": "石",
+  "readings": [
+    {
+      "reading": "Shí",
+      "readingNumeric": "Shi2",
+      "senses": [
+        "surname Shi",
+        "abbr. for Shijiazhuang 石家庄, the capital of Hebei"
+      ]
+    },
+    {
+      "reading": "dàn",
+      "readingNumeric": "dan4",
+      "senses": [
+        "dry measure for grain equal to ten dou 斗; one hundred liters",
+        "ancient pr. shí"
+      ]
+    },
+    {
+      "reading": "shí",
+      "readingNumeric": "shi2",
+      "senses": [
+        "rock",
+        "stone",
+        "stone inscription",
+        "one of the eight categories of ancient musical instruments 八音"
+      ]
+    }
+  ]
+}

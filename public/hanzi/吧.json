@@ -1,0 +1,32 @@
+{
+  "character": "吧",
+  "readings": [
+    {
+      "reading": "bā",
+      "readingNumeric": "ba1",
+      "senses": [
+        "bar (loanword) (serving drinks, or providing Internet access etc)",
+        "to puff (on a pipe etc)",
+        "(onom.) bang",
+        "abbr. for 贴吧"
+      ]
+    },
+    {
+      "reading": "ba",
+      "readingNumeric": "ba5",
+      "senses": [
+        "(modal particle indicating suggestion or surmise)",
+        "...right?",
+        "...OK?",
+        "...I presume."
+      ]
+    },
+    {
+      "reading": "biā",
+      "readingNumeric": "bia1",
+      "senses": [
+        "(onom.) smack!"
+      ]
+    }
+  ]
+}

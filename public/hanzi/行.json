@@ -1,0 +1,39 @@
+{
+  "character": "行",
+  "readings": [
+    {
+      "reading": "háng",
+      "readingNumeric": "hang2",
+      "senses": [
+        "(bound form) row; line",
+        "(bound form) line of business; trade; profession",
+        "(bound form) commercial firm",
+        "(bound form) to rank (first, second etc) among one's siblings (by age)",
+        "(in data tables) row; (Tw) column",
+        "classifier for rows or lines"
+      ]
+    },
+    {
+      "reading": "héng",
+      "readingNumeric": "heng2",
+      "senses": [
+        "used in 道行"
+      ]
+    },
+    {
+      "reading": "xíng",
+      "readingNumeric": "xing2",
+      "senses": [
+        "(bound form) to walk; to go; to travel",
+        "(literary) trip; journey; visit",
+        "(bound form) temporary; makeshift",
+        "(bound form) current; in circulation",
+        "(bound form) to do; to perform",
+        "capable; competent",
+        "all right; OK!; will do",
+        "behavior; conduct (Taiwan pr. xìng)",
+        "(literary) about to; soon"
+      ]
+    }
+  ]
+}

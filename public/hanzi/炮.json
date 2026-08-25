@@ -1,0 +1,36 @@
+{
+  "character": "炮",
+  "readings": [
+    {
+      "reading": "bāo",
+      "readingNumeric": "bao1",
+      "senses": [
+        "to sauté",
+        "to fry",
+        "to dry by heating"
+      ]
+    },
+    {
+      "reading": "páo",
+      "readingNumeric": "pao2",
+      "senses": [
+        "to prepare herbal medicine by roasting or parching (in a pan)"
+      ]
+    },
+    {
+      "reading": "pào",
+      "readingNumeric": "pao4",
+      "senses": [
+        "cannon",
+        "firecracker"
+      ]
+    },
+    {
+      "reading": "pào",
+      "readingNumeric": "pao4",
+      "senses": [
+        "variant of 炮"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "character": "美",
+  "readings": [
+    {
+      "reading": "Měi",
+      "readingNumeric": "Mei3",
+      "senses": [
+        "(bound form) the Americas (abbr. for 美洲)",
+        "(bound form) USA (abbr. for 美国)"
+      ]
+    },
+    {
+      "reading": "měi",
+      "readingNumeric": "mei3",
+      "senses": [
+        "beautiful",
+        "very satisfactory; good",
+        "to beautify",
+        "to be pleased with oneself"
+      ]
+    }
+  ]
+}

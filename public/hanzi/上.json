@@ -1,0 +1,24 @@
+{
+  "character": "上",
+  "readings": [
+    {
+      "reading": "shǎng",
+      "readingNumeric": "shang3",
+      "senses": [
+        "used in 上声"
+      ]
+    },
+    {
+      "reading": "shàng",
+      "readingNumeric": "shang4",
+      "senses": [
+        "(bound form) up; upper; above; previous",
+        "first (of multiple parts)",
+        "to climb; to get onto; to go up",
+        "to attend (class or university)",
+        "(directional complement) up",
+        "(noun suffix) on; above"
+      ]
+    }
+  ]
+}

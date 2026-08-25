@@ -1,0 +1,32 @@
+{
+  "character": "拉",
+  "readings": [
+    {
+      "reading": "lā",
+      "readingNumeric": "la1",
+      "senses": [
+        "to pull",
+        "to play (a bowed instrument)",
+        "to drag",
+        "to draw",
+        "to chat",
+        "(coll.) to empty one's bowels"
+      ]
+    },
+    {
+      "reading": "lá",
+      "readingNumeric": "la2",
+      "senses": [
+        "to make a cut in (sth); to slit; to gash; to slash"
+      ]
+    },
+    {
+      "reading": "là",
+      "readingNumeric": "la4",
+      "senses": [
+        "used in 拉拉蛄",
+        "variant of 落"
+      ]
+    }
+  ]
+}

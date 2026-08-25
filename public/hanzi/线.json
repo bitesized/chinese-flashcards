@@ -1,0 +1,23 @@
+{
+  "character": "线",
+  "readings": [
+    {
+      "reading": "xiàn",
+      "readingNumeric": "xian4",
+      "senses": [
+        "variant of 线"
+      ]
+    },
+    {
+      "reading": "xiàn",
+      "readingNumeric": "xian4",
+      "senses": [
+        "thread",
+        "string",
+        "wire",
+        "line",
+        "(after a number) tier (unofficial ranking of a Chinese city)"
+      ]
+    }
+  ]
+}

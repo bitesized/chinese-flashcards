@@ -1,0 +1,29 @@
+{
+  "character": "数",
+  "readings": [
+    {
+      "reading": "shǔ",
+      "readingNumeric": "shu3",
+      "senses": [
+        "to count",
+        "to count as; to regard as",
+        "to enumerate; to list"
+      ]
+    },
+    {
+      "reading": "shù",
+      "readingNumeric": "shu4",
+      "senses": [
+        "number; figure",
+        "several; a few"
+      ]
+    },
+    {
+      "reading": "shuò",
+      "readingNumeric": "shuo4",
+      "senses": [
+        "(literary) frequently; repeatedly"
+      ]
+    }
+  ]
+}

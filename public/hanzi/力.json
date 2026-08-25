@@ -1,0 +1,23 @@
+{
+  "character": "力",
+  "readings": [
+    {
+      "reading": "Lì",
+      "readingNumeric": "Li4",
+      "senses": [
+        "surname Li"
+      ]
+    },
+    {
+      "reading": "lì",
+      "readingNumeric": "li4",
+      "senses": [
+        "power",
+        "force",
+        "strength",
+        "ability",
+        "strenuously"
+      ]
+    }
+  ]
+}

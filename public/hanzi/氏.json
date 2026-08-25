@@ -1,0 +1,22 @@
+{
+  "character": "氏",
+  "readings": [
+    {
+      "reading": "shì",
+      "readingNumeric": "shi4",
+      "senses": [
+        "(bound form) family name; surname (as in 王氏 \"the Wang clan\")",
+        "(bound form) maiden name; née (as in 李王氏 \"Mrs. Li, née Wang\")",
+        "(bound form) honorific suffix added to the surname or full name of a notable person, esp. historical or scholarly figures"
+      ]
+    },
+    {
+      "reading": "zhī",
+      "readingNumeric": "zhi1",
+      "senses": [
+        "used in 月氏",
+        "used in 阏氏"
+      ]
+    }
+  ]
+}

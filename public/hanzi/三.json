@@ -1,0 +1,20 @@
+{
+  "character": "三",
+  "readings": [
+    {
+      "reading": "Sān",
+      "readingNumeric": "San1",
+      "senses": [
+        "surname San"
+      ]
+    },
+    {
+      "reading": "sān",
+      "readingNumeric": "san1",
+      "senses": [
+        "three",
+        "3"
+      ]
+    }
+  ]
+}

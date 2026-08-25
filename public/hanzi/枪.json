@@ -1,0 +1,35 @@
+{
+  "character": "枪",
+  "readings": [
+    {
+      "reading": "Qiāng",
+      "readingNumeric": "Qiang1",
+      "senses": [
+        "surname Qiang"
+      ]
+    },
+    {
+      "reading": "qiāng",
+      "readingNumeric": "qiang1",
+      "senses": [
+        "gun",
+        "firearm",
+        "rifle",
+        "spear",
+        "thing with shape or function similar to a gun",
+        "to substitute for another person in a test",
+        "to knock",
+        "classifier for rifle shots"
+      ]
+    },
+    {
+      "reading": "qiāng",
+      "readingNumeric": "qiang1",
+      "senses": [
+        "variant of 枪",
+        "rifle",
+        "spear"
+      ]
+    }
+  ]
+}

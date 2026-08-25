@@ -1,0 +1,42 @@
+{
+  "character": "德",
+  "readings": [
+    {
+      "reading": "Dé",
+      "readingNumeric": "De2",
+      "senses": [
+        "Germany",
+        "German",
+        "abbr. for 德国"
+      ]
+    },
+    {
+      "reading": "dé",
+      "readingNumeric": "de2",
+      "senses": [
+        "virtue",
+        "goodness",
+        "morality",
+        "ethics",
+        "kindness",
+        "favor",
+        "character",
+        "kind"
+      ]
+    },
+    {
+      "reading": "dé",
+      "readingNumeric": "de2",
+      "senses": [
+        "variant of 德"
+      ]
+    },
+    {
+      "reading": "dé",
+      "readingNumeric": "de2",
+      "senses": [
+        "variant of 德"
+      ]
+    }
+  ]
+}

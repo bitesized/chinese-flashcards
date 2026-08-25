@@ -1,0 +1,36 @@
+{
+  "character": "舍",
+  "readings": [
+    {
+      "reading": "shě",
+      "readingNumeric": "she3",
+      "senses": [
+        "to give up; to abandon",
+        "to give alms"
+      ]
+    },
+    {
+      "reading": "Shè",
+      "readingNumeric": "She4",
+      "senses": [
+        "surname She"
+      ]
+    },
+    {
+      "reading": "shě",
+      "readingNumeric": "she3",
+      "senses": [
+        "old variant of 舍"
+      ]
+    },
+    {
+      "reading": "shè",
+      "readingNumeric": "she4",
+      "senses": [
+        "(bound form) residence; house",
+        "(bound form) my (in speaking of relatives younger than oneself, as in 舍妹)",
+        "(archaic) unit of distance equal to 30 li 里"
+      ]
+    }
+  ]
+}

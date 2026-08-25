@@ -1,0 +1,36 @@
+{
+  "character": "散",
+  "readings": [
+    {
+      "reading": "sàn",
+      "readingNumeric": "san4",
+      "senses": [
+        "variant of 散"
+      ]
+    },
+    {
+      "reading": "sǎn",
+      "readingNumeric": "san3",
+      "senses": [
+        "scattered",
+        "loose",
+        "to come loose",
+        "to fall apart",
+        "leisurely",
+        "powdered medicine"
+      ]
+    },
+    {
+      "reading": "sàn",
+      "readingNumeric": "san4",
+      "senses": [
+        "to scatter",
+        "to break up (a meeting etc)",
+        "to disperse",
+        "to disseminate",
+        "to dispel",
+        "(coll.) to sack"
+      ]
+    }
+  ]
+}

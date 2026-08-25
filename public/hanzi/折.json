@@ -1,0 +1,53 @@
+{
+  "character": "折",
+  "readings": [
+    {
+      "reading": "shé",
+      "readingNumeric": "she2",
+      "senses": [
+        "to snap",
+        "to break (a stick, a bone etc)",
+        "(bound form) to sustain a loss (in business)"
+      ]
+    },
+    {
+      "reading": "zhē",
+      "readingNumeric": "zhe1",
+      "senses": [
+        "to turn sth over",
+        "to turn upside down",
+        "to tip sth out (of a container)"
+      ]
+    },
+    {
+      "reading": "zhé",
+      "readingNumeric": "zhe2",
+      "senses": [
+        "to break",
+        "to fracture",
+        "to snap",
+        "to suffer loss",
+        "to bend",
+        "to twist",
+        "to turn",
+        "to change direction",
+        "convinced",
+        "to convert into (currency)",
+        "discount",
+        "rebate",
+        "tenth (in price)",
+        "classifier for theatrical scenes",
+        "to fold",
+        "accounts book"
+      ]
+    },
+    {
+      "reading": "zhé",
+      "readingNumeric": "zhe2",
+      "senses": [
+        "variant of 折",
+        "to fold"
+      ]
+    }
+  ]
+}

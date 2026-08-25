@@ -1,0 +1,27 @@
+{
+  "character": "元",
+  "readings": [
+    {
+      "reading": "Yuán",
+      "readingNumeric": "Yuan2",
+      "senses": [
+        "surname Yuan",
+        "Yuan dynasty (1279–1368)"
+      ]
+    },
+    {
+      "reading": "yuán",
+      "readingNumeric": "yuan2",
+      "senses": [
+        "currency unit (esp. Chinese yuan)",
+        "(bound form) first; original; primary",
+        "(bound form) basic; fundamental",
+        "(bound form) constituent; part",
+        "(prefix) meta-",
+        "(math.) argument; variable",
+        "era (of a reign)",
+        "(Tw) (geology) eon"
+      ]
+    }
+  ]
+}

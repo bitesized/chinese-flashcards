@@ -1,0 +1,31 @@
+{
+  "character": "查",
+  "readings": [
+    {
+      "reading": "Zhā",
+      "readingNumeric": "Zha1",
+      "senses": [
+        "surname Zha"
+      ]
+    },
+    {
+      "reading": "chá",
+      "readingNumeric": "cha2",
+      "senses": [
+        "to research",
+        "to check",
+        "to investigate",
+        "to examine",
+        "to refer to",
+        "to look up (e.g. a word in a dictionary)"
+      ]
+    },
+    {
+      "reading": "zhā",
+      "readingNumeric": "zha1",
+      "senses": [
+        "variant of 楂"
+      ]
+    }
+  ]
+}

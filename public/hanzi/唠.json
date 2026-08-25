@@ -1,0 +1,20 @@
+{
+  "character": "唠",
+  "readings": [
+    {
+      "reading": "láo",
+      "readingNumeric": "lao2",
+      "senses": [
+        "used in 唠叨"
+      ]
+    },
+    {
+      "reading": "lào",
+      "readingNumeric": "lao4",
+      "senses": [
+        "to gossip",
+        "to chat (dialect)"
+      ]
+    }
+  ]
+}

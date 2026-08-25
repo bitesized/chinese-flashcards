@@ -1,0 +1,37 @@
+{
+  "character": "据",
+  "readings": [
+    {
+      "reading": "jù",
+      "readingNumeric": "ju4",
+      "senses": [
+        "variant of 据"
+      ]
+    },
+    {
+      "reading": "jū",
+      "readingNumeric": "ju1",
+      "senses": [
+        "used in 拮据"
+      ]
+    },
+    {
+      "reading": "jù",
+      "readingNumeric": "ju4",
+      "senses": [
+        "variant of 据"
+      ]
+    },
+    {
+      "reading": "jù",
+      "readingNumeric": "ju4",
+      "senses": [
+        "according to",
+        "to act in accordance with",
+        "to depend on",
+        "to seize",
+        "to occupy"
+      ]
+    }
+  ]
+}

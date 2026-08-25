@@ -1,0 +1,30 @@
+{
+  "character": "双",
+  "readings": [
+    {
+      "reading": "shuāng",
+      "readingNumeric": "shuang1",
+      "senses": [
+        "variant of 双"
+      ]
+    },
+    {
+      "reading": "Shuāng",
+      "readingNumeric": "Shuang1",
+      "senses": [
+        "surname Shuang"
+      ]
+    },
+    {
+      "reading": "shuāng",
+      "readingNumeric": "shuang1",
+      "senses": [
+        "two",
+        "double",
+        "pair",
+        "both",
+        "even (number)"
+      ]
+    }
+  ]
+}

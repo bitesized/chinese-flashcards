@@ -1,0 +1,22 @@
+{
+  "character": "症",
+  "readings": [
+    {
+      "reading": "zhèng",
+      "readingNumeric": "zheng4",
+      "senses": [
+        "disease",
+        "illness"
+      ]
+    },
+    {
+      "reading": "zhēng",
+      "readingNumeric": "zheng1",
+      "senses": [
+        "abdominal tumor",
+        "bowel obstruction",
+        "(fig.) sticking point"
+      ]
+    }
+  ]
+}

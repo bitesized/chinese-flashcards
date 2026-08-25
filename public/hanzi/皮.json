@@ -1,0 +1,24 @@
+{
+  "character": "皮",
+  "readings": [
+    {
+      "reading": "Pí",
+      "readingNumeric": "Pi2",
+      "senses": [
+        "surname Pi"
+      ]
+    },
+    {
+      "reading": "pí",
+      "readingNumeric": "pi2",
+      "senses": [
+        "skin; peel; rind; outer layer",
+        "leather; hide; fur",
+        "cover; wrapping; outer covering",
+        "(of food) no longer crisp; soggy",
+        "(coll.) naughty; mischievous",
+        "pico- (10⁻¹²)"
+      ]
+    }
+  ]
+}

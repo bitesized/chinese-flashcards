@@ -1,0 +1,26 @@
+{
+  "character": "饮",
+  "readings": [
+    {
+      "reading": "yǐn",
+      "readingNumeric": "yin3",
+      "senses": [
+        "old variant of 饮"
+      ]
+    },
+    {
+      "reading": "yǐn",
+      "readingNumeric": "yin3",
+      "senses": [
+        "to drink"
+      ]
+    },
+    {
+      "reading": "yìn",
+      "readingNumeric": "yin4",
+      "senses": [
+        "to give (animals) water to drink"
+      ]
+    }
+  ]
+}

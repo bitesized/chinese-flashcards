@@ -1,0 +1,29 @@
+{
+  "character": "横",
+  "readings": [
+    {
+      "reading": "héng",
+      "readingNumeric": "heng2",
+      "senses": [
+        "horizontal",
+        "across",
+        "crosswise",
+        "horizontal stroke (in Chinese characters)",
+        "to place (sth) flat (on a surface)",
+        "to cross (a river, etc)",
+        "in a jumble",
+        "chaotic",
+        "(in fixed expressions) harsh and unreasonable",
+        "violent"
+      ]
+    },
+    {
+      "reading": "hèng",
+      "readingNumeric": "heng4",
+      "senses": [
+        "harsh and unreasonable",
+        "unexpected"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "character": "付",
+  "readings": [
+    {
+      "reading": "Fù",
+      "readingNumeric": "Fu4",
+      "senses": [
+        "surname Fu"
+      ]
+    },
+    {
+      "reading": "fù",
+      "readingNumeric": "fu4",
+      "senses": [
+        "to pay",
+        "to hand over to",
+        "classifier for pairs or sets of things"
+      ]
+    }
+  ]
+}

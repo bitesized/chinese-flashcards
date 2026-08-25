@@ -1,0 +1,28 @@
+{
+  "character": "铁",
+  "readings": [
+    {
+      "reading": "Tiě",
+      "readingNumeric": "Tie3",
+      "senses": [
+        "surname Tie"
+      ]
+    },
+    {
+      "reading": "tiě",
+      "readingNumeric": "tie3",
+      "senses": [
+        "iron (metal)",
+        "arms",
+        "weapons",
+        "hard",
+        "strong",
+        "violent",
+        "unshakeable",
+        "determined",
+        "close",
+        "tight (slang)"
+      ]
+    }
+  ]
+}

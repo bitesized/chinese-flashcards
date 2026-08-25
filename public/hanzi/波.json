@@ -1,0 +1,23 @@
+{
+  "character": "波",
+  "readings": [
+    {
+      "reading": "Bō",
+      "readingNumeric": "Bo1",
+      "senses": [
+        "(bound form) Poland (abbr. for 波兰)",
+        "surname Bo"
+      ]
+    },
+    {
+      "reading": "bō",
+      "readingNumeric": "bo1",
+      "senses": [
+        "wave",
+        "ripple",
+        "storm",
+        "surge"
+      ]
+    }
+  ]
+}

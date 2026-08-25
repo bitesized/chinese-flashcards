@@ -1,0 +1,25 @@
+{
+  "character": "常",
+  "readings": [
+    {
+      "reading": "Cháng",
+      "readingNumeric": "Chang2",
+      "senses": [
+        "surname Chang"
+      ]
+    },
+    {
+      "reading": "cháng",
+      "readingNumeric": "chang2",
+      "senses": [
+        "always",
+        "ever",
+        "often",
+        "frequently",
+        "common",
+        "general",
+        "constant"
+      ]
+    }
+  ]
+}

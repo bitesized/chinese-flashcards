@@ -1,0 +1,33 @@
+{
+  "character": "毛",
+  "readings": [
+    {
+      "reading": "Máo",
+      "readingNumeric": "Mao2",
+      "senses": [
+        "surname Mao"
+      ]
+    },
+    {
+      "reading": "máo",
+      "readingNumeric": "mao2",
+      "senses": [
+        "hair",
+        "feather",
+        "down",
+        "wool",
+        "mildew",
+        "mold",
+        "coarse or semifinished",
+        "young",
+        "raw",
+        "careless",
+        "unthinking",
+        "nervous",
+        "scared",
+        "(of currency) to devalue or depreciate",
+        "classifier for Chinese fractional monetary unit ( = 角 , = one-tenth of a yuan or 10 fen 分)"
+      ]
+    }
+  ]
+}

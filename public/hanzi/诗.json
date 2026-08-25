@@ -1,0 +1,21 @@
+{
+  "character": "诗",
+  "readings": [
+    {
+      "reading": "Shī",
+      "readingNumeric": "Shi1",
+      "senses": [
+        "abbr. for Shijing 诗经, the Book of Songs"
+      ]
+    },
+    {
+      "reading": "shī",
+      "readingNumeric": "shi1",
+      "senses": [
+        "poem",
+        "poetry",
+        "verse"
+      ]
+    }
+  ]
+}

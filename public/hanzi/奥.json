@@ -1,0 +1,21 @@
+{
+  "character": "奥",
+  "readings": [
+    {
+      "reading": "Ào",
+      "readingNumeric": "Ao4",
+      "senses": [
+        "(bound form) Austria (abbr. for 奥地利)",
+        "(bound form) Olympics (abbr. for 奥林匹克)"
+      ]
+    },
+    {
+      "reading": "ào",
+      "readingNumeric": "ao4",
+      "senses": [
+        "obscure",
+        "mysterious"
+      ]
+    }
+  ]
+}

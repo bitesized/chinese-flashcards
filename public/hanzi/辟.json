@@ -1,0 +1,33 @@
+{
+  "character": "辟",
+  "readings": [
+    {
+      "reading": "bì",
+      "readingNumeric": "bi4",
+      "senses": [
+        "(literary) king; monarch",
+        "(literary) (of a sovereign) to summon to official service",
+        "(literary) to avoid (variant of 避)",
+        "(literary) to repel (variant of 避)"
+      ]
+    },
+    {
+      "reading": "pì",
+      "readingNumeric": "pi4",
+      "senses": [
+        "penal law",
+        "variant of 辟"
+      ]
+    },
+    {
+      "reading": "pì",
+      "readingNumeric": "pi4",
+      "senses": [
+        "to open (a door)",
+        "to open up (for development)",
+        "to dispel; to refute; to repudiate",
+        "(bound form) penetrating; incisive"
+      ]
+    }
+  ]
+}

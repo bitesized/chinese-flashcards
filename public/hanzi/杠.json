@@ -1,0 +1,34 @@
+{
+  "character": "杠",
+  "readings": [
+    {
+      "reading": "gāng",
+      "readingNumeric": "gang1",
+      "senses": [
+        "flagpole",
+        "footbridge"
+      ]
+    },
+    {
+      "reading": "gàng",
+      "readingNumeric": "gang4",
+      "senses": [
+        "variant of 杠"
+      ]
+    },
+    {
+      "reading": "gàng",
+      "readingNumeric": "gang4",
+      "senses": [
+        "(old) coffin-bearing pole",
+        "thick pole; bar; rod",
+        "bold line; thick stroke",
+        "to mark with a thick line",
+        "to sharpen (a knife, razor etc)",
+        "(slang) to argue; to be deliberately argumentative",
+        "standard; criterion",
+        "hyphen; dash"
+      ]
+    }
+  ]
+}
