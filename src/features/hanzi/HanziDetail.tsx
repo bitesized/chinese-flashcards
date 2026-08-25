@@ -38,6 +38,7 @@ export interface HanziDetailProps {
   character: string;
   speechRate: number;
   onBack: () => void;
+  onPracticeOnGrid: (character: string) => void;
 }
 
 type Mode = 'watch' | 'practice';
@@ -47,7 +48,7 @@ type LoadState =
   | { status: 'error'; message: string }
   | { status: 'ready'; entry: HanziEntry };
 
-export function HanziDetail({ character, speechRate, onBack }: HanziDetailProps) {
+export function HanziDetail({ character, speechRate, onBack, onPracticeOnGrid }: HanziDetailProps) {
   const [loadState, setLoadState] = useState<LoadState>({ status: 'loading' });
   const [mode, setMode] = useState<Mode>('watch');
   const speechAvailable = useSpeechAvailable();
@@ -84,6 +85,13 @@ export function HanziDetail({ character, speechRate, onBack }: HanziDetailProps)
       <div className={styles.topBar}>
         <button type="button" className={styles.iconButton} onClick={onBack}>
           ← Hanzi
+        </button>
+        <button
+          type="button"
+          className={styles.gridLinkButton}
+          onClick={() => onPracticeOnGrid(character)}
+        >
+          Copy on grid
         </button>
       </div>
 

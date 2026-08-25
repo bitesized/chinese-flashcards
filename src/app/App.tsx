@@ -40,7 +40,7 @@ type View =
   | { name: 'settings' }
   | { name: 'hanzi-list' }
   | { name: 'hanzi-detail'; character: string }
-  | { name: 'practice-grid' };
+  | { name: 'practice-grid'; pinned?: string[] };
 
 export function App() {
   const [settings, setSettings] = useState<Settings>(() => loadSettings());
@@ -98,12 +98,18 @@ export function App() {
         character={view.character}
         speechRate={settings.speechRate}
         onBack={() => setView({ name: 'hanzi-list' })}
+        onPracticeOnGrid={(character) => setView({ name: 'practice-grid', pinned: [character] })}
       />
     );
   }
 
   if (view.name === 'practice-grid') {
-    return <PracticeGrid onBack={() => setView({ name: 'hanzi-list' })} />;
+    return (
+      <PracticeGrid
+        onBack={() => setView({ name: 'hanzi-list' })}
+        initialPinned={view.pinned ?? []}
+      />
+    );
   }
 
   if (view.name === 'hanzi-list') {

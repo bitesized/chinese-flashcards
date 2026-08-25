@@ -68,14 +68,18 @@ describe('HanziDetail (FR-80, FR-81, FR-82)', () => {
   });
 
   it('shows the character heading immediately and readings once loaded', async () => {
-    render(<HanziDetail character="你" speechRate={0.7} onBack={() => {}} />);
+    render(
+      <HanziDetail character="你" speechRate={0.7} onPracticeOnGrid={() => {}} onBack={() => {}} />,
+    );
     expect(screen.getByRole('heading', { name: '你' })).toBeInTheDocument();
     expect(await screen.findByText('you')).toBeInTheDocument();
     expect(screen.getByText('nǐ')).toBeInTheDocument();
   });
 
   it('defaults to Watch mode, showing the animation view', async () => {
-    render(<HanziDetail character="你" speechRate={0.7} onBack={() => {}} />);
+    render(
+      <HanziDetail character="你" speechRate={0.7} onPracticeOnGrid={() => {}} onBack={() => {}} />,
+    );
     await screen.findByText('you');
     expect(screen.getByRole('button', { name: 'Watch' })).toHaveAttribute('aria-pressed', 'true');
     expect(screen.getByRole('button', { name: 'Practice' })).toHaveAttribute(
@@ -86,7 +90,9 @@ describe('HanziDetail (FR-80, FR-81, FR-82)', () => {
 
   it('switches to Practice mode and back via the toggle', async () => {
     const user = userEvent.setup();
-    render(<HanziDetail character="你" speechRate={0.7} onBack={() => {}} />);
+    render(
+      <HanziDetail character="你" speechRate={0.7} onPracticeOnGrid={() => {}} onBack={() => {}} />,
+    );
     await screen.findByText('you');
 
     await user.click(screen.getByRole('button', { name: 'Practice' }));
@@ -102,7 +108,9 @@ describe('HanziDetail (FR-80, FR-81, FR-82)', () => {
 
   it('resets to Watch mode when the character changes', async () => {
     const user = userEvent.setup();
-    const { rerender } = render(<HanziDetail character="你" speechRate={0.7} onBack={() => {}} />);
+    const { rerender } = render(
+      <HanziDetail character="你" speechRate={0.7} onPracticeOnGrid={() => {}} onBack={() => {}} />,
+    );
     await screen.findByText('you');
     await user.click(screen.getByRole('button', { name: 'Practice' }));
     expect(screen.getByRole('button', { name: 'Practice' })).toHaveAttribute(
@@ -110,13 +118,17 @@ describe('HanziDetail (FR-80, FR-81, FR-82)', () => {
       'true',
     );
 
-    rerender(<HanziDetail character="好" speechRate={0.7} onBack={() => {}} />);
+    rerender(
+      <HanziDetail character="好" speechRate={0.7} onPracticeOnGrid={() => {}} onBack={() => {}} />,
+    );
     expect(screen.getByRole('button', { name: 'Watch' })).toHaveAttribute('aria-pressed', 'true');
   });
 
   it('speaks the character (not its reading) when Listen is clicked', async () => {
     const user = userEvent.setup();
-    render(<HanziDetail character="你" speechRate={0.7} onBack={() => {}} />);
+    render(
+      <HanziDetail character="你" speechRate={0.7} onPracticeOnGrid={() => {}} onBack={() => {}} />,
+    );
     await screen.findByText('you');
     await user.click(screen.getByRole('button', { name: 'Listen' }));
     expect(speakMock).toHaveBeenCalledWith('你', 0.7);
@@ -125,9 +137,26 @@ describe('HanziDetail (FR-80, FR-81, FR-82)', () => {
   it('calls onBack when the back control is activated', async () => {
     const onBack = vi.fn();
     const user = userEvent.setup();
-    render(<HanziDetail character="你" speechRate={0.7} onBack={onBack} />);
+    render(
+      <HanziDetail character="你" speechRate={0.7} onPracticeOnGrid={() => {}} onBack={onBack} />,
+    );
     await user.click(screen.getByRole('button', { name: /Hanzi/ }));
     expect(onBack).toHaveBeenCalledTimes(1);
+  });
+
+  it('calls onPracticeOnGrid with the current character when "Copy on grid" is activated', async () => {
+    const onPracticeOnGrid = vi.fn();
+    const user = userEvent.setup();
+    render(
+      <HanziDetail
+        character="你"
+        speechRate={0.7}
+        onPracticeOnGrid={onPracticeOnGrid}
+        onBack={() => {}}
+      />,
+    );
+    await user.click(screen.getByRole('button', { name: /copy on grid/i }));
+    expect(onPracticeOnGrid).toHaveBeenCalledWith('你');
   });
 
   it('shows an error state when the character entry fails to load', async () => {
@@ -136,7 +165,9 @@ describe('HanziDetail (FR-80, FR-81, FR-82)', () => {
     // the same pattern). Using a character no other test in this file
     // fetches avoids that cache masking this specific failure case.
     vi.stubGlobal('fetch', vi.fn().mockResolvedValue({ ok: false, status: 404 }));
-    render(<HanziDetail character="错" speechRate={0.7} onBack={() => {}} />);
+    render(
+      <HanziDetail character="错" speechRate={0.7} onPracticeOnGrid={() => {}} onBack={() => {}} />,
+    );
     expect(await screen.findByRole('alert')).toBeInTheDocument();
   });
 });

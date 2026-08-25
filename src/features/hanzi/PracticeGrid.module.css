@@ -68,6 +68,198 @@
   cursor: pointer;
 }
 
+.workspace {
+  display: flex;
+  flex: 1;
+  gap: var(--space-3);
+  min-height: 0;
+}
+
+.pinnedColumn {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  width: var(--cell-size);
+  flex-shrink: 0;
+  /* Without this, .workspace's default cross-axis stretch makes this
+     column match the sheet's full height, leaving a large empty gap below
+     a short pinned list — this column should only be as tall as its own
+     content. */
+  align-self: flex-start;
+}
+
+.pinForm {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.pinInput {
+  min-height: var(--touch-target-min);
+  width: 100%;
+  padding: 0 var(--space-2);
+  border-radius: var(--control-radius);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-raised);
+  color: var(--color-ink);
+  font-family: var(--font-en-ui);
+  font-size: var(--text-small);
+}
+
+.pinButton {
+  min-height: var(--touch-target-min);
+  border-radius: var(--control-radius);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-raised);
+  color: var(--color-ink);
+  font-family: var(--font-en-ui);
+  font-size: var(--text-small);
+  cursor: pointer;
+}
+
+.pinnedList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+}
+
+.pinnedTile {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--cell-size);
+  height: var(--cell-size);
+  flex-shrink: 0;
+  background: var(--color-bg-raised);
+}
+
+.pinnedGuide {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.pinnedGlyph {
+  position: relative;
+  z-index: 1;
+}
+
+.pinnedRemove {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 20px;
+  height: 20px;
+  line-height: 1;
+  border: none;
+  border-radius: 50%;
+  background: var(--color-bg);
+  color: var(--color-ink-muted);
+  cursor: pointer;
+  /* Hidden until the tile is hovered or the button itself has focus, so
+     the reference column stays visually quiet — but always shown on a
+     touchscreen (no hover capability), since a control only reachable via
+     a gesture that doesn't exist there would be a real regression for
+     touch, not a stylistic choice (NFR-5: no reduced mobile feature set). */
+  opacity: 0;
+  transition: opacity 120ms ease;
+}
+
+.pinnedTile:hover .pinnedRemove,
+.pinnedTile:focus-within .pinnedRemove {
+  opacity: 1;
+}
+
+@media (hover: none) {
+  .pinnedRemove {
+    opacity: 1;
+  }
+}
+
+.mainArea {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: var(--space-3);
+  min-height: 0;
+  min-width: 0;
+}
+
+.optionsBar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--control-radius);
+  background: var(--color-bg-raised);
+}
+
+.optionField {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-family: var(--font-en-ui);
+  font-size: var(--text-small);
+  color: var(--color-ink-muted);
+}
+
+.optionInput {
+  width: 3.5rem;
+  min-height: var(--touch-target-min);
+  padding: 0 var(--space-2);
+  border-radius: var(--control-radius);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-en-ui);
+  font-size: var(--text-ui);
+}
+
+.characterRows {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  max-height: 45vh;
+  overflow-y: auto;
+}
+
+.charRow {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  padding-bottom: var(--space-3);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.rowLabel {
+  flex-shrink: 0;
+  width: 2rem;
+  padding-top: var(--space-2);
+  font-family: var(--font-zh);
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--color-ink-muted);
+  text-align: center;
+}
+
+.rowCells {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  min-width: 0;
+}
+
+.rowCell {
+  flex-shrink: 0;
+}
+
 .sheet {
   position: relative;
   flex: 1;
@@ -76,6 +268,12 @@
   border-radius: var(--card-radius);
   background: var(--color-bg-raised);
   overflow: hidden;
+}
+
+.transformLayer {
+  position: absolute;
+  inset: 0;
+  transform-origin: 0 0;
 }
 
 .guides {
@@ -87,8 +285,8 @@
 .canvas {
   position: absolute;
   inset: 0;
-  /* Ours to draw on directly with Pointer Events — touch-action:none stops
-     the browser's own panning/zooming from competing with a drawn stroke,
-     same reasoning as HanziPractice's canvas. */
+  /* The canvas is the actual touch/pointer target — touch-action:none here
+     (not just on the sheet) stops the browser's own panning/zooming from
+     competing with a drawn stroke or our own pinch/pan handling. */
   touch-action: none;
 }
