@@ -52,7 +52,9 @@ describe('HanziList (FR-80, FR-85)', () => {
   });
 
   it('loads and shows every character from the index', async () => {
-    render(<HanziList onSelectCharacter={() => {}} onBack={() => {}} />);
+    render(
+      <HanziList onSelectCharacter={() => {}} onOpenPracticeGrid={() => {}} onBack={() => {}} />,
+    );
     expect(await screen.findByText('3 of 3 characters')).toBeInTheDocument();
     expect(screen.getByText('你')).toBeInTheDocument();
     expect(screen.getByText('好')).toBeInTheDocument();
@@ -61,7 +63,9 @@ describe('HanziList (FR-80, FR-85)', () => {
 
   it('filters by character', async () => {
     const user = userEvent.setup();
-    render(<HanziList onSelectCharacter={() => {}} onBack={() => {}} />);
+    render(
+      <HanziList onSelectCharacter={() => {}} onOpenPracticeGrid={() => {}} onBack={() => {}} />,
+    );
     await screen.findByText('3 of 3 characters');
     await user.type(screen.getByRole('searchbox', { name: 'Search characters' }), '你');
     expect(await screen.findByText('1 of 3 characters')).toBeInTheDocument();
@@ -71,7 +75,9 @@ describe('HanziList (FR-80, FR-85)', () => {
 
   it("filters by a Pinyin substring, matching any of a polyphonic character's readings", async () => {
     const user = userEvent.setup();
-    render(<HanziList onSelectCharacter={() => {}} onBack={() => {}} />);
+    render(
+      <HanziList onSelectCharacter={() => {}} onOpenPracticeGrid={() => {}} onBack={() => {}} />,
+    );
     await screen.findByText('3 of 3 characters');
     await user.type(screen.getByRole('searchbox', { name: 'Search characters' }), 'hào');
     expect(await screen.findByText('1 of 3 characters')).toBeInTheDocument();
@@ -80,7 +86,9 @@ describe('HanziList (FR-80, FR-85)', () => {
 
   it('shows a no-match message when nothing filters through', async () => {
     const user = userEvent.setup();
-    render(<HanziList onSelectCharacter={() => {}} onBack={() => {}} />);
+    render(
+      <HanziList onSelectCharacter={() => {}} onOpenPracticeGrid={() => {}} onBack={() => {}} />,
+    );
     await screen.findByText('3 of 3 characters');
     await user.type(screen.getByRole('searchbox', { name: 'Search characters' }), 'zzz');
     expect(await screen.findByText(/no characters match/i)).toBeInTheDocument();
@@ -89,7 +97,13 @@ describe('HanziList (FR-80, FR-85)', () => {
   it('calls onSelectCharacter when a character button is clicked', async () => {
     const onSelectCharacter = vi.fn();
     const user = userEvent.setup();
-    render(<HanziList onSelectCharacter={onSelectCharacter} onBack={() => {}} />);
+    render(
+      <HanziList
+        onSelectCharacter={onSelectCharacter}
+        onOpenPracticeGrid={() => {}}
+        onBack={() => {}}
+      />,
+    );
     const button = await screen.findByRole('button', { name: /你/ });
     await user.click(button);
     expect(onSelectCharacter).toHaveBeenCalledWith('你');
@@ -98,14 +112,32 @@ describe('HanziList (FR-80, FR-85)', () => {
   it('calls onBack when the back control is activated', async () => {
     const onBack = vi.fn();
     const user = userEvent.setup();
-    render(<HanziList onSelectCharacter={() => {}} onBack={onBack} />);
+    render(
+      <HanziList onSelectCharacter={() => {}} onOpenPracticeGrid={() => {}} onBack={onBack} />,
+    );
     await user.click(screen.getByRole('button', { name: /Level Select/ }));
     expect(onBack).toHaveBeenCalledTimes(1);
   });
 
+  it('calls onOpenPracticeGrid when the practice grid control is activated', async () => {
+    const onOpenPracticeGrid = vi.fn();
+    const user = userEvent.setup();
+    render(
+      <HanziList
+        onSelectCharacter={() => {}}
+        onOpenPracticeGrid={onOpenPracticeGrid}
+        onBack={() => {}}
+      />,
+    );
+    await user.click(screen.getByRole('button', { name: /Practice grid/ }));
+    expect(onOpenPracticeGrid).toHaveBeenCalledTimes(1);
+  });
+
   it('shows an error state when the index fails to load', async () => {
     vi.stubGlobal('fetch', vi.fn().mockResolvedValue({ ok: false, status: 500 }));
-    render(<HanziList onSelectCharacter={() => {}} onBack={() => {}} />);
+    render(
+      <HanziList onSelectCharacter={() => {}} onOpenPracticeGrid={() => {}} onBack={() => {}} />,
+    );
     expect(await screen.findByRole('alert')).toBeInTheDocument();
   });
 });

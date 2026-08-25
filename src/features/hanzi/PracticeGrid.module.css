@@ -22,10 +22,12 @@
   flex: 1;
   padding: var(--space-6) var(--space-4);
   padding-top: max(var(--space-6), env(safe-area-inset-top));
+  padding-bottom: max(var(--space-6), env(safe-area-inset-bottom));
   gap: var(--space-4);
-  max-width: 720px;
+  max-width: 960px;
   margin: 0 auto;
   width: 100%;
+  min-height: 0;
 }
 
 .topBar {
@@ -54,7 +56,7 @@
   color: var(--color-ink);
 }
 
-.searchInput {
+.clearButton {
   min-height: var(--touch-target-min);
   padding: 0 var(--space-4);
   border-radius: var(--control-radius);
@@ -63,55 +65,30 @@
   color: var(--color-ink);
   font-family: var(--font-en-ui);
   font-size: var(--text-ui);
-}
-
-.count {
-  font-family: var(--font-en-ui);
-  font-size: var(--text-small);
-  color: var(--color-ink-muted);
-  margin: 0;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(84px, 1fr));
-  gap: var(--space-3);
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  overflow-y: auto;
-}
-
-.charButton {
-  width: 100%;
-  min-height: calc(var(--touch-target-min) + var(--space-4));
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: var(--space-1);
-  padding: var(--space-2);
-  border-radius: var(--control-radius);
-  border: 1px solid var(--color-border);
-  background: var(--color-bg-raised);
   cursor: pointer;
 }
 
-.char {
-  font-family: var(--font-zh);
-  font-size: 1.75rem;
-  color: var(--color-ink);
-  line-height: 1;
+.sheet {
+  position: relative;
+  flex: 1;
+  min-height: 320px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--card-radius);
+  background: var(--color-bg-raised);
+  overflow: hidden;
 }
 
-.reading {
-  font-family: var(--font-en);
-  font-size: var(--text-small);
-  color: var(--color-ink-muted);
+.guides {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
 }
 
-.message {
-  font-family: var(--font-en-ui);
-  font-size: var(--text-ui);
-  color: var(--color-ink-muted);
+.canvas {
+  position: absolute;
+  inset: 0;
+  /* Ours to draw on directly with Pointer Events — touch-action:none stops
+     the browser's own panning/zooming from competing with a drawn stroke,
+     same reasoning as HanziPractice's canvas. */
+  touch-action: none;
 }

@@ -33,6 +33,7 @@ import type { HanziIndexEntry } from '../../domain/hanzi.js';
 
 export interface HanziListProps {
   onSelectCharacter: (character: string) => void;
+  onOpenPracticeGrid: () => void;
   onBack: () => void;
 }
 
@@ -41,7 +42,7 @@ type LoadState =
   | { status: 'error'; message: string }
   | { status: 'ready'; entries: HanziIndexEntry[] };
 
-export function HanziList({ onSelectCharacter, onBack }: HanziListProps) {
+export function HanziList({ onSelectCharacter, onOpenPracticeGrid, onBack }: HanziListProps) {
   const [loadState, setLoadState] = useState<LoadState>({ status: 'loading' });
   const [query, setQuery] = useState('');
 
@@ -78,6 +79,9 @@ export function HanziList({ onSelectCharacter, onBack }: HanziListProps) {
           ← Level Select
         </button>
         <h1 className={styles.heading}>Hanzi</h1>
+        <button type="button" className={styles.iconButton} onClick={onOpenPracticeGrid}>
+          Practice grid
+        </button>
       </div>
 
       <input

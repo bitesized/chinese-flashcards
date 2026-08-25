@@ -29,6 +29,7 @@ import { StudySession } from '../features/study/StudySession.js';
 import { SettingsScreen } from '../features/settings/SettingsScreen.js';
 import { HanziList } from '../features/hanzi/HanziList.js';
 import { HanziDetail } from '../features/hanzi/HanziDetail.js';
+import { PracticeGrid } from '../features/hanzi/PracticeGrid.js';
 import { loadSettings, saveSettings } from '../services/storage.js';
 import type { Settings } from '../domain/runtime.js';
 import type { HskLevel } from '../domain/card.js';
@@ -38,7 +39,8 @@ type View =
   | { name: 'study'; levels: HskLevel[] }
   | { name: 'settings' }
   | { name: 'hanzi-list' }
-  | { name: 'hanzi-detail'; character: string };
+  | { name: 'hanzi-detail'; character: string }
+  | { name: 'practice-grid' };
 
 export function App() {
   const [settings, setSettings] = useState<Settings>(() => loadSettings());
@@ -100,10 +102,15 @@ export function App() {
     );
   }
 
+  if (view.name === 'practice-grid') {
+    return <PracticeGrid onBack={() => setView({ name: 'hanzi-list' })} />;
+  }
+
   if (view.name === 'hanzi-list') {
     return (
       <HanziList
         onSelectCharacter={(character) => setView({ name: 'hanzi-detail', character })}
+        onOpenPracticeGrid={() => setView({ name: 'practice-grid' })}
         onBack={() => setView({ name: 'level-select' })}
       />
     );
