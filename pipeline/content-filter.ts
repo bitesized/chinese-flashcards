@@ -60,10 +60,13 @@ export interface ApplyContentFilterResult {
   filteredIds: string[];
   /** Card ids where every sense was vulgar — the whole card is dropped
    *  (domain-model.md §3 invariant 2: no card ships with zero senses).
-   *  Not observed in the pinned corpus for any HSK-matched word as of
-   *  DEC-029 (only 日/ri4 and 干/gan4 intersect, and both keep senses after
-   *  filtering), but handled correctly regardless — see the module's
-   *  associated test for a synthetic case. */
+   *  Observed for real in the pinned corpus: 草:cao4 (HSK 2) — its sibling
+   *  in the same homograph group, 草:cao3, needs its `homographGroup` tag
+   *  cleared once this card disappears (invariant 6); this module does not
+   *  do that itself (see `pipeline/exclusions.ts`'s
+   *  `clearVacuousHomographGroups`, applied by `build-data.ts` after this
+   *  filter runs) — a card being dropped for content reasons is this
+   *  module's concern, but homograph-group bookkeeping is not. */
   droppedIds: string[];
 }
 

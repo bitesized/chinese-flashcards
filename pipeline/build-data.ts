@@ -40,6 +40,7 @@ import { fileURLToPath } from 'node:url';
 import { loadAndBuildCards } from './build-cards.js';
 import type { BuildCardsResult } from './build-cards.js';
 import { applyContentFilter } from './content-filter.js';
+import { clearVacuousHomographGroups } from './exclusions.js';
 import { transformSenseAnnotations } from './sense-annotations.js';
 import { validate } from './validate.js';
 import type { ValidationResult } from './validate.js';
@@ -134,8 +135,15 @@ export function buildDeckSet(builtAt: string): DeckSet {
     droppedIds,
   } = applyContentFilter([...uniqueCards.values()]);
 
+  // The content filter can drop a card entirely (droppedIds), which can
+  // leave a surviving homograph sibling's `homographGroup` tag vacuous —
+  // the same invariant-6 repair `applyExclusions` already does for its own
+  // drops (pipeline/exclusions.ts), needed again here since this is a
+  // separate, later stage that can produce the same situation.
+  const groupsRepaired = clearVacuousHomographGroups(contentFiltered);
+
   const cardsByLevel = emptyCardsByLevel();
-  for (const card of contentFiltered) {
+  for (const card of groupsRepaired) {
     const next: Card = { ...card, senses: transformSenseAnnotations(card.senses) };
     for (const level of next.levels) {
       cardsByLevel[level].push(next);

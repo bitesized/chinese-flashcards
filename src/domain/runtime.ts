@@ -55,7 +55,7 @@ export interface Settings {
   speechRate: number; // default 0.7 — FR-45, added WO-012
   autoplayOnReveal: boolean; // default false — FR-41/FR-46, added WO-012
   theme: 'system' | 'light' | 'dark'; // default 'system'
-  lastLevels: HskLevel[]; // FR-25 — not yet acted on until M3
+  lastLevels: HskLevel[]; // FR-25 — acted on from WO-014/M3
 }
 
 export const SETTINGS_SCHEMA_VERSION = 1;
@@ -68,5 +68,8 @@ export const DEFAULT_SETTINGS: Settings = {
   speechRate: 0.7,
   autoplayOnReveal: false,
   theme: 'system',
-  lastLevels: [],
+  // HSK 1 is the only reviewed level at first launch (DEC-025), so a
+  // first-time visitor gets a one-tap-to-start pre-selection (WO-014)
+  // rather than an empty one that would otherwise require an extra tap.
+  lastLevels: ['1'],
 };

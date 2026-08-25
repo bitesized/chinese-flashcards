@@ -17,13 +17,15 @@
  */
 
 /**
- * Level Select (ux-specification.md §4.1), scoped to WO-011/M2: shows all
- * six levels with their real compiled counts (from `public/decks/manifest.json`,
- * so a beginner never fetches all six decks just to see counts), but only a
- * `reviewed` level is selectable — currently HSK 1 only, per
- * [DEC-025](../../../docs/project/decision-log.md). Due counts (FR-24, FR-64),
- * multi-select (FR-23), and last-level memory (FR-25) are M3/M5 scope, not
- * this work order's.
+ * Level Select (ux-specification.md §4.1). WO-011/M2 built single-level
+ * selection with real compiled counts (from `public/decks/manifest.json`,
+ * so a beginner never fetches all six decks just to see counts). WO-014/M3
+ * adds multi-select (FR-23) and last-level memory (FR-25): a level button
+ * toggles selection rather than immediately starting a session, and a
+ * primary action starts a combined session with everything selected. Due
+ * counts (FR-24's due-count half, FR-64) and a "Review N cards" primary
+ * action remain M5 scope — the scheduler doesn't exist yet, so this stays
+ * free-review-shaped, same as M2.
  */
 
 import { useEffect, useState } from 'react';
@@ -41,29 +43,56 @@ type Manifest = Record<HskLevel, ManifestEntry>;
 const LEVELS: readonly HskLevel[] = ['1', '2', '3', '4', '5', '6'];
 
 export interface LevelSelectProps {
-  onSelectLevel: (level: HskLevel) => void;
+  /** Pre-selection on mount (Settings.lastLevels, FR-25) — filtered to
+   *  available levels once the manifest loads. */
+  initialSelection: HskLevel[];
+  onStartSession: (levels: HskLevel[]) => void;
   onOpenSettings: () => void;
 }
 
-export function LevelSelect({ onSelectLevel, onOpenSettings }: LevelSelectProps) {
+export function LevelSelect({
+  initialSelection,
+  onStartSession,
+  onOpenSettings,
+}: LevelSelectProps) {
   const [manifest, setManifest] = useState<Manifest | null>(null);
+  const [selected, setSelected] = useState<Set<HskLevel>>(() => new Set(initialSelection));
 
   useEffect(() => {
     let cancelled = false;
     fetch('/decks/manifest.json')
       .then((r) => r.json() as Promise<Manifest>)
       .then((data) => {
-        if (!cancelled) setManifest(data);
+        if (cancelled) return;
+        setManifest(data);
+        // Defensive per WO-014: a remembered level that's since become
+        // unavailable (shouldn't happen — levels only gain review status,
+        // never lose it — but not assumed) is dropped from the selection
+        // rather than left selected-but-unstartable.
+        setSelected((prev) => new Set([...prev].filter((level) => data[level]?.reviewed)));
       })
       .catch(() => {
-        // Left as an exercise for later polish (M2 out of scope): a failed
-        // manifest fetch currently just leaves counts blank rather than
-        // blocking the screen — the level buttons themselves still work.
+        // Left as an exercise for later polish: a failed manifest fetch
+        // currently just leaves counts blank rather than blocking the
+        // screen — the level buttons themselves still work once available
+        // is known some other way (it currently isn't, so all levels stay
+        // disabled until the manifest loads — no partial-availability
+        // guessing).
       });
     return () => {
       cancelled = true;
     };
   }, []);
+
+  function toggleLevel(level: HskLevel, available: boolean) {
+    if (!available) return;
+    setSelected((prev) => {
+      const next = new Set(prev);
+      if (next.has(level)) next.delete(level);
+      else next.add(level);
+      return next;
+    });
+  }
 
   return (
     <div className={styles.screen}>
@@ -78,13 +107,15 @@ export function LevelSelect({ onSelectLevel, onOpenSettings }: LevelSelectProps)
         {LEVELS.map((level) => {
           const entry = manifest?.[level];
           const available = entry?.reviewed ?? false;
+          const isSelected = selected.has(level);
           return (
             <li key={level}>
               <button
                 type="button"
                 className={styles.levelButton}
                 disabled={!available}
-                onClick={() => available && onSelectLevel(level)}
+                aria-pressed={isSelected}
+                onClick={() => toggleLevel(level, available)}
               >
                 <span className={styles.levelName}>HSK {level}</span>
                 <span className={styles.levelMeta}>
@@ -96,6 +127,15 @@ export function LevelSelect({ onSelectLevel, onOpenSettings }: LevelSelectProps)
           );
         })}
       </ul>
+
+      <button
+        type="button"
+        className={styles.startButton}
+        disabled={selected.size === 0}
+        onClick={() => onStartSession([...selected].sort())}
+      >
+        Start Studying
+      </button>
     </div>
   );
 }

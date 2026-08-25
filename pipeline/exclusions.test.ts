@@ -20,7 +20,7 @@ import { mkdtempSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { afterEach, beforeEach, describe, expect, it } from 'vitest';
-import { applyExclusions, loadExclusions } from './exclusions.js';
+import { applyExclusions, clearVacuousHomographGroups, loadExclusions } from './exclusions.js';
 import type { ExclusionsFile } from './exclusions.js';
 import type { Card } from '../src/domain/card.js';
 
@@ -108,6 +108,31 @@ describe('applyExclusions', () => {
     const card = makeCard();
     const { cards } = applyExclusions([card], {});
     expect(cards[0]?.homographGroup).toBeUndefined();
+  });
+});
+
+describe('clearVacuousHomographGroups (used by applyExclusions, and by build-data.ts after the content filter — a card can also disappear there, e.g. 草:cao4, HSK 2, DEC-029)', () => {
+  it('clears the tag from a lone survivor when its sibling is already absent from the input', () => {
+    // Models the content-filter case: the sibling never even reaches this
+    // function (it was dropped by applyContentFilter upstream), unlike
+    // applyExclusions's own tests, where the sibling is present in the
+    // input and filtered out internally.
+    const survivor = makeCard({ id: '草:cao3', senses: ['grass'], homographGroup: '草' });
+    const [result] = clearVacuousHomographGroups([survivor]);
+    expect(result?.homographGroup).toBeUndefined();
+  });
+
+  it('leaves the tag intact when 2+ members are present in the input', () => {
+    const a = makeCard({ id: 'A', homographGroup: 'g' });
+    const b = makeCard({ id: 'B', homographGroup: 'g' });
+    const result = clearVacuousHomographGroups([a, b]);
+    expect(result.every((card) => card.homographGroup === 'g')).toBe(true);
+  });
+
+  it('is a no-op for cards with no homographGroup', () => {
+    const card = makeCard();
+    const [result] = clearVacuousHomographGroups([card]);
+    expect(result).toEqual(card);
   });
 });
 

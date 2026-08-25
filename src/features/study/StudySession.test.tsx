@@ -44,9 +44,9 @@ const speakMock = vi.mocked(speak);
 // than depending on shuffle output.
 const SEQUENTIAL_SETTINGS: Settings = { ...DEFAULT_SETTINGS, cardOrder: 'sequential' };
 
-function makeDeck(cardCount = 2): Deck {
+function makeDeck(cardCount = 2, idPrefix = 'word'): Deck {
   const cards: Card[] = Array.from({ length: cardCount }, (_, i) => ({
-    id: `word${i}:reading${i}`,
+    id: `${idPrefix}${i}:reading${i}`,
     headword: `字${i}`,
     reading: `zì${i}`,
     readingNumeric: `zi${i}`,
@@ -55,6 +55,10 @@ function makeDeck(cardCount = 2): Deck {
     source: 'cc-cedict',
     review: 'approved',
   }));
+  return wrapDeck(cards);
+}
+
+function wrapDeck(cards: Card[]): Deck {
   return {
     schemaVersion: 1,
     language: 'zh-Hans',
@@ -62,11 +66,11 @@ function makeDeck(cardCount = 2): Deck {
     title: 'HSK 1',
     cards,
     meta: {
-      cardCount,
+      cardCount: cards.length,
       dictionaryVersion: 'test',
       wordListVersion: 'test',
       builtAt: new Date().toISOString(),
-      reviewSummary: { unreviewed: 0, approved: cardCount, flagged: 0, corrected: 0 },
+      reviewSummary: { unreviewed: 0, approved: cards.length, flagged: 0, corrected: 0 },
     },
   };
 }
@@ -81,7 +85,7 @@ describe('StudySession', () => {
     loadDeckMock.mockResolvedValue(makeDeck(3));
     render(
       <StudySession
-        level="1"
+        levels={['1']}
         settings={SEQUENTIAL_SETTINGS}
         onTogglePinyin={() => {}}
         onExit={() => {}}
@@ -98,7 +102,7 @@ describe('StudySession', () => {
     const user = userEvent.setup();
     render(
       <StudySession
-        level="1"
+        levels={['1']}
         settings={SEQUENTIAL_SETTINGS}
         onTogglePinyin={() => {}}
         onExit={() => {}}
@@ -115,7 +119,7 @@ describe('StudySession', () => {
     const user = userEvent.setup();
     render(
       <StudySession
-        level="1"
+        levels={['1']}
         settings={SEQUENTIAL_SETTINGS}
         onTogglePinyin={() => {}}
         onExit={() => {}}
@@ -150,7 +154,7 @@ describe('StudySession', () => {
     const user = userEvent.setup();
     render(
       <StudySession
-        level="1"
+        levels={['1']}
         settings={SEQUENTIAL_SETTINGS}
         onTogglePinyin={onTogglePinyin}
         onExit={() => {}}
@@ -169,7 +173,7 @@ describe('StudySession', () => {
     const user = userEvent.setup();
     render(
       <StudySession
-        level="1"
+        levels={['1']}
         settings={SEQUENTIAL_SETTINGS}
         onTogglePinyin={() => {}}
         onExit={() => {}}
@@ -190,7 +194,7 @@ describe('StudySession', () => {
     const user = userEvent.setup();
     render(
       <StudySession
-        level="1"
+        levels={['1']}
         settings={SEQUENTIAL_SETTINGS}
         onTogglePinyin={() => {}}
         onExit={() => {}}
@@ -208,7 +212,7 @@ describe('StudySession', () => {
     const user = userEvent.setup();
     render(
       <StudySession
-        level="1"
+        levels={['1']}
         settings={autoplaySettings}
         onTogglePinyin={() => {}}
         onExit={() => {}}
@@ -235,7 +239,7 @@ describe('StudySession', () => {
     const user = userEvent.setup();
     render(
       <StudySession
-        level="1"
+        levels={['1']}
         settings={SEQUENTIAL_SETTINGS}
         onTogglePinyin={() => {}}
         onExit={() => {}}
@@ -244,5 +248,87 @@ describe('StudySession', () => {
     await waitFor(() => expect(screen.getAllByText('字0').length).toBeGreaterThan(0));
     await user.click(screen.getByRole('button', { name: /showing character/i }));
     expect(speakMock).not.toHaveBeenCalled();
+  });
+});
+
+describe('StudySession — multi-level sessions (WO-014, FR-23)', () => {
+  beforeEach(() => {
+    loadDeckMock.mockReset();
+    speakMock.mockReset();
+  });
+
+  it('merges cards from every selected level into one combined session', async () => {
+    loadDeckMock.mockImplementation((level: string) =>
+      Promise.resolve(
+        makeDeck(2, level === '1' ? 'a' : 'b'), // distinct id prefixes per level
+      ),
+    );
+    render(
+      <StudySession
+        levels={['1', '2']}
+        settings={SEQUENTIAL_SETTINGS}
+        onTogglePinyin={() => {}}
+        onExit={() => {}}
+      />,
+    );
+    // 2 cards from level 1 + 2 cards from level 2 = 4, none overlapping.
+    await waitFor(() => expect(screen.getByText('1 / 4')).toBeInTheDocument());
+    expect(loadDeckMock).toHaveBeenCalledWith('1');
+    expect(loadDeckMock).toHaveBeenCalledWith('2');
+  });
+
+  it('de-duplicates a card that appears in more than one selected level', async () => {
+    const only1 = makeDeck(1, 'only1').cards[0]!;
+    const only2 = makeDeck(1, 'only2').cards[0]!;
+    const shared = makeDeck(1, 'shared').cards[0]!;
+    const deck1 = wrapDeck([only1, shared]);
+    const deck2 = wrapDeck([shared, only2]);
+    loadDeckMock.mockImplementation((level: string) =>
+      Promise.resolve(level === '1' ? deck1 : deck2),
+    );
+
+    render(
+      <StudySession
+        levels={['1', '2']}
+        settings={SEQUENTIAL_SETTINGS}
+        onTogglePinyin={() => {}}
+        onExit={() => {}}
+      />,
+    );
+    // 2 unique from deck1 + 2 unique from deck2, but "shared" counted once: 3.
+    await waitFor(() => expect(screen.getByText('1 / 3')).toBeInTheDocument());
+  });
+
+  it('formats the loading/complete copy for more than one level', async () => {
+    loadDeckMock.mockResolvedValue(makeDeck(1));
+    const user = userEvent.setup();
+    render(
+      <StudySession
+        levels={['1', '2', '3']}
+        settings={SEQUENTIAL_SETTINGS}
+        onTogglePinyin={() => {}}
+        onExit={() => {}}
+      />,
+    );
+    expect(screen.getByText(/Loading HSK 1, 2 & 3/)).toBeInTheDocument();
+    await waitFor(() => expect(screen.getAllByText('字0').length).toBeGreaterThan(0));
+    await user.click(screen.getByRole('button', { name: /Next/ }));
+    expect(await screen.findByText(/HSK 1, 2 & 3 complete/)).toBeInTheDocument();
+  });
+
+  it('a load failure for any selected level shows the error state, not a partial session', async () => {
+    loadDeckMock.mockImplementation((level: string) =>
+      level === '2' ? Promise.reject(new Error('HSK 2 down')) : Promise.resolve(makeDeck(2)),
+    );
+    render(
+      <StudySession
+        levels={['1', '2']}
+        settings={SEQUENTIAL_SETTINGS}
+        onTogglePinyin={() => {}}
+        onExit={() => {}}
+      />,
+    );
+    await waitFor(() => expect(screen.getByRole('alert')).toBeInTheDocument());
+    expect(screen.getByText(/HSK 2 down/)).toBeInTheDocument();
   });
 });

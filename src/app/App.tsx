@@ -31,7 +31,7 @@ import { loadSettings, saveSettings } from '../services/storage.js';
 import type { Settings } from '../domain/runtime.js';
 import type { HskLevel } from '../domain/card.js';
 
-type View = { name: 'level-select' } | { name: 'study'; level: HskLevel } | { name: 'settings' };
+type View = { name: 'level-select' } | { name: 'study'; levels: HskLevel[] } | { name: 'settings' };
 
 export function App() {
   const [settings, setSettings] = useState<Settings>(() => loadSettings());
@@ -75,7 +75,7 @@ export function App() {
   if (view.name === 'study') {
     return (
       <StudySession
-        level={view.level}
+        levels={view.levels}
         settings={settings}
         onTogglePinyin={togglePinyin}
         onExit={() => setView({ name: 'level-select' })}
@@ -85,7 +85,13 @@ export function App() {
 
   return (
     <LevelSelect
-      onSelectLevel={(level) => setView({ name: 'study', level })}
+      initialSelection={settings.lastLevels}
+      onStartSession={(levels) => {
+        // FR-25: the exact selection used to start a session is what's
+        // remembered, not merely updated on some other schedule.
+        updateSettings({ ...settings, lastLevels: levels });
+        setView({ name: 'study', levels });
+      }}
       onOpenSettings={() => setView({ name: 'settings' })}
     />
   );

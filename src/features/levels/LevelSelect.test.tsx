@@ -27,12 +27,13 @@ function mockManifestResponse() {
     json: () =>
       Promise.resolve({
         1: { title: 'HSK 1', cardCount: 154, reviewed: true },
-        2: { title: 'HSK 2', cardCount: 0, reviewed: false },
+        2: { title: 'HSK 2', cardCount: 187, reviewed: true },
+        3: { title: 'HSK 3', cardCount: 0, reviewed: false },
       }),
   } as Response;
 }
 
-describe('LevelSelect (DEC-025: only reviewed levels are selectable)', () => {
+describe('LevelSelect — availability (DEC-025: only reviewed levels are selectable)', () => {
   beforeEach(() => {
     vi.stubGlobal('fetch', vi.fn().mockResolvedValue(mockManifestResponse()));
   });
@@ -41,30 +42,36 @@ describe('LevelSelect (DEC-025: only reviewed levels are selectable)', () => {
     vi.unstubAllGlobals();
   });
 
-  it('enables a reviewed level with its real card count and calls onSelectLevel when clicked', async () => {
-    const onSelectLevel = vi.fn();
-    const user = userEvent.setup();
-    render(<LevelSelect onSelectLevel={onSelectLevel} onOpenSettings={() => {}} />);
-
+  it('shows a reviewed level as enabled with its real card count', async () => {
+    render(
+      <LevelSelect initialSelection={[]} onStartSession={() => {}} onOpenSettings={() => {}} />,
+    );
     const hsk1 = await screen.findByRole('button', { name: /HSK 1/ });
     expect(hsk1).toBeEnabled();
     expect(hsk1).toHaveTextContent('154 cards');
-
-    await user.click(hsk1);
-    expect(onSelectLevel).toHaveBeenCalledWith('1');
   });
 
-  it('disables an unreviewed level and never invokes onSelectLevel for it', async () => {
-    const onSelectLevel = vi.fn();
-    render(<LevelSelect onSelectLevel={onSelectLevel} onOpenSettings={() => {}} />);
-
-    const hsk2 = await screen.findByRole('button', { name: /HSK 2/ });
-    expect(hsk2).toBeDisabled();
-    expect(hsk2).toHaveTextContent('not yet available');
+  it('disables an unreviewed level and it cannot be toggled into the selection', async () => {
+    const onStartSession = vi.fn();
+    const user = userEvent.setup();
+    render(
+      <LevelSelect
+        initialSelection={[]}
+        onStartSession={onStartSession}
+        onOpenSettings={() => {}}
+      />,
+    );
+    const hsk3 = await screen.findByRole('button', { name: /HSK 3/ });
+    expect(hsk3).toBeDisabled();
+    expect(hsk3).toHaveTextContent('not yet available');
+    await user.click(hsk3);
+    expect(hsk3).toHaveAttribute('aria-pressed', 'false');
   });
 
-  it('shows a placeholder for levels absent from the manifest without crashing', async () => {
-    render(<LevelSelect onSelectLevel={() => {}} onOpenSettings={() => {}} />);
+  it('shows a placeholder for a level absent from the manifest without crashing, and it stays disabled', async () => {
+    render(
+      <LevelSelect initialSelection={[]} onStartSession={() => {}} onOpenSettings={() => {}} />,
+    );
     const hsk6 = await screen.findByRole('button', { name: /HSK 6/ });
     expect(hsk6).toBeDisabled();
   });
@@ -72,9 +79,116 @@ describe('LevelSelect (DEC-025: only reviewed levels are selectable)', () => {
   it('opens Settings when the Settings link is activated', async () => {
     const onOpenSettings = vi.fn();
     const user = userEvent.setup();
-    render(<LevelSelect onSelectLevel={() => {}} onOpenSettings={onOpenSettings} />);
+    render(
+      <LevelSelect
+        initialSelection={[]}
+        onStartSession={() => {}}
+        onOpenSettings={onOpenSettings}
+      />,
+    );
     await waitFor(() => screen.getByRole('button', { name: 'Settings' }));
     await user.click(screen.getByRole('button', { name: 'Settings' }));
     expect(onOpenSettings).toHaveBeenCalledTimes(1);
+  });
+});
+
+describe('LevelSelect — multi-select and last-level memory (FR-23, FR-25)', () => {
+  beforeEach(() => {
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue(mockManifestResponse()));
+  });
+
+  afterEach(() => {
+    vi.unstubAllGlobals();
+  });
+
+  it('the Start button is disabled with nothing selected', async () => {
+    render(
+      <LevelSelect initialSelection={[]} onStartSession={() => {}} onOpenSettings={() => {}} />,
+    );
+    await screen.findByRole('button', { name: /HSK 1/ });
+    expect(screen.getByRole('button', { name: /Start Studying/i })).toBeDisabled();
+  });
+
+  it('toggling a level selects it, and Start calls onStartSession with just that level', async () => {
+    const onStartSession = vi.fn();
+    const user = userEvent.setup();
+    render(
+      <LevelSelect
+        initialSelection={[]}
+        onStartSession={onStartSession}
+        onOpenSettings={() => {}}
+      />,
+    );
+    const hsk1 = await screen.findByRole('button', { name: /HSK 1/ });
+    await user.click(hsk1);
+    expect(hsk1).toHaveAttribute('aria-pressed', 'true');
+
+    await user.click(screen.getByRole('button', { name: /Start Studying/i }));
+    expect(onStartSession).toHaveBeenCalledWith(['1']);
+  });
+
+  it('selecting two levels starts a combined session with both, sorted', async () => {
+    const onStartSession = vi.fn();
+    const user = userEvent.setup();
+    render(
+      <LevelSelect
+        initialSelection={[]}
+        onStartSession={onStartSession}
+        onOpenSettings={() => {}}
+      />,
+    );
+    const hsk2 = await screen.findByRole('button', { name: /HSK 2/ });
+    const hsk1 = screen.getByRole('button', { name: /HSK 1/ });
+    // Select out of order — the result should still come out sorted.
+    await user.click(hsk2);
+    await user.click(hsk1);
+    await user.click(screen.getByRole('button', { name: /Start Studying/i }));
+    expect(onStartSession).toHaveBeenCalledWith(['1', '2']);
+  });
+
+  it('clicking a selected level again deselects it', async () => {
+    const user = userEvent.setup();
+    render(
+      <LevelSelect initialSelection={[]} onStartSession={() => {}} onOpenSettings={() => {}} />,
+    );
+    const hsk1 = await screen.findByRole('button', { name: /HSK 1/ });
+    await user.click(hsk1);
+    expect(hsk1).toHaveAttribute('aria-pressed', 'true');
+    await user.click(hsk1);
+    expect(hsk1).toHaveAttribute('aria-pressed', 'false');
+    expect(screen.getByRole('button', { name: /Start Studying/i })).toBeDisabled();
+  });
+
+  it('pre-selects initialSelection on mount (last-level memory)', async () => {
+    render(
+      <LevelSelect initialSelection={['1']} onStartSession={() => {}} onOpenSettings={() => {}} />,
+    );
+    const hsk1 = await screen.findByRole('button', { name: /HSK 1/ });
+    expect(hsk1).toHaveAttribute('aria-pressed', 'true');
+    expect(screen.getByRole('button', { name: /Start Studying/i })).toBeEnabled();
+  });
+
+  it('drops a remembered level from the selection if it is not actually available (defensive)', async () => {
+    render(
+      <LevelSelect initialSelection={['3']} onStartSession={() => {}} onOpenSettings={() => {}} />,
+    );
+    const hsk3 = await screen.findByRole('button', { name: /HSK 3/ });
+    await waitFor(() => expect(hsk3).toHaveAttribute('aria-pressed', 'false'));
+    expect(screen.getByRole('button', { name: /Start Studying/i })).toBeDisabled();
+  });
+
+  it('a one-tap start is possible with a remembered, available level (G1)', async () => {
+    const onStartSession = vi.fn();
+    const user = userEvent.setup();
+    render(
+      <LevelSelect
+        initialSelection={['1']}
+        onStartSession={onStartSession}
+        onOpenSettings={() => {}}
+      />,
+    );
+    await screen.findByRole('button', { name: /HSK 1/ });
+    await user.click(screen.getByRole('button', { name: /Start Studying/i }));
+    expect(onStartSession).toHaveBeenCalledWith(['1']);
   });
 });

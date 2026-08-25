@@ -19,16 +19,36 @@
 /**
  * Fetches a compiled deck (`public/decks/hsk-{level}.json`) at runtime.
  * Per-level, fetched on demand — architecture.md §3/§6: a beginner at HSK 1
- * never downloads HSK 6. Caching behind a service worker is M6; this is
- * the plain fetch this project's cache-first strategy will later wrap.
+ * never downloads HSK 6.
+ *
+ * Cached in memory for the lifetime of the page (WO-014/M3): a level
+ * re-selected later in the same visit, or fetched twice at once by a
+ * multi-level session, is served from this cache rather than re-fetched.
+ * This is deliberately not the persistent, offline-capable cache — that is
+ * `vite-plugin-pwa`/Workbox's job (M6, architecture.md §4); this cache is
+ * gone on a hard reload, same as any other module-level state.
  */
 
 import type { Deck, HskLevel } from '../domain/card.js';
 
+const cache = new Map<HskLevel, Promise<Deck>>();
+
 export async function loadDeck(level: HskLevel): Promise<Deck> {
-  const response = await fetch(`/decks/hsk-${level}.json`);
-  if (!response.ok) {
-    throw new Error(`failed to load HSK ${level} deck: ${response.status}`);
-  }
-  return (await response.json()) as Deck;
+  const cached = cache.get(level);
+  if (cached) return cached;
+
+  const promise = fetch(`/decks/hsk-${level}.json`).then((response) => {
+    if (!response.ok) {
+      throw new Error(`failed to load HSK ${level} deck: ${response.status}`);
+    }
+    return response.json() as Promise<Deck>;
+  });
+  // Cache the promise itself, not its resolved value, so two concurrent
+  // callers (e.g. a multi-level session's Promise.all) share one fetch
+  // rather than racing two. A failed fetch is evicted so a later retry
+  // (StudySession's "Retry" button) issues a fresh request instead of
+  // replaying the same rejection forever.
+  cache.set(level, promise);
+  promise.catch(() => cache.delete(level));
+  return promise;
 }

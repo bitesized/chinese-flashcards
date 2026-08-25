@@ -82,14 +82,37 @@ export function loadExclusions(filePath: string = DEFAULT_EXCLUSIONS_PATH): Excl
 }
 
 /**
- * Drops every card whose id is in `exclusions`, then repairs
- * `homographGroup` membership among what remains: domain-model.md §3
- * invariant 6 requires at least two cards to share a group, and excluding
- * one member of a pair can leave a lone survivor carrying a now-vacuous tag
- * (Red's WO-009 report, finding 5) — `CardOverride` has no `homographGroup`
- * field to clear this by hand, so it is recomputed here structurally
- * instead. Pure: no I/O.
+ * Repairs `homographGroup` membership across a card list: domain-model.md
+ * §3 invariant 6 requires at least two cards to share a group, and any
+ * mechanism that can remove one member of a pair — exclusion (below), or
+ * the content filter (`pipeline/content-filter.ts`, DEC-029, a separate,
+ * later pipeline stage this function's caller must also apply it after —
+ * see `build-data.ts`) — can leave a lone survivor carrying a now-vacuous
+ * tag (Red's WO-009 report, finding 5). `CardOverride` has no
+ * `homographGroup` field to clear this by hand, so it is recomputed here
+ * structurally instead, independent of *why* a sibling disappeared. Pure:
+ * no I/O.
  */
+export function clearVacuousHomographGroups(cards: readonly Card[]): Card[] {
+  const groupSizes = new Map<string, number>();
+  for (const card of cards) {
+    if (card.homographGroup !== undefined) {
+      groupSizes.set(card.homographGroup, (groupSizes.get(card.homographGroup) ?? 0) + 1);
+    }
+  }
+
+  return cards.map((card) => {
+    if (card.homographGroup === undefined || (groupSizes.get(card.homographGroup) ?? 0) >= 2) {
+      return card;
+    }
+    const next: Partial<Card> = { ...card };
+    delete next.homographGroup;
+    return next as Card;
+  });
+}
+
+/** Drops every card whose id is in `exclusions`, then clears any
+ *  now-vacuous `homographGroup` tags among what remains. */
 export function applyExclusions(
   cards: readonly Card[],
   exclusions: ExclusionsFile,
@@ -102,21 +125,7 @@ export function applyExclusions(
     return false;
   });
 
-  const groupSizes = new Map<string, number>();
-  for (const card of remaining) {
-    if (card.homographGroup !== undefined) {
-      groupSizes.set(card.homographGroup, (groupSizes.get(card.homographGroup) ?? 0) + 1);
-    }
-  }
-
-  const cleaned = remaining.map((card) => {
-    if (card.homographGroup === undefined || (groupSizes.get(card.homographGroup) ?? 0) >= 2) {
-      return card;
-    }
-    const next: Partial<Card> = { ...card };
-    delete next.homographGroup;
-    return next as Card;
-  });
+  const cleaned = clearVacuousHomographGroups(remaining);
 
   const excludedIds = Object.keys(exclusions).filter((id) => matchedIds.has(id));
   const orphanedExclusionIds = Object.keys(exclusions).filter((id) => !matchedIds.has(id));

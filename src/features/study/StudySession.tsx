@@ -17,12 +17,17 @@
  */
 
 /**
- * The study session (ux-specification.md §4.2, §4.3). WO-011/M2 scope only:
- * free-review-style previous/next navigation traversing the deck in list
- * order (optionally shuffled) — no grading, no scheduler. `Session`
- * (domain-model.md §8) is the runtime shape this is built around
- * specifically so M5 can swap the scheduler's due-card queue in as
- * `queue`'s source without changing this component's navigation logic.
+ * The study session (ux-specification.md §4.2, §4.3). Free-review-style
+ * previous/next navigation traversing the deck in list order (optionally
+ * shuffled) — no grading, no scheduler. `Session` (domain-model.md §8) is
+ * the runtime shape this is built around specifically so M5 can swap in
+ * the scheduler's due-card queue without changing this component's
+ * navigation logic.
+ *
+ * WO-014/M3 extended this from a single level to `levels: HskLevel[]`
+ * (FR-23): every selected level's deck is fetched in parallel and merged
+ * into one card set, de-duplicated by id (a card can legitimately belong
+ * to more than one level's compiled file), before the queue is built.
  */
 
 import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from 'react';
@@ -32,24 +37,34 @@ import styles from './StudySession.module.css';
 import { loadDeck } from '../../services/decks.js';
 import { shuffle } from '../../services/shuffle.js';
 import { isSpeechAvailable, speak, subscribeSpeechAvailability } from '../../services/speech.js';
-import type { Card as CardData, Deck, HskLevel } from '../../domain/card.js';
+import type { Card as CardData, HskLevel } from '../../domain/card.js';
 import type { Settings } from '../../domain/runtime.js';
 
 function useSpeechAvailable(): boolean {
   return useSyncExternalStore(subscribeSpeechAvailability, isSpeechAvailable);
 }
 
+/** "HSK 1" / "HSK 1 & 2" / "HSK 1, 2 & 3" — never a bare comma-joined list,
+ *  since this appears in reader-facing copy (loading/error/end-state). */
+function formatLevels(levels: readonly HskLevel[]): string {
+  if (levels.length <= 1) return `HSK ${levels[0] ?? '?'}`;
+  const [last, ...rest] = [...levels].reverse();
+  return `HSK ${rest.reverse().join(', ')} & ${last}`;
+}
+
 export interface StudySessionProps {
-  level: HskLevel;
+  levels: HskLevel[];
   settings: Settings;
   onTogglePinyin: (side: 'front' | 'back') => void;
   onExit: () => void;
 }
 
 type LoadState =
-  { status: 'loading' } | { status: 'error'; message: string } | { status: 'ready'; deck: Deck };
+  | { status: 'loading' }
+  | { status: 'error'; message: string }
+  | { status: 'ready'; cards: CardData[] };
 
-export function StudySession({ level, settings, onTogglePinyin, onExit }: StudySessionProps) {
+export function StudySession({ levels, settings, onTogglePinyin, onExit }: StudySessionProps) {
   const [loadState, setLoadState] = useState<LoadState>({ status: 'loading' });
   const [queue, setQueue] = useState<string[]>([]);
   const [position, setPosition] = useState(0);
@@ -65,12 +80,24 @@ export function StudySession({ level, settings, onTogglePinyin, onExit }: StudyS
     cardOrderRef.current = settings.cardOrder;
   }, [settings.cardOrder]);
 
+  const levelsKey = levels.join(',');
+
+  // Same reasoning as cardOrderRef above, for a different problem: the
+  // loading effect below is keyed on levelsKey (a stable string) rather
+  // than `levels` itself (a new array identity every render), so it needs
+  // a stable way to read the current levels array without adding the
+  // unstable array reference to its own dependency list.
+  const levelsRef = useRef(levels);
+  useEffect(() => {
+    levelsRef.current = levels;
+  });
+
   // Reset to loading whenever the load key changes, adjusted synchronously
   // during render (react.dev/learn/you-might-not-need-an-effect#adjusting-
   // some-state-when-a-prop-changes) rather than as a setState call inside
   // the effect body, which the effect below then only uses for the async
   // load's own eventual result.
-  const loadKey = `${level}:${reloadToken}`;
+  const loadKey = `${levelsKey}:${reloadToken}`;
   const [loadedKey, setLoadedKey] = useState<string | null>(null);
   if (loadedKey !== loadKey) {
     setLoadedKey(loadKey);
@@ -79,14 +106,19 @@ export function StudySession({ level, settings, onTogglePinyin, onExit }: StudyS
 
   useEffect(() => {
     let cancelled = false;
-    loadDeck(level)
-      .then((deck) => {
+    Promise.all(levelsRef.current.map((level) => loadDeck(level)))
+      .then((decks) => {
         if (cancelled) return;
-        const ids = deck.cards.map((c) => c.id);
+        const uniqueCards = new Map<string, CardData>();
+        for (const deck of decks) {
+          for (const card of deck.cards) uniqueCards.set(card.id, card);
+        }
+        const cards = [...uniqueCards.values()];
+        const ids = cards.map((c) => c.id);
         setQueue(cardOrderRef.current === 'shuffled' ? shuffle(ids) : ids);
         setPosition(0);
         setFace('front');
-        setLoadState({ status: 'ready', deck });
+        setLoadState({ status: 'ready', cards });
       })
       .catch((error: unknown) => {
         if (cancelled) return;
@@ -96,11 +128,11 @@ export function StudySession({ level, settings, onTogglePinyin, onExit }: StudyS
     return () => {
       cancelled = true;
     };
-  }, [level, reloadToken]);
+  }, [levelsKey, reloadToken]);
 
   const cardsById = useMemo((): Map<string, CardData> => {
     if (loadState.status !== 'ready') return new Map<string, CardData>();
-    return new Map(loadState.deck.cards.map((c) => [c.id, c] as const));
+    return new Map(loadState.cards.map((c) => [c.id, c] as const));
   }, [loadState]);
 
   // Computed before the handlers below so handleFlip/handleSpeak can read
@@ -174,11 +206,13 @@ export function StudySession({ level, settings, onTogglePinyin, onExit }: StudyS
     }
   }
 
+  const levelLabel = formatLevels(levels);
+
   if (loadState.status === 'loading') {
     return (
       <div className={styles.centeredMessage}>
         <div className={styles.skeleton} aria-hidden="true" />
-        <p>Loading HSK {level}…</p>
+        <p>Loading {levelLabel}…</p>
       </div>
     );
   }
@@ -187,7 +221,7 @@ export function StudySession({ level, settings, onTogglePinyin, onExit }: StudyS
     return (
       <div className={styles.centeredMessage} role="alert">
         <p>
-          Couldn&rsquo;t load HSK {level}. {loadState.message}
+          Couldn&rsquo;t load {levelLabel}. {loadState.message}
         </p>
         <button
           type="button"
@@ -208,7 +242,7 @@ export function StudySession({ level, settings, onTogglePinyin, onExit }: StudyS
     // plainly and return to Level Select."
     return (
       <div className={styles.centeredMessage} role="alert">
-        <p>HSK {level} has no cards yet.</p>
+        <p>{levelLabel} has no cards yet.</p>
         <button type="button" className={styles.primaryButton} onClick={onExit}>
           Back to Level Select
         </button>
@@ -219,7 +253,7 @@ export function StudySession({ level, settings, onTogglePinyin, onExit }: StudyS
   if (position >= queue.length) {
     return (
       <div className={styles.centeredMessage}>
-        <h2>HSK {level} complete</h2>
+        <h2>{levelLabel} complete</h2>
         <p>You reviewed all {queue.length} cards.</p>
         <div className={styles.navRow}>
           <button

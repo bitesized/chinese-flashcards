@@ -82,6 +82,15 @@
   cursor: not-allowed;
 }
 
+.levelButton[aria-pressed='true'] {
+  border-color: var(--color-accent);
+  border-width: 2px;
+  /* Border width changing on selection would otherwise shift layout by
+     the 1px difference — compensate in padding so the button's box stays
+     the same size whether selected or not. */
+  padding: calc(var(--space-3) - 1px) calc(var(--space-4) - 1px);
+}
+
 .levelName {
   font-weight: 600;
 }
@@ -89,4 +98,23 @@
 .levelMeta {
   font-size: var(--text-small);
   color: var(--color-ink-muted);
+}
+
+.startButton {
+  min-height: calc(var(--touch-target-min) + var(--space-2));
+  padding: 0 var(--space-6);
+  border-radius: var(--control-radius);
+  border: none;
+  background: var(--color-accent);
+  color: var(--color-accent-ink);
+  font-family: var(--font-en-ui);
+  font-size: var(--text-ui);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.startButton:disabled {
+  background: var(--color-border);
+  color: var(--color-ink-muted);
+  cursor: not-allowed;
 }
