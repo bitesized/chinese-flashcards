@@ -1,0 +1,76 @@
+/*
+ * Chinese Flashcards — a spaced-repetition Hanzi flashcard app.
+ * Copyright (C) 2026 the Chinese Flashcards contributors.
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <https://www.gnu.org/licenses/>.
+ */
+
+/*
+ * Structural tokens shared by BOTH visual directions (theme-ink-paper.css,
+ * theme-slate-brass.css — DEC-018): spacing, type scale, breakpoints,
+ * motion timing. What varies between directions is colour, font choice for
+ * Latin/English text, and card treatment — those live in the per-direction
+ * files, which this file's semantic names (--color-*, --font-en) are
+ * defined by, not here. This file never sets --color-* itself, so it is
+ * meaningless without a direction file also loaded.
+ *
+ * The CJK font stack (ux-specification.md §3) is NOT a token that varies
+ * per direction — it is fixed, correctness-critical (wrong stack = wrong
+ * glyph forms), and lives here.
+ */
+
+:root {
+  /* CJK stack — ux-specification.md §3. Never overridden per-direction. */
+  --font-zh:
+    'PingFang SC', 'Hiragino Sans GB', 'Noto Sans SC', 'Source Han Sans SC', 'Microsoft YaHei',
+    sans-serif;
+
+  /* Spacing scale — 4px base unit. */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+
+  /* Type scale. --text-hanzi-front is the hard floor from
+     ux-specification.md §3 (72px minimum on mobile) — never shrink below
+     it via a direction file. */
+  --text-hanzi-front: 4.5rem; /* 72px @ 16px root */
+  --text-hanzi-back: 3rem;
+  --text-pinyin: 1.25rem;
+  --text-sense: 1.125rem;
+  --text-ui: 1rem;
+  --text-small: 0.875rem;
+
+  /* Breakpoints (used in media queries directly, kept here as the single
+     documented source of the three values — ux-specification.md §5). */
+  --breakpoint-mobile-max: 479px;
+  --breakpoint-tablet-max: 1024px;
+
+  /* Motion — ux-specification.md §4.2. Card flip only; nothing else moves. */
+  --flip-duration: 220ms;
+  --flip-easing: ease-out;
+
+  /* Touch target floor — NFR-6. */
+  --touch-target-min: 44px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --flip-duration: 1ms;
+  }
+}

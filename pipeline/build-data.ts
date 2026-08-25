@@ -329,6 +329,31 @@ function reviewQueueJson(deckSet: DeckSet): string {
   return JSON.stringify(queue, null, 2) + '\n';
 }
 
+export interface DeckManifestEntry {
+  title: string;
+  cardCount: number;
+  /** True only when every card at this level has cleared review (`unreviewed
+   *  === 0`) — the exact criterion DEC-025 uses for "exposed to a learner."
+   *  Lets the UI (Level Select, WO-011/M2) show all six levels' real counts
+   *  without fetching all six ~KB-to-MB deck files just to read a count. */
+  reviewed: boolean;
+}
+
+export type DeckManifest = Record<HskLevel, DeckManifestEntry>;
+
+function buildManifest(deckSet: DeckSet): DeckManifest {
+  const manifest = {} as DeckManifest;
+  for (const level of HSK_LEVELS) {
+    const meta = deckSet.decks[level].meta;
+    manifest[level] = {
+      title: deckSet.decks[level].title,
+      cardCount: meta.cardCount,
+      reviewed: meta.reviewSummary.unreviewed === 0 && meta.cardCount > 0,
+    };
+  }
+  return manifest;
+}
+
 const REPO_ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 
 function main(): void {
@@ -347,6 +372,10 @@ function main(): void {
   }
   writeFileSync(resolve(buildDir, 'report.md'), buildReportMarkdown(deckSet));
   writeFileSync(resolve(buildDir, 'review-queue.json'), reviewQueueJson(deckSet));
+  writeFileSync(
+    resolve(decksDir, 'manifest.json'),
+    JSON.stringify(buildManifest(deckSet), null, 2) + '\n',
+  );
 
   if (!deckSet.validation.ok) {
     console.error(`Data build FAILED: ${deckSet.validation.issues.length} validation issue(s).`);

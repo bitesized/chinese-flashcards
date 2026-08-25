@@ -16,19 +16,26 @@
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
 
-// Global Vitest setup: extends `expect` with jest-dom matchers for
-// component tests (Testing Library). Imported via vitest.config.ts
-// `test.setupFiles`.
-import '@testing-library/jest-dom/vitest';
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import { App } from './App.js';
 
-// @testing-library/react's auto-cleanup normally self-registers against a
-// global `afterEach`, but this project runs with `test.globals: false`
-// (conventions.md — no implicit globals), so that global does not exist and
-// registration silently no-ops. Without this, DOM from one component test
-// leaks into the next. Register it explicitly instead.
-import { afterEach } from 'vitest';
-import { cleanup } from '@testing-library/react';
+// Theme import order: tokens.css (structural, direction-agnostic) first,
+// then exactly one direction file (DEC-018). "Ink & Paper" is the selected
+// direction — see WO-011's work report for the rationale. Swapping to
+// "Slate & Brass" is a one-line change here; nothing else references a
+// theme file by name.
+import '../styles/tokens.css';
+import '../styles/theme-ink-paper.css';
+import '../styles/global.css';
 
-afterEach(() => {
-  cleanup();
-});
+const container = document.getElementById('root');
+if (!container) {
+  throw new Error('root element not found');
+}
+
+createRoot(container).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+);

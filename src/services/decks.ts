@@ -16,19 +16,19 @@
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
 
-// Global Vitest setup: extends `expect` with jest-dom matchers for
-// component tests (Testing Library). Imported via vitest.config.ts
-// `test.setupFiles`.
-import '@testing-library/jest-dom/vitest';
+/**
+ * Fetches a compiled deck (`public/decks/hsk-{level}.json`) at runtime.
+ * Per-level, fetched on demand — architecture.md §3/§6: a beginner at HSK 1
+ * never downloads HSK 6. Caching behind a service worker is M6; this is
+ * the plain fetch this project's cache-first strategy will later wrap.
+ */
 
-// @testing-library/react's auto-cleanup normally self-registers against a
-// global `afterEach`, but this project runs with `test.globals: false`
-// (conventions.md — no implicit globals), so that global does not exist and
-// registration silently no-ops. Without this, DOM from one component test
-// leaks into the next. Register it explicitly instead.
-import { afterEach } from 'vitest';
-import { cleanup } from '@testing-library/react';
+import type { Deck, HskLevel } from '../domain/card.js';
 
-afterEach(() => {
-  cleanup();
-});
+export async function loadDeck(level: HskLevel): Promise<Deck> {
+  const response = await fetch(`/decks/hsk-${level}.json`);
+  if (!response.ok) {
+    throw new Error(`failed to load HSK ${level} deck: ${response.status}`);
+  }
+  return (await response.json()) as Deck;
+}

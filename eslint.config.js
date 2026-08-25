@@ -1,6 +1,7 @@
 import js from '@eslint/js';
 import tseslint from 'typescript-eslint';
 import headers from 'eslint-plugin-headers';
+import reactHooks from 'eslint-plugin-react-hooks';
 import prettier from 'eslint-config-prettier';
 import globals from 'globals';
 
@@ -76,6 +77,17 @@ export default tseslint.config(
     },
   },
 
+  // React hooks correctness rules (rules-of-hooks, exhaustive-deps, etc.) —
+  // src/ only, where components actually use hooks. eslint-plugin-react
+  // itself (JSX style/best-practice rules) still has no stable release
+  // supporting ESLint 10 as of WO-011; react-hooks caught up first and is
+  // the higher-value half (real bugs, not style), so it is wired in now
+  // rather than waiting for the other to catch up too.
+  {
+    files: ['src/**/*.{ts,tsx}'],
+    ...reactHooks.configs.flat.recommended,
+  },
+
   // Plain JS config and tooling scripts (this file, vite/playwright configs,
   // scripts/) run under Node, untyped.
   {
@@ -85,9 +97,14 @@ export default tseslint.config(
     },
   },
 
-  // GPL-3.0 header, application/pipeline/test source only.
+  // GPL-3.0 header, application/pipeline/test source only. Ambient
+  // declaration files (*.d.ts, e.g. src/vite-env.d.ts) are excluded: they
+  // contain no licensable logic, only type references, and a leading
+  // comment risks interfering with a triple-slash directive needing to be
+  // the file's first line.
   {
     files: ['src/**/*.{ts,tsx}', 'pipeline/**/*.ts', 'tests/**/*.{ts,tsx}'],
+    ignores: ['**/*.d.ts'],
     plugins: { headers },
     rules: {
       'headers/header-format': [

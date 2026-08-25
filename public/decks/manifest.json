@@ -1,0 +1,32 @@
+{
+  "1": {
+    "title": "HSK 1",
+    "cardCount": 154,
+    "reviewed": true
+  },
+  "2": {
+    "title": "HSK 2",
+    "cardCount": 187,
+    "reviewed": false
+  },
+  "3": {
+    "title": "HSK 3",
+    "cardCount": 337,
+    "reviewed": false
+  },
+  "4": {
+    "title": "HSK 4",
+    "cardCount": 634,
+    "reviewed": false
+  },
+  "5": {
+    "title": "HSK 5",
+    "cardCount": 1342,
+    "reviewed": false
+  },
+  "6": {
+    "title": "HSK 6",
+    "cardCount": 2574,
+    "reviewed": false
+  }
+}

@@ -1,6 +1,6 @@
 # Data build report
 
-Built: 2026-08-24T21:17:27.567Z
+Built: 2026-08-24T21:33:55.570Z
 CC-CEDICT release: 2026-08-23T06:21:07Z
 HSK word list: drkameleon/complete-hsk-vocabulary@7ac65bf1a6387d35f1ade478906172a19311c7f9
 

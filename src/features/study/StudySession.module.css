@@ -1,0 +1,139 @@
+/*
+ * Chinese Flashcards — a spaced-repetition Hanzi flashcard app.
+ * Copyright (C) 2026 the Chinese Flashcards contributors.
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <https://www.gnu.org/licenses/>.
+ */
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: var(--space-4);
+  padding-bottom: max(var(--space-4), env(safe-area-inset-bottom));
+  gap: var(--space-6);
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--font-en-ui);
+  font-size: var(--text-small);
+  color: var(--color-ink-muted);
+}
+
+.iconButton {
+  background: none;
+  border: none;
+  color: var(--color-ink-muted);
+  font-family: var(--font-en-ui);
+  font-size: var(--text-small);
+  cursor: pointer;
+  min-height: var(--touch-target-min);
+  min-width: var(--touch-target-min);
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--control-radius);
+}
+
+.iconButton:hover {
+  color: var(--color-ink);
+}
+
+.pinyinToggles {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.toggle {
+  font-family: var(--font-en-ui);
+  font-size: var(--text-small);
+  min-height: var(--touch-target-min);
+  padding: 0 var(--space-3);
+  border-radius: var(--control-radius);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-raised);
+  color: var(--color-ink-muted);
+  cursor: pointer;
+}
+
+.toggle[aria-pressed='true'] {
+  color: var(--color-accent-ink);
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.cardArea {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navRow {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-4);
+}
+
+.navButton {
+  font-family: var(--font-en-ui);
+  font-size: var(--text-ui);
+  min-height: var(--touch-target-min);
+  min-width: calc(var(--touch-target-min) * 2);
+  padding: 0 var(--space-6);
+  border-radius: var(--control-radius);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-raised);
+  color: var(--color-ink);
+  cursor: pointer;
+}
+
+.navButton:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.centeredMessage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-4);
+  text-align: center;
+  font-family: var(--font-en-ui);
+  color: var(--color-ink);
+  padding: var(--space-8);
+}
+
+.skeleton {
+  width: min(90vw, 640px);
+  height: 320px;
+  border-radius: var(--card-radius);
+  background: var(--color-bg-raised);
+  border: 1px solid var(--color-border);
+}
+
+.primaryButton {
+  font-family: var(--font-en-ui);
+  font-size: var(--text-ui);
+  min-height: var(--touch-target-min);
+  padding: 0 var(--space-6);
+  border-radius: var(--control-radius);
+  border: none;
+  background: var(--color-accent);
+  color: var(--color-accent-ink);
+  cursor: pointer;
+}

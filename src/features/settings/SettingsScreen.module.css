@@ -1,0 +1,99 @@
+/*
+ * Chinese Flashcards — a spaced-repetition Hanzi flashcard app.
+ * Copyright (C) 2026 the Chinese Flashcards contributors.
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <https://www.gnu.org/licenses/>.
+ */
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: var(--space-6) var(--space-4);
+  gap: var(--space-6);
+  max-width: 640px;
+  margin: 0 auto;
+  width: 100%;
+  font-family: var(--font-en-ui);
+  color: var(--color-ink);
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.backButton {
+  background: none;
+  border: none;
+  color: var(--color-ink-muted);
+  font-family: var(--font-en-ui);
+  cursor: pointer;
+  min-height: var(--touch-target-min);
+}
+
+.heading {
+  font-family: var(--font-en);
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  padding: var(--space-3) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.rowLabel {
+  font-size: var(--text-ui);
+}
+
+.segmented {
+  display: flex;
+  border: 1px solid var(--color-border);
+  border-radius: var(--control-radius);
+  overflow: hidden;
+}
+
+.segmentButton {
+  min-height: var(--touch-target-min);
+  padding: 0 var(--space-3);
+  background: var(--color-bg-raised);
+  border: none;
+  color: var(--color-ink-muted);
+  font-family: var(--font-en-ui);
+  font-size: var(--text-small);
+  cursor: pointer;
+}
+
+.segmentButton[aria-pressed='true'] {
+  background: var(--color-accent);
+  color: var(--color-accent-ink);
+}
+
+.resetButton {
+  align-self: flex-start;
+  min-height: var(--touch-target-min);
+  padding: 0 var(--space-4);
+  border-radius: var(--control-radius);
+  border: 1px solid var(--color-danger);
+  background: none;
+  color: var(--color-danger);
+  font-family: var(--font-en-ui);
+  cursor: pointer;
+}

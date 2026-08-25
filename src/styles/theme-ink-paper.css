@@ -1,0 +1,83 @@
+/*
+ * Chinese Flashcards — a spaced-repetition Hanzi flashcard app.
+ * Copyright (C) 2026 the Chinese Flashcards contributors.
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <https://www.gnu.org/licenses/>.
+ */
+
+/*
+ * Visual direction A — "Ink & Paper" (DEC-018; ACTIVE direction, selected
+ * by Claude Code — see WO-011's work report for the selection rationale).
+ *
+ * Warm, editorial, restrained: one paper ground, one ink, one accent
+ * (a muted seal-red) used only to mark state — never decoratively. English
+ * prose (senses/glosses) sets in a humanist serif for an editorial,
+ * dictionary-like register; UI chrome (buttons, labels) stays in a plain
+ * system sans so controls read as controls. The card is the one object
+ * allowed to feel physical: a hairline border and a soft, warm,
+ * single-direction shadow suggest a card lifted slightly off the page —
+ * nothing else in the UI casts a shadow. Small, restrained radii
+ * throughout; no gradients, no glassmorphism, no uniform large radii.
+ */
+
+:root {
+  --color-bg: #f7f3ec;
+  --color-bg-raised: #fffdf9;
+  --color-ink: #1b1a17;
+  --color-ink-muted: #6b6459;
+  --color-accent: #a83c2e;
+  --color-accent-ink: #fffdf9;
+  --color-border: #ddd4c4;
+  --color-focus-ring: #a83c2e;
+  --color-danger: #a83c2e;
+  --color-success: #4a6b4d;
+
+  --font-en: 'Iowan Old Style', 'Palatino Linotype', Georgia, 'Times New Roman', serif;
+  --font-en-ui: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  --card-radius: 6px;
+  --card-border-width: 1px;
+  --card-shadow: 0 6px 16px -6px rgb(27 26 23 / 18%);
+  --control-radius: 4px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --color-bg: #17150f;
+    --color-bg-raised: #211e17;
+    --color-ink: #ede7db;
+    --color-ink-muted: #a89e8c;
+    --color-accent: #e0705c;
+    --color-accent-ink: #17150f;
+    --color-border: #3a3527;
+    --color-focus-ring: #e0705c;
+    --color-danger: #e0705c;
+    --color-success: #8fb593;
+    --card-shadow: 0 6px 20px -6px rgb(0 0 0 / 45%);
+  }
+}
+
+:root[data-theme='dark'] {
+  --color-bg: #17150f;
+  --color-bg-raised: #211e17;
+  --color-ink: #ede7db;
+  --color-ink-muted: #a89e8c;
+  --color-accent: #e0705c;
+  --color-accent-ink: #17150f;
+  --color-border: #3a3527;
+  --color-focus-ring: #e0705c;
+  --color-danger: #e0705c;
+  --color-success: #8fb593;
+  --card-shadow: 0 6px 20px -6px rgb(0 0 0 / 45%);
+}

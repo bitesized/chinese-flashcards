@@ -1,0 +1,88 @@
+/*
+ * Chinese Flashcards — a spaced-repetition Hanzi flashcard app.
+ * Copyright (C) 2026 the Chinese Flashcards contributors.
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <https://www.gnu.org/licenses/>.
+ */
+
+/*
+ * Visual direction B — "Slate & Brass" (DEC-018; the UNSELECTED direction —
+ * kept complete and swappable, per DEC-018's whole point, not deleted).
+ *
+ * Cooler and more geometric than "Ink & Paper": a cool slate ground and
+ * ink, a single brass/amber accent for state, one grotesk sans used
+ * throughout (UI and English prose both — no serif/sans split). The card's
+ * physicality comes from a crisper, more pronounced single-direction
+ * shadow and a slightly larger radius than direction A, reading as a
+ * distinct card treatment rather than the same card in different colours.
+ * Same structural tokens (src/styles/tokens.css) — only colour, font, and
+ * card treatment differ, per DEC-018's requirement that this be two
+ * genuinely distinct directions, not two colourways of one design.
+ *
+ * To activate this direction instead of "Ink & Paper": swap which theme
+ * file src/app/main.tsx imports. Nothing else in the codebase references a
+ * theme file by name — every component reads the shared custom-property
+ * names DEC-008 establishes.
+ */
+
+:root {
+  --color-bg: #f2f3f5;
+  --color-bg-raised: #ffffff;
+  --color-ink: #1e2530;
+  --color-ink-muted: #64707f;
+  --color-accent: #a9791f;
+  --color-accent-ink: #ffffff;
+  --color-border: #d7dbe0;
+  --color-focus-ring: #a9791f;
+  --color-danger: #b3432f;
+  --color-success: #3f7d55;
+
+  --font-en: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  --font-en-ui: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  --card-radius: 14px;
+  --card-border-width: 0;
+  --card-shadow: 0 12px 28px -10px rgb(30 37 48 / 28%);
+  --control-radius: 8px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --color-bg: #14171c;
+    --color-bg-raised: #1d2128;
+    --color-ink: #e8eaed;
+    --color-ink-muted: #96a0ac;
+    --color-accent: #d8a13f;
+    --color-accent-ink: #14171c;
+    --color-border: #2c313a;
+    --color-focus-ring: #d8a13f;
+    --color-danger: #d16a52;
+    --color-success: #6fae82;
+    --card-shadow: 0 12px 32px -8px rgb(0 0 0 / 55%);
+  }
+}
+
+:root[data-theme='dark'] {
+  --color-bg: #14171c;
+  --color-bg-raised: #1d2128;
+  --color-ink: #e8eaed;
+  --color-ink-muted: #96a0ac;
+  --color-accent: #d8a13f;
+  --color-accent-ink: #14171c;
+  --color-border: #2c313a;
+  --color-focus-ring: #d8a13f;
+  --color-danger: #d16a52;
+  --color-success: #6fae82;
+  --card-shadow: 0 12px 32px -8px rgb(0 0 0 / 55%);
+}

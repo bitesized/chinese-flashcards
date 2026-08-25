@@ -16,19 +16,16 @@
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
 
-// Global Vitest setup: extends `expect` with jest-dom matchers for
-// component tests (Testing Library). Imported via vitest.config.ts
-// `test.setupFiles`.
-import '@testing-library/jest-dom/vitest';
-
-// @testing-library/react's auto-cleanup normally self-registers against a
-// global `afterEach`, but this project runs with `test.globals: false`
-// (conventions.md — no implicit globals), so that global does not exist and
-// registration silently no-ops. Without this, DOM from one component test
-// leaks into the next. Register it explicitly instead.
-import { afterEach } from 'vitest';
-import { cleanup } from '@testing-library/react';
-
-afterEach(() => {
-  cleanup();
-});
+/** Fisher-Yates. Pure, does not mutate the input (FR-32: shuffling applies
+ *  within a due group so the same order isn't repeated daily — M5's job to
+ *  call this per session; M2 uses it once per session start). */
+export function shuffle<T>(items: readonly T[]): T[] {
+  const result = [...items];
+  for (let i = result.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const temp = result[i] as T;
+    result[i] = result[j] as T;
+    result[j] = temp;
+  }
+  return result;
+}

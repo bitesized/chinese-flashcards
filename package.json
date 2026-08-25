@@ -17,8 +17,8 @@
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "test": "vitest run --passWithNoTests",
-    "test:watch": "vitest",
+    "test": "NODE_OPTIONS=--no-experimental-webstorage vitest run --passWithNoTests",
+    "test:watch": "NODE_OPTIONS=--no-experimental-webstorage vitest",
     "test:e2e": "playwright test",
     "license-check": "node scripts/check-licenses.mjs",
     "build:data": "node scripts/run-build-data.mjs"
@@ -40,6 +40,7 @@
     "eslint": "^10.9.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-headers": "^1.3.4",
+    "eslint-plugin-react-hooks": "^7.1.1",
     "globals": "^17.11.0",
     "jsdom": "^30.0.1",
     "license-checker": "^25.0.1",

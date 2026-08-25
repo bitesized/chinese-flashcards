@@ -43,6 +43,12 @@ const ALLOWED = new Set([
   // transitive dependency of license-checker itself (build tooling, never
   // shipped).
   'CC-BY-3.0',
+  // CC-BY-4.0: same attribution-only reasoning as CC-BY-3.0 above, newer
+  // version of the same license family. Seen on caniuse-lite (a pure
+  // browser-compatibility data table, not code), pulled in transitively via
+  // eslint-plugin-react-hooks -> @babel/core -> browserslist (WO-011) —
+  // lint-time tooling only, never bundled into the shipped application.
+  'CC-BY-4.0',
 ]);
 
 // Our own package always reports its own declared licence (GPL-3.0-only)
