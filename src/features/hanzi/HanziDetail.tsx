@@ -17,14 +17,17 @@
  */
 
 /**
- * One character's page (FR-80, FR-81, M8): every reading with its English
- * meanings, stroke order animation, and a speak control (reusing the same
- * speech service the study session uses — a character is just a shorter
- * piece of text to the Web Speech API).
+ * One character's page (FR-80, FR-81, FR-82, M8): every reading with its
+ * English meanings, a Watch/Practice toggle over the stroke order (animate
+ * vs. `hanzi-writer`'s guided quiz — `HanziAnimation`/`HanziPractice`
+ * respectively), and a speak control (reusing the same speech service the
+ * study session uses — a character is just a shorter piece of text to the
+ * Web Speech API).
  */
 
 import { useEffect, useState } from 'react';
 import { HanziAnimation } from './HanziAnimation.js';
+import { HanziPractice } from './HanziPractice.js';
 import styles from './HanziDetail.module.css';
 import { loadHanziEntry } from '../../services/hanzi.js';
 import { speak } from '../../services/speech.js';
@@ -37,6 +40,8 @@ export interface HanziDetailProps {
   onBack: () => void;
 }
 
+type Mode = 'watch' | 'practice';
+
 type LoadState =
   | { status: 'loading' }
   | { status: 'error'; message: string }
@@ -44,6 +49,7 @@ type LoadState =
 
 export function HanziDetail({ character, speechRate, onBack }: HanziDetailProps) {
   const [loadState, setLoadState] = useState<LoadState>({ status: 'loading' });
+  const [mode, setMode] = useState<Mode>('watch');
   const speechAvailable = useSpeechAvailable();
 
   // Reset to loading synchronously during render when `character` changes
@@ -54,6 +60,7 @@ export function HanziDetail({ character, speechRate, onBack }: HanziDetailProps)
   if (loadedCharacter !== character) {
     setLoadedCharacter(character);
     setLoadState({ status: 'loading' });
+    setMode('watch');
   }
 
   useEffect(() => {
@@ -84,7 +91,30 @@ export function HanziDetail({ character, speechRate, onBack }: HanziDetailProps)
         {character}
       </h1>
 
-      <HanziAnimation character={character} />
+      <div className={styles.modeToggle} role="group" aria-label="Stroke order mode">
+        <button
+          type="button"
+          className={styles.modeButton}
+          aria-pressed={mode === 'watch'}
+          onClick={() => setMode('watch')}
+        >
+          Watch
+        </button>
+        <button
+          type="button"
+          className={styles.modeButton}
+          aria-pressed={mode === 'practice'}
+          onClick={() => setMode('practice')}
+        >
+          Practice
+        </button>
+      </div>
+
+      {mode === 'watch' ? (
+        <HanziAnimation character={character} />
+      ) : (
+        <HanziPractice character={character} />
+      )}
 
       <button
         type="button"

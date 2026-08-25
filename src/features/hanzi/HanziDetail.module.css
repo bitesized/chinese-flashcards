@@ -53,6 +53,29 @@
   line-height: 1;
 }
 
+.modeToggle {
+  display: flex;
+  border: 1px solid var(--color-border);
+  border-radius: var(--control-radius);
+  overflow: hidden;
+}
+
+.modeButton {
+  min-height: var(--touch-target-min);
+  padding: 0 var(--space-4);
+  background: var(--color-bg-raised);
+  border: none;
+  color: var(--color-ink-muted);
+  font-family: var(--font-en-ui);
+  font-size: var(--text-small);
+  cursor: pointer;
+}
+
+.modeButton[aria-pressed='true'] {
+  background: var(--color-accent);
+  color: var(--color-accent-ink);
+}
+
 .speakButton {
   min-height: var(--touch-target-min);
   padding: 0 var(--space-6);
