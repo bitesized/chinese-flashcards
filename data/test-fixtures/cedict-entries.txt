@@ -1,0 +1,41 @@
+# CC-CEDICT
+# Community maintained free Chinese-English dictionary.
+#
+# Published by MDBG
+#
+# License:
+# Creative Commons Attribution-ShareAlike 4.0 International License
+# https://creativecommons.org/licenses/by-sa/4.0/
+#
+# This is a curated FIXTURE, not a slice of the real file -- a small,
+# hand-picked set of real entries, each copied verbatim from the pinned
+# source (data/source/cedict/cedict_1_0_ts_utf-8_mdbg.txt) at the line
+# number recorded against it in pipeline/cedict.test.ts, covering every
+# case named in testing-strategy.md section 2. CRLF line endings, matching
+# the pinned source (see WO-002's report). The entries= count below is
+# this fixture's own entry count, not the full corpus's.
+#! version=1
+#! subversion=0
+#! format=ts
+#! charset=UTF-8
+#! entries=17
+#! publisher=MDBG
+#! license=https://creativecommons.org/licenses/by-sa/4.0/
+#! date=2026-08-23T06:21:07Z
+3C 3C [san1 C] /computers, communications, and consumer electronics/China Compulsory Certificate (CCC)/
+A咖 A咖 [A ka1] /(coll.) A-list; top-tier/
+B格 B格 [bi1 ge2] /variant of 逼格[bi1 ge2]/
+㞎 㞎 [ba3] /(dialect) poo/(dialect) to shit/
+一人得道，雞犬升天 一人得道，鸡犬升天 [yi1 ren2 de2 dao4 , ji1 quan3 sheng1 tian1] /(lit.) when a person attains enlightenment and immortality, even his chickens and dogs will ascend to heaven with him (idiom)/(fig.) when somebody attains a position of power and influence, their relatives and friends also benefit/
+一團漆黑 一团漆黑 [yi1 tuan2 qi1 hei1] /pitch-dark/(fig.) completely in the dark; totally ignorant of/(fig.) grim; beyond salvation/
+一會兒 一会儿 [yi1 hui4 r5] /a moment/a while/in a moment/now...now.../also pr. [yi1 hui3 r5]/
+上衣 上衣 [shang4 yi1] /jacket/upper outer garment/CL:件[jian4]/
+中國 中国 [Zhong1 guo2] /China/
+你好 你好 [ni3 hao3] /hello; hi/
+書 书 [shu1] /book/letter/document/CL:本[ben3],冊|册[ce4],部[bu4]/to write/
+汪 汪 [Wang1] /surname Wang/
+王 王 [Wang2] /surname Wang/
+綠 绿 [lu:4] /green/(slang) (derived from 綠帽子|绿帽子[lu:4 mao4 zi5]) to cheat on (one's spouse or boyfriend or girlfriend)/
+行 行 [hang2] /(bound form) row; line/(bound form) line of business; trade; profession/(bound form) commercial firm/(bound form) to rank (first, second etc) among one's siblings (by age)/(in data tables) row; (Tw) column/classifier for rows or lines/
+行 行 [heng2] /used in 道行[dao4 heng2]/
+行 行 [xing2] /(bound form) to walk; to go; to travel/(literary) trip; journey; visit/(bound form) temporary; makeshift/(bound form) current; in circulation/(bound form) to do; to perform/capable; competent/all right; OK!; will do/behavior; conduct (Taiwan pr. [xing4])/(literary) about to; soon/

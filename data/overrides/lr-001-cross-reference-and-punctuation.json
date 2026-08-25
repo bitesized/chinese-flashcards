@@ -1,0 +1,20 @@
+{
+  "岗:gang1": {
+    "senses": ["variant of 冈"],
+    "note": "LR-001 §2: cross-reference leaked past DEC-023's SENSE_REFERENCE_PATTERN because CC-CEDICT wrote a space before the bracket ('冈 [gang1]', not '冈[gang1]'). Corrected per DEC-023's existing rule (normalise to the simplified target word only). Currently inert: 岗 is not in the pinned HSK 1-6 word list, so no card with this id exists yet -- expected to appear as an orphaned override in the build report until/unless 岗 is ever added to the word list.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-24"
+  },
+  "中括号:zhong1kuo4hao4": {
+    "senses": ["square brackets"],
+    "note": "LR-001 §3: the parsed sense 'square brackets [ ]' illustrates the punctuation mark with the literal glyph, indistinguishable from leaked CC-CEDICT syntax to the no-leaked-syntax gate. Reworded to drop the literal glyph -- 'square brackets' is a complete gloss on its own, the same way 句号 ('period') and 逗号 ('comma') don't render their own punctuation mark. Currently inert: 中括号 is not in the pinned HSK 1-6 word list.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-24"
+  },
+  "方括号:fang1kuo4hao4": {
+    "senses": ["square brackets"],
+    "note": "LR-001 §3: same reasoning as 中括号 -- reworded to drop the literal glyph. Currently inert: 方括号 is not in the pinned HSK 1-6 word list.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-24"
+  }
+}

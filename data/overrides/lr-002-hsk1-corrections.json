@@ -1,0 +1,46 @@
+{
+  "先生:xian1sheng5": {
+    "senses": [
+      "gentleman; sir; mister (Mr.)",
+      "husband",
+      "teacher",
+      "(dialect) doctor"
+    ],
+    "review": "corrected",
+    "note": "Reordered for a learner. The generated order led with \"teacher\", which is a comparatively rare/regional sense of 先生 in modern Mandarin; the overwhelmingly common HSK-1 usage is the polite address term \"Mr./sir\" (X先生) and \"husband\". Leading with \"teacher\" risks confusion since 老师 (already HSK-1) is the standard word for teacher. No senses added or removed, only reordered — check 3 (glosses ordered sensibly for a learner).",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  },
+  "日:ri4": {
+    "senses": [
+      "(bound form) sun",
+      "day",
+      "day of the month",
+      "(bound form) Japan (abbr. for 日本)"
+    ],
+    "review": "corrected",
+    "note": "Dropped the trailing \"(vulgar) to fuck; to have sex with\" sense. It is accurate CC-CEDICT content, but 日 (sun/day/date) is one of the very first characters an absolute beginner learns, and surfacing an unrelated vulgar slang sense unprompted on that card serves no HSK-1 pedagogical purpose and is inappropriate for a beginner-facing flashcard with no content warning or context. This is a per-card call, not a blanket policy on vulgar CC-CEDICT senses generally — see LR-002 Escalations for the broader policy question raised to the project owner.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  },
+  "星期:xing1qi1": {
+    "senses": [
+      "week",
+      "day of the week",
+      "(used alone, colloquially) Sunday"
+    ],
+    "review": "corrected",
+    "note": "Added a qualifier to the bare \"Sunday\" sense CC-CEDICT lists. This is genuine, correct content (星期 alone can colloquially mean Sunday, paralleling 礼拜), but presented as a bare, unqualified sense it risks a beginner concluding 星期 generally means \"Sunday\" rather than \"week\" — check 3 (not misleading out of context).",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  },
+  "哪:nei3": {
+    "senses": [
+      "which? (colloquial pronunciation of 哪, used before a classifier or numeral-classifier)"
+    ],
+    "review": "corrected",
+    "note": "Added a parenthetical connecting this card to 哪:na3, the other HSK-1 card for the same headword. The bare CC-CEDICT gloss (\"which? (interrogative, followed by classifier or numeral-classifier)\") doesn't explain the relationship, and without it a beginner seeing two separate 哪 cards with near-identical meaning but different readings could reasonably conclude they are unrelated words rather than a genuine, common colloquial pronunciation variant (as in 哪个, něige) of the same word already taught as 哪:na3. Kept as an approved, separate card (not flagged) because něi is a real, frequently-heard pronunciation, not a source-list artifact.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  }
+}

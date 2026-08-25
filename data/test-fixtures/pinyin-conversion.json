@@ -1,0 +1,71 @@
+{
+  "description": "Numbered-Pinyin -> diacritic-form test table for the stage-7 conversion function (data-pipeline.md §3). Authored by Red (WO-006). This is the authority Black's implementation is checked against, and the fixture set for the build-time round-trip gate (testing-strategy.md §3.1). Rule numbers in each row's \"rule\" field refer to data-pipeline.md §3's numbered list.",
+  "conventions": {
+    "u_colon_to_umlaut": "CC-CEDICT encodes ü as the two-character sequence 'u:' immediately followed by the tone digit, e.g. 'lu:4'. Rule 1 replaces 'u:' with 'ü' before any tone-mark placement logic runs. See group A.",
+    "jqxy_u_convention": "CONFIRMED: after the initials j, q, x, and y, CC-CEDICT writes a bare 'u' with no colon, because the vowel is unambiguously ü in that phonological position (standard Mandarin has no j/q/x/y + true-u syllable). The diacritic output for these syllables therefore takes a PLAIN u-with-tone-mark (ū/ú/ǔ/ù), never the umlaut form (ǖ/ǘ/ǚ/ǜ) — e.g. 'qu4' -> 'qù', not 'qǜ'. The converter must not apply any ü-substitution to a bare 'u' in this position; there is nothing to substitute, since no colon is present. See group B.",
+    "erhua": "The r5 suffix (rule 8) FUSES directly onto the end of the preceding syllable's diacritic form with no space and contributes no tone mark of its own — 'yi1 hui4 r5' -> 'yī huìr', not 'yī huì r'. This is standard Pinyin orthographic practice (the -r suffix is never set off by a space) and takes precedence over the general space-joining rule (rule 7), which applies to ordinary syllable-to-syllable joins only. A standalone 儿 word (reading er2, meaning 'son/child') is a complete syllable in its own right and is NOT the same case: it takes its own full tone mark and, in a multi-syllable word, its own space, exactly like any other syllable. See group C.",
+    "neutral_tone": "Tone digit 5 produces no mark. CC-CEDICT's own data always supplies an explicit digit 1-5 for every syllable, including neutral tone as '5' — a bare no-digit syllable does not occur in CC-CEDICT itself. Rule 2's parenthetical '(or no digit)' is nonetheless tested here defensively (case neutral-2) so the converter's behaviour is pinned for a bare-syllable input too, since the function may see reuse beyond this corpus; both forms must produce no mark.",
+    "capitalization": "CC-CEDICT capitalises only the first letter of the first syllable of a proper noun or surname reading; subsequent syllables in the same word stay lowercase even though they are part of the same proper name — e.g. 'Zhong1 guo2' (not 'Zhong1 Guo2'), 'Bei3 jing1'. This must be preserved verbatim through the conversion (rule 6), including inside a longer word where the proper noun is only the first component (see 'Zhong1 guo2 ren2' in group K)."
+  },
+  "cases": [
+    { "input": "lu:1", "expected": "lǖ", "rule": "1,3-5 (single vowel ü)", "note": "ü tone 1 via u: colon; synthetic syllable exercising the rule, not a claim about a real headword" },
+    { "input": "lu:2", "expected": "lǘ", "rule": "1,3-5", "note": "ü tone 2 via u: colon; synthetic syllable" },
+    { "input": "lu:3", "expected": "lǚ", "rule": "1,3-5", "note": "ü tone 3 via u: colon; real word 旅 (lǚ, 'to travel')" },
+    { "input": "lu:4", "expected": "lǜ", "rule": "1,3-5", "note": "ü tone 4 via u: colon; real word 绿 (lǜ, 'green') — matches the worked example in data-pipeline.md §3" },
+    { "input": "nu:3", "expected": "nǚ", "rule": "1,3-5", "note": "ü tone 3 via u: colon, different initial; real word 女 (nǚ, 'female/woman')" },
+
+    { "input": "qu1", "expected": "qū", "rule": "3-5, jqxy+u", "note": "bare u after q is ü phonetically but CC-CEDICT writes no colon and the output takes a plain ū, not ǖ; real word 区 (qū, 'district')" },
+    { "input": "ju2", "expected": "jú", "rule": "3-5, jqxy+u", "note": "bare u after j; plain ú, not ǘ; real word 局 (jú, 'office/bureau')" },
+    { "input": "xu3", "expected": "xǔ", "rule": "3-5, jqxy+u", "note": "bare u after x; plain ǔ, not ǚ; real word 许 (xǔ, 'to allow/perhaps')" },
+    { "input": "yu4", "expected": "yù", "rule": "3-5, jqxy+u", "note": "bare u after y; plain ù, not ǜ; real word 玉 (yù, 'jade')" },
+
+    { "input": "yi1 hui4 r5", "expected": "yī huìr", "rule": "7,8 (erhua suffix)", "note": "r5 fuses onto the preceding syllable, no space, no mark of its own; real word 一会儿 ('a moment') — the exact example named in data-pipeline.md §3, and in WO-006's own task text" },
+    { "input": "yi1 dian3 r5", "expected": "yī diǎnr", "rule": "7,8 (erhua suffix)", "note": "second erhua-suffix example, different preceding tone; real word 一点儿 ('a little'). Citation-form 一 = yī (tone 1) is retained, per Red's standing ruling that dictionary readings are recorded before sandhi, not the spoken yìdiǎnr" },
+    { "input": "er2", "expected": "ér", "rule": "3-5 (standalone syllable, contrast with erhua)", "note": "standalone 儿 ('son/child') as its own word — a complete syllable with its own full tone mark, deliberately NOT the erhua-suffix case above; the two must not be confused or share handling" },
+
+    { "input": "Zhong1 guo2", "expected": "Zhōng guó", "rule": "6,7 (capitalisation)", "note": "worked example from data-pipeline.md §3 itself; only the first syllable of the proper noun is capitalised" },
+    { "input": "Bei3 jing1", "expected": "Běi jīng", "rule": "6,7", "note": "second capitalised proper-noun example, 北京 ('Beijing'); confirms the pattern generalises beyond the one example given in the spec" },
+    { "input": "Wang2", "expected": "Wáng", "rule": "6", "note": "single-syllable surname entry, e.g. CC-CEDICT's '/surname Wang/' sense on 王; capitalisation on a one-syllable word" },
+    { "input": "Mei3 guo2", "expected": "Měi guó", "rule": "6,7", "note": "third capitalised multi-syllable proper noun, 美国 ('America/USA'); second syllable stays lowercase" },
+
+    { "input": "ma5", "expected": "ma", "rule": "2 (neutral tone, explicit 5)", "note": "explicit digit-5 neutral tone; real particle 吗; no mark produced" },
+    { "input": "ma", "expected": "ma", "rule": "2 (neutral tone, no digit)", "note": "defensive fixture for rule 2's '(or no digit)' clause — does not occur in CC-CEDICT's own data (see conventions.neutral_tone), included so the behaviour is pinned regardless" },
+    { "input": "xie4 xie5", "expected": "xiè xie", "rule": "2,7", "note": "real word 谢谢 ('thank you'); mark on the first syllable only, second syllable neutral and unmarked — also exercises ordinary space-joining (rule 7)" },
+    { "input": "ba5", "expected": "ba", "rule": "2", "note": "explicit digit-5 neutral tone; real particle 吧" },
+
+    { "input": "hao3", "expected": "hǎo", "rule": "3 (a-priority)", "note": "single-vowel 'a' final; real word 好 ('good')" },
+    { "input": "mai3", "expected": "mǎi", "rule": "3", "note": "'ai' final, mark on a; real word 买 ('to buy')" },
+    { "input": "tian1", "expected": "tiān", "rule": "3", "note": "'ian' final, mark on a despite a not being the first letter; real word 天 ('sky/day')" },
+    { "input": "xian4", "expected": "xiàn", "rule": "3", "note": "'ian' final, tone 4; real word 现/线 ('current/now' or 'line')" },
+    { "input": "kuai4", "expected": "kuài", "rule": "3", "note": "'uai' final, mark on a despite a being the middle letter; real word 快 ('fast')" },
+    { "input": "lao3", "expected": "lǎo", "rule": "3", "note": "'ao' final; real word 老 ('old')" },
+    { "input": "jiao4", "expected": "jiào", "rule": "3", "note": "'iao' final, mark on a; real word 叫 ('to be called/to shout')" },
+
+    { "input": "shuo1", "expected": "shuō", "rule": "4 (o/e-priority, no a)", "note": "'uo' final, no a present, mark on o; real word 说 ('to speak')" },
+    { "input": "dou1", "expected": "dōu", "rule": "4", "note": "'ou' final, mark on o; real word 都 ('all')" },
+    { "input": "gei3", "expected": "gěi", "rule": "4", "note": "'ei' final, mark on e; real word 给 ('to give')" },
+    { "input": "hen3", "expected": "hěn", "rule": "4", "note": "single-vowel e; real word 很 ('very')" },
+    { "input": "wo3", "expected": "wǒ", "rule": "4", "note": "single-vowel o (glide-initial w); real word 我 ('I/me')" },
+    { "input": "lei4", "expected": "lèi", "rule": "4", "note": "'ei' final, tone 4; real word 累 ('tired')" },
+
+    { "input": "liu4", "expected": "liù", "rule": "5 (last-vowel-wins)", "note": "'iu' final, no a/o/e present, mark on the LAST vowel (u); worked example named explicitly in data-pipeline.md §3; real word 六 ('six')" },
+    { "input": "dui4", "expected": "duì", "rule": "5", "note": "'ui' final, mark on the last vowel (i); worked example named explicitly in data-pipeline.md §3; real word 对 ('correct')" },
+    { "input": "gui1", "expected": "guī", "rule": "5", "note": "additional 'ui'-shape case beyond the spec's own example, mark on i; real word 归/规 ('to return' / 'rule')" },
+    { "input": "jiu3", "expected": "jiǔ", "rule": "5", "note": "additional 'iu'-shape case beyond the spec's own example, mark on u; real word 九 ('nine')" },
+    { "input": "hui2", "expected": "huí", "rule": "5", "note": "second 'ui'-shape case, different tone; real word 回 ('to return')" },
+    { "input": "xiu1", "expected": "xiū", "rule": "5", "note": "second 'iu'-shape case, different tone; real word 休 ('to rest')" },
+
+    { "input": "ma1", "expected": "mā", "rule": "3 (single-vowel syllable)", "note": "single vowel a with an ordinary consonant initial; real word 妈 ('mother')" },
+    { "input": "e4", "expected": "è", "rule": "4 (single-vowel syllable, no initial)", "note": "single vowel e, no initial consonant or glide at all; real word 饿 ('hungry')" },
+    { "input": "wu3", "expected": "wǔ", "rule": "3-5 (single-vowel syllable, glide-spelled zero-initial)", "note": "single vowel u; the orthographic 'w' is a glide placeholder for the zero initial, not a true consonant; real word 五 ('five')" },
+
+    { "input": "ai4", "expected": "ài", "rule": "3 (no initial at all)", "note": "'ai' diphthong with a genuinely empty onset (no consonant, no glide letter); real word 爱 ('to love')" },
+    { "input": "an1", "expected": "ān", "rule": "3", "note": "single vowel a, empty onset; real word 安 ('peaceful')" },
+    { "input": "ou1", "expected": "ōu", "rule": "4", "note": "'ou' diphthong, empty onset, mark on o; real word 欧 ('Europe', as in 欧洲)" },
+    { "input": "yi1", "expected": "yī", "rule": "3-5 (glide-spelled zero-initial)", "note": "single vowel i; 'y' is a glide placeholder for the zero initial, not a true consonant, distinguishing this from an1/ou1/ai4's genuinely empty onset; real word 一 ('one')" },
+
+    { "input": "ni3 hao3", "expected": "nǐ hǎo", "rule": "7 (multi-syllable joining)", "note": "worked example named explicitly in data-pipeline.md §3 (also the canonical citation-form example in CLAUDE.md's own tone-sandhi discussion: 你好 is ni3 hao3, spoken ní hǎo); two-syllable word, single-space join" },
+    { "input": "tu2 shu1 guan3", "expected": "tú shū guǎn", "rule": "7", "note": "three-syllable word, confirms joining generalises beyond two syllables; real word 图书馆 ('library')" },
+    { "input": "Zhong1 guo2 ren2", "expected": "Zhōng guó rén", "rule": "6,7", "note": "three-syllable word where only the leading proper-noun syllable is capitalised and the remaining two (including a non-proper-noun suffix) stay lowercase; real word 中国人 ('Chinese person')" }
+  ]
+}

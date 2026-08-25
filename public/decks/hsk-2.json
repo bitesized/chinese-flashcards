@@ -1,0 +1,3667 @@
+{
+  "schemaVersion": 1,
+  "language": "zh-Hans",
+  "level": "2",
+  "title": "HSK 2",
+  "cards": [
+    {
+      "id": "一起:yi1qi3",
+      "headword": "一起",
+      "reading": "yī qǐ",
+      "readingNumeric": "yi1 qi3",
+      "senses": [
+        "(in) the same place",
+        "together; in company (with)",
+        "altogether; in total",
+        "an instance of; a case of (murder, accident, dispute etc)"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "丈夫:zhang4fu5",
+      "headword": "丈夫",
+      "reading": "zhàng fu",
+      "readingNumeric": "zhang4 fu5",
+      "senses": [
+        "husband"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "上班:shang4ban1",
+      "headword": "上班",
+      "reading": "shàng bān",
+      "readingNumeric": "shang4 ban1",
+      "senses": [
+        "to go to work",
+        "to be on duty",
+        "to start work",
+        "to go to the office"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "两:liang3",
+      "headword": "两",
+      "headwordTraditional": "兩",
+      "reading": "liǎng",
+      "readingNumeric": "liang3",
+      "senses": [
+        "two",
+        "both",
+        "some",
+        "a few",
+        "tael, unit of weight equal to 50 grams (modern) or 1⁄16 of a catty 斤 (old)"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "为:wei2",
+      "headword": "为",
+      "headwordTraditional": "為",
+      "reading": "wéi",
+      "readingNumeric": "wei2",
+      "senses": [
+        "as (in the capacity of)",
+        "to take sth as",
+        "to act as",
+        "to serve as",
+        "to behave as",
+        "to become",
+        "to be",
+        "to do",
+        "by (in the passive voice)"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "为",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "为:wei4",
+      "headword": "为",
+      "headwordTraditional": "為",
+      "reading": "wèi",
+      "readingNumeric": "wei4",
+      "senses": [
+        "because of",
+        "for",
+        "to"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "为",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "也:ye3",
+      "headword": "也",
+      "reading": "yě",
+      "readingNumeric": "ye3",
+      "senses": [
+        "also; too; as well; (not ...) either",
+        "(used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)",
+        "(literary) particle having functions similar to 啊"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "也",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "也:Ye3",
+      "headword": "也",
+      "reading": "Yě",
+      "readingNumeric": "Ye3",
+      "senses": [
+        "surname Ye"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "也",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "事情:shi4qing5",
+      "headword": "事情",
+      "reading": "shì qing",
+      "readingNumeric": "shi4 qing5",
+      "senses": [
+        "affair; matter; thing; business"
+      ],
+      "classifiers": [
+        {
+          "simplified": "件",
+          "traditional": "件",
+          "readingNumeric": "jian4",
+          "reading": "jiàn"
+        },
+        {
+          "simplified": "桩",
+          "traditional": "樁",
+          "readingNumeric": "zhuang1",
+          "reading": "zhuāng"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "介绍:jie4shao4",
+      "headword": "介绍",
+      "headwordTraditional": "介紹",
+      "reading": "jiè shào",
+      "readingNumeric": "jie4 shao4",
+      "senses": [
+        "to introduce (sb to sb)",
+        "to give a presentation",
+        "to present (sb for a job etc)",
+        "introduction"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "从:cong2",
+      "headword": "从",
+      "headwordTraditional": "從",
+      "reading": "cóng",
+      "readingNumeric": "cong2",
+      "senses": [
+        "from; through; via",
+        "(bound form) to follow",
+        "(bound form) to obey",
+        "(bound form) to engage in (an activity)",
+        "(used before a negative) ever",
+        "(bound form) (Taiwan pr. zòng) retainer; attendant",
+        "(bound form) (Taiwan pr. zòng) assistant; auxiliary; subordinate",
+        "(bound form) (Taiwan pr. zòng) related by common paternal grandfather or earlier ancestor"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "从",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "从:Cong2",
+      "headword": "从",
+      "headwordTraditional": "從",
+      "reading": "Cóng",
+      "readingNumeric": "Cong2",
+      "senses": [
+        "surname Cong"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "从",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "件:jian4",
+      "headword": "件",
+      "reading": "jiàn",
+      "readingNumeric": "jian4",
+      "senses": [
+        "item",
+        "component",
+        "classifier for events, things, clothes etc"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "休息:xiu1xi5",
+      "headword": "休息",
+      "reading": "xiū xi",
+      "readingNumeric": "xiu1 xi5",
+      "senses": [
+        "rest",
+        "to rest"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "但是:dan4shi4",
+      "headword": "但是",
+      "reading": "dàn shì",
+      "readingNumeric": "dan4 shi4",
+      "senses": [
+        "but; however"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "便宜:bian4yi2",
+      "headword": "便宜",
+      "reading": "biàn yí",
+      "readingNumeric": "bian4 yi2",
+      "senses": [
+        "convenient"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "便宜",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "便宜:pian2yi5",
+      "headword": "便宜",
+      "reading": "pián yi",
+      "readingNumeric": "pian2 yi5",
+      "senses": [
+        "cheap; inexpensive",
+        "a petty advantage",
+        "to let sb off lightly"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "便宜",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "元:yuan2",
+      "headword": "元",
+      "reading": "yuán",
+      "readingNumeric": "yuan2",
+      "senses": [
+        "currency unit (esp. Chinese yuan)",
+        "(bound form) first; original; primary",
+        "(bound form) basic; fundamental",
+        "(bound form) constituent; part",
+        "(prefix) meta-",
+        "(math.) argument; variable",
+        "era (of a reign)",
+        "(Tw) (geology) eon"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "元",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "元:Yuan2",
+      "headword": "元",
+      "reading": "Yuán",
+      "readingNumeric": "Yuan2",
+      "senses": [
+        "surname Yuan",
+        "Yuan dynasty (1279–1368)"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "元",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "公共汽车:gong1gong4qi4che1",
+      "headword": "公共汽车",
+      "headwordTraditional": "公共汽車",
+      "reading": "gōng gòng qì chē",
+      "readingNumeric": "gong1 gong4 qi4 che1",
+      "senses": [
+        "bus"
+      ],
+      "classifiers": [
+        {
+          "simplified": "辆",
+          "traditional": "輛",
+          "readingNumeric": "liang4",
+          "reading": "liàng"
+        },
+        {
+          "simplified": "班",
+          "traditional": "班",
+          "readingNumeric": "ban1",
+          "reading": "bān"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "公司:gong1si1",
+      "headword": "公司",
+      "reading": "gōng sī",
+      "readingNumeric": "gong1 si1",
+      "senses": [
+        "company; firm; corporation"
+      ],
+      "classifiers": [
+        {
+          "simplified": "家",
+          "traditional": "家",
+          "readingNumeric": "jia1",
+          "reading": "jiā"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "公斤:gong1jin1",
+      "headword": "公斤",
+      "reading": "gōng jīn",
+      "readingNumeric": "gong1 jin1",
+      "senses": [
+        "kilogram (kg)"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "再:zai4",
+      "headword": "再",
+      "reading": "zài",
+      "readingNumeric": "zai4",
+      "senses": [
+        "again; once more; re-",
+        "further; beyond this point of time",
+        "(before an adjective) more",
+        "then (after sth, and not until then)",
+        "no matter how ... (followed by an adjective or verb, and then (usually) 也 or 都 for emphasis)",
+        "(used to introduce additional information, as in 再则, 再就是 etc)",
+        "(literary) to reappear; to reoccur"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "最:zui4",
+      "headword": "最",
+      "reading": "zuì",
+      "readingNumeric": "zui4",
+      "senses": [
+        "(before an adjective or verb) to the highest degree; (the) most ...; -est",
+        "(after 之) best or most extreme example (e.g. 世界之最 \"the greatest in the world\")"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "准备:zhun3bei4",
+      "headword": "准备",
+      "headwordTraditional": "準備",
+      "reading": "zhǔn bèi",
+      "readingNumeric": "zhun3 bei4",
+      "senses": [
+        "preparation",
+        "to prepare",
+        "to intend",
+        "to be about to",
+        "reserve (fund)"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "出:chu1",
+      "headword": "出",
+      "reading": "chū",
+      "readingNumeric": "chu1",
+      "senses": [
+        "to go out; to come out",
+        "to arise; to occur",
+        "to produce; to yield",
+        "to go beyond; to exceed",
+        "(used after a verb to indicate an outward direction or a positive result)",
+        "classifier for dramas, plays, operas etc"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "别:bie2",
+      "headword": "别",
+      "headwordTraditional": "別",
+      "reading": "bié",
+      "readingNumeric": "bie2",
+      "senses": [
+        "to leave; to part (from)",
+        "(literary) to differentiate; to distinguish",
+        "(dialect) to turn away; to turn aside; to avert (one's face, gaze etc)",
+        "(bound form) other; another; different",
+        "don't ...!",
+        "to fasten with a pin or clip",
+        "to stick in; to insert (in order to hinder movement)",
+        "(noun suffix) category (as in 性别, 派别)"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "别",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "别:Bie2",
+      "headword": "别",
+      "headwordTraditional": "別",
+      "reading": "Bié",
+      "readingNumeric": "Bie2",
+      "senses": [
+        "surname Bie"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "别",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "别:bie4",
+      "headword": "别",
+      "headwordTraditional": "彆",
+      "reading": "biè",
+      "readingNumeric": "bie4",
+      "senses": [
+        "to make sb change their ways, opinions etc"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "别",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "到:dao4",
+      "headword": "到",
+      "reading": "dào",
+      "readingNumeric": "dao4",
+      "senses": [
+        "to reach; to arrive",
+        "to leave for; to go to",
+        "to (a place); until (a time); up to (a point)",
+        "(verb complement indicating arriving at a place or reaching a point)",
+        "considerate; thoughtful; thorough"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "卖:mai4",
+      "headword": "卖",
+      "headwordTraditional": "賣",
+      "reading": "mài",
+      "readingNumeric": "mai4",
+      "senses": [
+        "to sell",
+        "to betray",
+        "to spare no effort",
+        "to show off or flaunt"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "去年:qu4nian2",
+      "headword": "去年",
+      "reading": "qù nián",
+      "readingNumeric": "qu4 nian2",
+      "senses": [
+        "last year"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "可以:ke3yi3",
+      "headword": "可以",
+      "reading": "kě yǐ",
+      "readingNumeric": "ke3 yi3",
+      "senses": [
+        "can",
+        "may",
+        "possible",
+        "able to",
+        "not bad",
+        "pretty good"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "可能:ke3neng2",
+      "headword": "可能",
+      "reading": "kě néng",
+      "readingNumeric": "ke3 neng2",
+      "senses": [
+        "might (happen)",
+        "possible",
+        "probable",
+        "possibility",
+        "probability",
+        "maybe",
+        "perhaps"
+      ],
+      "classifiers": [
+        {
+          "simplified": "个",
+          "traditional": "個",
+          "readingNumeric": "ge4",
+          "reading": "gè"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "右边:you4bian5",
+      "headword": "右边",
+      "headwordTraditional": "右邊",
+      "reading": "yòu bian",
+      "readingNumeric": "you4 bian5",
+      "senses": [
+        "right side",
+        "right, to the right"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "号:hao2",
+      "headword": "号",
+      "headwordTraditional": "號",
+      "reading": "háo",
+      "readingNumeric": "hao2",
+      "senses": [
+        "(bound form) to wail; to howl"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "号",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "号:hao4",
+      "headword": "号",
+      "headwordTraditional": "號",
+      "reading": "hào",
+      "readingNumeric": "hao4",
+      "senses": [
+        "(literary) to call out; to command",
+        "(bound form) bugle; trumpet",
+        "(bound form) signal; bugle call (e.g. 起床号)",
+        "(bound form) mark; sign",
+        "to mark; to label; to assign a number",
+        "(bound form) name; appellation (e.g. 国号, 年号, 辽宁号)",
+        "(after a numeral) number designation (e.g. 237号房间 \"Room 237\")",
+        "day of the month (e.g. 七号 \"the 7th\")",
+        "(bound form) size; type; category (e.g. 五号电池)",
+        "(TCM) to feel (the pulse) (used in 号脉)",
+        "classifier for numbered people or items"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "号",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "向:Xiang4",
+      "headword": "向",
+      "reading": "Xiàng",
+      "readingNumeric": "Xiang4",
+      "senses": [
+        "surname Xiang"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "吧:ba1",
+      "headword": "吧",
+      "reading": "bā",
+      "readingNumeric": "ba1",
+      "senses": [
+        "bar (loanword) (serving drinks, or providing Internet access etc)",
+        "to puff (on a pipe etc)",
+        "(onom.) bang",
+        "abbr. for 贴吧"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "吧",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "吧:ba5",
+      "headword": "吧",
+      "reading": "ba",
+      "readingNumeric": "ba5",
+      "senses": [
+        "(modal particle indicating suggestion or surmise)",
+        "...right?",
+        "...OK?",
+        "...I presume."
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "吧",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "吧:bia1",
+      "headword": "吧",
+      "reading": "biā",
+      "readingNumeric": "bia1",
+      "senses": [
+        "(onom.) smack!"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "吧",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "告诉:gao4su4",
+      "headword": "告诉",
+      "headwordTraditional": "告訴",
+      "reading": "gào sù",
+      "readingNumeric": "gao4 su4",
+      "senses": [
+        "to press charges; to file a complaint"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "告诉",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "告诉:gao4su5",
+      "headword": "告诉",
+      "headwordTraditional": "告訴",
+      "reading": "gào su",
+      "readingNumeric": "gao4 su5",
+      "senses": [
+        "to tell; to inform; to let know"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "告诉",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "咖啡:ka1fei1",
+      "headword": "咖啡",
+      "reading": "kā fēi",
+      "readingNumeric": "ka1 fei1",
+      "senses": [
+        "(loanword) coffee"
+      ],
+      "classifiers": [
+        {
+          "simplified": "杯",
+          "traditional": "杯",
+          "readingNumeric": "bei1",
+          "reading": "bēi"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "哥哥:ge1ge5",
+      "headword": "哥哥",
+      "reading": "gē ge",
+      "readingNumeric": "ge1 ge5",
+      "senses": [
+        "older brother"
+      ],
+      "classifiers": [
+        {
+          "simplified": "个",
+          "traditional": "個",
+          "readingNumeric": "ge4",
+          "reading": "gè"
+        },
+        {
+          "simplified": "位",
+          "traditional": "位",
+          "readingNumeric": "wei4",
+          "reading": "wèi"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "唱歌:chang4ge1",
+      "headword": "唱歌",
+      "reading": "chàng gē",
+      "readingNumeric": "chang4 ge1",
+      "senses": [
+        "to sing a song"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "回答:hui2da2",
+      "headword": "回答",
+      "reading": "huí dá",
+      "readingNumeric": "hui2 da2",
+      "senses": [
+        "to reply; to answer",
+        "reply; answer"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "因为:yin1wei4",
+      "headword": "因为",
+      "headwordTraditional": "因為",
+      "reading": "yīn wèi",
+      "readingNumeric": "yin1 wei4",
+      "senses": [
+        "because; owing to; on account of"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "外:wai4",
+      "headword": "外",
+      "reading": "wài",
+      "readingNumeric": "wai4",
+      "senses": [
+        "outside",
+        "in addition",
+        "foreign",
+        "external"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "大家:da4jia1",
+      "headword": "大家",
+      "reading": "dà jiā",
+      "readingNumeric": "da4 jia1",
+      "senses": [
+        "everyone",
+        "influential family",
+        "great expert"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "女人:nv3ren2",
+      "headword": "女人",
+      "reading": "nǚ rén",
+      "readingNumeric": "nu:3 ren2",
+      "senses": [
+        "woman"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "女人",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "女人:nv3ren5",
+      "headword": "女人",
+      "reading": "nǚ ren",
+      "readingNumeric": "nu:3 ren5",
+      "senses": [
+        "wife"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "女人",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "好吃:hao3chi1",
+      "headword": "好吃",
+      "reading": "hǎo chī",
+      "readingNumeric": "hao3 chi1",
+      "senses": [
+        "tasty; delicious"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "好吃",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "好吃:hao4chi1",
+      "headword": "好吃",
+      "reading": "hào chī",
+      "readingNumeric": "hao4 chi1",
+      "senses": [
+        "to be fond of eating; to be gluttonous"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "好吃",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "妹妹:mei4mei5",
+      "headword": "妹妹",
+      "reading": "mèi mei",
+      "readingNumeric": "mei4 mei5",
+      "senses": [
+        "younger sister",
+        "young woman"
+      ],
+      "classifiers": [
+        {
+          "simplified": "个",
+          "traditional": "個",
+          "readingNumeric": "ge4",
+          "reading": "gè"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "妻子:qi1zi3",
+      "headword": "妻子",
+      "reading": "qī zǐ",
+      "readingNumeric": "qi1 zi3",
+      "senses": [
+        "wife and children"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "妻子",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "妻子:qi1zi5",
+      "headword": "妻子",
+      "reading": "qī zi",
+      "readingNumeric": "qi1 zi5",
+      "senses": [
+        "wife"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "妻子",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "姐姐:jie3jie5",
+      "headword": "姐姐",
+      "reading": "jiě jie",
+      "readingNumeric": "jie3 jie5",
+      "senses": [
+        "older sister"
+      ],
+      "classifiers": [
+        {
+          "simplified": "个",
+          "traditional": "個",
+          "readingNumeric": "ge4",
+          "reading": "gè"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "姓:xing4",
+      "headword": "姓",
+      "reading": "xìng",
+      "readingNumeric": "xing4",
+      "senses": [
+        "family name; surname",
+        "to be surnamed ..."
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "孩子:hai2zi5",
+      "headword": "孩子",
+      "reading": "hái zi",
+      "readingNumeric": "hai2 zi5",
+      "senses": [
+        "child"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "完:wan2",
+      "headword": "完",
+      "reading": "wán",
+      "readingNumeric": "wan2",
+      "senses": [
+        "to finish",
+        "to be over",
+        "whole",
+        "complete",
+        "entire"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "小时:xiao3shi2",
+      "headword": "小时",
+      "headwordTraditional": "小時",
+      "reading": "xiǎo shí",
+      "readingNumeric": "xiao3 shi2",
+      "senses": [
+        "hour"
+      ],
+      "classifiers": [
+        {
+          "simplified": "个",
+          "traditional": "個",
+          "readingNumeric": "ge4",
+          "reading": "gè"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "就:jiu4",
+      "headword": "就",
+      "reading": "jiù",
+      "readingNumeric": "jiu4",
+      "senses": [
+        "(after a suppositional clause) in that case; then",
+        "(after a clause of action) as soon as; immediately after",
+        "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
+        "only; as little as",
+        "as much as; as many as",
+        "to approach; to move towards",
+        "to undertake; to engage in",
+        "(often followed by 着) taking advantage of",
+        "(of food) to go with",
+        "with regard to; concerning",
+        "(bound form) to reach; to attain (as in 一蹴而就)",
+        "(pattern: 就 ... 也 ...) even if ... still ...",
+        "(pattern: 不 ... 就 ...) if not ... then must be ..."
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "左边:zuo3bian5",
+      "headword": "左边",
+      "headwordTraditional": "左邊",
+      "reading": "zuǒ bian",
+      "readingNumeric": "zuo3 bian5",
+      "senses": [
+        "left",
+        "the left side",
+        "to the left of"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "已经:yi3jing1",
+      "headword": "已经",
+      "headwordTraditional": "已經",
+      "reading": "yǐ jīng",
+      "readingNumeric": "yi3 jing1",
+      "senses": [
+        "already"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "希望:xi1wang4",
+      "headword": "希望",
+      "reading": "xī wàng",
+      "readingNumeric": "xi1 wang4",
+      "senses": [
+        "to hope",
+        "a hope; a wish"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "帮助:bang1zhu4",
+      "headword": "帮助",
+      "headwordTraditional": "幫助",
+      "reading": "bāng zhù",
+      "readingNumeric": "bang1 zhu4",
+      "senses": [
+        "assistance; aid",
+        "to help; to assist"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "开始:kai1shi3",
+      "headword": "开始",
+      "headwordTraditional": "開始",
+      "reading": "kāi shǐ",
+      "readingNumeric": "kai1 shi3",
+      "senses": [
+        "to begin; to start",
+        "beginning; start"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "弟弟:di4di5",
+      "headword": "弟弟",
+      "reading": "dì di",
+      "readingNumeric": "di4 di5",
+      "senses": [
+        "younger brother"
+      ],
+      "classifiers": [
+        {
+          "simplified": "个",
+          "traditional": "個",
+          "readingNumeric": "ge4",
+          "reading": "gè"
+        },
+        {
+          "simplified": "位",
+          "traditional": "位",
+          "readingNumeric": "wei4",
+          "reading": "wèi"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "张:zhang1",
+      "headword": "张",
+      "headwordTraditional": "張",
+      "reading": "zhāng",
+      "readingNumeric": "zhang1",
+      "senses": [
+        "to open up",
+        "to spread",
+        "sheet of paper",
+        "classifier for flat objects, sheet",
+        "classifier for votes"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "张",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "张:Zhang1",
+      "headword": "张",
+      "headwordTraditional": "張",
+      "reading": "Zhāng",
+      "readingNumeric": "Zhang1",
+      "senses": [
+        "surname Zhang"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "张",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "得:de2",
+      "headword": "得",
+      "reading": "dé",
+      "readingNumeric": "de2",
+      "senses": [
+        "to obtain",
+        "to get",
+        "to gain",
+        "to catch (a disease)",
+        "proper",
+        "suitable",
+        "proud",
+        "contented",
+        "to allow",
+        "to permit",
+        "ready",
+        "finished"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "得",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "得:de5",
+      "headword": "得",
+      "reading": "de",
+      "readingNumeric": "de5",
+      "senses": [
+        "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "得",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "得:dei3",
+      "headword": "得",
+      "reading": "děi",
+      "readingNumeric": "dei3",
+      "senses": [
+        "to have to",
+        "must",
+        "ought to",
+        "to need to"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "得",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "忙:mang2",
+      "headword": "忙",
+      "reading": "máng",
+      "readingNumeric": "mang2",
+      "senses": [
+        "busy",
+        "hurriedly",
+        "to hurry",
+        "to rush"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "快:kuai4",
+      "headword": "快",
+      "reading": "kuài",
+      "readingNumeric": "kuai4",
+      "senses": [
+        "rapid",
+        "quick",
+        "speed",
+        "rate",
+        "soon",
+        "almost",
+        "to make haste",
+        "clever",
+        "sharp (of knives or wits)",
+        "forthright",
+        "plainspoken",
+        "gratified",
+        "pleased",
+        "pleasant"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "快乐:kuai4le4",
+      "headword": "快乐",
+      "headwordTraditional": "快樂",
+      "reading": "kuài lè",
+      "readingNumeric": "kuai4 le4",
+      "senses": [
+        "happy; joyful"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "您:nin2",
+      "headword": "您",
+      "reading": "nín",
+      "readingNumeric": "nin2",
+      "senses": [
+        "you (courteous, as opposed to informal 你)"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "意思:yi4si5",
+      "headword": "意思",
+      "reading": "yì si",
+      "readingNumeric": "yi4 si5",
+      "senses": [
+        "idea",
+        "opinion",
+        "meaning",
+        "wish",
+        "desire",
+        "interest",
+        "fun",
+        "token of appreciation, affection etc",
+        "to give as a small token",
+        "to do sth as a gesture of goodwill etc"
+      ],
+      "classifiers": [
+        {
+          "simplified": "个",
+          "traditional": "個",
+          "readingNumeric": "ge4",
+          "reading": "gè"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "慢:man4",
+      "headword": "慢",
+      "reading": "màn",
+      "readingNumeric": "man4",
+      "senses": [
+        "slow"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "懂:dong3",
+      "headword": "懂",
+      "reading": "dǒng",
+      "readingNumeric": "dong3",
+      "senses": [
+        "to understand",
+        "to comprehend"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "房间:fang2jian1",
+      "headword": "房间",
+      "headwordTraditional": "房間",
+      "reading": "fáng jiān",
+      "readingNumeric": "fang2 jian1",
+      "senses": [
+        "room"
+      ],
+      "classifiers": [
+        {
+          "simplified": "间",
+          "traditional": "間",
+          "readingNumeric": "jian1",
+          "reading": "jiān"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "所以:suo3yi3",
+      "headword": "所以",
+      "reading": "suǒ yǐ",
+      "readingNumeric": "suo3 yi3",
+      "senses": [
+        "therefore",
+        "as a result",
+        "so",
+        "the reason why"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "手机:shou3ji1",
+      "headword": "手机",
+      "headwordTraditional": "手機",
+      "reading": "shǒu jī",
+      "readingNumeric": "shou3 ji1",
+      "senses": [
+        "cell phone; mobile phone"
+      ],
+      "classifiers": [
+        {
+          "simplified": "部",
+          "traditional": "部",
+          "readingNumeric": "bu4",
+          "reading": "bù"
+        },
+        {
+          "simplified": "台",
+          "traditional": "臺",
+          "readingNumeric": "tai2",
+          "reading": "tái"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "手表:shou3biao3",
+      "headword": "手表",
+      "headwordTraditional": "手錶",
+      "reading": "shǒu biǎo",
+      "readingNumeric": "shou3 biao3",
+      "senses": [
+        "wristwatch"
+      ],
+      "classifiers": [
+        {
+          "simplified": "块",
+          "traditional": "塊",
+          "readingNumeric": "kuai4",
+          "reading": "kuài"
+        },
+        {
+          "simplified": "只",
+          "traditional": "隻",
+          "readingNumeric": "zhi1",
+          "reading": "zhī"
+        },
+        {
+          "simplified": "个",
+          "traditional": "個",
+          "readingNumeric": "ge4",
+          "reading": "gè"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "找:zhao3",
+      "headword": "找",
+      "reading": "zhǎo",
+      "readingNumeric": "zhao3",
+      "senses": [
+        "to try to find",
+        "to look for",
+        "to call on sb",
+        "to find",
+        "to seek",
+        "to return",
+        "to give change"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "报纸:bao4zhi3",
+      "headword": "报纸",
+      "headwordTraditional": "報紙",
+      "reading": "bào zhǐ",
+      "readingNumeric": "bao4 zhi3",
+      "senses": [
+        "newspaper",
+        "newsprint"
+      ],
+      "classifiers": [
+        {
+          "simplified": "份",
+          "traditional": "份",
+          "readingNumeric": "fen4",
+          "reading": "fèn"
+        },
+        {
+          "simplified": "期",
+          "traditional": "期",
+          "readingNumeric": "qi1",
+          "reading": "qī"
+        },
+        {
+          "simplified": "张",
+          "traditional": "張",
+          "readingNumeric": "zhang1",
+          "reading": "zhāng"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "教室:jiao4shi4",
+      "headword": "教室",
+      "reading": "jiào shì",
+      "readingNumeric": "jiao4 shi4",
+      "senses": [
+        "classroom"
+      ],
+      "classifiers": [
+        {
+          "simplified": "间",
+          "traditional": "間",
+          "readingNumeric": "jian1",
+          "reading": "jiān"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "新:xin1",
+      "headword": "新",
+      "reading": "xīn",
+      "readingNumeric": "xin1",
+      "senses": [
+        "new",
+        "newly",
+        "meso- (chemistry)"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "新",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "新:Xin1",
+      "headword": "新",
+      "reading": "Xīn",
+      "readingNumeric": "Xin1",
+      "senses": [
+        "abbr. for Xinjiang 新疆",
+        "abbr. for Singapore 新加坡",
+        "surname Xin"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "新",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "旁边:pang2bian1",
+      "headword": "旁边",
+      "headwordTraditional": "旁邊",
+      "reading": "páng biān",
+      "readingNumeric": "pang2 bian1",
+      "senses": [
+        "side; adjacent place"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "旅游:lv3you2",
+      "headword": "旅游",
+      "headwordTraditional": "旅遊",
+      "reading": "lǚ yóu",
+      "readingNumeric": "lu:3 you2",
+      "senses": [
+        "trip",
+        "journey",
+        "tourism",
+        "travel",
+        "tour",
+        "to travel"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "早上:zao3shang5",
+      "headword": "早上",
+      "reading": "zǎo shang",
+      "readingNumeric": "zao3 shang5",
+      "senses": [
+        "early morning"
+      ],
+      "classifiers": [
+        {
+          "simplified": "个",
+          "traditional": "個",
+          "readingNumeric": "ge4",
+          "reading": "gè"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "时间:shi2jian1",
+      "headword": "时间",
+      "headwordTraditional": "時間",
+      "reading": "shí jiān",
+      "readingNumeric": "shi2 jian1",
+      "senses": [
+        "(concept of) time",
+        "(duration of) time",
+        "(point in) time"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "晚上:wan3shang5",
+      "headword": "晚上",
+      "reading": "wǎn shang",
+      "readingNumeric": "wan3 shang5",
+      "senses": [
+        "evening",
+        "night",
+        "in the evening"
+      ],
+      "classifiers": [
+        {
+          "simplified": "个",
+          "traditional": "個",
+          "readingNumeric": "ge4",
+          "reading": "gè"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "晴:qing2",
+      "headword": "晴",
+      "reading": "qíng",
+      "readingNumeric": "qing2",
+      "senses": [
+        "clear",
+        "fine (weather)"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "服务员:fu2wu4yuan2",
+      "headword": "服务员",
+      "headwordTraditional": "服務員",
+      "reading": "fú wù yuán",
+      "readingNumeric": "fu2 wu4 yuan2",
+      "senses": [
+        "waiter",
+        "waitress",
+        "attendant",
+        "customer service personnel"
+      ],
+      "classifiers": [
+        {
+          "simplified": "个",
+          "traditional": "個",
+          "readingNumeric": "ge4",
+          "reading": "gè"
+        },
+        {
+          "simplified": "位",
+          "traditional": "位",
+          "readingNumeric": "wei4",
+          "reading": "wèi"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "机场:ji1chang3",
+      "headword": "机场",
+      "headwordTraditional": "機場",
+      "reading": "jī chǎng",
+      "readingNumeric": "ji1 chang3",
+      "senses": [
+        "airport; airfield",
+        "(slang) service provider for Shadowsocks or similar software for circumventing Internet censorship"
+      ],
+      "classifiers": [
+        {
+          "simplified": "家",
+          "traditional": "家",
+          "readingNumeric": "jia1",
+          "reading": "jiā"
+        },
+        {
+          "simplified": "处",
+          "traditional": "處",
+          "readingNumeric": "chu4",
+          "reading": "chù"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "次:ci4",
+      "headword": "次",
+      "reading": "cì",
+      "readingNumeric": "ci4",
+      "senses": [
+        "next in sequence",
+        "second",
+        "the second (day, time etc)",
+        "secondary",
+        "vice-",
+        "sub-",
+        "infra-",
+        "inferior quality",
+        "substandard",
+        "order",
+        "sequence",
+        "hypo- (chemistry)",
+        "classifier for enumerated events: time"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "欢迎:huan1ying2",
+      "headword": "欢迎",
+      "headwordTraditional": "歡迎",
+      "reading": "huān yíng",
+      "readingNumeric": "huan1 ying2",
+      "senses": [
+        "to welcome",
+        "welcome"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "正在:zheng4zai4",
+      "headword": "正在",
+      "reading": "zhèng zài",
+      "readingNumeric": "zheng4 zai4",
+      "senses": [
+        "to be in the process of (doing sth); to be currently ...-ing"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "每:mei3",
+      "headword": "每",
+      "reading": "měi",
+      "readingNumeric": "mei3",
+      "senses": [
+        "each",
+        "every"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "比:bi1",
+      "headword": "比",
+      "reading": "bī",
+      "readingNumeric": "bi1",
+      "senses": [
+        "euphemistic variant of 屄"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "比",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "比:bi3",
+      "headword": "比",
+      "reading": "bǐ",
+      "readingNumeric": "bi3",
+      "senses": [
+        "to compare",
+        "(followed by a noun and adjective) more {adj.} than {noun}",
+        "ratio",
+        "to gesture",
+        "(Taiwan pr. bì in some compounds derived from Classical Chinese)"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "比",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "比:Bi3",
+      "headword": "比",
+      "reading": "Bǐ",
+      "readingNumeric": "Bi3",
+      "senses": [
+        "Belgium",
+        "Belgian",
+        "abbr. for 比利时"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "比",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "洗:xi3",
+      "headword": "洗",
+      "reading": "xǐ",
+      "readingNumeric": "xi3",
+      "senses": [
+        "to wash; to bathe",
+        "to develop (photographs)",
+        "to shuffle (cards etc)",
+        "to erase (a recording)"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "游泳:you2yong3",
+      "headword": "游泳",
+      "reading": "yóu yǒng",
+      "readingNumeric": "you2 yong3",
+      "senses": [
+        "swimming",
+        "to swim"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "牛奶:niu2nai3",
+      "headword": "牛奶",
+      "reading": "niú nǎi",
+      "readingNumeric": "niu2 nai3",
+      "senses": [
+        "cow's milk"
+      ],
+      "classifiers": [
+        {
+          "simplified": "瓶",
+          "traditional": "瓶",
+          "readingNumeric": "ping2",
+          "reading": "píng"
+        },
+        {
+          "simplified": "杯",
+          "traditional": "杯",
+          "readingNumeric": "bei1",
+          "reading": "bēi"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "生日:sheng1ri4",
+      "headword": "生日",
+      "reading": "shēng rì",
+      "readingNumeric": "sheng1 ri4",
+      "senses": [
+        "birthday"
+      ],
+      "classifiers": [
+        {
+          "simplified": "个",
+          "traditional": "個",
+          "readingNumeric": "ge4",
+          "reading": "gè"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "生病:sheng1bing4",
+      "headword": "生病",
+      "reading": "shēng bìng",
+      "readingNumeric": "sheng1 bing4",
+      "senses": [
+        "to fall ill"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "男人:nan2ren2",
+      "headword": "男人",
+      "reading": "nán rén",
+      "readingNumeric": "nan2 ren2",
+      "senses": [
+        "a man",
+        "a male",
+        "men"
+      ],
+      "classifiers": [
+        {
+          "simplified": "个",
+          "traditional": "個",
+          "readingNumeric": "ge4",
+          "reading": "gè"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "白:bai2",
+      "headword": "白",
+      "reading": "bái",
+      "readingNumeric": "bai2",
+      "senses": [
+        "white",
+        "in vain",
+        "free of charge",
+        "(bound form) (of facts, the truth, a situation) clear; evident (e.g. 真相大白)",
+        "(bound form) plain; without additions (e.g. 白饭)",
+        "(bound form) to explain; to state (e.g. 辩白)",
+        "(bound form) to give a disdainful look (e.g. 白了他一眼)",
+        "(bound form) vernacular (e.g. 白话)",
+        "(bound form) spoken lines in opera (e.g. 念白)",
+        "(bound form) reactionary; anti-communist (e.g. 白区)"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "白",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "白:Bai2",
+      "headword": "白",
+      "reading": "Bái",
+      "readingNumeric": "Bai2",
+      "senses": [
+        "surname Bai",
+        "Bai ethnic group"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "白",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "百:bai3",
+      "headword": "百",
+      "reading": "bǎi",
+      "readingNumeric": "bai3",
+      "senses": [
+        "hundred",
+        "numerous",
+        "all kinds of"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "百",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "百:Bai3",
+      "headword": "百",
+      "reading": "Bǎi",
+      "readingNumeric": "Bai3",
+      "senses": [
+        "surname Bai"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "百",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "真:zhen1",
+      "headword": "真",
+      "reading": "zhēn",
+      "readingNumeric": "zhen1",
+      "senses": [
+        "really",
+        "truly",
+        "indeed",
+        "real",
+        "true",
+        "genuine"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "眼睛:yan3jing5",
+      "headword": "眼睛",
+      "reading": "yǎn jing",
+      "readingNumeric": "yan3 jing5",
+      "senses": [
+        "eye"
+      ],
+      "classifiers": [
+        {
+          "simplified": "只",
+          "traditional": "隻",
+          "readingNumeric": "zhi1",
+          "reading": "zhī"
+        },
+        {
+          "simplified": "双",
+          "traditional": "雙",
+          "readingNumeric": "shuang1",
+          "reading": "shuāng"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "着:zhao1",
+      "headword": "着",
+      "headwordTraditional": "著",
+      "reading": "zhāo",
+      "readingNumeric": "zhao1",
+      "senses": [
+        "a move in chess (Taiwan pr. zhuó)",
+        "trick; tactic",
+        "(dialect) okay; all right",
+        "(dialect) to put in; to add"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "着",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "着:zhao2",
+      "headword": "着",
+      "headwordTraditional": "著",
+      "reading": "zháo",
+      "readingNumeric": "zhao2",
+      "senses": [
+        "to touch",
+        "to come in contact with",
+        "to feel",
+        "to be affected by",
+        "to catch fire",
+        "to burn",
+        "(coll.) to fall asleep",
+        "(after a verb) hitting the mark",
+        "succeeding in"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "着",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "着:zhe5",
+      "headword": "着",
+      "headwordTraditional": "著",
+      "reading": "zhe",
+      "readingNumeric": "zhe5",
+      "senses": [
+        "aspect particle indicating action in progress or ongoing state"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "着",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "着:zhuo2",
+      "headword": "着",
+      "headwordTraditional": "著",
+      "reading": "zhuó",
+      "readingNumeric": "zhuo2",
+      "senses": [
+        "to wear (clothes)",
+        "to contact",
+        "to use",
+        "to apply"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "着",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "知道:zhi1dao4",
+      "headword": "知道",
+      "reading": "zhī dào",
+      "readingNumeric": "zhi1 dao4",
+      "senses": [
+        "to know; to become aware of",
+        "also pr. zhī dao"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "票:piao4",
+      "headword": "票",
+      "reading": "piào",
+      "readingNumeric": "piao4",
+      "senses": [
+        "ticket",
+        "ballot",
+        "banknote",
+        "person held for ransom",
+        "amateur performance of Chinese opera",
+        "classifier for groups, batches, business transactions"
+      ],
+      "classifiers": [
+        {
+          "simplified": "张",
+          "traditional": "張",
+          "readingNumeric": "zhang1",
+          "reading": "zhāng"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "离:chi1",
+      "headword": "离",
+      "reading": "chī",
+      "readingNumeric": "chi1",
+      "senses": [
+        "mythical beast (archaic)"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "离",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "离:li2",
+      "headword": "离",
+      "headwordTraditional": "離",
+      "reading": "lí",
+      "readingNumeric": "li2",
+      "senses": [
+        "to leave",
+        "to part from",
+        "to be away from",
+        "(in giving distances) from",
+        "without (sth)",
+        "independent of",
+        "one of the Eight Trigrams 八卦, symbolizing fire",
+        "☲"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "离",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "离:Li2",
+      "headword": "离",
+      "headwordTraditional": "離",
+      "reading": "Lí",
+      "readingNumeric": "Li2",
+      "senses": [
+        "surname Li"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "离",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "穿:chuan1",
+      "headword": "穿",
+      "reading": "chuān",
+      "readingNumeric": "chuan1",
+      "senses": [
+        "to bore through; to pierce; to perforate",
+        "to go through (e.g. a tunnel); to cross (e.g. a street)",
+        "to thread; to string together",
+        "to wear; to put on (clothes, shoes etc.)",
+        "verb complement indicating thoroughness or completion"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "笑:xiao4",
+      "headword": "笑",
+      "reading": "xiào",
+      "readingNumeric": "xiao4",
+      "senses": [
+        "to laugh; to smile",
+        "to laugh at"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "第一:di4yi1",
+      "headword": "第一",
+      "reading": "dì yī",
+      "readingNumeric": "di4 yi1",
+      "senses": [
+        "first",
+        "most important; primary; foremost"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "红:hong2",
+      "headword": "红",
+      "headwordTraditional": "紅",
+      "reading": "hóng",
+      "readingNumeric": "hong2",
+      "senses": [
+        "red",
+        "popular",
+        "revolutionary",
+        "bonus"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "红",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "红:Hong2",
+      "headword": "红",
+      "headwordTraditional": "紅",
+      "reading": "Hóng",
+      "readingNumeric": "Hong2",
+      "senses": [
+        "surname Hong"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "红",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "累:lei2",
+      "headword": "累",
+      "headwordTraditional": "纍",
+      "reading": "léi",
+      "readingNumeric": "lei2",
+      "senses": [
+        "rope",
+        "to bind together",
+        "to twist around"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "累",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "累:lei3",
+      "headword": "累",
+      "reading": "lěi",
+      "readingNumeric": "lei3",
+      "senses": [
+        "to accumulate",
+        "to involve or implicate (Taiwan pr. lèi)",
+        "continuous",
+        "repeated"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "累",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "累:lei4",
+      "headword": "累",
+      "reading": "lèi",
+      "readingNumeric": "lei4",
+      "senses": [
+        "tired",
+        "weary",
+        "to strain",
+        "to wear out",
+        "to work hard"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "累",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "给:gei3",
+      "headword": "给",
+      "headwordTraditional": "給",
+      "reading": "gěi",
+      "readingNumeric": "gei3",
+      "senses": [
+        "to",
+        "for",
+        "for the benefit of",
+        "to give",
+        "to allow",
+        "to do sth (for sb)",
+        "(grammatical equivalent of 被)",
+        "(grammatical equivalent of 把)",
+        "(sentence intensifier)"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "给",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "给:ji3",
+      "headword": "给",
+      "headwordTraditional": "給",
+      "reading": "jǐ",
+      "readingNumeric": "ji3",
+      "senses": [
+        "(bound form) to supply; to provide",
+        "(literary) sufficient; abundant"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "给",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "羊肉:yang2rou4",
+      "headword": "羊肉",
+      "reading": "yáng ròu",
+      "readingNumeric": "yang2 rou4",
+      "senses": [
+        "mutton",
+        "goat meat"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "考试:kao3shi4",
+      "headword": "考试",
+      "headwordTraditional": "考試",
+      "reading": "kǎo shì",
+      "readingNumeric": "kao3 shi4",
+      "senses": [
+        "to take an exam",
+        "exam"
+      ],
+      "classifiers": [
+        {
+          "simplified": "次",
+          "traditional": "次",
+          "readingNumeric": "ci4",
+          "reading": "cì"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "自行车:zi4xing2che1",
+      "headword": "自行车",
+      "headwordTraditional": "自行車",
+      "reading": "zì xíng chē",
+      "readingNumeric": "zi4 xing2 che1",
+      "senses": [
+        "bicycle; bike"
+      ],
+      "classifiers": [
+        {
+          "simplified": "辆",
+          "traditional": "輛",
+          "readingNumeric": "liang4",
+          "reading": "liàng"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "船:chuan2",
+      "headword": "船",
+      "reading": "chuán",
+      "readingNumeric": "chuan2",
+      "senses": [
+        "boat",
+        "vessel",
+        "ship"
+      ],
+      "classifiers": [
+        {
+          "simplified": "条",
+          "traditional": "條",
+          "readingNumeric": "tiao2",
+          "reading": "tiáo"
+        },
+        {
+          "simplified": "艘",
+          "traditional": "艘",
+          "readingNumeric": "sou1",
+          "reading": "sōu"
+        },
+        {
+          "simplified": "只",
+          "traditional": "隻",
+          "readingNumeric": "zhi1",
+          "reading": "zhī"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "西瓜:xi1gua1",
+      "headword": "西瓜",
+      "reading": "xī guā",
+      "readingNumeric": "xi1 gua1",
+      "senses": [
+        "watermelon"
+      ],
+      "classifiers": [
+        {
+          "simplified": "颗",
+          "traditional": "顆",
+          "readingNumeric": "ke1",
+          "reading": "kē"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "要:yao1",
+      "headword": "要",
+      "reading": "yāo",
+      "readingNumeric": "yao1",
+      "senses": [
+        "(bound form) to demand; to coerce"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "要",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "要:yao4",
+      "headword": "要",
+      "reading": "yào",
+      "readingNumeric": "yao4",
+      "senses": [
+        "to want; to need; to ask for",
+        "will; shall; about to",
+        "need to; should",
+        "if (same as 要是)",
+        "(bound form) important"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "要",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "觉得:jue2de5",
+      "headword": "觉得",
+      "headwordTraditional": "覺得",
+      "reading": "jué de",
+      "readingNumeric": "jue2 de5",
+      "senses": [
+        "to think that ...; to feel that ...",
+        "to feel (uncomfortable etc)"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "让:rang4",
+      "headword": "让",
+      "headwordTraditional": "讓",
+      "reading": "ràng",
+      "readingNumeric": "rang4",
+      "senses": [
+        "to yield",
+        "to permit",
+        "to let sb do sth",
+        "to have sb do sth",
+        "to make sb (feel sad etc)",
+        "by (indicates the agent in a passive clause, like 被)"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "课:ke4",
+      "headword": "课",
+      "headwordTraditional": "課",
+      "reading": "kè",
+      "readingNumeric": "ke4",
+      "senses": [
+        "subject",
+        "course",
+        "class",
+        "lesson",
+        "to levy",
+        "tax",
+        "form of divination"
+      ],
+      "classifiers": [
+        {
+          "simplified": "门",
+          "traditional": "門",
+          "readingNumeric": "men2",
+          "reading": "mén"
+        },
+        {
+          "simplified": "堂",
+          "traditional": "堂",
+          "readingNumeric": "tang2",
+          "reading": "táng"
+        },
+        {
+          "simplified": "节",
+          "traditional": "節",
+          "readingNumeric": "jie2",
+          "reading": "jié"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "贵:gui4",
+      "headword": "贵",
+      "headwordTraditional": "貴",
+      "reading": "guì",
+      "readingNumeric": "gui4",
+      "senses": [
+        "expensive",
+        "(bound form) highly valued; precious",
+        "(bound form) noble; of high rank",
+        "(prefix) (honorific) your"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "走:zou3",
+      "headword": "走",
+      "reading": "zǒu",
+      "readingNumeric": "zou3",
+      "senses": [
+        "to walk",
+        "to go",
+        "to run",
+        "to move (of vehicle)",
+        "to visit",
+        "to leave",
+        "to go away",
+        "to die (euph.)",
+        "from",
+        "through",
+        "away (in compound verbs, such as 撤走)",
+        "to change (shape, form, meaning)"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "起床:qi3chuang2",
+      "headword": "起床",
+      "reading": "qǐ chuáng",
+      "readingNumeric": "qi3 chuang2",
+      "senses": [
+        "to get out of bed; to get up"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "跑步:pao3bu4",
+      "headword": "跑步",
+      "reading": "pǎo bù",
+      "readingNumeric": "pao3 bu4",
+      "senses": [
+        "to run",
+        "to jog",
+        "(military) to march at the double"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "路:lu4",
+      "headword": "路",
+      "reading": "lù",
+      "readingNumeric": "lu4",
+      "senses": [
+        "road",
+        "journey",
+        "route",
+        "line (bus etc)",
+        "sort; kind"
+      ],
+      "classifiers": [
+        {
+          "simplified": "条",
+          "traditional": "條",
+          "readingNumeric": "tiao2",
+          "reading": "tiáo"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "路",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "路:Lu4",
+      "headword": "路",
+      "reading": "Lù",
+      "readingNumeric": "Lu4",
+      "senses": [
+        "surname Lu"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "路",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "跳舞:tiao4wu3",
+      "headword": "跳舞",
+      "reading": "tiào wǔ",
+      "readingNumeric": "tiao4 wu3",
+      "senses": [
+        "to dance"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "踢:ti1",
+      "headword": "踢",
+      "reading": "tī",
+      "readingNumeric": "ti1",
+      "senses": [
+        "to kick",
+        "to play (e.g. soccer)",
+        "(slang) butch (in a lesbian relationship)"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "身体:shen1ti3",
+      "headword": "身体",
+      "headwordTraditional": "身體",
+      "reading": "shēn tǐ",
+      "readingNumeric": "shen1 ti3",
+      "senses": [
+        "the body",
+        "one's health"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "运动:yun4dong4",
+      "headword": "运动",
+      "headwordTraditional": "運動",
+      "reading": "yùn dòng",
+      "readingNumeric": "yun4 dong4",
+      "senses": [
+        "to move",
+        "to exercise",
+        "sports",
+        "exercise",
+        "motion",
+        "movement",
+        "campaign"
+      ],
+      "classifiers": [
+        {
+          "simplified": "场",
+          "traditional": "場",
+          "readingNumeric": "chang3",
+          "reading": "chǎng"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "近:jin4",
+      "headword": "近",
+      "reading": "jìn",
+      "readingNumeric": "jin4",
+      "senses": [
+        "near",
+        "close to",
+        "approximately"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "还:hai2",
+      "headword": "还",
+      "headwordTraditional": "還",
+      "reading": "hái",
+      "readingNumeric": "hai2",
+      "senses": [
+        "still",
+        "still in progress",
+        "still more",
+        "yet",
+        "even more",
+        "in addition",
+        "fairly",
+        "passably (good)",
+        "as early as",
+        "even",
+        "also",
+        "else"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "还",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "还:huan2",
+      "headword": "还",
+      "headwordTraditional": "還",
+      "reading": "huán",
+      "readingNumeric": "huan2",
+      "senses": [
+        "to pay back",
+        "to return"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "还",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "还:Huan2",
+      "headword": "还",
+      "headwordTraditional": "還",
+      "reading": "Huán",
+      "readingNumeric": "Huan2",
+      "senses": [
+        "surname Huan"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "还",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "进:jin4",
+      "headword": "进",
+      "headwordTraditional": "進",
+      "reading": "jìn",
+      "readingNumeric": "jin4",
+      "senses": [
+        "to go forward",
+        "to advance",
+        "to go in",
+        "to enter",
+        "to put in",
+        "to submit",
+        "to take in",
+        "to admit",
+        "(math.) base of a number system",
+        "classifier for sections in a building or residential compound"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "远:yuan3",
+      "headword": "远",
+      "headwordTraditional": "遠",
+      "reading": "yuǎn",
+      "readingNumeric": "yuan3",
+      "senses": [
+        "far",
+        "distant",
+        "remote",
+        "(intensifier in a comparison) by far",
+        "much (lower etc)"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "远",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "远:yuan4",
+      "headword": "远",
+      "headwordTraditional": "遠",
+      "reading": "yuàn",
+      "readingNumeric": "yuan4",
+      "senses": [
+        "to distance oneself from (classical)"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "远",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "送:song4",
+      "headword": "送",
+      "reading": "sòng",
+      "readingNumeric": "song4",
+      "senses": [
+        "to send; to deliver; to transmit",
+        "to give (as a present)",
+        "to see (sb) off",
+        "to accompany; to go along with"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "错:cuo4",
+      "headword": "错",
+      "headwordTraditional": "錯",
+      "reading": "cuò",
+      "readingNumeric": "cuo4",
+      "senses": [
+        "mistake",
+        "wrong",
+        "bad",
+        "interlocking",
+        "complex",
+        "to grind",
+        "to polish",
+        "to alternate",
+        "to stagger",
+        "to miss",
+        "to let slip",
+        "to evade",
+        "to inlay with gold or silver"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "错",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "错:Cuo4",
+      "headword": "错",
+      "headwordTraditional": "錯",
+      "reading": "Cuò",
+      "readingNumeric": "Cuo4",
+      "senses": [
+        "surname Cuo"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "错",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "长:chang2",
+      "headword": "长",
+      "headwordTraditional": "長",
+      "reading": "cháng",
+      "readingNumeric": "chang2",
+      "senses": [
+        "long",
+        "(bound form) length",
+        "(bound form) strong point; forte",
+        "(bound form) to be good at",
+        "(literary) surplus; spare (Taiwan pr. zhàng)"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "长",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "长:zhang3",
+      "headword": "长",
+      "headwordTraditional": "長",
+      "reading": "zhǎng",
+      "readingNumeric": "zhang3",
+      "senses": [
+        "chief",
+        "head",
+        "elder",
+        "to grow",
+        "to develop",
+        "to increase",
+        "to enhance"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "长",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "门:men2",
+      "headword": "门",
+      "headwordTraditional": "門",
+      "reading": "mén",
+      "readingNumeric": "men2",
+      "senses": [
+        "gate; door; doorway; gateway; opening",
+        "valve; switch; other door-like or gate-like structure",
+        "way to do sth; knack; method; approach",
+        "family; household; lineage",
+        "(bound form) sect; school; faction (religious or academic)",
+        "(bound form) class; category; division; phylum",
+        "classifier for courses, fields of study, branches of technology, relatives by marriage, guns etc",
+        "(suffix) -gate (scandal)"
+      ],
+      "classifiers": [
+        {
+          "simplified": "扇",
+          "traditional": "扇",
+          "readingNumeric": "shan4",
+          "reading": "shàn"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "门",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "门:Men2",
+      "headword": "门",
+      "headwordTraditional": "門",
+      "reading": "Mén",
+      "readingNumeric": "Men2",
+      "senses": [
+        "surname Men"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "门",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "问:wen4",
+      "headword": "问",
+      "headwordTraditional": "問",
+      "reading": "wèn",
+      "readingNumeric": "wen4",
+      "senses": [
+        "to ask; to inquire"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "问题:wen4ti2",
+      "headword": "问题",
+      "headwordTraditional": "問題",
+      "reading": "wèn tí",
+      "readingNumeric": "wen4 ti2",
+      "senses": [
+        "question",
+        "problem",
+        "issue",
+        "topic"
+      ],
+      "classifiers": [
+        {
+          "simplified": "个",
+          "traditional": "個",
+          "readingNumeric": "ge4",
+          "reading": "gè"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "阴:yin1",
+      "headword": "阴",
+      "headwordTraditional": "陰",
+      "reading": "yīn",
+      "readingNumeric": "yin1",
+      "senses": [
+        "overcast (weather)",
+        "cloudy",
+        "shady",
+        "Yin (the negative principle of Yin and Yang)",
+        "negative (electric.)",
+        "feminine",
+        "moon",
+        "implicit",
+        "hidden",
+        "genitalia"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "阴",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "阴:Yin1",
+      "headword": "阴",
+      "headwordTraditional": "陰",
+      "reading": "Yīn",
+      "readingNumeric": "Yin1",
+      "senses": [
+        "surname Yin"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "阴",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "雪:xue3",
+      "headword": "雪",
+      "reading": "xuě",
+      "readingNumeric": "xue3",
+      "senses": [
+        "snow",
+        "(literary) to wipe away (a humiliation etc)"
+      ],
+      "classifiers": [
+        {
+          "simplified": "场",
+          "traditional": "場",
+          "readingNumeric": "chang2",
+          "reading": "cháng"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "雪",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "雪:Xue3",
+      "headword": "雪",
+      "reading": "Xuě",
+      "readingNumeric": "Xue3",
+      "senses": [
+        "surname Xue"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "雪",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "非常:fei1chang2",
+      "headword": "非常",
+      "reading": "fēi cháng",
+      "readingNumeric": "fei1 chang2",
+      "senses": [
+        "very; really",
+        "unusual; extraordinary"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "题:ti2",
+      "headword": "题",
+      "headwordTraditional": "題",
+      "reading": "tí",
+      "readingNumeric": "ti2",
+      "senses": [
+        "topic",
+        "problem for discussion",
+        "exam question",
+        "subject",
+        "to inscribe",
+        "to mention"
+      ],
+      "classifiers": [
+        {
+          "simplified": "个",
+          "traditional": "個",
+          "readingNumeric": "ge4",
+          "reading": "gè"
+        },
+        {
+          "simplified": "道",
+          "traditional": "道",
+          "readingNumeric": "dao4",
+          "reading": "dào"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "题",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "题:Ti2",
+      "headword": "题",
+      "headwordTraditional": "題",
+      "reading": "Tí",
+      "readingNumeric": "Ti2",
+      "senses": [
+        "surname Ti"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "题",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "颜色:yan2se4",
+      "headword": "颜色",
+      "headwordTraditional": "顏色",
+      "reading": "yán sè",
+      "readingNumeric": "yan2 se4",
+      "senses": [
+        "color",
+        "countenance",
+        "appearance",
+        "facial expression",
+        "pigment",
+        "dyestuff"
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "高:gao1",
+      "headword": "高",
+      "reading": "gāo",
+      "readingNumeric": "gao1",
+      "senses": [
+        "high",
+        "tall",
+        "above average",
+        "loud",
+        "your (honorific)"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "高",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "高:Gao1",
+      "headword": "高",
+      "reading": "Gāo",
+      "readingNumeric": "Gao1",
+      "senses": [
+        "surname Gao"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "高",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "鱼:yu2",
+      "headword": "鱼",
+      "headwordTraditional": "魚",
+      "reading": "yú",
+      "readingNumeric": "yu2",
+      "senses": [
+        "fish",
+        "used in the names of various aquatic animals that are not fish (including abalone 鲍鱼, alligators and crocodiles 鳄鱼 and octopi 章鱼)"
+      ],
+      "classifiers": [
+        {
+          "simplified": "条",
+          "traditional": "條",
+          "readingNumeric": "tiao2",
+          "reading": "tiáo"
+        },
+        {
+          "simplified": "尾",
+          "traditional": "尾",
+          "readingNumeric": "wei3",
+          "reading": "wěi"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "鱼",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "鱼:Yu2",
+      "headword": "鱼",
+      "headwordTraditional": "魚",
+      "reading": "Yú",
+      "readingNumeric": "Yu2",
+      "senses": [
+        "surname Yu"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "鱼",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "鸡蛋:ji1dan4",
+      "headword": "鸡蛋",
+      "headwordTraditional": "雞蛋",
+      "reading": "jī dàn",
+      "readingNumeric": "ji1 dan4",
+      "senses": [
+        "(chicken) egg",
+        "hen's egg"
+      ],
+      "classifiers": [
+        {
+          "simplified": "个",
+          "traditional": "個",
+          "readingNumeric": "ge4",
+          "reading": "gè"
+        },
+        {
+          "simplified": "打",
+          "traditional": "打",
+          "readingNumeric": "da2",
+          "reading": "dá"
+        }
+      ],
+      "levels": [
+        "2"
+      ],
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "黑:hei1",
+      "headword": "黑",
+      "reading": "hēi",
+      "readingNumeric": "hei1",
+      "senses": [
+        "black",
+        "dark",
+        "sinister",
+        "secret",
+        "shady",
+        "illegal",
+        "to hide (sth) away",
+        "to vilify",
+        "(loanword) to hack (computing)"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "黑",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    },
+    {
+      "id": "黑:Hei1",
+      "headword": "黑",
+      "reading": "Hēi",
+      "readingNumeric": "Hei1",
+      "senses": [
+        "short name for Heilongjiang 黑龙江"
+      ],
+      "levels": [
+        "2"
+      ],
+      "homographGroup": "黑",
+      "source": "cc-cedict",
+      "review": "unreviewed"
+    }
+  ],
+  "meta": {
+    "cardCount": 187,
+    "dictionaryVersion": "2026-08-23T06:21:07Z",
+    "wordListVersion": "drkameleon/complete-hsk-vocabulary@7ac65bf1a6387d35f1ade478906172a19311c7f9",
+    "builtAt": "2026-08-24T21:17:27.567Z",
+    "reviewSummary": {
+      "unreviewed": 187,
+      "approved": 0,
+      "flagged": 0,
+      "corrected": 0
+    }
+  }
+}

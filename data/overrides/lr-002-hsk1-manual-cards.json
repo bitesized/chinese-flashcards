@@ -1,0 +1,139 @@
+{
+  "你:ni3": {
+    "headword": "你",
+    "reading": "nǐ",
+    "readingNumeric": "ni3",
+    "senses": [
+      "you (informal, as opposed to courteous 您)"
+    ],
+    "levels": ["1"],
+    "source": "manual",
+    "review": "approved",
+    "note": "NOT YET FUNCTIONAL — see LR-002 Findings. 你 (nǐ, \"you\") has no card at all: CC-CEDICT has two distinct, substantive entries sharing the identical key 你/ni3 — 你 (\"you, informal, as opposed to courteous 您\") and 妳 (\"you [used for females in Taiwan; not commonly used in mainland China per CC-CEDICT's own note]\") — and the pipeline correctly refuses to guess between them (data-pipeline.md §5.2). Adjudication: 你 is the intended candidate — it is the standard, gender-neutral form used for everyone in mainland Mandarin (the actual HSK-1 target), whereas 妳 is a Taiwan-specific, female-only variant CC-CEDICT itself flags as uncommon. Content is copied from the 你/你/ni3 CC-CEDICT entry verbatim, with its own \"您[nin2]\" cross-reference bracket manually normalised to display \"您\" only (data-pipeline.md §3/DEC-023's own rule, applied by hand since this override text does not pass through pipeline/cedict.ts's parser).",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  },
+  "和:he2": {
+    "headword": "和",
+    "reading": "hé",
+    "readingNumeric": "he2",
+    "senses": [
+      "(joining two nouns) and; together with; with (Taiwan pr. [han4])",
+      "(math.) sum",
+      "to make peace",
+      "(sports) to draw; to tie",
+      "(bound form) harmonious",
+      "(bound form) Japan; Japanese"
+    ],
+    "levels": ["1"],
+    "source": "manual",
+    "review": "approved",
+    "note": "NOT YET FUNCTIONAL — see LR-002 Findings. 和 (hé, \"and\") — the single most essential HSK-1 sense of this headword — has no card at all: CC-CEDICT has two entries sharing the identical key 和/he2 — the real word 和 (and/with/sum/to make peace/to draw/harmonious/Japan) and 龢 (\"(literary) harmonious (variant of 和)\", an archaic character variant). The pipeline's cross-reference classifier does not recognise 龢's sense as a pure pointer (the phrase \"variant of X\" is embedded mid-sentence rather than leading the sense), so it is misclassified as a second substantive entry, producing a conflicting-entries gap on the deck's most important still-missing word. Adjudication: 和 (the real, everyday word) is obviously intended; 龢 is an archaic character variant of no relevance to a beginner. Content copied verbatim from the 和/和/he2 CC-CEDICT entry; the \"(Taiwan pr. [han4])\" bracket is left in raw form deliberately — it is a pronunciation-variant annotation (not a cross-reference), which pipeline/sense-annotations.ts already converts to diacritic form for every other card post-override (see the already-shipped 会:hui4 card's \"Taiwan pr. huǐ\" for the identical, already-verified transform).",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  },
+  "回:hui2": {
+    "headword": "回",
+    "reading": "huí",
+    "readingNumeric": "hui2",
+    "senses": [
+      "to go back; to return; to turn back; to turn around",
+      "to reply; to answer",
+      "classifier for literary divisions (acts of a play, sections or chapters of a classic book)",
+      "classifier for occurrences or times"
+    ],
+    "levels": ["1"],
+    "source": "manual",
+    "review": "approved",
+    "note": "NOT YET FUNCTIONAL — see LR-002 Findings. 回 (huí, \"to return\") has no card at all: CC-CEDICT has two substantive entries sharing the key 回/hui2 — the everyday word 回 (to go back/return, classifier for chapters/occurrences) and 迴 (\"to curve; to return; to revolve\", a literary/classical usage as in 迂回, 巡回). A third entry, 逥 (\"variant of 迴\"), is correctly excluded automatically as cross-reference-only. Adjudication: 回 (the everyday word — 回家, 回来, and the classifier uses) is obviously the HSK-1 intent; 迴's literary sense is not beginner vocabulary. Content copied verbatim from the 回/回/hui2 CC-CEDICT entry.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  },
+  "家:jia1": {
+    "headword": "家",
+    "reading": "jiā",
+    "readingNumeric": "jia1",
+    "senses": [
+      "home",
+      "family",
+      "(polite) my (sister, uncle etc)",
+      "classifier for families or businesses",
+      "refers to the philosophical schools of pre-Han China",
+      "noun suffix for a specialist in some activity, such as a musician or revolutionary, corresponding to English -ist, -er, -ary or -ian"
+    ],
+    "classifiers": [
+      { "simplified": "个", "traditional": "個", "readingNumeric": "ge4", "reading": "gè" }
+    ],
+    "levels": ["1"],
+    "source": "manual",
+    "review": "approved",
+    "note": "NOT YET FUNCTIONAL — see LR-002 Findings. 家 (jiā, \"home/family\") — one of the most basic HSK-1 words — has no card at all: CC-CEDICT has two entries sharing the key 家/jia1 — the everyday word 家 (home/family/...) and 傢 (\"used in 傢伙|家伙 and 傢俱|家俱\", a bound form with no independent meaning). Adjudication: 家 is obviously intended; 傢 is not an independent word. Content and classifier (个) copied verbatim from the 家/家/jia1 CC-CEDICT entry.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  },
+  "里:li3": {
+    "headword": "里",
+    "headwordTraditional": "裡",
+    "reading": "lǐ",
+    "readingNumeric": "li3",
+    "senses": [
+      "interior; inside; internal",
+      "lining"
+    ],
+    "levels": ["1"],
+    "source": "manual",
+    "review": "approved",
+    "note": "NOT YET FUNCTIONAL — see LR-002 Findings. 里 (lǐ, \"inside\") — the ubiquitous HSK-1 locative suffix (这里, 教室里 etc.) — has no card at all: CC-CEDICT has two distinct, substantive entries sharing the key 里/li3 (already flagged as a real, unresolved defect by DEC-024's own consequences note) — 裡 (\"lining/interior/inside/internal/also written 裏|里\") and 里 (\"li, ancient measure of length ~500m; neighborhood; administrative unit\"). Adjudication: 裡's sense is the intended one — it is the everyday locative word every beginner needs (这里 \"here\", 家里 \"at home\"); the distance-unit 里 is specialised/historical vocabulary, not HSK-1. Content adapted from the 裡/里/li3 CC-CEDICT entry: the three near-synonymous top-level senses \"interior/inside/internal\" are merged into one array item for clarity (no meaning lost — they are the same core sense, not three distinct meanings), and the self-referential \"also written 裏|里[li3]\" clause is dropped entirely, since normalising it per DEC-023's own trad|simp rule would produce the circular, confusing statement \"also written 里\" (naming the headword itself).",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  },
+  "年:nian2": {
+    "headword": "年",
+    "reading": "nián",
+    "readingNumeric": "nian2",
+    "senses": [
+      "year"
+    ],
+    "classifiers": [
+      { "simplified": "个", "traditional": "個", "readingNumeric": "ge4", "reading": "gè" }
+    ],
+    "levels": ["1"],
+    "source": "manual",
+    "review": "approved",
+    "note": "NOT YET FUNCTIONAL — see LR-002 Findings. 年 (nián, \"year\") has no card at all: CC-CEDICT has two entries sharing the key 年/nian2 — the everyday word 年 (\"year\") and 秊 (\"grain; harvest (old)/variant of 年\", an archaic character). Adjudication: 年 is obviously intended. Content and classifier (个) copied verbatim from the 年/年/nian2 CC-CEDICT entry.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  },
+  "岁:sui4": {
+    "headword": "岁",
+    "headwordTraditional": "歲",
+    "reading": "suì",
+    "readingNumeric": "sui4",
+    "senses": [
+      "classifier for years (of age)",
+      "year",
+      "year (of crop harvests)"
+    ],
+    "levels": ["1"],
+    "source": "manual",
+    "review": "approved",
+    "note": "NOT YET FUNCTIONAL — see LR-002 Findings. 岁 (suì, the age classifier — 五岁 \"five years old\" — a core HSK-1 word) has no card at all: CC-CEDICT has two entries sharing the key 岁/sui4 — 嵗 (\"variant of 歲|岁, year; years old\", an archaic character variant) and 歲 (\"classifier for years (of age); year; year (of crop harvests)\"). Adjudication: 歲's content is the intended one — the standard age-classifier usage every beginner needs. Content copied verbatim from the 歲/岁/sui4 CC-CEDICT entry.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  },
+  "喂:wei4": {
+    "headword": "喂",
+    "reading": "wèi",
+    "readingNumeric": "wei4",
+    "senses": [
+      "hey",
+      "to feed (an animal, baby, invalid etc)"
+    ],
+    "levels": ["1"],
+    "source": "manual",
+    "review": "approved",
+    "note": "NOT YET FUNCTIONAL — see LR-002 Findings. 喂 (wèi, \"hey!\"), the colloquial sibling of the phone greeting already shipped as 喂:wei2, has no card at all: CC-CEDICT has three entries sharing the key 喂/wei4 — 喂 (\"hey/to feed\"), 餧 (\"variant of 餵|喂\", correctly excluded automatically as cross-reference-only), and 餵 (\"to feed\", substantive, causing the conflict against 喂 itself). Adjudication: the 喂/喂/wei4 entry is the correct, complete candidate — it is already in Simplified=Traditional form (no headwordTraditional needed) and includes both real senses (\"hey\" and \"to feed\"), which the 餵 entry only partially duplicates (\"to feed\" only, missing \"hey\"). Content copied verbatim from the 喂/喂/wei4 CC-CEDICT entry.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  }
+}

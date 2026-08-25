@@ -1,0 +1,802 @@
+{
+  "一目了然": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "6"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 一目了然, 一目瞭然. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "丑": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "5"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 丑, 醜. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "了": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "1"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 了, 瞭. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "云": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "3"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 云, 雲. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "以": {
+    "reason": "unresolved-cross-reference",
+    "levels": [
+      "4"
+    ],
+    "detail": "Every matched CC-CEDICT entry's senses are cross-reference pointers whose target could not be resolved (missing, ambiguous, or an unterminated chain). First sense: \"abbr. for Israel 以色列\".",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "仿佛": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "5"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 仿佛, 彷彿. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "伞": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "3"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 傘, 繖. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "假": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "4"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 假, 叚. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "克": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "5"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 克, 剋. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "冬": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "3"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 冬, 鼕. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "冲": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "5"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 沖, 衝. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "凄凉": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "6"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 悽涼, 淒涼. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "几": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "1"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 几, 幾. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "刚才": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "3"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 剛才, 剛纔. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "刮": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "3"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 刮, 颳. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "匹": {
+    "reason": "unmatched",
+    "levels": [
+      "5"
+    ],
+    "detail": "No CC-CEDICT entry found for this headword (or none with the reading the HSK list supplied), even after the normalisation retries in data-pipeline.md §5.3.",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "千": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "2"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 千, 韆. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "升": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "5"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 3 candidates, traditional forms: 升, 昇, 陞. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "卷": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "5"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 卷, 捲. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "只": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "3"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 秖, 隻. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "台": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "4"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 台, 臺. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "台风": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "6"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 臺風, 颱風. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "吊": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "6"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 吊, 弔. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "向": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "2"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 3 candidates, traditional forms: 向, 嚮, 曏. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "吩咐": {
+    "reason": "unmatched",
+    "levels": [
+      "6"
+    ],
+    "detail": "No CC-CEDICT entry found for this headword (or none with the reading the HSK list supplied), even after the normalisation retries in data-pipeline.md §5.3.",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "呆": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "5"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 呆, 獃. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "呵": {
+    "reason": "unresolved-cross-reference",
+    "levels": [
+      "6"
+    ],
+    "detail": "Every matched CC-CEDICT entry's senses are cross-reference pointers whose target could not be resolved (missing, ambiguous, or an unterminated chain). First sense: \"variant of 啊\".",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "咋": {
+    "reason": "unmatched",
+    "levels": [
+      "6"
+    ],
+    "detail": "No CC-CEDICT entry found for this headword (or none with the reading the HSK list supplied), even after the normalisation retries in data-pipeline.md §5.3.",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "和平": {
+    "reason": "unmatched",
+    "levels": [
+      "5"
+    ],
+    "detail": "No CC-CEDICT entry found for this headword (or none with the reading the HSK list supplied), even after the normalisation retries in data-pipeline.md §5.3.",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "咸": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "4"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 咸, 鹹. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "哈": {
+    "reason": "unresolved-cross-reference",
+    "levels": [
+      "5"
+    ],
+    "detail": "Every matched CC-CEDICT entry's senses are cross-reference pointers whose target could not be resolved (missing, ambiguous, or an unterminated chain). First sense: \"abbr. for 哈萨克斯坦, Kazakhstan\".",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "嘱咐": {
+    "reason": "unmatched",
+    "levels": [
+      "5"
+    ],
+    "detail": "No CC-CEDICT entry found for this headword (or none with the reading the HSK list supplied), even after the normalisation retries in data-pipeline.md §5.3.",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "团": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "5"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 團, 糰. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "困": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "4"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 困, 睏. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "复兴": {
+    "reason": "unmatched",
+    "levels": [
+      "6"
+    ],
+    "detail": "No CC-CEDICT entry found for this headword (or none with the reading the HSK list supplied), even after the normalisation retries in data-pipeline.md §5.3.",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "大": {
+    "reason": "unresolved-cross-reference",
+    "levels": [
+      "1"
+    ],
+    "detail": "Every matched CC-CEDICT entry's senses are cross-reference pointers whose target could not be resolved (missing, ambiguous, or an unterminated chain). First sense: \"see 大夫\".",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "大不了": {
+    "reason": "unmatched",
+    "levels": [
+      "6"
+    ],
+    "detail": "No CC-CEDICT entry found for this headword (or none with the reading the HSK list supplied), even after the normalisation retries in data-pipeline.md §5.3.",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "夸": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "5"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 夸, 誇. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "它": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "2"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 它, 牠. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "尝": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "4"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 嘗, 嚐. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "尽快": {
+    "reason": "unresolved-cross-reference",
+    "levels": [
+      "6"
+    ],
+    "detail": "Every matched CC-CEDICT entry's senses are cross-reference pointers whose target could not be resolved (missing, ambiguous, or an unterminated chain). First sense: \"see 尽快\".",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "布": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "5"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 佈, 布. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "干": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "4"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 乾, 干. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "当": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "4"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 噹, 當. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "愈": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "6"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 愈, 癒. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "成功": {
+    "reason": "unmatched",
+    "levels": [
+      "4"
+    ],
+    "detail": "No CC-CEDICT entry found for this headword (or none with the reading the HSK list supplied), even after the normalisation retries in data-pipeline.md §5.3.",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "才": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "3"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 才, 纔. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "扎": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "6"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 扎, 紮. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "打篮球": {
+    "reason": "unmatched",
+    "levels": [
+      "2"
+    ],
+    "detail": "No CC-CEDICT entry found for this headword (or none with the reading the HSK list supplied), even after the normalisation retries in data-pipeline.md §5.3.",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "折": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "6"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 折, 摺. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "摆": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "5"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 擺, 襬. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "日": {
+    "reason": "unmatched",
+    "levels": [
+      "1"
+    ],
+    "detail": "No CC-CEDICT entry found for this headword (or none with the reading the HSK list supplied), even after the normalisation retries in data-pipeline.md §5.3.",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "暗": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "4"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 暗, 闇. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "枪": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "5"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 槍, 鎗. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "汇报": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "6"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 匯報, 彙報. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "汗": {
+    "reason": "unresolved-cross-reference",
+    "levels": [
+      "4"
+    ],
+    "detail": "Every matched CC-CEDICT entry's senses are cross-reference pointers whose target could not be resolved (missing, ambiguous, or an unterminated chain). First sense: \"see 可汗, 汗国\".",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "玩": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "2"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 玩, 翫. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "痒": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "5"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 痒, 癢. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "码头": {
+    "reason": "unmatched",
+    "levels": [
+      "6"
+    ],
+    "detail": "No CC-CEDICT entry found for this headword (or none with the reading the HSK list supplied), even after the normalisation retries in data-pipeline.md §5.3.",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "秋": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "3"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 秋, 鞦. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "端": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "6"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 端, 耑. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "系": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "5"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 3 candidates, traditional forms: 係, 系, 繫. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "系领带": {
+    "reason": "unmatched",
+    "levels": [
+      "5"
+    ],
+    "detail": "No CC-CEDICT entry found for this headword (or none with the reading the HSK list supplied), even after the normalisation retries in data-pipeline.md §5.3.",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "纽扣儿": {
+    "reason": "unmatched",
+    "levels": [
+      "6"
+    ],
+    "detail": "No CC-CEDICT entry found for this headword (or none with the reading the HSK list supplied), even after the normalisation retries in data-pipeline.md §5.3.",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "累": {
+    "reason": "unmatched",
+    "levels": [
+      "2"
+    ],
+    "detail": "No CC-CEDICT entry found for this headword (or none with the reading the HSK list supplied), even after the normalisation retries in data-pipeline.md §5.3.",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "组": {
+    "reason": "unmatched",
+    "levels": [
+      "6"
+    ],
+    "detail": "No CC-CEDICT entry found for this headword (or none with the reading the HSK list supplied), even after the normalisation retries in data-pipeline.md §5.3.",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "绕": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "5"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 繞, 遶. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "网络": {
+    "reason": "unmatched",
+    "levels": [
+      "6"
+    ],
+    "detail": "No CC-CEDICT entry found for this headword (or none with the reading the HSK list supplied), even after the normalisation retries in data-pipeline.md §5.3.",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "腿": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "3"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 腿, 骽. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "致力于": {
+    "reason": "unmatched",
+    "levels": [
+      "6"
+    ],
+    "detail": "No CC-CEDICT entry found for this headword (or none with the reading the HSK list supplied), even after the normalisation retries in data-pipeline.md §5.3.",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "花": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "3"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 花, 蘤. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "药": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "2"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 葯, 藥. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "蒙": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "6"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 4 candidates, traditional forms: 懞, 濛, 矇, 蒙. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "诗": {
+    "reason": "unresolved-cross-reference",
+    "levels": [
+      "5"
+    ],
+    "detail": "Every matched CC-CEDICT entry's senses are cross-reference pointers whose target could not be resolved (missing, ambiguous, or an unterminated chain). First sense: \"abbr. for Shijing 诗经, the Book of Songs\".",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "那": {
+    "reason": "unresolved-cross-reference",
+    "levels": [
+      "1"
+    ],
+    "detail": "Every matched CC-CEDICT entry's senses are cross-reference pointers whose target could not be resolved (missing, ambiguous, or an unterminated chain). First sense: \"variant of 哪\".",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "钟": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "5"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 鍾, 鐘. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "铺": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "6"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 舖, 鋪. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "雇佣": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "5"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 僱傭, 雇傭. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "非": {
+    "reason": "unresolved-cross-reference",
+    "levels": [
+      "5"
+    ],
+    "detail": "Every matched CC-CEDICT entry's senses are cross-reference pointers whose target could not be resolved (missing, ambiguous, or an unterminated chain). First sense: \"abbr. for 非洲, Africa\".",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  },
+  "面子": {
+    "reason": "conflicting-entries",
+    "levels": [
+      "6"
+    ],
+    "detail": "Two or more distinct, substantive CC-CEDICT entries share the identical (headword, reading) key -- 2 candidates, traditional forms: 面子, 麵子. Ships as neither candidate rather than guessing (data-pipeline.md §5.2).",
+    "waivedBy": "Claude Code",
+    "waivedAt": "2026-08-25",
+    "trackedIn": "WO-009"
+  }
+}

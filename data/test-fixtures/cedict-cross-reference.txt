@@ -1,0 +1,27 @@
+# CC-CEDICT
+# Community maintained free Chinese-English dictionary.
+#
+# Published by MDBG
+#
+# License:
+# Creative Commons Attribution-ShareAlike 4.0 International License
+# https://creativecommons.org/licenses/by-sa/4.0/
+#
+# This is a curated FIXTURE, not a slice of the real file -- two real
+# entries, copied verbatim from the pinned source
+# (data/source/cedict/cedict_1_0_ts_utf-8_mdbg.txt), lines 61 and
+# 108070, forming a resolvable cross-reference pair: B格 is a
+# variant-of pointer at line 61 whose target, 逼格,
+# is included here (WO-004's own fixture deliberately omits
+# the target, to exercise the unresolvable-cross-reference path instead --
+# see pipeline/match.test.ts). CRLF line endings, matching the pinned source.
+#! version=1
+#! subversion=0
+#! format=ts
+#! charset=UTF-8
+#! entries=2
+#! publisher=MDBG
+#! license=https://creativecommons.org/licenses/by-sa/4.0/
+#! date=2026-08-23T06:21:07Z
+B格 B格 [bi1 ge2] /variant of 逼格[bi1 ge2]/
+逼格 逼格 [bi1 ge2] /(slang) pretentious style/

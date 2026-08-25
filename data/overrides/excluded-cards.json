@@ -1,0 +1,192 @@
+{
+  "三:San1": {
+    "reason": "\"Surname San\" — a genuine CC-CEDICT entry, but not part of the official ~150-word HSK-1 syllabus. This card only exists because the pinned HSK source list nests every CC-CEDICT reading of a headword under one entry (data/source/hsk/SOURCE.md §5.3's documented pattern, the same one already flagged there for 都/还). Must not ship as HSK-1 vocabulary. Next step: the pipeline needs a mechanism to exclude a resolved card from its level entirely (the current override schema can only modify an existing card's fields, not remove it) — see LR-002's Findings for the recommended shape. Once excluded, the sole surviving card 三:san1 no longer shares its homographGroup with anything and that tag should be dropped too (CardOverride does not currently support overriding homographGroup — also noted in LR-002).",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "上:shang3": {
+    "reason": "Sense is \"used in 上声\" (a linguistics term for the third tone) — a bound reading with no independent meaning of its own, not HSK-1 vocabulary. Source-list artifact (SOURCE.md §5.3 pattern). Must not ship; needs the same card-exclusion mechanism as 三:San1 (see LR-002 Findings). 上:shang4 is unaffected and remains approved.",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "个:ge3": {
+    "reason": "Sense is \"used in 自个儿\" — a bound reading with no independent meaning, not HSK-1 vocabulary. Source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings). 个:ge4, the core HSK-1 classifier, is unaffected.",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "书:Shu1": {
+    "reason": "\"The Book of History, one of the Five Classics of Confucianism...\" — a genuine but archaic proper-noun reading of 书, far beyond HSK-1 (indeed beyond any HSK level a beginner deck should carry unqualified). Source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings). 书:shu1 (book/letter/document/to write) is the correct HSK-1 item and is unaffected.",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "了:liao4": {
+    "reason": "\"Unofficial variant of 瞭\" (reading liào) — the card's entire content is a note about an alternate character spelling, not a usable vocabulary item, and not part of the HSK-1 syllabus. Source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings). 了:le5, the core HSK-1 particle, is unaffected.",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "会:kuai4": {
+    "reason": "\"(bound form) to reckon accounts\" (as in 会计, kuàijì \"accounting\") — a real but advanced-register reading, not tested at HSK-1. Source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings). 会:hui4, the core HSK-1 item, is unaffected.",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "冷:Leng3": {
+    "reason": "\"Surname Leng\" — not HSK-1 vocabulary; source-list artifact (SOURCE.md §5.3 pattern, same as 都/还). Must not ship; needs the card-exclusion mechanism (LR-002 Findings). 冷:leng3 (cold) is unaffected.",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "吗:ma2": {
+    "reason": "\"(coll.) what?\" — a rare colloquial reading (as in dialectal uses related to 干嘛), not the HSK-1 item. The HSK-1 word is the yes/no question particle, already correctly shipped as 吗:ma5. Source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings).",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "吗:ma3": {
+    "reason": "\"used in 吗啡\" (morphine) — a bound reading with no independent meaning, not HSK-1 vocabulary. Source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings). 吗:ma5 is unaffected.",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "听:yin3": {
+    "reason": "\"Smile (archaic)\" — an archaic literary reading, not HSK-1 vocabulary. Source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings). 听:ting1 (to listen), the core HSK-1 item, is unaffected.",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "呢:ni2": {
+    "reason": "\"Dense wool fabric (used for coats and jackets)\" — a real but specialised textile-industry noun (呢子), not HSK-1 vocabulary. Source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings). 呢:ne5, the core HSK-1 particle, is unaffected.",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "和:He2": {
+    "reason": "\"Surname He\" — not HSK-1 vocabulary; source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings). Note: the actual HSK-1 word 和 (hé, \"and/with\") is currently MISSING from the deck (conflicting-entries with 龢) and is separately resolved by a manual override in data/overrides/lr-002-hsk1-manual-cards.json — see LR-002.",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "和:he4": {
+    "reason": "\"To compose a poem in reply...to join in the singing...to chime in\" — a literary reading (as in 应和), not HSK-1 vocabulary. Source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings).",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "和:hu2": {
+    "reason": "\"To complete a set in mahjong or playing cards\" — a real but game-specific term, not HSK-1 vocabulary. Source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings).",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "和:huo2": {
+    "reason": "\"To combine a powdery substance (flour, plaster etc) with water\" (as in 和面) — a real but advanced-register verb, not HSK-1 vocabulary. Source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings).",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "和:huo4": {
+    "reason": "\"To mix (ingredients) together...classifier for rinses of clothes...classifier for boilings of medicinal herbs\" — a real but rare/technical reading, not HSK-1 vocabulary. Source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings).",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "哪:na5": {
+    "reason": "\"(emphatic sentence-final particle, used instead of 啊 after a word ending in \\\"n\\\")\" — a phonologically-conditioned variant of 啊, not an independently-taught HSK-1 vocabulary item. Source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings). 哪:na3 and 哪:nei3 are unaffected.",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "哪:ne2": {
+    "reason": "\"Used in 哪吒 [Nezha], Taiwan pr. nuó\" — a bound reading tied to one proper noun, not HSK-1 vocabulary. Source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings).",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "喝:he4": {
+    "reason": "\"To shout\" (as in 喝彩, 大喝一声) — a real but much rarer reading than hē \"to drink\", not HSK-1 vocabulary. Source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings). 喝:he1 is unaffected.",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "坐:Zuo4": {
+    "reason": "\"Surname Zuo\" — not HSK-1 vocabulary; source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings). 坐:zuo4 (to sit) is unaffected.",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "好:hao4": {
+    "reason": "\"To be fond of; to have a tendency to; to be prone to\" (as in 爱好, 好奇) — a real, valid reading, but not the pronunciation the official HSK-1 syllabus tests (爱好/好奇 are intermediate-level words). Source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings). 好:hao3 is unaffected.",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "少:shao4": {
+    "reason": "\"Young\" (as in 少年, 少女) — a real, valid reading, but not the pronunciation the official HSK-1 syllabus tests (少年/少女 are intermediate-level words). Source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings). 少:shao3 is unaffected.",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "年:Nian2": {
+    "reason": "\"Surname Nian\" — not HSK-1 vocabulary; source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings). The actual HSK-1 word 年 (nián, \"year\") is currently MISSING from the deck (conflicting-entries with 秊) and is separately resolved by a manual override in data/overrides/lr-002-hsk1-manual-cards.json — see LR-002.",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "水:Shui3": {
+    "reason": "\"Surname Shui / Shui ethnic group\" — not HSK-1 vocabulary; source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings). 水:shui3 (water) is unaffected.",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "没:mo4": {
+    "reason": "\"Drowned; to end; to die; to inundate\" (reading mò) — a literary register reading, not HSK-1 vocabulary. Source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings). 没:mei2 is unaffected.",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "的:di1": {
+    "reason": "\"A taxi; a cab (abbr. for 的士)\" — a loanword-derived abbreviation usage, not the HSK-1 item (the possessive/nominalising particle, already correctly shipped as 的:de5). Source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings).",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "的:di2": {
+    "reason": "\"Really and truly\" (as in 的确) — a literary-register adverbial reading, not HSK-1 vocabulary. Source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings).",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "的:di4": {
+    "reason": "\"(bound form) bull's-eye; target\" (as in 目的) — a bound reading, not HSK-1 vocabulary standalone. Source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings).",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "看:kan1": {
+    "reason": "\"To look after; to take care of; to watch; to guard\" (as in 看守, 看护) — a real reading but intermediate-level (kān), not the HSK-1 item. Source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings). 看:kan4 is unaffected.",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "能:Neng2": {
+    "reason": "\"Surname Neng\" — not HSK-1 vocabulary; source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings). 能:neng2 (can/to be able to) is unaffected.",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "读:dou4": {
+    "reason": "\"Comma; phrase marked by pause\" (reading dòu) — a rare, technical grammatical-terminology reading, not HSK-1 vocabulary. Source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings). 读:du2 (to read) is unaffected.",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "那:Na1": {
+    "reason": "\"Surname Na\" — not HSK-1 vocabulary; source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings). 那:na4 is unaffected.",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "那:Nuo2": {
+    "reason": "\"Surname Nuo\" — not HSK-1 vocabulary; source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings). 那:na4 is unaffected.",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "那:nuo2": {
+    "reason": "\"(archaic) many; beautiful; how; old variant of 挪\" — an archaic/literary reading, not HSK-1 vocabulary. Source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings). 那:na4 is unaffected.",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "都:Du1": {
+    "reason": "\"Surname Du\" — not HSK-1 vocabulary. This is the exact case already anticipated and pre-committed to by name in data/source/hsk/SOURCE.md §5.3 (\"I would flag on sight in review regardless\") and DEC-022. Must not ship; needs the card-exclusion mechanism (LR-002 Findings). 都:dou1 is unaffected.",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "都:du1": {
+    "reason": "\"Capital city; metropolis\" (reading dū, as in 首都) — a real, valid reading, but not the pronunciation the official HSK-1 syllabus tests (dōu \"all\" is the HSK-1 item, already correctly shipped as 都:dou1). This is the exact 都 case already anticipated in data/source/hsk/SOURCE.md §5.3 and DEC-022. Must not ship; needs the card-exclusion mechanism (LR-002 Findings).",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "里:Li3": {
+    "reason": "\"Surname Li\" — not HSK-1 vocabulary; source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings). The actual HSK-1 word 里 (lǐ, \"inside; interior\") is currently MISSING from the deck (conflicting-entries with 里/li, unit of distance) and is separately resolved by a manual override in data/overrides/lr-002-hsk1-manual-cards.json — see LR-002.",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  },
+  "钱:Qian2": {
+    "reason": "\"Surname Qian\" — not HSK-1 vocabulary; source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings). 钱:qian2 (money) is unaffected.",
+    "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
+    "excludedAt": "2026-08-25"
+  }
+}

@@ -1,0 +1,25 @@
+node_modules
+dist
+coverage
+playwright-report
+test-results
+public/decks
+public/fonts
+
+# Compiled by tsconfig.build-data.json (npm run build:data), in place next
+# to their .ts sources — see pipeline/build-data.ts. Generated, gitignored.
+pipeline/**/*.js
+src/domain/**/*.js
+
+# Everything under data/ is generated, pinned, or authored by Red under a
+# linguistic-review record (data-pipeline.md, conventions.md §7) — this
+# project's Prettier config is not the authority over its formatting.
+data/
+
+package-lock.json
+
+# Documentation content is owned by document owners (conventions.md §6), not
+# formatted by this project's tooling; CLAUDE.md and agent definitions likewise.
+docs/
+CLAUDE.md
+.claude/

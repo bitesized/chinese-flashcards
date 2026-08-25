@@ -1,0 +1,47 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  ci:
+    name: install, typecheck, lint, unit test, licence check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Lint (includes GPL-3.0 header check)
+        run: npm run lint
+
+      - name: Unit tests
+        run: npm test
+
+      - name: Licence compatibility check
+        run: npm run license-check
+
+      - name: Build data
+        run: npm run build:data
+        # Parses CC-CEDICT, matches HSK levels, validates (fails the build
+        # on any invariant violation not covered by a committed waiver —
+        # data/overrides/waived-words.json), and emits public/decks/*.json.
+
+      - name: Fail if the data build drifted from committed output
+        run: git diff --exit-code -- public/decks data/build/review-queue.json
+        # Compiled decks are committed specifically so a content change
+        # shows up as a reviewable diff. builtAt in data/build/report.md
+        # legitimately differs on every run, so the report itself is
+        # intentionally excluded from this check; the decks and review
+        # queue must not be.

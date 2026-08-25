@@ -1,0 +1,108 @@
+[
+  {
+    "simplified": "都",
+    "radical": "阝",
+    "frequency": 25,
+    "pos": [
+      "d",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "都",
+        "transcriptions": {
+          "pinyin": "Dū",
+          "numeric": "Du1",
+          "wadegiles": "tu¹",
+          "bopomofo": "ㄉㄨ",
+          "romatzyh": "du"
+        },
+        "meanings": [
+          "surname Du"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "都",
+        "transcriptions": {
+          "pinyin": "dōu",
+          "numeric": "dou1",
+          "wadegiles": "tou¹",
+          "bopomofo": "ㄉㄡ",
+          "romatzyh": "dou"
+        },
+        "meanings": [
+          "all; both; entirely",
+          "(used for emphasis) even",
+          "already",
+          "(not) at all"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "都",
+        "transcriptions": {
+          "pinyin": "dū",
+          "numeric": "du1",
+          "wadegiles": "tu¹",
+          "bopomofo": "ㄉㄨ",
+          "romatzyh": "du"
+        },
+        "meanings": [
+          "capital city",
+          "metropolis"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "绿",
+    "radical": "纟",
+    "frequency": 2608,
+    "pos": [
+      "a",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "綠",
+        "transcriptions": {
+          "pinyin": "lǜ",
+          "numeric": "lü4",
+          "wadegiles": "lu:4",
+          "bopomofo": "ㄌㄩˋ",
+          "romatzyh": "lu:4"
+        },
+        "meanings": [
+          "green",
+          "(slang) (derived from 绿帽子) to cheat on (one's spouse or boyfriend or girlfriend)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "纽扣儿",
+    "radical": "纟",
+    "frequency": 1000000,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "紐扣兒",
+        "transcriptions": {
+          "pinyin": "niǔ kòu er",
+          "numeric": "niu3 kou4 er",
+          "wadegiles": "niu³ k'ou⁴ er",
+          "bopomofo": "ㄋㄧㄡˇ ㄎㄡˋ ㄦ˙",
+          "romatzyh": "neou kow er"
+        },
+        "meanings": [
+          "button",
+          "erhua variant of 纽扣"
+        ],
+        "classifiers": []
+      }
+    ]
+  }
+]

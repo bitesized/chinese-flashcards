@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "./tsconfig.json",
+
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": ".",
+    "rootDir": ".",
+    "types": ["node"]
+  },
+
+  "include": ["pipeline/**/*.ts", "src/domain/**/*.ts"],
+  "exclude": ["pipeline/**/*.test.ts"]
+}
