@@ -62,7 +62,7 @@ export function LevelSelect({
 
   useEffect(() => {
     let cancelled = false;
-    fetch('/decks/manifest.json')
+    fetch(`${import.meta.env.BASE_URL}decks/manifest.json`)
       .then((r) => r.json() as Promise<Manifest>)
       .then((data) => {
         if (cancelled) return;

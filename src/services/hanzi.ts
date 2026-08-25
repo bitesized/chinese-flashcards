@@ -30,7 +30,7 @@ let indexCache: Promise<HanziIndexEntry[]> | null = null;
 
 export async function loadHanziIndex(): Promise<HanziIndexEntry[]> {
   if (indexCache) return indexCache;
-  const promise = fetch('/hanzi/index.json').then((response) => {
+  const promise = fetch(`${import.meta.env.BASE_URL}hanzi/index.json`).then((response) => {
     if (!response.ok) {
       throw new Error(`failed to load Hanzi index: ${response.status}`);
     }
@@ -49,7 +49,9 @@ export async function loadHanziEntry(character: string): Promise<HanziEntry> {
   const cached = entryCache.get(character);
   if (cached) return cached;
 
-  const promise = fetch(`/hanzi/${encodeURIComponent(character)}.json`).then((response) => {
+  const promise = fetch(
+    `${import.meta.env.BASE_URL}hanzi/${encodeURIComponent(character)}.json`,
+  ).then((response) => {
     if (!response.ok) {
       throw new Error(`failed to load Hanzi entry for ${character}: ${response.status}`);
     }

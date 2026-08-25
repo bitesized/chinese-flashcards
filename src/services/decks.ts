@@ -37,7 +37,7 @@ export async function loadDeck(level: HskLevel): Promise<Deck> {
   const cached = cache.get(level);
   if (cached) return cached;
 
-  const promise = fetch(`/decks/hsk-${level}.json`).then((response) => {
+  const promise = fetch(`${import.meta.env.BASE_URL}decks/hsk-${level}.json`).then((response) => {
     if (!response.ok) {
       throw new Error(`failed to load HSK ${level} deck: ${response.status}`);
     }

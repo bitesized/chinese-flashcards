@@ -41,7 +41,9 @@ export async function loadStrokeData(character: string): Promise<HanziWriterChar
   const cached = cache.get(character);
   if (cached) return cached;
 
-  const promise = fetch(`/strokes/${encodeURIComponent(character)}.json`).then((response) => {
+  const promise = fetch(
+    `${import.meta.env.BASE_URL}strokes/${encodeURIComponent(character)}.json`,
+  ).then((response) => {
     if (!response.ok) {
       throw new Error(`failed to load stroke data for ${character}: ${response.status}`);
     }
