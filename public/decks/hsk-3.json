@@ -21,7 +21,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "一共:yi1gong4",
@@ -35,7 +35,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "一定:yi1ding4",
@@ -51,7 +51,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "一样:yi1yang4",
@@ -70,7 +70,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "一直:yi1zhi2",
@@ -85,7 +85,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "一般:yi1ban1",
@@ -105,7 +105,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "一边:yi1bian1",
@@ -124,22 +124,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "万:mo4",
-      "headword": "万",
-      "reading": "mò",
-      "readingNumeric": "mo4",
-      "senses": [
-        "used in 万俟"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "万",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "万:wan4",
@@ -154,25 +139,8 @@
       "levels": [
         "3"
       ],
-      "homographGroup": "万",
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "万:Wan4",
-      "headword": "万",
-      "headwordTraditional": "萬",
-      "reading": "Wàn",
-      "readingNumeric": "Wan4",
-      "senses": [
-        "surname Wan"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "万",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "上网:shang4wang3",
@@ -190,7 +158,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "世界:shi4jie4",
@@ -204,7 +172,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "东:dong1",
@@ -220,25 +188,8 @@
       "levels": [
         "3"
       ],
-      "homographGroup": "东",
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "东:Dong1",
-      "headword": "东",
-      "headwordTraditional": "東",
-      "reading": "Dōng",
-      "readingNumeric": "Dong1",
-      "senses": [
-        "surname Dong"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "东",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "中间:zhong1jian1",
@@ -255,7 +206,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "为了:wei4le5",
@@ -270,7 +221,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "为什么:wei4shen2me5",
@@ -286,7 +237,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "主要:zhu3yao4",
@@ -300,7 +251,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "举行:ju3xing2",
@@ -315,7 +266,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "久:jiu3",
@@ -329,7 +280,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "习惯:xi2guan4",
@@ -355,7 +306,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "了解:liao3jie3",
@@ -370,23 +321,29 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
-      "id": "云:Yun2",
+      "id": "云:yun2",
       "headword": "云",
-      "headwordTraditional": "雲",
-      "reading": "Yún",
-      "readingNumeric": "Yun2",
+      "reading": "yún",
+      "readingNumeric": "yun2",
       "senses": [
-        "surname Yun",
-        "short name for Yunnan 云南"
+        "cloud"
+      ],
+      "classifiers": [
+        {
+          "simplified": "朵",
+          "traditional": "朵",
+          "readingNumeric": "duo3",
+          "reading": "duǒ"
+        }
       ],
       "levels": [
         "3"
       ],
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "source": "manual",
+      "review": "approved"
     },
     {
       "id": "以为:yi3wei2",
@@ -401,7 +358,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "以前:yi3qian2",
@@ -418,7 +375,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "以后:yi3hou4",
@@ -438,7 +395,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "会议:hui4yi4",
@@ -468,7 +425,30 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
+    },
+    {
+      "id": "伞:san3",
+      "headword": "伞",
+      "reading": "sǎn",
+      "readingNumeric": "san3",
+      "senses": [
+        "umbrella",
+        "parasol"
+      ],
+      "classifiers": [
+        {
+          "simplified": "把",
+          "traditional": "把",
+          "readingNumeric": "ba3",
+          "reading": "bǎ"
+        }
+      ],
+      "levels": [
+        "3"
+      ],
+      "source": "manual",
+      "review": "approved"
     },
     {
       "id": "位:wei4",
@@ -488,7 +468,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "低:di1",
@@ -507,7 +487,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "体育:ti3yu4",
@@ -523,7 +503,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "作业:zuo4ye4",
@@ -551,7 +531,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "作用:zuo4yong4",
@@ -569,7 +549,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "使:shi3",
@@ -591,7 +571,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "信:xin4",
@@ -622,7 +602,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "借:jie4",
@@ -639,7 +619,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "健康:jian4kang1",
@@ -654,7 +634,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "像:xiang4",
@@ -675,7 +655,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "先:xian1",
@@ -692,7 +672,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "公园:gong1yuan2",
@@ -715,7 +695,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "关:guan1",
@@ -732,25 +712,8 @@
       "levels": [
         "3"
       ],
-      "homographGroup": "关",
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "关:Guan1",
-      "headword": "关",
-      "headwordTraditional": "關",
-      "reading": "Guān",
-      "readingNumeric": "Guan1",
-      "senses": [
-        "surname Guan"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "关",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "关于:guan1yu2",
@@ -769,7 +732,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "关心:guan1xin1",
@@ -784,7 +747,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "关系:guan1xi5",
@@ -812,7 +775,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "兴趣:xing4qu4",
@@ -828,7 +791,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "其他:qi2ta1",
@@ -844,7 +807,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "其实:qi2shi2",
@@ -859,7 +822,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "最近:zui4jin4",
@@ -875,22 +838,21 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
-      "id": "冬:Dong1",
+      "id": "冬:dong1",
       "headword": "冬",
-      "headwordTraditional": "鼕",
-      "reading": "Dōng",
-      "readingNumeric": "Dong1",
+      "reading": "dōng",
+      "readingNumeric": "dong1",
       "senses": [
-        "surname Dong"
+        "winter"
       ],
       "levels": [
         "3"
       ],
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "source": "manual",
+      "review": "approved"
     },
     {
       "id": "冰箱:bing1xiang1",
@@ -905,7 +867,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "决定:jue2ding4",
@@ -935,7 +897,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "几乎:ji1hu1",
@@ -950,7 +912,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "出现:chu1xian4",
@@ -968,7 +930,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "分:fen1",
@@ -993,7 +955,7 @@
       ],
       "homographGroup": "分",
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "分:fen4",
@@ -1011,7 +973,22 @@
       ],
       "homographGroup": "分",
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
+    },
+    {
+      "id": "刚才:gang1cai2",
+      "headword": "刚才",
+      "reading": "gāng cái",
+      "readingNumeric": "gang1 cai2",
+      "senses": [
+        "just now",
+        "a moment ago"
+      ],
+      "levels": [
+        "3"
+      ],
+      "source": "manual",
+      "review": "approved"
     },
     {
       "id": "别人:bie2ren5",
@@ -1026,7 +1003,24 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
+    },
+    {
+      "id": "刮:gua1",
+      "headword": "刮",
+      "reading": "guā",
+      "readingNumeric": "gua1",
+      "senses": [
+        "to blow (of the wind)",
+        "to scrape",
+        "to shave",
+        "to plunder; to extort"
+      ],
+      "levels": [
+        "3"
+      ],
+      "source": "manual",
+      "review": "approved"
     },
     {
       "id": "刷:shua1",
@@ -1046,24 +1040,8 @@
       "levels": [
         "3"
       ],
-      "homographGroup": "刷",
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "刷:shua4",
-      "headword": "刷",
-      "reading": "shuà",
-      "readingNumeric": "shua4",
-      "senses": [
-        "to select"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "刷",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "刻:ke4",
@@ -1083,7 +1061,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "办公室:ban4gong1shi4",
@@ -1098,7 +1076,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "办法:ban4fa3",
@@ -1121,7 +1099,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "动物:dong4wu4",
@@ -1136,7 +1114,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "努力:nu3li4",
@@ -1151,7 +1129,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "包:bao1",
@@ -1190,24 +1168,8 @@
       "levels": [
         "3"
       ],
-      "homographGroup": "包",
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "包:Bao1",
-      "headword": "包",
-      "reading": "Bāo",
-      "readingNumeric": "Bao1",
-      "senses": [
-        "surname Bao"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "包",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "北方:bei3fang1",
@@ -1223,7 +1185,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "半:ban4",
@@ -1240,7 +1202,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "南:nan2",
@@ -1253,24 +1215,8 @@
       "levels": [
         "3"
       ],
-      "homographGroup": "南",
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "南:Nan2",
-      "headword": "南",
-      "reading": "Nán",
-      "readingNumeric": "Nan2",
-      "senses": [
-        "surname Nan"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "南",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "历史:li4shi3",
@@ -1299,7 +1245,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "厨房:chu2fang2",
@@ -1322,7 +1268,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "参加:can1jia1",
@@ -1339,7 +1285,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "又:you4",
@@ -1357,7 +1303,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "双:shuang1",
@@ -1375,25 +1321,8 @@
       "levels": [
         "3"
       ],
-      "homographGroup": "双",
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "双:Shuang1",
-      "headword": "双",
-      "headwordTraditional": "雙",
-      "reading": "Shuāng",
-      "readingNumeric": "Shuang1",
-      "senses": [
-        "surname Shuang"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "双",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "发烧:fa1shao1",
@@ -1410,7 +1339,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "发现:fa1xian4",
@@ -1427,7 +1356,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "叔叔:shu1shu5",
@@ -1442,7 +1371,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "变化:bian4hua4",
@@ -1458,7 +1387,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "口:kou3",
@@ -1474,7 +1403,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "句子:ju4zi5",
@@ -1496,7 +1425,22 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
+    },
+    {
+      "id": "只:zhi1",
+      "headword": "只",
+      "reading": "zhī",
+      "readingNumeric": "zhi1",
+      "senses": [
+        "classifier for birds and certain animals, one of a pair, some utensils, vessels etc"
+      ],
+      "levels": [
+        "3"
+      ],
+      "source": "manual",
+      "review": "approved",
+      "homographGroup": "只"
     },
     {
       "id": "只:zhi3",
@@ -1510,7 +1454,8 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved",
+      "homographGroup": "只"
     },
     {
       "id": "可爱:ke3ai4",
@@ -1527,7 +1472,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "司机:si1ji1",
@@ -1542,7 +1487,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "同事:tong2shi4",
@@ -1556,7 +1501,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "同意:tong2yi4",
@@ -1572,7 +1517,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "周末:zhou1mo4",
@@ -1587,7 +1532,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "哭:ku1",
@@ -1601,7 +1546,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "啊:a1",
@@ -1618,7 +1563,7 @@
       ],
       "homographGroup": "啊",
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "啊:a2",
@@ -1635,7 +1580,7 @@
       ],
       "homographGroup": "啊",
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "啊:a3",
@@ -1653,7 +1598,7 @@
       ],
       "homographGroup": "啊",
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "啊:a4",
@@ -1672,7 +1617,7 @@
       ],
       "homographGroup": "啊",
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "啊:a5",
@@ -1687,7 +1632,7 @@
       ],
       "homographGroup": "啊",
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "啤酒:pi2jiu3",
@@ -1733,7 +1678,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "国家:guo2jia1",
@@ -1748,7 +1693,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "图书馆:tu2shu1guan3",
@@ -1777,7 +1722,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "地:de5",
@@ -1793,7 +1738,7 @@
       ],
       "homographGroup": "地",
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "地:di4",
@@ -1820,7 +1765,7 @@
       ],
       "homographGroup": "地",
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "地图:di4tu2",
@@ -1849,7 +1794,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "地方:di4fang1",
@@ -1866,7 +1811,7 @@
       ],
       "homographGroup": "地方",
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "地方:di4fang5",
@@ -1890,7 +1835,7 @@
       ],
       "homographGroup": "地方",
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "地铁:di4tie3",
@@ -1906,7 +1851,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "坏:huai4",
@@ -1925,7 +1870,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "城市:cheng2shi4",
@@ -1947,7 +1892,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "声音:sheng1yin1",
@@ -1962,7 +1907,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "复习:fu4xi2",
@@ -1986,7 +1931,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "夏:xia4",
@@ -1999,26 +1944,8 @@
       "levels": [
         "3"
       ],
-      "homographGroup": "夏",
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "夏:Xia4",
-      "headword": "夏",
-      "reading": "Xià",
-      "readingNumeric": "Xia4",
-      "senses": [
-        "the Xia or Hsia dynasty c. 2000 BC",
-        "Xia of the Sixteen Kingdoms (407–432)",
-        "surname Xia"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "夏",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "多么:duo1me5",
@@ -2037,7 +1964,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "太阳:tai4yang5",
@@ -2054,7 +1981,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "头发:tou2fa5",
@@ -2069,7 +1996,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "奇怪:qi2guai4",
@@ -2086,7 +2013,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "奶奶:nai3nai5",
@@ -2095,9 +2022,7 @@
       "readingNumeric": "nai3 nai5",
       "senses": [
         "(informal) grandma (paternal grandmother)",
-        "(respectful) mistress of the house",
-        "(coll.) boobies",
-        "breasts"
+        "(respectful) mistress of the house"
       ],
       "classifiers": [
         {
@@ -2110,8 +2035,8 @@
       "levels": [
         "3"
       ],
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "source": "cc-cedict+override",
+      "review": "corrected"
     },
     {
       "id": "如果:ru2guo3",
@@ -2125,7 +2050,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "字典:zi4dian3",
@@ -2148,7 +2073,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "季节:ji4jie2",
@@ -2173,7 +2098,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "安静:an1jing4",
@@ -2190,7 +2115,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "完成:wan2cheng2",
@@ -2204,7 +2129,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "客人:ke4ren2",
@@ -2229,7 +2154,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "害怕:hai4pa4",
@@ -2243,7 +2168,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "容易:rong2yi4",
@@ -2258,7 +2183,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "宾馆:bin1guan3",
@@ -2289,7 +2214,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "小心:xiao3xin1",
@@ -2304,7 +2229,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "层:ceng2",
@@ -2323,7 +2248,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "差:cha1",
@@ -2340,7 +2265,7 @@
       ],
       "homographGroup": "差",
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "差:cha4",
@@ -2359,39 +2284,7 @@
       ],
       "homographGroup": "差",
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "差:chai1",
-      "headword": "差",
-      "reading": "chāi",
-      "readingNumeric": "chai1",
-      "senses": [
-        "to send (on an errand)",
-        "(archaic) person sent on such an errand",
-        "job; official post"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "差",
-      "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "差:ci1",
-      "headword": "差",
-      "reading": "cī",
-      "readingNumeric": "ci1",
-      "senses": [
-        "used in 参差"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "差",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "带:dai4",
@@ -2429,7 +2322,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "帮忙:bang1mang2",
@@ -2447,7 +2340,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "帽子:mao4zi5",
@@ -2472,7 +2365,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "干净:gan1jing4",
@@ -2488,7 +2381,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "年级:nian2ji2",
@@ -2512,7 +2405,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "年轻:nian2qing1",
@@ -2527,7 +2420,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "应该:ying1gai1",
@@ -2542,7 +2435,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "当然:dang1ran2",
@@ -2561,7 +2454,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "影响:ying3xiang3",
@@ -2588,7 +2481,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "必须:bi4xu1",
@@ -2606,7 +2499,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "忘记:wang4ji4",
@@ -2621,7 +2514,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "总是:zong3shi4",
@@ -2636,7 +2529,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "感冒:gan3mao4",
@@ -2668,7 +2561,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "愿意:yuan4yi4",
@@ -2686,7 +2579,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "成绩:cheng2ji4",
@@ -2717,7 +2610,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "或者:huo4zhe3",
@@ -2732,7 +2625,27 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
+    },
+    {
+      "id": "才:cai2",
+      "headword": "才",
+      "reading": "cái",
+      "readingNumeric": "cai2",
+      "senses": [
+        "ability; talent",
+        "sb of a certain type",
+        "a capable individual",
+        "then and only then",
+        "just now",
+        "(before an expression of quantity) only",
+        "(emphatic, esp. in contrast or correction) really; actually"
+      ],
+      "levels": [
+        "3"
+      ],
+      "source": "manual",
+      "review": "approved"
     },
     {
       "id": "打扫:da3sao3",
@@ -2748,7 +2661,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "打算:da3suan4",
@@ -2775,7 +2688,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "把:ba3",
@@ -2793,24 +2706,8 @@
       "levels": [
         "3"
       ],
-      "homographGroup": "把",
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "把:ba4",
-      "headword": "把",
-      "reading": "bà",
-      "readingNumeric": "ba4",
-      "senses": [
-        "handle"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "把",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "护照:hu4zhao4",
@@ -2839,7 +2736,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "担心:dan1xin1",
@@ -2858,7 +2755,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "拿:na2",
@@ -2877,7 +2774,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "换:huan4",
@@ -2896,7 +2793,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "接:jie1",
@@ -2918,7 +2815,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "提高:ti2gao1",
@@ -2934,7 +2831,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "搬:ban1",
@@ -2951,7 +2848,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "放:fang4",
@@ -2971,7 +2868,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "放心:fang4xin1",
@@ -2987,22 +2884,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "故事:gu4shi4",
-      "headword": "故事",
-      "reading": "gù shì",
-      "readingNumeric": "gu4 shi4",
-      "senses": [
-        "old practice"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "故事",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "故事:gu4shi5",
@@ -3015,9 +2897,8 @@
       "levels": [
         "3"
       ],
-      "homographGroup": "故事",
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "教:jiao1",
@@ -3032,7 +2913,7 @@
       ],
       "homographGroup": "教",
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "教:jiao4",
@@ -3049,22 +2930,7 @@
       ],
       "homographGroup": "教",
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "教:Jiao4",
-      "headword": "教",
-      "reading": "Jiào",
-      "readingNumeric": "Jiao4",
-      "senses": [
-        "surname Jiao"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "教",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "敢:gan3",
@@ -3080,7 +2946,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "数学:shu4xue2",
@@ -3095,7 +2961,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "文化:wen2hua4",
@@ -3125,7 +2991,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "新闻:xin1wen2",
@@ -3148,7 +3014,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "新鲜:xin1xian1",
@@ -3166,7 +3032,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "方便:fang1bian4",
@@ -3183,7 +3049,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "旧:jiu4",
@@ -3201,7 +3067,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "明白:ming2bai5",
@@ -3217,7 +3083,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "春:chun1",
@@ -3225,35 +3091,13 @@
       "reading": "chūn",
       "readingNumeric": "chun1",
       "senses": [
-        "spring (season)",
-        "gay",
-        "joyful",
-        "youthful",
-        "love",
-        "lust",
-        "life"
+        "spring (season)"
       ],
       "levels": [
         "3"
       ],
-      "homographGroup": "春",
-      "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "春:Chun1",
-      "headword": "春",
-      "reading": "Chūn",
-      "readingNumeric": "Chun1",
-      "senses": [
-        "surname Chun"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "春",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "source": "cc-cedict+override",
+      "review": "corrected"
     },
     {
       "id": "普通话:pu3tong1hua4",
@@ -3268,25 +3112,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "更:geng1",
-      "headword": "更",
-      "reading": "gēng",
-      "readingNumeric": "geng1",
-      "senses": [
-        "to change or replace",
-        "to experience",
-        "one of the five two-hour periods into which the night was formerly divided",
-        "watch (e.g. of a sentry or guard)"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "更",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "更:geng4",
@@ -3303,9 +3129,8 @@
       "levels": [
         "3"
       ],
-      "homographGroup": "更",
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "月亮:yue4liang5",
@@ -3319,7 +3144,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "有名:you3ming2",
@@ -3334,7 +3159,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "机会:ji1hui4",
@@ -3359,7 +3184,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "条:tiao2",
@@ -3378,7 +3203,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "极:ji2",
@@ -3396,7 +3221,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "果汁:guo3zhi1",
@@ -3410,7 +3235,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "树:shu4",
@@ -3435,7 +3260,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "校长:xiao4zhang3",
@@ -3471,7 +3296,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "根据:gen1ju4",
@@ -3497,7 +3322,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "检查:jian3cha2",
@@ -3522,7 +3347,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "楼:lou2",
@@ -3558,25 +3383,8 @@
       "levels": [
         "3"
       ],
-      "homographGroup": "楼",
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "楼:Lou2",
-      "headword": "楼",
-      "headwordTraditional": "樓",
-      "reading": "Lóu",
-      "readingNumeric": "Lou2",
-      "senses": [
-        "surname Lou"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "楼",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "段:duan4",
@@ -3593,24 +3401,8 @@
       "levels": [
         "3"
       ],
-      "homographGroup": "段",
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "段:Duan4",
-      "headword": "段",
-      "reading": "Duàn",
-      "readingNumeric": "Duan4",
-      "senses": [
-        "surname Duan"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "段",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "比赛:bi3sai4",
@@ -3641,7 +3433,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "比较:bi3jiao4",
@@ -3661,7 +3453,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "水平:shui3ping2",
@@ -3676,7 +3468,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "河:he2",
@@ -3707,7 +3499,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "注意:zhu4yi4",
@@ -3721,7 +3513,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "洗手间:xi3shou3jian1",
@@ -3738,7 +3530,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "洗澡:xi3zao3",
@@ -3753,7 +3545,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "清楚:qing1chu5",
@@ -3770,7 +3562,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "渴:ke3",
@@ -3784,7 +3576,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "游戏:you2xi4",
@@ -3808,7 +3600,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "满意:man3yi4",
@@ -3825,7 +3617,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "灯:deng1",
@@ -3850,7 +3642,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "热情:re4qing2",
@@ -3869,7 +3661,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "然后:ran2hou4",
@@ -3884,7 +3676,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "照片:zhao4pian4",
@@ -3912,7 +3704,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "照相机:zhao4xiang4ji1",
@@ -3947,7 +3739,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "照顾:zhao4gu5",
@@ -3965,7 +3757,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "熊猫:xiong2mao1",
@@ -3988,7 +3780,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "爬山:pa2shan1",
@@ -4002,7 +3794,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "爱好:ai4hao4",
@@ -4018,7 +3810,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "爷爷:ye2ye5",
@@ -4033,7 +3825,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "特别:te4bie2",
@@ -4051,7 +3843,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "环境:huan2jing4",
@@ -4077,7 +3869,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "班:ban1",
@@ -4093,24 +3885,8 @@
       "levels": [
         "3"
       ],
-      "homographGroup": "班",
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "班:Ban1",
-      "headword": "班",
-      "reading": "Bān",
-      "readingNumeric": "Ban1",
-      "senses": [
-        "surname Ban"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "班",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "甜:tian2",
@@ -4125,7 +3901,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "生气:sheng1qi4",
@@ -4141,7 +3917,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "用:yong4",
@@ -4161,7 +3937,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "电子:dian4zi3",
@@ -4177,7 +3953,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "电梯:dian4ti1",
@@ -4207,7 +3983,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "画:hua4",
@@ -4240,7 +4016,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "疼:teng2",
@@ -4255,7 +4031,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "瘦:shou4",
@@ -4273,7 +4049,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "盘子:pan2zi5",
@@ -4298,7 +4074,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "相信:xiang1xin4",
@@ -4312,7 +4088,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "相同:xiang1tong2",
@@ -4326,7 +4102,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "眼镜:yan3jing4",
@@ -4350,7 +4126,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "着急:zhao2ji2",
@@ -4367,7 +4143,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "短:duan3",
@@ -4385,7 +4161,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "矮:ai3",
@@ -4401,7 +4177,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "碗:wan3",
@@ -4430,7 +4206,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "礼物:li3wu4",
@@ -4459,7 +4235,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "祝:zhu4",
@@ -4474,24 +4250,8 @@
       "levels": [
         "3"
       ],
-      "homographGroup": "祝",
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "祝:Zhu4",
-      "headword": "祝",
-      "reading": "Zhù",
-      "readingNumeric": "Zhu4",
-      "senses": [
-        "surname Zhu"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "祝",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "离开:li2kai1",
@@ -4506,21 +4266,22 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
-      "id": "秋:Qiu1",
+      "id": "秋:qiu1",
       "headword": "秋",
-      "reading": "Qiū",
-      "readingNumeric": "Qiu1",
+      "reading": "qiū",
+      "readingNumeric": "qiu1",
       "senses": [
-        "surname Qiu"
+        "autumn; fall",
+        "harvest time"
       ],
       "levels": [
         "3"
       ],
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "source": "manual",
+      "review": "approved"
     },
     {
       "id": "种:zhong3",
@@ -4540,7 +4301,7 @@
       ],
       "homographGroup": "种",
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "种:zhong4",
@@ -4558,7 +4319,7 @@
       ],
       "homographGroup": "种",
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "空调:kong1tiao2",
@@ -4582,7 +4343,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "突然:tu1ran2",
@@ -4596,7 +4357,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "站:zhan4",
@@ -4615,7 +4376,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "筷子:kuai4zi5",
@@ -4655,7 +4416,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "简单:jian3dan1",
@@ -4670,7 +4431,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "米:mi3",
@@ -4685,24 +4446,8 @@
       "levels": [
         "3"
       ],
-      "homographGroup": "米",
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "米:Mi3",
-      "headword": "米",
-      "reading": "Mǐ",
-      "readingNumeric": "Mi3",
-      "senses": [
-        "surname Mi"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "米",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "糖:tang2",
@@ -4732,7 +4477,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "练习:lian4xi2",
@@ -4758,7 +4503,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "终于:zhong1yu2",
@@ -4776,7 +4521,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "经常:jing1chang2",
@@ -4792,7 +4537,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "经理:jing1li3",
@@ -4828,7 +4573,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "经过:jing1guo4",
@@ -4854,7 +4599,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "结婚:jie2hun1",
@@ -4869,7 +4614,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "结束:jie2shu4",
@@ -4884,7 +4629,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "绿:lv4",
@@ -4893,14 +4638,13 @@
       "reading": "lǜ",
       "readingNumeric": "lu:4",
       "senses": [
-        "green",
-        "(slang) (derived from 绿帽子) to cheat on (one's spouse or boyfriend or girlfriend)"
+        "green"
       ],
       "levels": [
         "3"
       ],
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "source": "cc-cedict+override",
+      "review": "corrected"
     },
     {
       "id": "老:lao3",
@@ -4924,7 +4668,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "而且:er2qie3",
@@ -4939,7 +4683,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "耳朵:er3duo5",
@@ -4974,7 +4718,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "聪明:cong1ming5",
@@ -4990,23 +4734,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "胖:pan2",
-      "headword": "胖",
-      "reading": "pán",
-      "readingNumeric": "pan2",
-      "senses": [
-        "healthy",
-        "at ease"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "胖",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "胖:pang4",
@@ -5020,9 +4748,8 @@
       "levels": [
         "3"
       ],
-      "homographGroup": "胖",
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "脚:jiao3",
@@ -5053,25 +4780,8 @@
       "levels": [
         "3"
       ],
-      "homographGroup": "脚",
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "脚:jue2",
-      "headword": "脚",
-      "headwordTraditional": "腳",
-      "reading": "jué",
-      "readingNumeric": "jue2",
-      "senses": [
-        "role (variant of 角)"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "脚",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "脸:lian3",
@@ -5100,7 +4810,29 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
+    },
+    {
+      "id": "腿:tui3",
+      "headword": "腿",
+      "reading": "tuǐ",
+      "readingNumeric": "tui3",
+      "senses": [
+        "leg"
+      ],
+      "classifiers": [
+        {
+          "simplified": "条",
+          "traditional": "條",
+          "readingNumeric": "tiao2",
+          "reading": "tiáo"
+        }
+      ],
+      "levels": [
+        "3"
+      ],
+      "source": "manual",
+      "review": "approved"
     },
     {
       "id": "自己:zi4ji3",
@@ -5114,7 +4846,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "舒服:shu1fu5",
@@ -5129,7 +4861,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "节日:jie2ri4",
@@ -5153,7 +4885,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "节目:jie2mu4",
@@ -5202,21 +4934,62 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
-      "id": "花:Hua1",
+      "id": "花:hua1",
       "headword": "花",
-      "reading": "Huā",
-      "readingNumeric": "Hua1",
+      "reading": "huā",
+      "readingNumeric": "hua1",
       "senses": [
-        "surname Hua"
+        "flower; blossom",
+        "fancy pattern",
+        "florid",
+        "to spend (money, time)"
+      ],
+      "classifiers": [
+        {
+          "simplified": "朵",
+          "traditional": "朵",
+          "readingNumeric": "duo3",
+          "reading": "duǒ"
+        },
+        {
+          "simplified": "支",
+          "traditional": "支",
+          "readingNumeric": "zhi1",
+          "reading": "zhī"
+        },
+        {
+          "simplified": "束",
+          "traditional": "束",
+          "readingNumeric": "shu4",
+          "reading": "shù"
+        },
+        {
+          "simplified": "把",
+          "traditional": "把",
+          "readingNumeric": "ba3",
+          "reading": "bǎ"
+        },
+        {
+          "simplified": "盆",
+          "traditional": "盆",
+          "readingNumeric": "pen2",
+          "reading": "pén"
+        },
+        {
+          "simplified": "簇",
+          "traditional": "簇",
+          "readingNumeric": "cu4",
+          "reading": "cù"
+        }
       ],
       "levels": [
         "3"
       ],
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "source": "manual",
+      "review": "approved"
     },
     {
       "id": "花园:hua1yuan2",
@@ -5239,7 +5012,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "草:cao3",
@@ -5284,7 +5057,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "菜单:cai4dan1",
@@ -5313,7 +5086,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "葡萄:pu2tao5",
@@ -5327,7 +5100,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "蓝:lan2",
@@ -5342,25 +5115,8 @@
       "levels": [
         "3"
       ],
-      "homographGroup": "蓝",
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "蓝:Lan2",
-      "headword": "蓝",
-      "headwordTraditional": "藍",
-      "reading": "Lán",
-      "readingNumeric": "Lan2",
-      "senses": [
-        "surname Lan"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "蓝",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "虽然:sui1ran2",
@@ -5375,7 +5131,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "蛋糕:dan4gao1",
@@ -5403,7 +5159,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "行李箱:xing2li5xiang1",
@@ -5421,7 +5177,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "街道:jie1dao4",
@@ -5445,7 +5201,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "表演:biao3yan3",
@@ -5473,7 +5229,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "表示:biao3shi4",
@@ -5489,7 +5245,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "衬衫:chen4shan1",
@@ -5513,7 +5269,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "被:bei4",
@@ -5531,7 +5287,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "裙子:qun2zi5",
@@ -5553,7 +5309,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "裤子:ku4zi5",
@@ -5576,7 +5332,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "西:xi1",
@@ -5589,26 +5345,8 @@
       "levels": [
         "3"
       ],
-      "homographGroup": "西",
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "西:Xi1",
-      "headword": "西",
-      "reading": "Xī",
-      "readingNumeric": "Xi1",
-      "senses": [
-        "the West",
-        "abbr. for Spain 西班牙",
-        "Spanish"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "西",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "要求:yao1qiu2",
@@ -5635,7 +5373,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "见面:jian4mian4",
@@ -5658,7 +5396,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "角:jiao3",
@@ -5683,42 +5421,8 @@
       "levels": [
         "3"
       ],
-      "homographGroup": "角",
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "角:jue2",
-      "headword": "角",
-      "reading": "jué",
-      "readingNumeric": "jue2",
-      "senses": [
-        "role (theater)",
-        "to compete",
-        "ancient three legged wine vessel",
-        "third note of pentatonic scale"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "角",
-      "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "角:Jue2",
-      "headword": "角",
-      "reading": "Jué",
-      "readingNumeric": "Jue2",
-      "senses": [
-        "surname Jue"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "角",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "解决:jie3jue2",
@@ -5734,7 +5438,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "认为:ren4wei2",
@@ -5749,7 +5453,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "认真:ren4zhen1",
@@ -5768,7 +5472,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "记得:ji4de5",
@@ -5783,7 +5487,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "讲:jiang3",
@@ -5805,7 +5509,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "词语:ci2yu3",
@@ -5822,7 +5526,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "超市:chao1shi4",
@@ -5844,7 +5548,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "越:yue4",
@@ -5860,25 +5564,8 @@
       "levels": [
         "3"
       ],
-      "homographGroup": "越",
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "越:Yue4",
-      "headword": "越",
-      "reading": "Yuè",
-      "readingNumeric": "Yue4",
-      "senses": [
-        "generic word for peoples or states of south China or south Asia at different historical periods",
-        "abbr. for Vietnam 越南"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "越",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "跟:gen1",
@@ -5900,7 +5587,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "辆:liang4",
@@ -5915,7 +5602,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "过去:guo4qu4",
@@ -5932,7 +5619,7 @@
       ],
       "homographGroup": "过去",
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "过去:guo4qu5",
@@ -5948,7 +5635,7 @@
       ],
       "homographGroup": "过去",
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "还是:hai2shi5",
@@ -5966,7 +5653,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "迟到:chi2dao4",
@@ -5981,7 +5668,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "选择:xuan3ze2",
@@ -5997,7 +5684,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "遇到:yu4dao4",
@@ -6011,7 +5698,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "邻居:lin2ju1",
@@ -6026,7 +5713,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "重要:zhong4yao4",
@@ -6040,7 +5727,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "铅笔:qian1bi3",
@@ -6075,7 +5762,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "银行:yin2hang2",
@@ -6104,7 +5791,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "锻炼:duan4lian4",
@@ -6124,7 +5811,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "阿姨:a1yi2",
@@ -6150,7 +5837,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "附近:fu4jin4",
@@ -6165,7 +5852,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "除了:chu2le5",
@@ -6180,7 +5867,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "难:nan2",
@@ -6198,27 +5885,8 @@
       "levels": [
         "3"
       ],
-      "homographGroup": "难",
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "难:nan4",
-      "headword": "难",
-      "headwordTraditional": "難",
-      "reading": "nàn",
-      "readingNumeric": "nan4",
-      "senses": [
-        "disaster",
-        "distress",
-        "to scold"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "难",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "难过:nan2guo4",
@@ -6235,7 +5903,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "需要:xu1yao4",
@@ -6250,7 +5918,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "面包:mian4bao1",
@@ -6279,7 +5947,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "面条:mian4tiao2",
@@ -6294,7 +5962,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "鞋:xie2",
@@ -6322,7 +5990,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "音乐:yin1yue4",
@@ -6357,7 +6025,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "饱:bao3",
@@ -6373,7 +6041,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "饿:e4",
@@ -6389,7 +6057,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "香蕉:xiang1jiao1",
@@ -6417,7 +6085,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "马:ma3",
@@ -6441,26 +6109,8 @@
       "levels": [
         "3"
       ],
-      "homographGroup": "马",
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "马:Ma3",
-      "headword": "马",
-      "headwordTraditional": "馬",
-      "reading": "Mǎ",
-      "readingNumeric": "Ma3",
-      "senses": [
-        "surname Ma",
-        "abbr. for Malaysia 马来西亚"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "马",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "马上:ma3shang4",
@@ -6478,24 +6128,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "骑:ji4",
-      "headword": "骑",
-      "headwordTraditional": "騎",
-      "reading": "jì",
-      "readingNumeric": "ji4",
-      "senses": [
-        "(Tw) saddle horse",
-        "mounted soldier"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "骑",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "骑:qi2",
@@ -6511,26 +6144,8 @@
       "levels": [
         "3"
       ],
-      "homographGroup": "骑",
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "鸟:diao3",
-      "headword": "鸟",
-      "headwordTraditional": "鳥",
-      "reading": "diǎo",
-      "readingNumeric": "diao3",
-      "senses": [
-        "variant of 屌",
-        "penis"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "鸟",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "鸟:niao3",
@@ -6540,10 +6155,7 @@
       "readingNumeric": "niao3",
       "senses": [
         "bird",
-        "\"bird\" radical in Chinese characters (Kangxi radical 196)",
-        "(dialect) to pay attention to",
-        "(intensifier) damned",
-        "goddamn"
+        "\"bird\" radical in Chinese characters (Kangxi radical 196)"
       ],
       "classifiers": [
         {
@@ -6562,9 +6174,8 @@
       "levels": [
         "3"
       ],
-      "homographGroup": "鸟",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "source": "cc-cedict+override",
+      "review": "corrected"
     },
     {
       "id": "黄:huang2",
@@ -6580,25 +6191,8 @@
       "levels": [
         "3"
       ],
-      "homographGroup": "黄",
       "source": "cc-cedict",
-      "review": "unreviewed"
-    },
-    {
-      "id": "黄:Huang2",
-      "headword": "黄",
-      "headwordTraditional": "黃",
-      "reading": "Huáng",
-      "readingNumeric": "Huang2",
-      "senses": [
-        "surname Huang or Hwang"
-      ],
-      "levels": [
-        "3"
-      ],
-      "homographGroup": "黄",
-      "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "黑板:hei1ban3",
@@ -6626,7 +6220,7 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     },
     {
       "id": "鼻子:bi2zi5",
@@ -6654,19 +6248,19 @@
         "3"
       ],
       "source": "cc-cedict",
-      "review": "unreviewed"
+      "review": "approved"
     }
   ],
   "meta": {
-    "cardCount": 337,
+    "cardCount": 310,
     "dictionaryVersion": "2026-08-23T06:21:07Z",
     "wordListVersion": "drkameleon/complete-hsk-vocabulary@7ac65bf1a6387d35f1ade478906172a19311c7f9",
-    "builtAt": "2026-08-24T23:18:51.237Z",
+    "builtAt": "2026-08-25T04:07:18.456Z",
     "reviewSummary": {
-      "unreviewed": 337,
-      "approved": 0,
+      "unreviewed": 0,
+      "approved": 306,
       "flagged": 0,
-      "corrected": 0
+      "corrected": 4
     }
   }
 }

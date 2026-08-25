@@ -188,5 +188,375 @@
     "reason": "\"Surname Qian\" — not HSK-1 vocabulary; source-list artifact. Must not ship; needs the card-exclusion mechanism (LR-002 Findings). 钱:qian2 (money) is unaffected.",
     "excludedBy": "Claude Code, implementing LR-002/WO-009's recommended exclusion mechanism (DEC-028); full linguistic rationale by Red",
     "excludedAt": "2026-08-25"
+  },
+  "也:Ye3": {
+    "reason": "\"surname Ye\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-2 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-2 card is 也:ye3 (\"also; too; as well\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "从:Cong2": {
+    "reason": "\"surname Cong\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-2 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-2 card is 从:cong2 (\"from; through; via\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "元:Yuan2": {
+    "reason": "\"surname Yuan\" plus \"Yuan dynasty (1279–1368)\" — a surname and a historical-proper-noun sense, neither core HSK-2 vocabulary (a history-passage encounter at most, not a beginner-tested item). The correct HSK-2 card is 元:yuan2 (\"currency unit (esp. Chinese yuan)\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "别:Bie2": {
+    "reason": "\"surname Bie\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-2 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-2 card is 别:bie2 (\"don't ...!; to leave; to part (from)\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "别:bie4": {
+    "reason": "A real, genuine CC-CEDICT reading (\"to make sb change their ways, opinions etc\") but not, in my judgement, independently tested at HSK-2 — the syllabus's actual item under this headword is 别:bie2 (\"don't ...!; to leave; to part (from)\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "号:hao2": {
+    "reason": "Bound form / no independent meaning outside a fixed compound — CC-CEDICT gloss \"(bound form) to wail; to howl\". Not independently HSK-2 vocabulary; the real HSK-2 word under this headword is 号:hao4 (\"day of the month; number; mark; to label\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "吧:ba1": {
+    "reason": "A real, genuine CC-CEDICT reading (\"bar (loanword); to puff (on a pipe etc); (onom.) bang\") but not, in my judgement, independently tested at HSK-2 — the syllabus's actual item under this headword is 吧:ba5 (\"(modal particle indicating suggestion or surmise)\"). Standalone 吧(bā) is, in practice, always encountered inside the compound 酒吧 rather than tested as an independent HSK-2 item; treated as compound-bound for this level, parallel to the bound-form pattern.",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "吧:bia1": {
+    "reason": "(onom.) smack! — an onomatopoeic exclamation, not vocabulary. The correct HSK-2 card is 吧:ba5 (the modal particle).",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "告诉:gao4su4": {
+    "reason": "\"to press charges; to file a complaint\" — a genuine but specialised legal-register sense of 告诉 (私诉/公诉-type usage), not the everyday HSK-2 verb. The correct HSK-2 card is 告诉:gao4su5 (\"to tell; to inform; to let know\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "好吃:hao4chi1": {
+    "reason": "A real, genuine CC-CEDICT reading (\"to be fond of eating; to be gluttonous\") but not, in my judgement, independently tested at HSK-2 — the syllabus's actual item under this headword is 好吃:hao3chi1 (\"tasty; delicious\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "张:Zhang1": {
+    "reason": "\"surname Zhang\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-2 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-2 card is 张:zhang1 (\"classifier for flat objects, sheet\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "新:Xin1": {
+    "reason": "\"abbr. for Xinjiang\", \"abbr. for Singapore\", \"surname Xin\" — abbreviation/surname cluster, not core HSK-2 vocabulary. The correct HSK-2 card is 新:xin1 (\"new\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "比:bi1": {
+    "reason": "Vulgar/crude content (\"euphemistic variant of 屄\") that CC-CEDICT does not mark with the literal \"(vulgar)\" tag DEC-029's mechanical filter searches for (it uses \"euphemistic variant of\"/\"variant of\" phrasing instead), so the filter did not catch it — found on manual review. Not appropriate HSK-2 content regardless. The correct HSK-2 card is 比:bi3 (\"to compare\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "比:Bi3": {
+    "reason": "Proper-noun / country- or place-name abbreviation content (\"Belgium; Belgian; abbr. for 比利时\"), not core HSK-2 vocabulary. The correct HSK-2 card is 比:bi3 (\"to compare\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "白:Bai2": {
+    "reason": "\"surname Bai (also \"Bai ethnic group\")\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-2 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-2 card is 白:bai2 (\"white\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "百:Bai3": {
+    "reason": "\"surname Bai\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-2 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-2 card is 百:bai3 (\"hundred\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "着:zhao1": {
+    "reason": "A real, genuine CC-CEDICT reading (\"a move in chess; trick; tactic; (dialect) okay; to put in\") but not, in my judgement, independently tested at HSK-2 — the syllabus's actual item under this headword is 着:zhe5 (\"aspect particle indicating action in progress\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "着:zhuo2": {
+    "reason": "A real, genuine CC-CEDICT reading (\"to wear (clothes); to contact; to use; to apply\") but not, in my judgement, independently tested at HSK-2 — the syllabus's actual item under this headword is 着:zhao2 (\"to touch; to come in contact with; (coll.) to fall asleep\"). Formal/literary register (着重, 穿着-type usage); the two everyday HSK-2 readings are zháo and the aspect-particle zhe.",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "离:chi1": {
+    "reason": "Archaic / classical / literary register only — CC-CEDICT gloss \"mythical beast (archaic)\" — not a modern HSK-2 sense. The correct HSK-2 card is 离:li2 (\"to leave; to part from; to be away from\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "离:Li2": {
+    "reason": "\"surname Li\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-2 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-2 card is 离:li2 (\"to leave; to part from; to be away from\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "红:Hong2": {
+    "reason": "\"surname Hong\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-2 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-2 card is 红:hong2 (\"red\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "累:lei2": {
+    "reason": "Archaic / classical / literary register only — CC-CEDICT gloss \"rope; to bind together; to twist around\" — not a modern HSK-2 sense. The correct HSK-2 card is 累:lei4 (\"tired; weary\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "累:lei3": {
+    "reason": "A real, genuine CC-CEDICT reading (\"to accumulate; to involve or implicate; continuous; repeated\") but not, in my judgement, independently tested at HSK-2 — the syllabus's actual item under this headword is 累:lei4 (\"tired; weary\"). 积累/连累-type register; a real reading, but I judge it intermediate (HSK-4-ish) rather than HSK-2.",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "给:ji3": {
+    "reason": "Bound form / no independent meaning outside a fixed compound — CC-CEDICT gloss \"(bound form) to supply; to provide; (literary) sufficient; abundant\". Not independently HSK-2 vocabulary; the real HSK-2 word under this headword is 给:gei3 (\"to give; for; to\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "要:yao1": {
+    "reason": "Bound form / no independent meaning outside a fixed compound — CC-CEDICT gloss \"(bound form) to demand; to coerce\". Not independently HSK-2 vocabulary; the real HSK-2 word under this headword is 要:yao4 (\"to want; to need; will; shall\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "路:Lu4": {
+    "reason": "\"surname Lu\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-2 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-2 card is 路:lu4 (\"road; route\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "还:Huan2": {
+    "reason": "\"surname Huan\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-2 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-2 card is 还:hai2 / 还:huan2 (\"still / to pay back; to return\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "远:yuan4": {
+    "reason": "Archaic / classical / literary register only — CC-CEDICT gloss \"to distance oneself from (classical)\" — not a modern HSK-2 sense. The correct HSK-2 card is 远:yuan3 (\"far; distant\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "错:Cuo4": {
+    "reason": "\"surname Cuo\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-2 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-2 card is 错:cuo4 (\"mistake; wrong\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "门:Men2": {
+    "reason": "\"surname Men\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-2 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-2 card is 门:men2 (\"gate; door\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "阴:Yin1": {
+    "reason": "\"surname Yin\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-2 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-2 card is 阴:yin1 (\"overcast (weather); cloudy\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "雪:Xue3": {
+    "reason": "\"surname Xue\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-2 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-2 card is 雪:xue3 (\"snow\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "题:Ti2": {
+    "reason": "\"surname Ti\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-2 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-2 card is 题:ti2 (\"topic; problem for discussion\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "高:Gao1": {
+    "reason": "\"surname Gao\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-2 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-2 card is 高:gao1 (\"high; tall\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "鱼:Yu2": {
+    "reason": "\"surname Yu\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-2 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-2 card is 鱼:yu2 (\"fish\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "黑:Hei1": {
+    "reason": "\"short name for Heilongjiang\" — a place-name abbreviation, not core HSK-2 vocabulary. The correct HSK-2 card is 黑:hei1 (\"black\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "向:Xiang4": {
+    "reason": "\"surname Xiang\" — this is the ONLY card that shipped under headword 向 at HSK-2 (no homographGroup tag, because the real word's reading never resolved to a sibling card — see LR-004 Method/Verification). The genuinely intended HSK-2 word, 向 (xiàng, \"towards; direction\"), was a conflicting-entries gap (candidates 向/嚮/曏) recorded in waived-words.json and is resolved via a new manual card in this same review. Must not ship as the HSK-2 card for 向.",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "万:mo4": {
+    "reason": "Bound form / no independent meaning outside a fixed compound — CC-CEDICT gloss \"used in 万俟 (a rare two-character surname, Mòqí)\". Not independently HSK-3 vocabulary; the real HSK-3 word under this headword is 万:wan4 (\"ten thousand\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "万:Wan4": {
+    "reason": "\"surname Wan\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-3 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-3 card is 万:wan4 (\"ten thousand\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "东:Dong1": {
+    "reason": "\"surname Dong\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-3 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-3 card is 东:dong1 (\"east\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "关:Guan1": {
+    "reason": "\"surname Guan\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-3 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-3 card is 关:guan1 (\"to close; to shut; to turn off\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "刷:shua4": {
+    "reason": "A real, genuine CC-CEDICT reading (\"to select\") but not, in my judgement, independently tested at HSK-3 — the syllabus's actual item under this headword is 刷:shua1 (\"a brush; to brush; to swipe (a card)\"). Extremely rare in modern usage; I do not judge it HSK-3-tested.",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "包:Bao1": {
+    "reason": "\"surname Bao\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-3 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-3 card is 包:bao1 (\"package; to wrap; to include\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "南:Nan2": {
+    "reason": "\"surname Nan\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-3 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-3 card is 南:nan2 (\"south\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "双:Shuang1": {
+    "reason": "\"surname Shuang\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-3 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-3 card is 双:shuang1 (\"two; double; pair\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "夏:Xia4": {
+    "reason": "\"the Xia (Hsia) dynasty\", \"Xia of the Sixteen Kingdoms\", \"surname Xia\" — historical-proper-noun/surname cluster, not core HSK-3 vocabulary. The correct HSK-3 card is 夏:xia4 (\"summer\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "差:chai1": {
+    "reason": "A real, genuine CC-CEDICT reading (\"to send (on an errand); person sent on such an errand; job; official post\") but not, in my judgement, independently tested at HSK-3 — the syllabus's actual item under this headword is 差:cha1 / 差:cha4 (\"difference / different; wrong\"). In modern usage this reading survives mainly bound inside 出差/差事; I judge it not independently HSK-3-tested at this level.",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "差:ci1": {
+    "reason": "Bound form / no independent meaning outside a fixed compound — CC-CEDICT gloss \"used in 参差\". Not independently HSK-3 vocabulary; the real HSK-3 word under this headword is 差:cha1 / 差:cha4 (\"difference / different; wrong\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "把:ba4": {
+    "reason": "A real, genuine CC-CEDICT reading (\"handle (noun)\") but not, in my judgement, independently tested at HSK-3 — the syllabus's actual item under this headword is 把:ba3 (\"to hold; to grasp; classifier for handled objects\"). A narrow, mostly compound-bound noun sense (刀把儿-type usage); not independently HSK-3-tested.",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "故事:gu4shi4": {
+    "reason": "Archaic / classical / literary register only — CC-CEDICT gloss \"old practice (classical/literary register)\" — not a modern HSK-3 sense. The correct HSK-3 card is 故事:gu4shi5 (\"narrative; story; tale\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "教:Jiao4": {
+    "reason": "\"surname Jiao\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-3 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-3 card is 教:jiao1 / 教:jiao4 (\"to teach\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "更:geng1": {
+    "reason": "A real, genuine CC-CEDICT reading (\"to change or replace; to experience; one of the five night watches\") but not, in my judgement, independently tested at HSK-3 — the syllabus's actual item under this headword is 更:geng4 (\"more; even more; still more\"). 更换/更新-type compound-bound usage; the independently-tested HSK-3 reading is gèng.",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "楼:Lou2": {
+    "reason": "\"surname Lou\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-3 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-3 card is 楼:lou2 (\"building; floor\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "段:Duan4": {
+    "reason": "\"surname Duan\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-3 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-3 card is 段:duan4 (\"paragraph; section; segment\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "班:Ban1": {
+    "reason": "\"surname Ban\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-3 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-3 card is 班:ban1 (\"class; team; shift\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "祝:Zhu4": {
+    "reason": "\"surname Zhu\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-3 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-3 card is 祝:zhu4 (\"to pray for; to wish\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "米:Mi3": {
+    "reason": "\"surname Mi\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-3 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-3 card is 米:mi3 (\"uncooked rice; meter\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "胖:pan2": {
+    "reason": "Archaic / classical / literary register only — CC-CEDICT gloss \"healthy; at ease (classical idiom 心宽体胖 only)\" — not a modern HSK-3 sense. The correct HSK-3 card is 胖:pang4 (\"fat; plump\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "脚:jue2": {
+    "reason": "Non-substantive variant-character pointer with no independent meaning of its own (\"role (variant of 角)\") — not a real second HSK-3 word. The correct HSK-3 card is 脚:jiao3 (\"foot; leg (of an animal or object)\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "蓝:Lan2": {
+    "reason": "\"surname Lan\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-3 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-3 card is 蓝:lan2 (\"blue\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "西:Xi1": {
+    "reason": "\"the West\", \"abbr. for Spain\", \"Spanish\" — proper-noun/abbreviation cluster, not core HSK-3 vocabulary. The correct HSK-3 card is 西:xi1 (\"west\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "角:jue2": {
+    "reason": "A real, genuine CC-CEDICT reading (\"role (theater); to compete; ancient three-legged wine vessel; third note of pentatonic scale\") but not, in my judgement, independently tested at HSK-3 — the syllabus's actual item under this headword is 角:jiao3 (\"angle; corner; horn; unit of money (10 cents)\"). 角色/角逐-type compound register; real word, but I judge it not independently HSK-3-tested standalone.",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "角:Jue2": {
+    "reason": "\"surname Jue\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-3 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-3 card is 角:jiao3 (\"angle; corner; horn; unit of money (10 cents)\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "越:Yue4": {
+    "reason": "\"generic word for peoples/states of south China or south Asia\" and \"abbr. for Vietnam\" — historical/proper-noun content, not core HSK-3 vocabulary. The correct HSK-3 card is 越:yue4 (\"to exceed; to surpass; the more... the more\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "难:nan4": {
+    "reason": "A real, genuine CC-CEDICT reading (\"disaster; distress; to scold\") but not, in my judgement, independently tested at HSK-3 — the syllabus's actual item under this headword is 难:nan2 (\"difficult; difficulty\"). 灾难/难民-type register; a real word, but I judge it intermediate (HSK-4/5-ish) rather than HSK-3. Closer call than most of this review's exclusions — flagged as such.",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "马:Ma3": {
+    "reason": "\"surname Ma\" and \"abbr. for Malaysia\" — surname/country-abbreviation cluster, not core HSK-3 vocabulary. The correct HSK-3 card is 马:ma3 (\"horse\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "骑:ji4": {
+    "reason": "\"(Tw) saddle horse; mounted soldier\" — a Taiwan-specific/archaic reading (in mainland standard Mandarin, 骑 is read qí regardless of this noun/verb distinction). Not core HSK-3 content. The correct HSK-3 card is 骑:qi2 (\"to ride\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "鸟:diao3": {
+    "reason": "Vulgar/crude content (\"variant of 屌, penis\") that CC-CEDICT does not mark with the literal \"(vulgar)\" tag DEC-029's mechanical filter searches for (it uses \"euphemistic variant of\"/\"variant of\" phrasing instead), so the filter did not catch it — found on manual review. Not appropriate HSK-3 content regardless. The correct HSK-3 card is 鸟:niao3 (\"bird\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "黄:Huang2": {
+    "reason": "\"surname Huang or Hwang\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-3 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-3 card is 黄:huang2 (\"yellow\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "冬:Dong1": {
+    "reason": "\"surname Dong\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-3 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-3 card is 冬:dong1 (\"winter\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "花:Hua1": {
+    "reason": "\"surname Hua\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-3 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-3 card is 花:hua1 (\"flower; blossom\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "秋:Qiu1": {
+    "reason": "\"surname Qiu\" (or a bare proper-noun sense) — a genuine CC-CEDICT entry, but not part of the HSK-3 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022) — the pinned HSK list nests every CC-CEDICT reading of a headword under one entry regardless of level-appropriateness, the same pattern WO-009/LR-002 found systemic at HSK-1. The correct HSK-3 card is 秋:qiu1 (\"autumn; fall\").",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "云:Yun2": {
+    "reason": "\"surname Yun\" and \"short name for Yunnan\" — surname/place-abbreviation content, not core HSK-3 vocabulary. This was the ONLY card that shipped under headword 云 (no homographGroup tag, since the real word's reading never resolved to a sibling card — see LR-004's verification of the five named conflicting-entries words). The correct HSK-3 card is 云:yun2 (\"cloud\"), resolved via a new manual card in this review.",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
+  },
+  "春:Chun1": {
+    "reason": "\"surname Chun\" — a genuine CC-CEDICT entry, but not part of the HSK-3 syllabus. Source-list form-bundling artifact (data/source/hsk/SOURCE.md §5.3; DEC-022). The correct HSK-3 card is 春:chun1 (\"spring (season)\", corrected in this review — see LR-004 Corrections).",
+    "excludedBy": "Red",
+    "excludedAt": "2026-08-25"
   }
 }

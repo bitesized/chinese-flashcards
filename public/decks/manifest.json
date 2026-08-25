@@ -6,13 +6,13 @@
   },
   "2": {
     "title": "HSK 2",
-    "cardCount": 187,
-    "reviewed": false
+    "cardCount": 155,
+    "reviewed": true
   },
   "3": {
     "title": "HSK 3",
-    "cardCount": 337,
-    "reviewed": false
+    "cardCount": 310,
+    "reviewed": true
   },
   "4": {
     "title": "HSK 4",

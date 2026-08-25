@@ -20,7 +20,12 @@ import { mkdtempSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { afterEach, beforeEach, describe, expect, it } from 'vitest';
-import { applyExclusions, clearVacuousHomographGroups, loadExclusions } from './exclusions.js';
+import {
+  applyExclusions,
+  clearVacuousHomographGroups,
+  loadExclusions,
+  recomputeHomographGroups,
+} from './exclusions.js';
 import type { ExclusionsFile } from './exclusions.js';
 import type { Card } from '../src/domain/card.js';
 
@@ -133,6 +138,69 @@ describe('clearVacuousHomographGroups (used by applyExclusions, and by build-dat
     const card = makeCard();
     const [result] = clearVacuousHomographGroups([card]);
     expect(result).toEqual(card);
+  });
+});
+
+describe('recomputeHomographGroups (WO-013/LR-004 finding 1)', () => {
+  it('links a newly-synthesized card to an existing untagged card sharing its headword', () => {
+    // The exact real case: 只:zhi3 ("only") already shipped, untagged
+    // (matching never saw a sibling for it); a manual card 只:zhi1
+    // (classifier) is added later via override synthesis, which has no
+    // way to set homographGroup itself.
+    const existing = makeCard({
+      id: '只:zhi3',
+      headword: '只',
+      reading: 'zhǐ',
+      readingNumeric: 'zhi3',
+      senses: ['only'],
+      review: 'approved',
+    });
+    const synthesized = makeCard({
+      id: '只:zhi1',
+      headword: '只',
+      reading: 'zhī',
+      readingNumeric: 'zhi1',
+      senses: ['classifier for birds'],
+      source: 'manual',
+      review: 'unreviewed',
+    });
+    const result = recomputeHomographGroups([existing, synthesized]);
+    expect(result.find((c) => c.id === '只:zhi3')?.homographGroup).toBe('只');
+    expect(result.find((c) => c.id === '只:zhi1')?.homographGroup).toBe('只');
+  });
+
+  it('clears a tag left over from a group reduced to one member', () => {
+    const survivor = makeCard({ id: '草:cao3', headword: '草', homographGroup: '草' });
+    const result = recomputeHomographGroups([survivor]);
+    expect(result[0]?.homographGroup).toBeUndefined();
+  });
+
+  it('leaves an already-correct group tag unchanged (same object identity)', () => {
+    const a = makeCard({ id: 'A', headword: '甲', readingNumeric: 'a1', homographGroup: '甲' });
+    const b = makeCard({ id: 'B', headword: '甲', readingNumeric: 'a2', homographGroup: '甲' });
+    const result = recomputeHomographGroups([a, b]);
+    expect(result[0]).toBe(a);
+    expect(result[1]).toBe(b);
+  });
+
+  it('does not group two cards with the same headword and the same reading (not a homograph)', () => {
+    const a = makeCard({ id: 'A', headword: '甲', readingNumeric: 'a1' });
+    const b = makeCard({ id: 'B', headword: '甲', readingNumeric: 'a1' });
+    const result = recomputeHomographGroups([a, b]);
+    expect(result.every((c) => c.homographGroup === undefined)).toBe(true);
+  });
+
+  it('is case-sensitive on readings, matching foldForMatching (surname vs. common reading)', () => {
+    const surname = makeCard({ id: '三:San1', readingNumeric: 'San1' });
+    const common = makeCard({ id: '三:san1', readingNumeric: 'san1', review: 'approved' });
+    const result = recomputeHomographGroups([surname, common]);
+    expect(result.every((c) => c.homographGroup === '三')).toBe(true);
+  });
+
+  it('is a no-op for a headword with only one card', () => {
+    const card = makeCard();
+    const result = recomputeHomographGroups([card]);
+    expect(result[0]).toEqual(card);
   });
 });
 

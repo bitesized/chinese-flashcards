@@ -1,6 +1,6 @@
 # Data build report
 
-Built: 2026-08-24T23:18:51.237Z
+Built: 2026-08-25T04:07:18.456Z
 CC-CEDICT release: 2026-08-23T06:21:07Z
 HSK word list: drkameleon/complete-hsk-vocabulary@7ac65bf1a6387d35f1ade478906172a19311c7f9
 
@@ -9,8 +9,8 @@ HSK word list: drkameleon/complete-hsk-vocabulary@7ac65bf1a6387d35f1ade478906172
 | Level | Cards | Unreviewed | Approved | Corrected | Flagged |
 | --- | --- | --- | --- | --- | --- |
 | 1 | 154 | 0 | 150 | 4 | 0 |
-| 2 | 187 | 187 | 0 | 0 | 0 |
-| 3 | 337 | 337 | 0 | 0 | 0 |
+| 2 | 155 | 0 | 152 | 3 | 0 |
+| 3 | 310 | 0 | 306 | 4 | 0 |
 | 4 | 634 | 634 | 0 | 0 | 0 |
 | 5 | 1342 | 1342 | 0 | 0 | 0 |
 | 6 | 2574 | 2574 | 0 | 0 | 0 |
@@ -120,15 +120,6 @@ HSK word list: drkameleon/complete-hsk-vocabulary@7ac65bf1a6387d35f1ade478906172
 ## Waived gaps (build allowed to pass despite an unresolved word — see data/overrides/waived-words.json)
 
 - HSK 2: **打篮球** (unmatched)
-- HSK 2: **千** (conflicting-entries)
-- HSK 2: **它** (conflicting-entries)
-- HSK 2: **玩** (conflicting-entries)
-- HSK 2: **药** (conflicting-entries)
-- HSK 3: **才** (conflicting-entries)
-- HSK 3: **刚才** (conflicting-entries)
-- HSK 3: **刮** (conflicting-entries)
-- HSK 3: **伞** (conflicting-entries)
-- HSK 3: **腿** (conflicting-entries)
 - HSK 4: **暗** (conflicting-entries)
 - HSK 4: **尝** (conflicting-entries)
 - HSK 4: **困** (conflicting-entries)
@@ -167,7 +158,7 @@ Orphaned override ids (matched no card): 岗:gang1, 中括号:zhong1kuo4hao4, �
 
 ## Exclusions (DEC-028 — Red’s final "must not ship" verdicts)
 
-38 card(s) excluded: 三:San1, 上:shang3, 个:ge3, 书:Shu1, 了:liao4, 会:kuai4, 冷:Leng3, 吗:ma2, 吗:ma3, 听:yin3, 呢:ni2, 和:He2, 和:he4, 和:hu2, 和:huo2, 和:huo4, 哪:na5, 哪:ne2, 喝:he4, 坐:Zuo4, 好:hao4, 少:shao4, 年:Nian2, 水:Shui3, 没:mo4, 的:di1, 的:di2, 的:di4, 看:kan1, 能:Neng2, 读:dou4, 那:Na1, 那:Nuo2, 那:nuo2, 都:Du1, 都:du1, 里:Li3, 钱:Qian2
+112 card(s) excluded: 三:San1, 上:shang3, 个:ge3, 书:Shu1, 了:liao4, 会:kuai4, 冷:Leng3, 吗:ma2, 吗:ma3, 听:yin3, 呢:ni2, 和:He2, 和:he4, 和:hu2, 和:huo2, 和:huo4, 哪:na5, 哪:ne2, 喝:he4, 坐:Zuo4, 好:hao4, 少:shao4, 年:Nian2, 水:Shui3, 没:mo4, 的:di1, 的:di2, 的:di4, 看:kan1, 能:Neng2, 读:dou4, 那:Na1, 那:Nuo2, 那:nuo2, 都:Du1, 都:du1, 里:Li3, 钱:Qian2, 也:Ye3, 从:Cong2, 元:Yuan2, 别:Bie2, 别:bie4, 号:hao2, 吧:ba1, 吧:bia1, 告诉:gao4su4, 好吃:hao4chi1, 张:Zhang1, 新:Xin1, 比:bi1, 比:Bi3, 白:Bai2, 百:Bai3, 着:zhao1, 着:zhuo2, 离:chi1, 离:Li2, 红:Hong2, 累:lei2, 累:lei3, 给:ji3, 要:yao1, 路:Lu4, 还:Huan2, 远:yuan4, 错:Cuo4, 门:Men2, 阴:Yin1, 雪:Xue3, 题:Ti2, 高:Gao1, 鱼:Yu2, 黑:Hei1, 向:Xiang4, 万:mo4, 万:Wan4, 东:Dong1, 关:Guan1, 刷:shua4, 包:Bao1, 南:Nan2, 双:Shuang1, 夏:Xia4, 差:chai1, 差:ci1, 把:ba4, 故事:gu4shi4, 教:Jiao4, 更:geng1, 楼:Lou2, 段:Duan4, 班:Ban1, 祝:Zhu4, 米:Mi3, 胖:pan2, 脚:jue2, 蓝:Lan2, 西:Xi1, 角:jue2, 角:Jue2, 越:Yue4, 难:nan4, 马:Ma3, 骑:ji4, 鸟:diao3, 黄:Huang2, 冬:Dong1, 花:Hua1, 秋:Qiu1, 云:Yun2, 春:Chun1
 
 ## Content filter (DEC-029 — vulgar/NSFW senses, project-wide)
 

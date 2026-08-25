@@ -1,0 +1,74 @@
+{
+  "阴:yin1": {
+    "senses": [
+      "overcast (weather); cloudy",
+      "shady",
+      "Yin (the negative principle of Yin and Yang)",
+      "negative (electric.)",
+      "feminine",
+      "moon",
+      "implicit; hidden"
+    ],
+    "review": "corrected",
+    "note": "Dropped the trailing \"genitalia\" sense. Accurate CC-CEDICT content (a clinical/euphemistic anatomical usage), but bare and unqualified among weather/feng-shui senses on a beginner HSK-2 \"overcast weather\" card, it risks confusing or embarrassing a learner for no pedagogical benefit — check 3 (glosses not misleading out of context). All other senses (including \"feminine\"/\"implicit\"/\"hidden\", which are ordinary Yin-Yang-adjacent associations, not vulgar) are kept unchanged and in CC-CEDICT's original order.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  },
+  "鸟:niao3": {
+    "senses": [
+      "bird",
+      "\"bird\" radical in Chinese characters (Kangxi radical 196)"
+    ],
+    "review": "corrected",
+    "note": "Dropped two trailing senses: \"(dialect) to pay attention to\" (obscure, no value to a learner) and \"(intensifier) damned; goddamn\" (a coarse expletive usage derived from 鸟's vulgar homophone/near-homophone 屌 — inappropriate on a beginner \"bird\" card, check 3). \"Bird\" and the radical-name trivia are kept; nothing added.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  },
+  "春:chun1": {
+    "senses": [
+      "spring (season)"
+    ],
+    "review": "corrected",
+    "note": "Trimmed to the one sense an HSK-3 learner needs. CC-CEDICT's fuller entry (\"spring (season)/gay/joyful/youthful/love/lust/life\") reflects a real classical-literary register (春心, 怀春-type usage), but \"gay\" specifically will read to a modern English-speaking learner as \"homosexual\" — a meaning it does not have here — actively teaching a wrong association rather than merely omitting a nuance (check 3: glosses not misleading out of context). Removing the whole poetic-register cluster rather than picking through it individually, parallel to LR-002's precedent for 日:ri4.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  },
+  "奶奶:nai3nai5": {
+    "senses": [
+      "(informal) grandma (paternal grandmother)",
+      "(respectful) mistress of the house"
+    ],
+    "review": "corrected",
+    "note": "Dropped the trailing \"(coll.) boobies; breasts\" sense — genuine CC-CEDICT content, but crude slang with no relevance to an HSK-3 \"grandma\" card and inappropriate for this context (check 3). Classifier (位) and the other two senses are unaffected.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  },
+  "绿:lv4": {
+    "senses": [
+      "green"
+    ],
+    "review": "corrected",
+    "note": "Dropped the trailing \"(slang) (derived from 绿帽子) to cheat on (one's spouse or boyfriend or girlfriend)\" sense — genuine modern slang, but an infidelity euphemism has no place on a beginner color-word card and is confusing out of context (check 3). \"Green\" alone is the correct, complete HSK-3 item; the reading (lǜ) already correctly excludes CC-CEDICT's separate bound-form \"used in names\" entry (lù), which was never a candidate here.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  },
+  "机场:ji1chang3": {
+    "senses": [
+      "airport; airfield"
+    ],
+    "review": "corrected",
+    "note": "Dropped the trailing \"(slang) service provider for Shadowsocks or similar software for circumventing Internet censorship\" sense — genuine CC-CEDICT internet-slang content, but bizarre and actively confusing on a beginner \"airport\" card with no relevant context (check 3). \"Airport; airfield\" alone is correct and complete; classifiers (家/处) are unaffected.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  },
+  "踢:ti1": {
+    "senses": [
+      "to kick",
+      "to play (e.g. soccer)"
+    ],
+    "review": "corrected",
+    "note": "Dropped the trailing \"(slang) butch (in a lesbian relationship)\" sense — genuine CC-CEDICT slang content, but has no place on a beginner HSK-2 \"to kick\" card and is confusing/inappropriate out of context (check 3). The two core senses are unchanged.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  }
+}

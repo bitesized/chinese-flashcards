@@ -25,6 +25,17 @@
 }
 
 .flipper {
+  /* Grid-stacks both faces in the same cell (each face gets `grid-area: 1
+     / 1` below) instead of absolutely positioning them. This is a
+     deliberate fix, not the original layout: position:absolute + inset:0
+     locks a card to min-height's fixed floor forever, since an
+     absolutely-positioned child cannot grow its parent — a back face with
+     several senses plus a classifier had nowhere to go but overflow past
+     the box. Grid stacking sizes the shared cell to whichever face's
+     content is tallest, and the shorter face is centred within that same
+     height (align-items: stretch is grid's default), so both faces still
+     occupy the same rect for the flip animation to overlap correctly. */
+  display: grid;
   position: relative;
   width: 100%;
   min-height: 320px;
@@ -54,8 +65,7 @@
 }
 
 .face {
-  position: absolute;
-  inset: 0;
+  grid-area: 1 / 1;
   backface-visibility: hidden;
   display: flex;
   flex-direction: column;
@@ -68,6 +78,12 @@
   border-radius: var(--card-radius);
   box-shadow: var(--card-shadow);
   text-align: center;
+  /* Safety net, not the primary fix: content that's still too tall for
+     the viewport even after growing the card (e.g. a very small phone in
+     landscape) scrolls inside the face rather than overflowing the page
+     or getting clipped by surrounding layout. */
+  max-height: min(70vh, 640px);
+  overflow-y: auto;
 }
 
 /* Counter-rotates the back face's own container so its content isn't

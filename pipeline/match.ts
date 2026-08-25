@@ -104,7 +104,7 @@ import type { Card, Classifier, ContentSource, HskLevel } from '../src/domain/ca
  * lowercases per the literal `Card.id` spec (DEC-005) and must not be used
  * here.
  */
-function foldForMatching(readingNumeric: string): string {
+export function foldForMatching(readingNumeric: string): string {
   return readingNumeric.replace(/\s+/g, '').replace(/u:/g, 'v').replace(/ü/g, 'v');
 }
 

@@ -1,0 +1,353 @@
+{
+  "千:qian1": {
+    "headword": "千",
+    "reading": "qiān",
+    "readingNumeric": "qian1",
+    "senses": [
+      "thousand"
+    ],
+    "levels": [
+      "2"
+    ],
+    "source": "manual",
+    "review": "approved",
+    "note": "千 (qiān, \"thousand\") had no card at all: CC-CEDICT has two entries sharing the key 千/qian1 — 千 (\"thousand\") and 韆 (\"used in 鞦韆|秋千[qiu1 qian1]\", a bound form with no independent meaning). Adjudication: 千 is obviously intended. Content copied verbatim from the 千/千/qian1 CC-CEDICT entry.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  },
+  "它:ta1": {
+    "headword": "它",
+    "reading": "tā",
+    "readingNumeric": "ta1",
+    "senses": [
+      "it"
+    ],
+    "levels": [
+      "2"
+    ],
+    "source": "manual",
+    "review": "approved",
+    "note": "它 (tā, \"it\") had no card at all: CC-CEDICT has two entries sharing the key 它/ta1 — 它 (\"it\") and 牠 (\"it, pronoun for an animal\" — a Traditional/Taiwan-only orthographic distinction; mainland Simplified writing uses 它 for both inanimate objects and animals). Adjudication: 它 is the correct, standard mainland form. Content copied verbatim from the 它/它/ta1 CC-CEDICT entry.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  },
+  "玩:wan2": {
+    "headword": "玩",
+    "reading": "wán",
+    "readingNumeric": "wan2",
+    "senses": [
+      "to play",
+      "to have fun",
+      "to trifle with",
+      "toy",
+      "sth used for amusement",
+      "curio or antique (Taiwan pr. [wan4])",
+      "to keep sth for entertainment"
+    ],
+    "levels": [
+      "2"
+    ],
+    "source": "manual",
+    "review": "approved",
+    "note": "玩 (wán, \"to play\") had no card at all: CC-CEDICT has two entries sharing the key 玩/wan2 — 玩 (\"to play/to have fun/...\") and 翫 (\"variant of 玩[wan2]/Taiwan pr. [wan4]\", a pure orthographic variant). Adjudication: 玩 is obviously intended. Content copied verbatim from the 玩/玩/wan2 CC-CEDICT entry; the \"(Taiwan pr. [wan4])\" bracket is left in raw numbered form deliberately, per LR-002's precedent for 和:he2 — pipeline/sense-annotations.ts converts pronunciation-variant brackets to diacritic form automatically post-override.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  },
+  "药:yao4": {
+    "headword": "药",
+    "reading": "yào",
+    "readingNumeric": "yao4",
+    "senses": [
+      "medicine",
+      "drug",
+      "substance used for a specific purpose (e.g. poisoning, explosion, fermenting)",
+      "to poison"
+    ],
+    "levels": [
+      "2"
+    ],
+    "source": "manual",
+    "review": "approved",
+    "note": "药 (yào, \"medicine\") had no card at all: CC-CEDICT has two entries sharing the key 药/yao4 — 葯 (\"leaf of the iris/variant of 藥|药[yao4]\", a narrow archaic/variant sense) and 藥 (\"medicine/drug/...\", the real, substantive word, with classifiers 種|种,服,味). Adjudication: 藥's content is obviously intended. Content and classifiers (种/服/味, trad→simp mapped) copied verbatim from the 藥/药/yao4 CC-CEDICT entry.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25",
+    "classifiers": [
+      {
+        "simplified": "种",
+        "traditional": "種",
+        "readingNumeric": "zhong3",
+        "reading": "zhǒng"
+      },
+      {
+        "simplified": "服",
+        "traditional": "服",
+        "readingNumeric": "fu4",
+        "reading": "fù"
+      },
+      {
+        "simplified": "味",
+        "traditional": "味",
+        "readingNumeric": "wei4",
+        "reading": "wèi"
+      }
+    ]
+  },
+  "才:cai2": {
+    "headword": "才",
+    "reading": "cái",
+    "readingNumeric": "cai2",
+    "senses": [
+      "ability; talent",
+      "sb of a certain type",
+      "a capable individual",
+      "then and only then",
+      "just now",
+      "(before an expression of quantity) only",
+      "(emphatic, esp. in contrast or correction) really; actually"
+    ],
+    "levels": [
+      "3"
+    ],
+    "source": "manual",
+    "review": "approved",
+    "note": "才 (cái) had no card at all: CC-CEDICT has two entries sharing the key 才/cai2 — 才 (the real character, carrying both the noun \"talent\" sense and the essential HSK-3 adverbial senses \"just now/only then/not until\") and 纔 (\"(variant of 才[cai2]) just now/(before a quantity) only\" — purely a classical/Taiwan variant character for a subset of 才's own adverbial senses, not a distinct word). Adjudication: 才's own, complete content is obviously intended. Content copied verbatim from the 才/才/cai2 CC-CEDICT entry.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  },
+  "刚才:gang1cai2": {
+    "headword": "刚才",
+    "reading": "gāng cái",
+    "readingNumeric": "gang1 cai2",
+    "senses": [
+      "just now",
+      "a moment ago"
+    ],
+    "levels": [
+      "3"
+    ],
+    "source": "manual",
+    "review": "approved",
+    "note": "刚才 (gāngcái, \"just now\") had no card at all: CC-CEDICT has two entries sharing the key 刚才/gang1cai2 — 剛才 (\"just now/a moment ago\") and 剛纔 (\"just now (variant of 剛才|刚才[gang1 cai2])\" — a pure variant-character spelling of the same word, using 纔 in place of 才). Adjudication: 剛才's content is obviously intended; 剛纔 is not a distinct word. Content copied verbatim from the 剛才/刚才/gang1cai2 CC-CEDICT entry.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  },
+  "刮:gua1": {
+    "headword": "刮",
+    "reading": "guā",
+    "readingNumeric": "gua1",
+    "senses": [
+      "to blow (of the wind)",
+      "to scrape",
+      "to shave",
+      "to plunder; to extort"
+    ],
+    "levels": [
+      "3"
+    ],
+    "source": "manual",
+    "review": "approved",
+    "note": "刮 (guā) had no card at all: CC-CEDICT has two entries sharing the key 刮/gua1 — 刮 itself (\"to scrape/to blow/to shave/to plunder/to extort\" — already the unchanged Simplified form and already includes the weather sense) and 颳 (\"to blow (of the wind)\" only, a Traditional character that also simplifies to 刮 and duplicates a subset of 刮's own senses). Adjudication: 刮's own, complete entry is the correct and sufficient source — it already contains everything 颳 supplies. Content is 刮's own CC-CEDICT senses, reordered to put \"to blow (of the wind)\" first since 刮风 (guāfēng) is the HSK-3 collocation this word is taught for — check 3, ordered sensibly for a learner; no sense added, removed, or altered in wording from the CC-CEDICT original.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  },
+  "伞:san3": {
+    "headword": "伞",
+    "reading": "sǎn",
+    "readingNumeric": "san3",
+    "senses": [
+      "umbrella",
+      "parasol"
+    ],
+    "levels": [
+      "3"
+    ],
+    "source": "manual",
+    "review": "approved",
+    "note": "伞 (sǎn, \"umbrella\") had no card at all: CC-CEDICT has two entries sharing the key 伞/san3 — 傘 (\"umbrella/parasol/CL:把\") and 繖 (\"damask silk/variant of 傘|伞[san3]\", an archaic, unrelated-primary-sense character). Adjudication: 傘's content is obviously intended. Content and classifier (把) copied verbatim from the 傘/伞/san3 CC-CEDICT entry.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25",
+    "classifiers": [
+      {
+        "simplified": "把",
+        "traditional": "把",
+        "readingNumeric": "ba3",
+        "reading": "bǎ"
+      }
+    ]
+  },
+  "腿:tui3": {
+    "headword": "腿",
+    "reading": "tuǐ",
+    "readingNumeric": "tui3",
+    "senses": [
+      "leg"
+    ],
+    "levels": [
+      "3"
+    ],
+    "source": "manual",
+    "review": "approved",
+    "note": "腿 (tuǐ, \"leg\") had no card at all: CC-CEDICT has two entries sharing the key 腿/tui3 — 腿 itself (\"leg/CL:條|条\") and 骽 (\"hip bone/old variant of 腿[tui3]\", an archaic variant). Adjudication: 腿's own content is obviously intended. Content and classifier (条) copied verbatim from the 腿/腿/tui3 CC-CEDICT entry.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25",
+    "classifiers": [
+      {
+        "simplified": "条",
+        "traditional": "條",
+        "readingNumeric": "tiao2",
+        "reading": "tiáo"
+      }
+    ]
+  },
+  "冬:dong1": {
+    "headword": "冬",
+    "reading": "dōng",
+    "readingNumeric": "dong1",
+    "senses": [
+      "winter"
+    ],
+    "levels": [
+      "3"
+    ],
+    "source": "manual",
+    "review": "approved",
+    "note": "冬 (dōng, \"winter\") is a masked gap, not merely a waived one: the ONLY card that shipped under this headword at HSK-3 was 冬:Dong1 (\"surname Dong\", excluded in this review — see LR-004 exclusions), because the real word's own (headword, reading) key — 冬/dong1 — conflicts between the entry 冬 (\"winter\") and a second entry 鼕/冬[dong1] (\"(onom.) beating a drum; rat-a-tat\", an unrelated archaic onomatopoeia bundled under the same traditional character used for the surname). Adjudication: 冬's own \"winter\" content is obviously intended. Content copied verbatim from the 冬/冬/dong1 CC-CEDICT entry.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  },
+  "花:hua1": {
+    "headword": "花",
+    "reading": "huā",
+    "readingNumeric": "hua1",
+    "senses": [
+      "flower; blossom",
+      "fancy pattern",
+      "florid",
+      "to spend (money, time)"
+    ],
+    "levels": [
+      "3"
+    ],
+    "source": "manual",
+    "review": "approved",
+    "note": "花 (huā, \"flower\") is a masked gap: the ONLY card that shipped under this headword at HSK-3 was 花:Hua1 (\"surname Hua\", excluded in this review), because the real word's key — 花/hua1 — conflicts among three entries: 花 itself (substantive), 芲 (\"old variant of 花\", non-substantive), and 蘤 (\"variant of 花.../also pr. wei3\", largely a duplicate variant pointer). Adjudication: 花's own content is obviously intended. Content and all six classifiers copied verbatim from the 花/花/hua1 CC-CEDICT entry, with one sense dropped: CC-CEDICT's trailing \"(coll.) lecherous; lustful\" — a real but crude/adult-register sense of 花心-type usage, inappropriate and out of context on a beginner \"flower/to spend money\" card (same category of correction as this review's other vulgar/coarse-content trims — see LR-004 Corrections).",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25",
+    "classifiers": [
+      {
+        "simplified": "朵",
+        "traditional": "朵",
+        "readingNumeric": "duo3",
+        "reading": "duǒ"
+      },
+      {
+        "simplified": "支",
+        "traditional": "支",
+        "readingNumeric": "zhi1",
+        "reading": "zhī"
+      },
+      {
+        "simplified": "束",
+        "traditional": "束",
+        "readingNumeric": "shu4",
+        "reading": "shù"
+      },
+      {
+        "simplified": "把",
+        "traditional": "把",
+        "readingNumeric": "ba3",
+        "reading": "bǎ"
+      },
+      {
+        "simplified": "盆",
+        "traditional": "盆",
+        "readingNumeric": "pen2",
+        "reading": "pén"
+      },
+      {
+        "simplified": "簇",
+        "traditional": "簇",
+        "readingNumeric": "cu4",
+        "reading": "cù"
+      }
+    ]
+  },
+  "秋:qiu1": {
+    "headword": "秋",
+    "reading": "qiū",
+    "readingNumeric": "qiu1",
+    "senses": [
+      "autumn; fall",
+      "harvest time"
+    ],
+    "levels": [
+      "3"
+    ],
+    "source": "manual",
+    "review": "approved",
+    "note": "秋 (qiū, \"autumn\") is a masked gap: the ONLY card that shipped under this headword at HSK-3 was 秋:Qiu1 (\"surname Qiu\", excluded in this review), because the real word's key — 秋/qiu1 — conflicts between 秋 itself (substantive) and 鞦 (\"used in 鞦韆|秋千[qiu1 qian1]\", a bound form). A third entry, 秌 (\"old variant of 秋\"), is non-substantive. Adjudication: 秋's own content is obviously intended. Content copied verbatim from the 秋/秋/qiu1 CC-CEDICT entry.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  },
+  "云:yun2": {
+    "headword": "云",
+    "reading": "yún",
+    "readingNumeric": "yun2",
+    "senses": [
+      "cloud"
+    ],
+    "levels": [
+      "3"
+    ],
+    "source": "manual",
+    "review": "approved",
+    "note": "云 (yún, \"cloud\") is a masked gap: the ONLY card that shipped under this headword at HSK-3 was 云:Yun2 (\"surname Yun; short name for Yunnan\", excluded in this review), because the real word's key — 云/yun2 — conflicts between 云 itself (\"(classical) to say\", a literary usage as in 人云亦云) and 雲 (\"cloud/CL:朵\", the substantive everyday word). Adjudication: 雲's content (\"cloud\") is obviously the HSK-3-intended word; 云's own \"(classical) to say\" sense is literary register, not beginner/intermediate vocabulary. Content and classifier (朵) copied verbatim from the 雲/云/yun2 CC-CEDICT entry.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25",
+    "classifiers": [
+      {
+        "simplified": "朵",
+        "traditional": "朵",
+        "readingNumeric": "duo3",
+        "reading": "duǒ"
+      }
+    ]
+  },
+  "只:zhi1": {
+    "headword": "只",
+    "reading": "zhī",
+    "readingNumeric": "zhi1",
+    "senses": [
+      "classifier for birds and certain animals, one of a pair, some utensils, vessels etc"
+    ],
+    "levels": [
+      "3"
+    ],
+    "source": "manual",
+    "review": "approved",
+    "note": "只 (zhī), the classifier, is a masked gap distinct from 只:zhi3 (\"only; merely; just\", already correctly shipped and approved in this review): the HSK-3 source list's own forms for 只 include both zhi3 and zhi1, but the zhi1 (classifier) reading's key — 只/zhi1 — conflicts between 秖 (\"grain that has begun to ripen\", archaic/obscure) and 隻 (\"classifier for birds and certain animals, one of a pair, some utensils, vessels etc\", the real, extremely common classifier used throughout the language — 一只猫, 一只手, 一只鞋). A third entry, 只/只[zhi1] (\"variant of 隻|只[zhi1]\"), is a non-substantive self-referential pointer. Adjudication: 隻's content is obviously the intended classifier. This card does not exist at any other reviewed HSK level (checked HSK 1–4) — verified via LR-004's cross-deck check. Content copied verbatim from the 隻/只/zhi1 CC-CEDICT entry.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  },
+  "向:xiang4": {
+    "headword": "向",
+    "reading": "xiàng",
+    "readingNumeric": "xiang4",
+    "senses": [
+      "towards; to face; to turn towards",
+      "direction",
+      "to support; to side with",
+      "shortly before; formerly",
+      "always; all along",
+      "(suffix) suitable for ...; oriented to ..."
+    ],
+    "levels": [
+      "2"
+    ],
+    "source": "manual",
+    "review": "approved",
+    "note": "向 (xiàng, \"towards; direction\") is a masked gap, discovered during LR-004's full-deck scan (not one of WO-013's ten named words): the ONLY card that shipped under this headword at HSK-2 was 向:Xiang4 (\"surname Xiang\", excluded in this review), because the real word's key — 向/xiang4 — conflicts among three entries: 向 itself (substantive, the everyday word), 嚮 (\"to tend toward; to guide; variant of 向\"), and 曏 (\"variant of 向.../direction/orientation/...\", largely duplicate). Adjudication: 向's own content is obviously intended — it is core HSK-2 vocabulary (方向, 向...走 etc). Content copied verbatim from the 向/向/xiang4 CC-CEDICT entry, with the first three near-synonymous top-level senses (\"towards/to face/to turn towards\") combined into one array item for learner clarity, following LR-002's precedent for 里:li3.",
+    "reviewedBy": "Red",
+    "reviewedAt": "2026-08-25"
+  }
+}

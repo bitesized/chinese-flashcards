@@ -46,6 +46,7 @@
 import { readFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { foldForMatching } from './match.js';
 import type { Card } from '../src/domain/card.js';
 
 export interface ExcludedCard {
@@ -105,6 +106,55 @@ export function clearVacuousHomographGroups(cards: readonly Card[]): Card[] {
     if (card.homographGroup === undefined || (groupSizes.get(card.homographGroup) ?? 0) >= 2) {
       return card;
     }
+    const next: Partial<Card> = { ...card };
+    delete next.homographGroup;
+    return next as Card;
+  });
+}
+
+/**
+ * [DEC-034](../docs/project/decision-log.md). Recomputes `homographGroup`
+ * from scratch across the *final* card set —
+ * every headword with 2+ cards carrying distinct readings gets tagged,
+ * every other card is untagged — rather than patching whatever tag it
+ * happened to carry from initial match time
+ * (`pipeline/match.ts`'s own grouping, run before overrides/synthesis/
+ * exclusion/content-filter ever touch the card set).
+ *
+ * `clearVacuousHomographGroups` above only ever removes a tag; it has no
+ * way to notice that a *newly synthesized* card (`pipeline/overrides.ts`'s
+ * `synthesizeCardFromOverride`, DEC-028) shares a headword with an
+ * existing, previously-ungrouped card — CardOverride has no
+ * `homographGroup` field, so there was never a way to link them (Red's
+ * WO-013/LR-004 finding 1, a real case: an existing 只:zhi3 card and a
+ * manually-added 只:zhi1 card are genuinely the same kind of pair
+ * `homographGroup` exists to link, but neither the initial match nor the
+ * synthesis mechanism ever connected them). A full recomputation over the
+ * final set closes this gap and also subsumes vacuous-clearing (a group
+ * reduced to one member by exclusion or the content filter is simply not
+ * regenerated), so this should be called once, last, after every stage
+ * that can add or remove a card — see `build-data.ts`. Pure: no I/O.
+ */
+export function recomputeHomographGroups(cards: readonly Card[]): Card[] {
+  const byHeadword = new Map<string, Card[]>();
+  for (const card of cards) {
+    const list = byHeadword.get(card.headword);
+    if (list) {
+      list.push(card);
+    } else {
+      byHeadword.set(card.headword, [card]);
+    }
+  }
+
+  return cards.map((card) => {
+    const siblings = byHeadword.get(card.headword) as Card[];
+    const distinctReadings = new Set(siblings.map((c) => foldForMatching(c.readingNumeric)));
+    if (distinctReadings.size >= 2) {
+      return card.homographGroup === card.headword
+        ? card
+        : { ...card, homographGroup: card.headword };
+    }
+    if (card.homographGroup === undefined) return card;
     const next: Partial<Card> = { ...card };
     delete next.homographGroup;
     return next as Card;

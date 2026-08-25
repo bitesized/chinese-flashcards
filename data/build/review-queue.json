@@ -16,22 +16,6 @@
     ]
   },
   {
-    "id": "一会儿:yi1hui4r5",
-    "headword": "一会儿",
-    "reading": "yī huìr",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "一共:yi1gong4",
-    "headword": "一共",
-    "reading": "yī gòng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "一再:yi1zai4",
     "headword": "一再",
     "reading": "yī zài",
@@ -61,14 +45,6 @@
     "reading": "yī rú jì wǎng",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "一定:yi1ding4",
-    "headword": "一定",
-    "reading": "yī dìng",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -104,27 +80,11 @@
     ]
   },
   {
-    "id": "一样:yi1yang4",
-    "headword": "一样",
-    "reading": "yī yàng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "一流:yi1liu2",
     "headword": "一流",
     "reading": "yī liú",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "一直:yi1zhi2",
-    "headword": "一直",
-    "reading": "yī zhí",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -136,27 +96,11 @@
     ]
   },
   {
-    "id": "一般:yi1ban1",
-    "headword": "一般",
-    "reading": "yī bān",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "一贯:yi1guan4",
     "headword": "一贯",
     "reading": "yī guàn",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "一起:yi1qi3",
-    "headword": "一起",
-    "reading": "yī qǐ",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -176,14 +120,6 @@
     ]
   },
   {
-    "id": "一边:yi1bian1",
-    "headword": "一边",
-    "reading": "yī biān",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "丁:ding1",
     "headword": "丁",
     "reading": "dīng",
@@ -200,30 +136,6 @@
     ]
   },
   {
-    "id": "万:mo4",
-    "headword": "万",
-    "reading": "mò",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "万:wan4",
-    "headword": "万",
-    "reading": "wàn",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "万:Wan4",
-    "headword": "万",
-    "reading": "Wàn",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "万一:wan4yi1",
     "headword": "万一",
     "reading": "wàn yī",
@@ -237,14 +149,6 @@
     "reading": "wàn fēn",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "丈夫:zhang4fu5",
-    "headword": "丈夫",
-    "reading": "zhàng fu",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -280,14 +184,6 @@
     ]
   },
   {
-    "id": "上班:shang4ban1",
-    "headword": "上班",
-    "reading": "shàng bān",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "上瘾:shang4yin3",
     "headword": "上瘾",
     "reading": "shàng yǐn",
@@ -301,14 +197,6 @@
     "reading": "shàng jí",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "上网:shang4wang3",
-    "headword": "上网",
-    "reading": "shàng wǎng",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -752,14 +640,6 @@
     ]
   },
   {
-    "id": "世界:shi4jie4",
-    "headword": "世界",
-    "reading": "shì jiè",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "世界观:shi4jie4guan1",
     "headword": "世界观",
     "reading": "shì jiè guān",
@@ -816,22 +696,6 @@
     ]
   },
   {
-    "id": "东:dong1",
-    "headword": "东",
-    "reading": "dōng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "东:Dong1",
-    "headword": "东",
-    "reading": "Dōng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "东张西望:dong1zhang1xi1wang4",
     "headword": "东张西望",
     "reading": "dōng zhāng xī wàng",
@@ -885,14 +749,6 @@
     "reading": "diū rén",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "两:liang3",
-    "headword": "两",
-    "reading": "liǎng",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -1064,14 +920,6 @@
     ]
   },
   {
-    "id": "中间:zhong1jian1",
-    "headword": "中间",
-    "reading": "zhōng jiān",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "丰富:feng1fu4",
     "headword": "丰富",
     "reading": "fēng fù",
@@ -1149,38 +997,6 @@
     "reading": "yì wù",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "为:wei2",
-    "headword": "为",
-    "reading": "wéi",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "为:wei4",
-    "headword": "为",
-    "reading": "wèi",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "为了:wei4le5",
-    "headword": "为了",
-    "reading": "wèi le",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "为什么:wei4shen2me5",
-    "headword": "为什么",
-    "reading": "wèi shén me",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -1296,14 +1112,6 @@
     ]
   },
   {
-    "id": "主要:zhu3yao4",
-    "headword": "主要",
-    "reading": "zhǔ yào",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "主观:zhu3guan1",
     "headword": "主观",
     "reading": "zhǔ guān",
@@ -1360,27 +1168,11 @@
     ]
   },
   {
-    "id": "举行:ju3xing2",
-    "headword": "举行",
-    "reading": "jǔ xíng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "举足轻重:ju3zu2qing1zhong4",
     "headword": "举足轻重",
     "reading": "jǔ zú qīng zhòng",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "久:jiu3",
-    "headword": "久",
-    "reading": "jiǔ",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -1512,22 +1304,6 @@
     ]
   },
   {
-    "id": "也:ye3",
-    "headword": "也",
-    "reading": "yě",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "也:Ye3",
-    "headword": "也",
-    "reading": "Yě",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "也许:ye3xu3",
     "headword": "也许",
     "reading": "yě xǔ",
@@ -1541,14 +1317,6 @@
     "reading": "xí sú",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "习惯:xi2guan4",
-    "headword": "习惯",
-    "reading": "xí guàn",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -1605,14 +1373,6 @@
     "reading": "liǎo bu qǐ",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "了解:liao3jie3",
-    "headword": "了解",
-    "reading": "liǎo jiě",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -1728,14 +1488,6 @@
     ]
   },
   {
-    "id": "事情:shi4qing5",
-    "headword": "事情",
-    "reading": "shì qing",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "事故:shi4gu4",
     "headword": "事故",
     "reading": "shì gù",
@@ -1797,14 +1549,6 @@
     "reading": "kuī sǔn",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "云:Yun2",
-    "headword": "云",
-    "reading": "Yún",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -2208,14 +1952,6 @@
     ]
   },
   {
-    "id": "介绍:jie4shao4",
-    "headword": "介绍",
-    "reading": "jiè shào",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "仍旧:reng2jiu4",
     "headword": "仍旧",
     "reading": "réng jiù",
@@ -2229,22 +1965,6 @@
     "reading": "réng rán",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "从:cong2",
-    "headword": "从",
-    "reading": "cóng",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "从:Cong2",
-    "headword": "从",
-    "reading": "Cóng",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -2368,14 +2088,6 @@
     ]
   },
   {
-    "id": "以为:yi3wei2",
-    "headword": "以为",
-    "reading": "yǐ wéi",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "以便:yi3bian4",
     "headword": "以便",
     "reading": "yǐ biàn",
@@ -2392,27 +2104,11 @@
     ]
   },
   {
-    "id": "以前:yi3qian2",
-    "headword": "以前",
-    "reading": "yǐ qián",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "以及:yi3ji2",
     "headword": "以及",
     "reading": "yǐ jí",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "以后:yi3hou4",
-    "headword": "以后",
-    "reading": "yǐ hòu",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -2461,14 +2157,6 @@
     "reading": "yí shì",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "件:jian4",
-    "headword": "件",
-    "reading": "jiàn",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -2565,14 +2253,6 @@
     "reading": "xiū yǎng",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "休息:xiu1xi5",
-    "headword": "休息",
-    "reading": "xiū xi",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -2685,14 +2365,6 @@
     "reading": "kuài jì",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "会议:hui4yi4",
-    "headword": "会议",
-    "reading": "huì yì",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -2880,22 +2552,6 @@
     ]
   },
   {
-    "id": "但是:dan4shi4",
-    "headword": "但是",
-    "reading": "dàn shì",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "位:wei4",
-    "headword": "位",
-    "reading": "wèi",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "位于:wei4yu2",
     "headword": "位于",
     "reading": "wèi yú",
@@ -2909,14 +2565,6 @@
     "reading": "wèi zhi",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "低:di1",
-    "headword": "低",
-    "reading": "dī",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -2957,14 +2605,6 @@
     "reading": "tǐ xì",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "体育:ti3yu4",
-    "headword": "体育",
-    "reading": "tǐ yù",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -3016,14 +2656,6 @@
     ]
   },
   {
-    "id": "作业:zuo4ye4",
-    "headword": "作业",
-    "reading": "zuò yè",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "作为:zuo4wei2",
     "headword": "作为",
     "reading": "zuò wéi",
@@ -3072,14 +2704,6 @@
     ]
   },
   {
-    "id": "作用:zuo4yong4",
-    "headword": "作用",
-    "reading": "zuò yòng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "作者:zuo4zhe3",
     "headword": "作者",
     "reading": "zuò zhě",
@@ -3109,14 +2733,6 @@
     "reading": "jiā yáo",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "使:shi3",
-    "headword": "使",
-    "reading": "shǐ",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -3304,22 +2920,6 @@
     ]
   },
   {
-    "id": "便宜:bian4yi2",
-    "headword": "便宜",
-    "reading": "biàn yí",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "便宜:pian2yi5",
-    "headword": "便宜",
-    "reading": "pián yi",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "便条:bian4tiao2",
     "headword": "便条",
     "reading": "biàn tiáo",
@@ -3469,14 +3069,6 @@
     "reading": "bǎo zhàng",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "信:xin4",
-    "headword": "信",
-    "reading": "xìn",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -3693,14 +3285,6 @@
     "reading": "hòu xuǎn",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "借:jie4",
-    "headword": "借",
-    "reading": "jiè",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -3936,14 +3520,6 @@
     ]
   },
   {
-    "id": "健康:jian4kang1",
-    "headword": "健康",
-    "reading": "jiàn kāng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "健身房:jian4shen1fang2",
     "headword": "健身房",
     "reading": "jiàn shēn fáng",
@@ -4024,14 +3600,6 @@
     ]
   },
   {
-    "id": "像:xiang4",
-    "headword": "像",
-    "reading": "xiàng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "僵硬:jiang1ying4",
     "headword": "僵硬",
     "reading": "jiāng yìng",
@@ -4053,22 +3621,6 @@
     "reading": "yǔn xǔ",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "元:yuan2",
-    "headword": "元",
-    "reading": "yuán",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "元:Yuan2",
-    "headword": "元",
-    "reading": "Yuán",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -4165,14 +3717,6 @@
     "reading": "chōng zú",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "先:xian1",
-    "headword": "先",
-    "reading": "xiān",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -4408,14 +3952,6 @@
     ]
   },
   {
-    "id": "公共汽车:gong1gong4qi4che1",
-    "headword": "公共汽车",
-    "reading": "gōng gòng qì chē",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "公关:gong1guan1",
     "headword": "公关",
     "reading": "gōng guān",
@@ -4432,27 +3968,11 @@
     ]
   },
   {
-    "id": "公司:gong1si1",
-    "headword": "公司",
-    "reading": "gōng sī",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "公告:gong1gao4",
     "headword": "公告",
     "reading": "gōng gào",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "公园:gong1yuan2",
-    "headword": "公园",
-    "reading": "gōng yuán",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -4509,14 +4029,6 @@
     "reading": "gōng shì",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "公斤:gong1jin1",
-    "headword": "公斤",
-    "reading": "gōng jīn",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -4616,38 +4128,6 @@
     ]
   },
   {
-    "id": "关:guan1",
-    "headword": "关",
-    "reading": "guān",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "关:Guan1",
-    "headword": "关",
-    "reading": "Guān",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "关于:guan1yu2",
-    "headword": "关于",
-    "reading": "guān yú",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "关心:guan1xin1",
-    "headword": "关心",
-    "reading": "guān xīn",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "关怀:guan1huai2",
     "headword": "关怀",
     "reading": "guān huái",
@@ -4661,14 +4141,6 @@
     "reading": "guān zhào",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "关系:guan1xi5",
-    "headword": "关系",
-    "reading": "guān xi",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -4712,14 +4184,6 @@
     ]
   },
   {
-    "id": "兴趣:xing4qu4",
-    "headword": "兴趣",
-    "reading": "xìng qù",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "兴隆:xing1long2",
     "headword": "兴隆",
     "reading": "xīng lóng",
@@ -4752,27 +4216,11 @@
     ]
   },
   {
-    "id": "其他:qi2ta1",
-    "headword": "其他",
-    "reading": "qí tā",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "其余:qi2yu2",
     "headword": "其余",
     "reading": "qí yú",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "其实:qi2shi2",
-    "headword": "其实",
-    "reading": "qí shí",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -4888,14 +4336,6 @@
     ]
   },
   {
-    "id": "再:zai4",
-    "headword": "再",
-    "reading": "zài",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "再三:zai4san1",
     "headword": "再三",
     "reading": "zài sān",
@@ -4928,14 +4368,6 @@
     ]
   },
   {
-    "id": "最:zui4",
-    "headword": "最",
-    "reading": "zuì",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "最初:zui4chu1",
     "headword": "最初",
     "reading": "zuì chū",
@@ -4957,14 +4389,6 @@
     "reading": "zuì hǎo",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "最近:zui4jin4",
-    "headword": "最近",
-    "reading": "zuì jìn",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -5040,22 +4464,6 @@
     ]
   },
   {
-    "id": "冬:Dong1",
-    "headword": "冬",
-    "reading": "Dōng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "冰箱:bing1xiang1",
-    "headword": "冰箱",
-    "reading": "bīng xiāng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "冰雹:bing1bao2",
     "headword": "冰雹",
     "reading": "bīng báo",
@@ -5093,14 +4501,6 @@
     "reading": "chōng tū",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "决定:jue2ding4",
-    "headword": "决定",
-    "reading": "jué dìng",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -5192,14 +4592,6 @@
     ]
   },
   {
-    "id": "准备:zhun3bei4",
-    "headword": "准备",
-    "reading": "zhǔn bèi",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "准时:zhun3shi2",
     "headword": "准时",
     "reading": "zhǔn shí",
@@ -5280,14 +4672,6 @@
     ]
   },
   {
-    "id": "几乎:ji1hu1",
-    "headword": "几乎",
-    "reading": "jī hū",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "凡是:fan2shi4",
     "headword": "凡是",
     "reading": "fán shì",
@@ -5325,14 +4709,6 @@
     "reading": "āo tū",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "出:chu1",
-    "headword": "出",
-    "reading": "chū",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -5408,14 +4784,6 @@
     ]
   },
   {
-    "id": "出现:chu1xian4",
-    "headword": "出现",
-    "reading": "chū xiàn",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "出生:chu1sheng1",
     "headword": "出生",
     "reading": "chū shēng",
@@ -5469,22 +4837,6 @@
     "reading": "Dāo",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "分:fen1",
-    "headword": "分",
-    "reading": "fēn",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "分:fen4",
-    "headword": "分",
-    "reading": "fèn",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -5848,38 +5200,6 @@
     ]
   },
   {
-    "id": "别:bie2",
-    "headword": "别",
-    "reading": "bié",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "别:Bie2",
-    "headword": "别",
-    "reading": "Bié",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "别:bie4",
-    "headword": "别",
-    "reading": "biè",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "别人:bie2ren5",
-    "headword": "别人",
-    "reading": "bié ren",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "别墅:bie2shu4",
     "headword": "别墅",
     "reading": "bié shù",
@@ -5901,14 +5221,6 @@
     "reading": "bié zhì",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "到:dao4",
-    "headword": "到",
-    "reading": "dào",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -6008,22 +5320,6 @@
     ]
   },
   {
-    "id": "刷:shua1",
-    "headword": "刷",
-    "reading": "shuā",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "刷:shua4",
-    "headword": "刷",
-    "reading": "shuà",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "刹车:sha1che1",
     "headword": "刹车",
     "reading": "shā chē",
@@ -6061,14 +5357,6 @@
     "reading": "cì jī",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "刻:ke4",
-    "headword": "刻",
-    "reading": "kè",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -6256,22 +5544,6 @@
     ]
   },
   {
-    "id": "办公室:ban4gong1shi4",
-    "headword": "办公室",
-    "reading": "bàn gōng shì",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "办法:ban4fa3",
-    "headword": "办法",
-    "reading": "bàn fǎ",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "办理:ban4li3",
     "headword": "办理",
     "reading": "bàn lǐ",
@@ -6416,14 +5688,6 @@
     ]
   },
   {
-    "id": "动物:dong4wu4",
-    "headword": "动物",
-    "reading": "dòng wù",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "动画片:dong4hua4pian4",
     "headword": "动画片",
     "reading": "dòng huà piàn",
@@ -6477,14 +5741,6 @@
     "reading": "zhù lǐ",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "努力:nu3li4",
-    "headword": "努力",
-    "reading": "nǔ lì",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -6632,22 +5888,6 @@
     ]
   },
   {
-    "id": "包:bao1",
-    "headword": "包",
-    "reading": "bāo",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "包:Bao1",
-    "headword": "包",
-    "reading": "Bāo",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "包含:bao1han2",
     "headword": "包含",
     "reading": "bāo hán",
@@ -6760,14 +6000,6 @@
     ]
   },
   {
-    "id": "北方:bei3fang1",
-    "headword": "北方",
-    "reading": "běi fāng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "北极:bei3ji2",
     "headword": "北极",
     "reading": "běi jí",
@@ -6837,14 +6069,6 @@
     "reading": "qiān fāng bǎi jì",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "半:ban4",
-    "headword": "半",
-    "reading": "bàn",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -6973,30 +6197,6 @@
     "reading": "dān diào",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "卖:mai4",
-    "headword": "卖",
-    "reading": "mài",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "南:nan2",
-    "headword": "南",
-    "reading": "nán",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "南:Nan2",
-    "headword": "南",
-    "reading": "Nán",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -7192,14 +6392,6 @@
     ]
   },
   {
-    "id": "历史:li4shi3",
-    "headword": "历史",
-    "reading": "lì shǐ",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "历来:li4lai2",
     "headword": "历来",
     "reading": "lì lái",
@@ -7376,27 +6568,11 @@
     ]
   },
   {
-    "id": "厨房:chu2fang2",
-    "headword": "厨房",
-    "reading": "chú fáng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "去世:qu4shi4",
     "headword": "去世",
     "reading": "qù shì",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "去年:qu4nian2",
-    "headword": "去年",
-    "reading": "qù nián",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -7413,14 +6589,6 @@
     "reading": "cān yù",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "参加:can1jia1",
-    "headword": "参加",
-    "reading": "cān jiā",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -7453,14 +6621,6 @@
     "reading": "cān móu",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "又:you4",
-    "headword": "又",
-    "reading": "yòu",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -7517,22 +6677,6 @@
     "reading": "yǒu yì",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "双:shuang1",
-    "headword": "双",
-    "reading": "shuāng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "双:Shuang1",
-    "headword": "双",
-    "reading": "Shuāng",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -7808,22 +6952,6 @@
     ]
   },
   {
-    "id": "发烧:fa1shao1",
-    "headword": "发烧",
-    "reading": "fā shāo",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "发现:fa1xian4",
-    "headword": "发现",
-    "reading": "fā xiàn",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "发生:fa1sheng1",
     "headword": "发生",
     "reading": "fā shēng",
@@ -7904,14 +7032,6 @@
     ]
   },
   {
-    "id": "叔叔:shu1shu5",
-    "headword": "叔叔",
-    "reading": "shū shu",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "取:qu3",
     "headword": "取",
     "reading": "qǔ",
@@ -7968,14 +7088,6 @@
     ]
   },
   {
-    "id": "变化:bian4hua4",
-    "headword": "变化",
-    "reading": "biàn huà",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "变故:bian4gu4",
     "headword": "变故",
     "reading": "biàn gù",
@@ -8005,14 +7117,6 @@
     "reading": "xù shù",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "口:kou3",
-    "headword": "口",
-    "reading": "kǒu",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -8104,27 +7208,11 @@
     ]
   },
   {
-    "id": "句子:ju4zi5",
-    "headword": "句子",
-    "reading": "jù zi",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "另外:ling4wai4",
     "headword": "另外",
     "reading": "lìng wài",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "只:zhi3",
-    "headword": "只",
-    "reading": "zhǐ",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -8157,14 +7245,6 @@
     "reading": "dīng zhǔ",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "可以:ke3yi3",
-    "headword": "可以",
-    "reading": "kě yǐ",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -8216,27 +7296,11 @@
     ]
   },
   {
-    "id": "可爱:ke3ai4",
-    "headword": "可爱",
-    "reading": "kě ài",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "可笑:ke3xiao4",
     "headword": "可笑",
     "reading": "kě xiào",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "可能:ke3neng2",
-    "headword": "可能",
-    "reading": "kě néng",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -8280,35 +7344,11 @@
     ]
   },
   {
-    "id": "右边:you4bian5",
-    "headword": "右边",
-    "reading": "yòu bian",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "叶子:ye4zi5",
     "headword": "叶子",
     "reading": "yè zi",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "号:hao2",
-    "headword": "号",
-    "reading": "háo",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "号:hao4",
-    "headword": "号",
-    "reading": "hào",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -8333,14 +7373,6 @@
     "reading": "sī lìng",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "司机:si1ji1",
-    "headword": "司机",
-    "reading": "sī jī",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -8536,14 +7568,6 @@
     ]
   },
   {
-    "id": "同事:tong2shi4",
-    "headword": "同事",
-    "reading": "tóng shì",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "同志:tong2zhi4",
     "headword": "同志",
     "reading": "tóng zhì",
@@ -8557,14 +7581,6 @@
     "reading": "tóng qíng",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "同意:tong2yi4",
-    "headword": "同意",
-    "reading": "tóng yì",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -8704,14 +7720,6 @@
     ]
   },
   {
-    "id": "向:Xiang4",
-    "headword": "向",
-    "reading": "Xiàng",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "向导:xiang4dao3",
     "headword": "向导",
     "reading": "xiàng dǎo",
@@ -8797,30 +7805,6 @@
     "reading": "fǒu rèn",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "吧:ba1",
-    "headword": "吧",
-    "reading": "bā",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "吧:ba5",
-    "headword": "吧",
-    "reading": "ba",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "吧:bia1",
-    "headword": "吧",
-    "reading": "biā",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -8984,22 +7968,6 @@
     ]
   },
   {
-    "id": "告诉:gao4su4",
-    "headword": "告诉",
-    "reading": "gào sù",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "告诉:gao4su5",
-    "headword": "告诉",
-    "reading": "gào su",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "告诫:gao4jie4",
     "headword": "告诫",
     "reading": "gào jiè",
@@ -9069,14 +8037,6 @@
     "reading": "zhōu qī",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "周末:zhou1mo4",
-    "headword": "周末",
-    "reading": "zhōu mò",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -9237,14 +8197,6 @@
     "reading": "hé xié",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "咖啡:ka1fei1",
-    "headword": "咖啡",
-    "reading": "kā fēi",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -9432,14 +8384,6 @@
     ]
   },
   {
-    "id": "哥哥:ge1ge5",
-    "headword": "哥哥",
-    "reading": "gē ge",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "哦:e2",
     "headword": "哦",
     "reading": "é",
@@ -9485,14 +8429,6 @@
     "reading": "nǎ pà",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "哭:ku1",
-    "headword": "哭",
-    "reading": "kū",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -9568,14 +8504,6 @@
     ]
   },
   {
-    "id": "唱歌:chang4ge1",
-    "headword": "唱歌",
-    "reading": "chàng gē",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "唾沫:tuo4mo5",
     "headword": "唾沫",
     "reading": "tuò mo",
@@ -9621,54 +8549,6 @@
     "reading": "shāng liang",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "啊:a1",
-    "headword": "啊",
-    "reading": "ā",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "啊:a2",
-    "headword": "啊",
-    "reading": "á",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "啊:a3",
-    "headword": "啊",
-    "reading": "ǎ",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "啊:a4",
-    "headword": "啊",
-    "reading": "à",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "啊:a5",
-    "headword": "啊",
-    "reading": "a",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "啤酒:pi2jiu3",
-    "headword": "啤酒",
-    "reading": "pí jiǔ",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -9944,14 +8824,6 @@
     ]
   },
   {
-    "id": "回答:hui2da2",
-    "headword": "回答",
-    "reading": "huí dá",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "回避:hui2bi4",
     "headword": "回避",
     "reading": "huí bì",
@@ -9965,14 +8837,6 @@
     "reading": "huí gù",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "因为:yin1wei4",
-    "headword": "因为",
-    "reading": "yīn wèi",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -10104,14 +8968,6 @@
     ]
   },
   {
-    "id": "国家:guo2jia1",
-    "headword": "国家",
-    "reading": "guó jiā",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "国庆节:Guo2qing4jie2",
     "headword": "国庆节",
     "reading": "Guó qìng jié",
@@ -10141,14 +8997,6 @@
     "reading": "guó jì",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "图书馆:tu2shu1guan3",
-    "headword": "图书馆",
-    "reading": "tú shū guǎn",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -10256,22 +9104,6 @@
     ]
   },
   {
-    "id": "地:de5",
-    "headword": "地",
-    "reading": "de",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "地:di4",
-    "headword": "地",
-    "reading": "dì",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "地位:di4wei4",
     "headword": "地位",
     "reading": "dì wèi",
@@ -10296,35 +9128,11 @@
     ]
   },
   {
-    "id": "地图:di4tu2",
-    "headword": "地图",
-    "reading": "dì tú",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "地址:di4zhi3",
     "headword": "地址",
     "reading": "dì zhǐ",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "地方:di4fang1",
-    "headword": "地方",
-    "reading": "dì fāng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "地方:di4fang5",
-    "headword": "地方",
-    "reading": "dì fang",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -10384,14 +9192,6 @@
     ]
   },
   {
-    "id": "地铁:di4tie3",
-    "headword": "地铁",
-    "reading": "dì tiě",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "地震:di4zhen4",
     "headword": "地震",
     "reading": "dì zhèn",
@@ -10445,14 +9245,6 @@
     "reading": "jūn yún",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "坏:huai4",
-    "headword": "坏",
-    "reading": "huài",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -10597,14 +9389,6 @@
     "reading": "chéng bǎo",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "城市:cheng2shi4",
-    "headword": "城市",
-    "reading": "chéng shì",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -10896,14 +9680,6 @@
     ]
   },
   {
-    "id": "声音:sheng1yin1",
-    "headword": "声音",
-    "reading": "shēng yīn",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "壶:hu2",
     "headword": "壶",
     "reading": "hú",
@@ -10960,14 +9736,6 @@
     ]
   },
   {
-    "id": "复习:fu4xi2",
-    "headword": "复习",
-    "reading": "fù xí",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "复兴:fu4xing1",
     "headword": "复兴",
     "reading": "fù xīng",
@@ -11008,22 +9776,6 @@
     ]
   },
   {
-    "id": "夏:xia4",
-    "headword": "夏",
-    "reading": "xià",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "夏:Xia4",
-    "headword": "夏",
-    "reading": "Xià",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "夏令营:xia4ling4ying2",
     "headword": "夏令营",
     "reading": "xià lìng yíng",
@@ -11037,14 +9789,6 @@
     "reading": "xī yáng",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "外:wai4",
-    "headword": "外",
-    "reading": "wài",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -11085,14 +9829,6 @@
     "reading": "wài biǎo",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "多么:duo1me5",
-    "headword": "多么",
-    "reading": "duō me",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -11189,14 +9925,6 @@
     "reading": "dài fu",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "大家:da4jia1",
-    "headword": "大家",
-    "reading": "dà jiā",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -11368,14 +10096,6 @@
     ]
   },
   {
-    "id": "太阳:tai4yang5",
-    "headword": "太阳",
-    "reading": "tài yang",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "夫人:fu1ren5",
     "headword": "夫人",
     "reading": "fū ren",
@@ -11448,14 +10168,6 @@
     ]
   },
   {
-    "id": "头发:tou2fa5",
-    "headword": "头发",
-    "reading": "tóu fa",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "夹子:jia1zi5",
     "headword": "夹子",
     "reading": "jiā zi",
@@ -11477,14 +10189,6 @@
     "reading": "qí miào",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "奇怪:qi2guai4",
-    "headword": "奇怪",
-    "reading": "qí guài",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -11592,22 +10296,6 @@
     ]
   },
   {
-    "id": "女人:nv3ren2",
-    "headword": "女人",
-    "reading": "nǚ rén",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "女人:nv3ren5",
-    "headword": "女人",
-    "reading": "nǚ ren",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "女士:nv3shi4",
     "headword": "女士",
     "reading": "nǚ shì",
@@ -11624,35 +10312,11 @@
     ]
   },
   {
-    "id": "奶奶:nai3nai5",
-    "headword": "奶奶",
-    "reading": "nǎi nai",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "好像:hao3xiang4",
     "headword": "好像",
     "reading": "hǎo xiàng",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "好吃:hao3chi1",
-    "headword": "好吃",
-    "reading": "hǎo chī",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "好吃:hao4chi1",
-    "headword": "好吃",
-    "reading": "hào chī",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -11704,14 +10368,6 @@
     ]
   },
   {
-    "id": "如果:ru2guo3",
-    "headword": "如果",
-    "reading": "rú guǒ",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "妄想:wang4xiang3",
     "headword": "妄想",
     "reading": "wàng xiǎng",
@@ -11760,43 +10416,11 @@
     ]
   },
   {
-    "id": "妹妹:mei4mei5",
-    "headword": "妹妹",
-    "reading": "mèi mei",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "妻子:qi1zi3",
-    "headword": "妻子",
-    "reading": "qī zǐ",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "妻子:qi1zi5",
-    "headword": "妻子",
-    "reading": "qī zi",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "始终:shi3zhong1",
     "headword": "始终",
     "reading": "shǐ zhōng",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "姐姐:jie3jie5",
-    "headword": "姐姐",
-    "reading": "jiě jie",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -11821,14 +10445,6 @@
     "reading": "gū niang",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "姓:xing4",
-    "headword": "姓",
-    "reading": "xìng",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -12088,14 +10704,6 @@
     ]
   },
   {
-    "id": "字典:zi4dian3",
-    "headword": "字典",
-    "reading": "zì diǎn",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "字幕:zi4mu4",
     "headword": "字幕",
     "reading": "zì mù",
@@ -12168,14 +10776,6 @@
     ]
   },
   {
-    "id": "季节:ji4jie2",
-    "headword": "季节",
-    "reading": "jì jié",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "孤单:gu1dan1",
     "headword": "孤单",
     "reading": "gū dān",
@@ -12245,14 +10845,6 @@
     "reading": "xué wèn",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "孩子:hai2zi5",
-    "headword": "孩子",
-    "reading": "hái zi",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -12368,22 +10960,6 @@
     ]
   },
   {
-    "id": "安静:an1jing4",
-    "headword": "安静",
-    "reading": "ān jìng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "完:wan2",
-    "headword": "完",
-    "reading": "wán",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "完全:wan2quan2",
     "headword": "完全",
     "reading": "wán quán",
@@ -12405,14 +10981,6 @@
     "reading": "wán bèi",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "完成:wan2cheng2",
-    "headword": "完成",
-    "reading": "wán chéng",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -12680,14 +11248,6 @@
     ]
   },
   {
-    "id": "客人:ke4ren2",
-    "headword": "客人",
-    "reading": "kè rén",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "客厅:ke4ting1",
     "headword": "客厅",
     "reading": "kè tīng",
@@ -12765,14 +11325,6 @@
     "reading": "zǎi",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "害怕:hai4pa4",
-    "headword": "害怕",
-    "reading": "hài pà",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -12872,14 +11424,6 @@
     ]
   },
   {
-    "id": "容易:rong2yi4",
-    "headword": "容易",
-    "reading": "róng yì",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "容纳:rong2na4",
     "headword": "容纳",
     "reading": "róng nà",
@@ -12917,14 +11461,6 @@
     "reading": "kuān chang",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "宾馆:bin1guan3",
-    "headword": "宾馆",
-    "reading": "bīn guǎn",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -13384,27 +11920,11 @@
     ]
   },
   {
-    "id": "小心:xiao3xin1",
-    "headword": "小心",
-    "reading": "xiǎo xīn",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "小心翼翼:xiao3xin1yi4yi4",
     "headword": "小心翼翼",
     "reading": "xiǎo xīn yì yì",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "小时:xiao3shi2",
-    "headword": "小时",
-    "reading": "xiǎo shí",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -13461,14 +11981,6 @@
     "reading": "yóu qí",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "就:jiu4",
-    "headword": "就",
-    "reading": "jiù",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -13605,14 +12117,6 @@
     "reading": "pì gu",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "层:ceng2",
-    "headword": "层",
-    "reading": "céng",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -13976,14 +12480,6 @@
     ]
   },
   {
-    "id": "左边:zuo3bian5",
-    "headword": "左边",
-    "reading": "zuǒ bian",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "巧克力:qiao3ke4li4",
     "headword": "巧克力",
     "reading": "qiǎo kè lì",
@@ -14016,38 +12512,6 @@
     ]
   },
   {
-    "id": "差:cha1",
-    "headword": "差",
-    "reading": "chā",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "差:cha4",
-    "headword": "差",
-    "reading": "chà",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "差:chai1",
-    "headword": "差",
-    "reading": "chāi",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "差:ci1",
-    "headword": "差",
-    "reading": "cī",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "差不多:cha4bu5duo1",
     "headword": "差不多",
     "reading": "chà bu duō",
@@ -14069,14 +12533,6 @@
     "reading": "chā jù",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "已经:yi3jing1",
-    "headword": "已经",
-    "reading": "yǐ jīng",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -14168,14 +12624,6 @@
     ]
   },
   {
-    "id": "希望:xi1wang4",
-    "headword": "希望",
-    "reading": "xī wàng",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "帐篷:zhang4peng5",
     "headword": "帐篷",
     "reading": "zhàng peng",
@@ -14184,35 +12632,11 @@
     ]
   },
   {
-    "id": "带:dai4",
-    "headword": "带",
-    "reading": "dài",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "带领:dai4ling3",
     "headword": "带领",
     "reading": "dài lǐng",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "帮助:bang1zhu4",
-    "headword": "帮助",
-    "reading": "bāng zhù",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "帮忙:bang1mang2",
-    "headword": "帮忙",
-    "reading": "bāng máng",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -14237,14 +12661,6 @@
     "reading": "cháng shí",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "帽子:mao4zi5",
-    "headword": "帽子",
-    "reading": "mào zi",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -14285,14 +12701,6 @@
     "reading": "gàn",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "干净:gan1jing4",
-    "headword": "干净",
-    "reading": "gān jìng",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -14496,27 +12904,11 @@
     ]
   },
   {
-    "id": "年级:nian2ji2",
-    "headword": "年级",
-    "reading": "nián jí",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "年纪:nian2ji4",
     "headword": "年纪",
     "reading": "nián jì",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "年轻:nian2qing1",
-    "headword": "年轻",
-    "reading": "nián qīng",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -14744,14 +13136,6 @@
     ]
   },
   {
-    "id": "应该:ying1gai1",
-    "headword": "应该",
-    "reading": "yīng gāi",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "应邀:ying4yao1",
     "headword": "应邀",
     "reading": "yìng yāo",
@@ -14944,14 +13328,6 @@
     ]
   },
   {
-    "id": "开始:kai1shi3",
-    "headword": "开始",
-    "reading": "kāi shǐ",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "开展:kai1zhan3",
     "headword": "开展",
     "reading": "kāi zhǎn",
@@ -15133,30 +13509,6 @@
     "reading": "yǐn qǐ",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "弟弟:di4di5",
-    "headword": "弟弟",
-    "reading": "dì di",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "张:zhang1",
-    "headword": "张",
-    "reading": "zhāng",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "张:Zhang1",
-    "headword": "张",
-    "reading": "Zhāng",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -15376,14 +13728,6 @@
     ]
   },
   {
-    "id": "当然:dang1ran2",
-    "headword": "当然",
-    "reading": "dāng rán",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "当选:dang1xuan3",
     "headword": "当选",
     "reading": "dāng xuǎn",
@@ -15485,14 +13829,6 @@
     "reading": "cǎi hóng",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "影响:ying3xiang3",
-    "headword": "影响",
-    "reading": "yǐng xiǎng",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -15605,30 +13941,6 @@
     "reading": "tú dì",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "得:de2",
-    "headword": "得",
-    "reading": "dé",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "得:de5",
-    "headword": "得",
-    "reading": "de",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "得:dei3",
-    "headword": "得",
-    "reading": "děi",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -15832,14 +14144,6 @@
     ]
   },
   {
-    "id": "必须:bi4xu1",
-    "headword": "必须",
-    "reading": "bì xū",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "忌讳:ji4hui4",
     "headword": "忌讳",
     "reading": "jì huì",
@@ -15880,22 +14184,6 @@
     ]
   },
   {
-    "id": "忘记:wang4ji4",
-    "headword": "忘记",
-    "reading": "wàng jì",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "忙:mang2",
-    "headword": "忙",
-    "reading": "máng",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "忙碌:mang2lu4",
     "headword": "忙碌",
     "reading": "máng lù",
@@ -15925,22 +14213,6 @@
     "reading": "yōu yù",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "快:kuai4",
-    "headword": "快",
-    "reading": "kuài",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "快乐:kuai4le4",
-    "headword": "快乐",
-    "reading": "kuài lè",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -16208,14 +14480,6 @@
     ]
   },
   {
-    "id": "总是:zong3shi4",
-    "headword": "总是",
-    "reading": "zǒng shì",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "总理:zong3li3",
     "headword": "总理",
     "reading": "zǒng lǐ",
@@ -16453,14 +14717,6 @@
     "reading": "huàn zhě",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "您:nin2",
-    "headword": "您",
-    "reading": "nín",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -16720,14 +14976,6 @@
     ]
   },
   {
-    "id": "意思:yi4si5",
-    "headword": "意思",
-    "reading": "yì si",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "意料:yi4liao4",
     "headword": "意料",
     "reading": "yì liào",
@@ -16765,14 +15013,6 @@
     "reading": "yú chǔn",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "感冒:gan3mao4",
-    "headword": "感冒",
-    "reading": "gǎn mào",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -16864,14 +15104,6 @@
     ]
   },
   {
-    "id": "愿意:yuan4yi4",
-    "headword": "愿意",
-    "reading": "yuàn yì",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "愿望:yuan4wang4",
     "headword": "愿望",
     "reading": "yuàn wàng",
@@ -16912,14 +15144,6 @@
     ]
   },
   {
-    "id": "慢:man4",
-    "headword": "慢",
-    "reading": "màn",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "慢性:man4xing4",
     "headword": "慢性",
     "reading": "màn xìng",
@@ -16949,14 +15173,6 @@
     "reading": "biē",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "懂:dong3",
-    "headword": "懂",
-    "reading": "dǒng",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -17088,14 +15304,6 @@
     ]
   },
   {
-    "id": "成绩:cheng2ji4",
-    "headword": "成绩",
-    "reading": "chéng jì",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "成语:cheng2yu3",
     "headword": "成语",
     "reading": "chéng yǔ",
@@ -17133,14 +15341,6 @@
     "reading": "jiè yān",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "或者:huo4zhe3",
-    "headword": "或者",
-    "reading": "huò zhě",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -17224,27 +15424,11 @@
     ]
   },
   {
-    "id": "房间:fang2jian1",
-    "headword": "房间",
-    "reading": "fáng jiān",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "所:suo3",
     "headword": "所",
     "reading": "suǒ",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "所以:suo3yi3",
-    "headword": "所以",
-    "reading": "suǒ yǐ",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -17336,14 +15520,6 @@
     ]
   },
   {
-    "id": "手机:shou3ji1",
-    "headword": "手机",
-    "reading": "shǒu jī",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "手法:shou3fa3",
     "headword": "手法",
     "reading": "shǒu fǎ",
@@ -17365,14 +15541,6 @@
     "reading": "shǒu yì",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "手表:shou3biao3",
-    "headword": "手表",
-    "reading": "shǒu biǎo",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -17504,14 +15672,6 @@
     ]
   },
   {
-    "id": "打扫:da3sao3",
-    "headword": "打扫",
-    "reading": "dǎ sǎo",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "打扮:da3ban5",
     "headword": "打扮",
     "reading": "dǎ ban",
@@ -17557,14 +15717,6 @@
     "reading": "dǎ liè",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "打算:da3suan4",
-    "headword": "打算",
-    "reading": "dǎ suàn",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -17736,14 +15888,6 @@
     ]
   },
   {
-    "id": "找:zhao3",
-    "headword": "找",
-    "reading": "zhǎo",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "承办:cheng2ban4",
     "headword": "承办",
     "reading": "chéng bàn",
@@ -17821,22 +15965,6 @@
     "reading": "chāo",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "把:ba3",
-    "headword": "把",
-    "reading": "bǎ",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "把:ba4",
-    "headword": "把",
-    "reading": "bà",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -18032,14 +16160,6 @@
     ]
   },
   {
-    "id": "护照:hu4zhao4",
-    "headword": "护照",
-    "reading": "hù zhào",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "报仇:bao4chou2",
     "headword": "报仇",
     "reading": "bào chóu",
@@ -18093,14 +16213,6 @@
     "reading": "bào dá",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "报纸:bao4zhi3",
-    "headword": "报纸",
-    "reading": "bào zhǐ",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -18269,14 +16381,6 @@
     "reading": "dān bǎo",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "担心:dan1xin1",
-    "headword": "担心",
-    "reading": "dān xīn",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -18573,14 +16677,6 @@
     "reading": "shí",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "拿:na2",
-    "headword": "拿",
-    "reading": "ná",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -19008,14 +17104,6 @@
     ]
   },
   {
-    "id": "换:huan4",
-    "headword": "换",
-    "reading": "huàn",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "捣乱:dao3luan4",
     "headword": "捣乱",
     "reading": "dǎo luàn",
@@ -19181,14 +17269,6 @@
     "reading": "tàn tǎo",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "接:jie1",
-    "headword": "接",
-    "reading": "jiē",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -19496,14 +17576,6 @@
     ]
   },
   {
-    "id": "提高:ti2gao1",
-    "headword": "提高",
-    "reading": "tí gāo",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "插:cha1",
     "headword": "插",
     "reading": "chā",
@@ -19613,14 +17685,6 @@
     "reading": "gǎo",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "搬:ban1",
-    "headword": "搬",
-    "reading": "bān",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -20184,14 +18248,6 @@
     ]
   },
   {
-    "id": "放:fang4",
-    "headword": "放",
-    "reading": "fàng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "放大:fang4da4",
     "headword": "放大",
     "reading": "fàng dà",
@@ -20213,14 +18269,6 @@
     "reading": "fàng qì",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "放心:fang4xin1",
-    "headword": "放心",
-    "reading": "fàng xīn",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -20277,22 +18325,6 @@
     "reading": "zhèng cè",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "故事:gu4shi4",
-    "headword": "故事",
-    "reading": "gù shì",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "故事:gu4shi5",
-    "headword": "故事",
-    "reading": "gù shi",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -20408,43 +18440,11 @@
     ]
   },
   {
-    "id": "教:jiao1",
-    "headword": "教",
-    "reading": "jiāo",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "教:jiao4",
-    "headword": "教",
-    "reading": "jiào",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "教:Jiao4",
-    "headword": "教",
-    "reading": "Jiào",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "教养:jiao4yang3",
     "headword": "教养",
     "reading": "jiào yǎng",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "教室:jiao4shi4",
-    "headword": "教室",
-    "reading": "jiào shì",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -20493,14 +18493,6 @@
     "reading": "chǎng kāi",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "敢:gan3",
-    "headword": "敢",
-    "reading": "gǎn",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -20581,14 +18573,6 @@
     "reading": "shù zì",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "数学:shu4xue2",
-    "headword": "数学",
-    "reading": "shù xué",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -20709,14 +18693,6 @@
     "reading": "wén píng",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "文化:wen2hua4",
-    "headword": "文化",
-    "reading": "wén huà",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -20856,22 +18832,6 @@
     ]
   },
   {
-    "id": "新:xin1",
-    "headword": "新",
-    "reading": "xīn",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "新:Xin1",
-    "headword": "新",
-    "reading": "Xīn",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "新娘:xin1niang2",
     "headword": "新娘",
     "reading": "xīn niáng",
@@ -20888,14 +18848,6 @@
     ]
   },
   {
-    "id": "新闻:xin1wen2",
-    "headword": "新闻",
-    "reading": "xīn wén",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "新陈代谢:xin1chen2dai4xie4",
     "headword": "新陈代谢",
     "reading": "xīn chén dài xiè",
@@ -20909,14 +18861,6 @@
     "reading": "xīn yǐng",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "新鲜:xin1xian1",
-    "headword": "新鲜",
-    "reading": "xīn xiān",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -20941,14 +18885,6 @@
     "reading": "fāng wèi",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "方便:fang1bian4",
-    "headword": "方便",
-    "reading": "fāng biàn",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -21029,22 +18965,6 @@
     "reading": "shī zhǎn",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "旁边:pang2bian1",
-    "headword": "旁边",
-    "reading": "páng biān",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "旅游:lv3you2",
-    "headword": "旅游",
-    "reading": "lǚ yóu",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -21320,22 +19240,6 @@
     ]
   },
   {
-    "id": "旧:jiu4",
-    "headword": "旧",
-    "reading": "jiù",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "早上:zao3shang5",
-    "headword": "早上",
-    "reading": "zǎo shang",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "时事:shi2shi4",
     "headword": "时事",
     "reading": "shí shì",
@@ -21432,14 +19336,6 @@
     ]
   },
   {
-    "id": "时间:shi2jian1",
-    "headword": "时间",
-    "reading": "shí jiān",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "时髦:shi2mao2",
     "headword": "时髦",
     "reading": "shí máo",
@@ -21512,14 +19408,6 @@
     ]
   },
   {
-    "id": "明白:ming2bai5",
-    "headword": "明白",
-    "reading": "míng bai",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "明确:ming2que4",
     "headword": "明确",
     "reading": "míng què",
@@ -21541,22 +19429,6 @@
     "reading": "xī rì",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "春:chun1",
-    "headword": "春",
-    "reading": "chūn",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "春:Chun1",
-    "headword": "春",
-    "reading": "Chūn",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -21648,27 +19520,11 @@
     ]
   },
   {
-    "id": "晚上:wan3shang5",
-    "headword": "晚上",
-    "reading": "wǎn shang",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "普及:pu3ji2",
     "headword": "普及",
     "reading": "pǔ jí",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "普通话:pu3tong1hua4",
-    "headword": "普通话",
-    "reading": "pǔ tōng huà",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -21685,14 +19541,6 @@
     "reading": "jǐng sè",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "晴:qing2",
-    "headword": "晴",
-    "reading": "qíng",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -21824,22 +19672,6 @@
     ]
   },
   {
-    "id": "更:geng1",
-    "headword": "更",
-    "reading": "gēng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "更:geng4",
-    "headword": "更",
-    "reading": "gèng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "更加:geng4jia1",
     "headword": "更加",
     "reading": "gèng jiā",
@@ -21872,27 +19704,11 @@
     ]
   },
   {
-    "id": "月亮:yue4liang5",
-    "headword": "月亮",
-    "reading": "yuè liang",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "有利:you3li4",
     "headword": "有利",
     "reading": "yǒu lì",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "有名:you3ming2",
-    "headword": "有名",
-    "reading": "yǒu míng",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -21917,14 +19733,6 @@
     "reading": "fú cóng",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "服务员:fu2wu4yuan2",
-    "headword": "服务员",
-    "reading": "fú wù yuán",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -22168,14 +19976,6 @@
     ]
   },
   {
-    "id": "机会:ji1hui4",
-    "headword": "机会",
-    "reading": "jī huì",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "机关:ji1guan1",
     "headword": "机关",
     "reading": "jī guān",
@@ -22197,14 +19997,6 @@
     "reading": "jī qì",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "机场:ji1chang3",
-    "headword": "机场",
-    "reading": "jī chǎng",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -22376,14 +20168,6 @@
     ]
   },
   {
-    "id": "条:tiao2",
-    "headword": "条",
-    "reading": "tiáo",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "条件:tiao2jian4",
     "headword": "条件",
     "reading": "tiáo jiàn",
@@ -22453,14 +20237,6 @@
     "reading": "lái zì",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "极:ji2",
-    "headword": "极",
-    "reading": "jí",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -22549,14 +20325,6 @@
     "reading": "guǒ duàn",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "果汁:guo3zhi1",
-    "headword": "果汁",
-    "reading": "guǒ zhī",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -22712,27 +20480,11 @@
     ]
   },
   {
-    "id": "树:shu4",
-    "headword": "树",
-    "reading": "shù",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "树立:shu4li4",
     "headword": "树立",
     "reading": "shù lì",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "校长:xiao4zhang3",
-    "headword": "校长",
-    "reading": "xiào zhǎng",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -22781,14 +20533,6 @@
     "reading": "gēn",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "根据:gen1ju4",
-    "headword": "根据",
-    "reading": "gēn jù",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -22968,14 +20712,6 @@
     ]
   },
   {
-    "id": "检查:jian3cha2",
-    "headword": "检查",
-    "reading": "jiǎn chá",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "检讨:jian3tao3",
     "headword": "检讨",
     "reading": "jiǎn tǎo",
@@ -23053,22 +20789,6 @@
     "reading": "tuǒ yuán",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "楼:lou2",
-    "headword": "楼",
-    "reading": "lóu",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "楼:Lou2",
-    "headword": "楼",
-    "reading": "Lóu",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -23184,14 +20904,6 @@
     ]
   },
   {
-    "id": "次:ci4",
-    "headword": "次",
-    "reading": "cì",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "次品:ci4pin3",
     "headword": "次品",
     "reading": "cì pǐn",
@@ -23221,14 +20933,6 @@
     "reading": "huān lè",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "欢迎:huan1ying2",
-    "headword": "欢迎",
-    "reading": "huān yíng",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -23349,14 +21053,6 @@
     "reading": "zhèng yì",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "正在:zheng4zai4",
-    "headword": "正在",
-    "reading": "zhèng zài",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -23608,22 +21304,6 @@
     ]
   },
   {
-    "id": "段:duan4",
-    "headword": "段",
-    "reading": "duàn",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "段:Duan4",
-    "headword": "段",
-    "reading": "Duàn",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "毁灭:hui3mie4",
     "headword": "毁灭",
     "reading": "huǐ miè",
@@ -23664,43 +21344,11 @@
     ]
   },
   {
-    "id": "每:mei3",
-    "headword": "每",
-    "reading": "měi",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "毒品:du2pin3",
     "headword": "毒品",
     "reading": "dú pǐn",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "比:bi1",
-    "headword": "比",
-    "reading": "bī",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "比:bi3",
-    "headword": "比",
-    "reading": "bǐ",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "比:Bi3",
-    "headword": "比",
-    "reading": "Bǐ",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -23733,22 +21381,6 @@
     "reading": "bǐ fang",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "比赛:bi3sai4",
-    "headword": "比赛",
-    "reading": "bǐ sài",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "比较:bi3jiao4",
-    "headword": "比较",
-    "reading": "bǐ jiào",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -23957,14 +21589,6 @@
     "reading": "shuǐ lì",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "水平:shui3ping2",
-    "headword": "水平",
-    "reading": "shuǐ píng",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -24184,14 +21808,6 @@
     ]
   },
   {
-    "id": "河:he2",
-    "headword": "河",
-    "reading": "hé",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "沸腾:fei4teng2",
     "headword": "沸腾",
     "reading": "fèi téng",
@@ -24360,14 +21976,6 @@
     ]
   },
   {
-    "id": "注意:zhu4yi4",
-    "headword": "注意",
-    "reading": "zhù yì",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "注视:zhu4shi4",
     "headword": "注视",
     "reading": "zhù shì",
@@ -24413,30 +22021,6 @@
     "reading": "sǎ",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "洗:xi3",
-    "headword": "洗",
-    "reading": "xǐ",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "洗手间:xi3shou3jian1",
-    "headword": "洗手间",
-    "reading": "xǐ shǒu jiān",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "洗澡:xi3zao3",
-    "headword": "洗澡",
-    "reading": "xǐ zǎo",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -25048,14 +22632,6 @@
     ]
   },
   {
-    "id": "清楚:qing1chu5",
-    "headword": "清楚",
-    "reading": "qīng chu",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "清洁:qing1jie2",
     "headword": "清洁",
     "reading": "qīng jié",
@@ -25208,35 +22784,11 @@
     ]
   },
   {
-    "id": "渴:ke3",
-    "headword": "渴",
-    "reading": "kě",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "渴望:ke3wang4",
     "headword": "渴望",
     "reading": "kě wàng",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "游戏:you2xi4",
-    "headword": "游戏",
-    "reading": "yóu xì",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "游泳:you2yong3",
-    "headword": "游泳",
-    "reading": "yóu yǒng",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -25373,14 +22925,6 @@
     "reading": "Mǎn",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "满意:man3yi4",
-    "headword": "满意",
-    "reading": "mǎn yì",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -25672,14 +23216,6 @@
     ]
   },
   {
-    "id": "灯:deng1",
-    "headword": "灯",
-    "reading": "dēng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "灯笼:deng1long2",
     "headword": "灯笼",
     "reading": "dēng lóng",
@@ -25872,14 +23408,6 @@
     ]
   },
   {
-    "id": "热情:re4qing2",
-    "headword": "热情",
-    "reading": "rè qíng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "热泪盈眶:re4lei4ying2kuang4",
     "headword": "热泪盈眶",
     "reading": "rè lèi yíng kuàng",
@@ -25941,14 +23469,6 @@
     "reading": "jiāo diǎn",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "然后:ran2hou4",
-    "headword": "然后",
-    "reading": "rán hòu",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -26024,22 +23544,6 @@
     ]
   },
   {
-    "id": "照片:zhao4pian4",
-    "headword": "照片",
-    "reading": "zhào piàn",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "照相机:zhao4xiang4ji1",
-    "headword": "照相机",
-    "reading": "zhào xiàng jī",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "照耀:zhao4yao4",
     "headword": "照耀",
     "reading": "zhào yào",
@@ -26048,27 +23552,11 @@
     ]
   },
   {
-    "id": "照顾:zhao4gu5",
-    "headword": "照顾",
-    "reading": "zhào gu",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "熄灭:xi1mie4",
     "headword": "熄灭",
     "reading": "xī miè",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "熊猫:xiong2mao1",
-    "headword": "熊猫",
-    "reading": "xióng māo",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -26160,27 +23648,11 @@
     ]
   },
   {
-    "id": "爬山:pa2shan1",
-    "headword": "爬山",
-    "reading": "pá shān",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "爱不释手:ai4bu4shi4shou3",
     "headword": "爱不释手",
     "reading": "ài bù shì shǒu",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "爱好:ai4hao4",
-    "headword": "爱好",
-    "reading": "ài hào",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -26229,14 +23701,6 @@
     "reading": "fù qīn",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "爷爷:ye2ye5",
-    "headword": "爷爷",
-    "reading": "yé ye",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -26309,14 +23773,6 @@
     "reading": "niú zǎi kù",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "牛奶:niu2nai3",
-    "headword": "牛奶",
-    "reading": "niú nǎi",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -26397,14 +23853,6 @@
     "reading": "qiān chě",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "特别:te4bie2",
-    "headword": "特别",
-    "reading": "tè bié",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -26688,14 +24136,6 @@
     ]
   },
   {
-    "id": "环境:huan2jing4",
-    "headword": "环境",
-    "reading": "huán jìng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "环节:huan2jie2",
     "headword": "环节",
     "reading": "huán jié",
@@ -26805,22 +24245,6 @@
     "reading": "zhēn guì",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "班:ban1",
-    "headword": "班",
-    "reading": "bān",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "班:Ban1",
-    "headword": "班",
-    "reading": "Bān",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -26960,14 +24384,6 @@
     ]
   },
   {
-    "id": "甜:tian2",
-    "headword": "甜",
-    "reading": "tián",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "生产:sheng1chan3",
     "headword": "生产",
     "reading": "shēng chǎn",
@@ -27016,27 +24432,11 @@
     ]
   },
   {
-    "id": "生日:sheng1ri4",
-    "headword": "生日",
-    "reading": "shēng rì",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "生机:sheng1ji1",
     "headword": "生机",
     "reading": "shēng jī",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "生气:sheng1qi4",
-    "headword": "生气",
-    "reading": "shēng qì",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -27072,14 +24472,6 @@
     ]
   },
   {
-    "id": "生病:sheng1bing4",
-    "headword": "生病",
-    "reading": "shēng bìng",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "生育:sheng1yu4",
     "headword": "生育",
     "reading": "shēng yù",
@@ -27093,14 +24485,6 @@
     "reading": "shēng xiù",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "用:yong4",
-    "headword": "用",
-    "reading": "yòng",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -27216,22 +24600,6 @@
     ]
   },
   {
-    "id": "电子:dian4zi3",
-    "headword": "电子",
-    "reading": "diàn zǐ",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "电梯:dian4ti1",
-    "headword": "电梯",
-    "reading": "diàn tī",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "电池:dian4chi2",
     "headword": "电池",
     "reading": "diàn chí",
@@ -27245,22 +24613,6 @@
     "reading": "diàn yuán",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "男人:nan2ren2",
-    "headword": "男人",
-    "reading": "nán rén",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "画:hua4",
-    "headword": "画",
-    "reading": "huà",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -27456,14 +24808,6 @@
     ]
   },
   {
-    "id": "疼:teng2",
-    "headword": "疼",
-    "reading": "téng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "疼爱:teng2ai4",
     "headword": "疼爱",
     "reading": "téng ài",
@@ -27520,14 +24864,6 @@
     ]
   },
   {
-    "id": "瘦:shou4",
-    "headword": "瘦",
-    "reading": "shòu",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "瘫痪:tan1huan4",
     "headword": "瘫痪",
     "reading": "tān huàn",
@@ -27581,38 +24917,6 @@
     "reading": "dēng lù",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "白:bai2",
-    "headword": "白",
-    "reading": "bái",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "白:Bai2",
-    "headword": "白",
-    "reading": "Bái",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "百:bai3",
-    "headword": "百",
-    "reading": "bǎi",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "百:Bai3",
-    "headword": "百",
-    "reading": "Bǎi",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -27784,14 +25088,6 @@
     ]
   },
   {
-    "id": "盘子:pan2zi5",
-    "headword": "盘子",
-    "reading": "pán zi",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "盘旋:pan2xuan2",
     "headword": "盘旋",
     "reading": "pán xuán",
@@ -27960,14 +25256,6 @@
     ]
   },
   {
-    "id": "相信:xiang1xin4",
-    "headword": "相信",
-    "reading": "xiāng xìn",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "相关:xiang1guan1",
     "headword": "相关",
     "reading": "xiāng guān",
@@ -27981,14 +25269,6 @@
     "reading": "xiāng fǎn",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "相同:xiang1tong2",
-    "headword": "相同",
-    "reading": "xiāng tóng",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -28136,14 +25416,6 @@
     ]
   },
   {
-    "id": "真:zhen1",
-    "headword": "真",
-    "reading": "zhēn",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "真实:zhen1shi2",
     "headword": "真实",
     "reading": "zhēn shí",
@@ -28224,14 +25496,6 @@
     ]
   },
   {
-    "id": "眼睛:yan3jing5",
-    "headword": "眼睛",
-    "reading": "yǎn jing",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "眼神:yan3shen2",
     "headword": "眼神",
     "reading": "yǎn shén",
@@ -28248,14 +25512,6 @@
     ]
   },
   {
-    "id": "眼镜:yan3jing4",
-    "headword": "眼镜",
-    "reading": "yǎn jìng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "睁:zheng1",
     "headword": "睁",
     "reading": "zhēng",
@@ -28264,51 +25520,11 @@
     ]
   },
   {
-    "id": "着:zhao1",
-    "headword": "着",
-    "reading": "zhāo",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "着:zhao2",
-    "headword": "着",
-    "reading": "zháo",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "着:zhe5",
-    "headword": "着",
-    "reading": "zhe",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "着:zhuo2",
-    "headword": "着",
-    "reading": "zhuó",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "着凉:zhao2liang2",
     "headword": "着凉",
     "reading": "zháo liáng",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "着急:zhao2ji2",
-    "headword": "着急",
-    "reading": "zháo jí",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -28416,22 +25632,6 @@
     ]
   },
   {
-    "id": "知道:zhi1dao4",
-    "headword": "知道",
-    "reading": "zhī dào",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "短:duan3",
-    "headword": "短",
-    "reading": "duǎn",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "短促:duan3cu4",
     "headword": "短促",
     "reading": "duǎn cù",
@@ -28445,14 +25645,6 @@
     "reading": "duǎn xìn",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "矮:ai3",
-    "headword": "矮",
-    "reading": "ǎi",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -28640,14 +25832,6 @@
     ]
   },
   {
-    "id": "碗:wan3",
-    "headword": "碗",
-    "reading": "wǎn",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "碰见:peng4jian4",
     "headword": "碰见",
     "reading": "pèng jiàn",
@@ -28744,14 +25928,6 @@
     ]
   },
   {
-    "id": "礼物:li3wu4",
-    "headword": "礼物",
-    "reading": "lǐ wù",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "礼节:li3jie2",
     "headword": "礼节",
     "reading": "lǐ jié",
@@ -28829,22 +26005,6 @@
     "reading": "zǔ fù",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "祝:zhu4",
-    "headword": "祝",
-    "reading": "zhù",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "祝:Zhu4",
-    "headword": "祝",
-    "reading": "Zhù",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -28944,14 +26104,6 @@
     ]
   },
   {
-    "id": "票:piao4",
-    "headword": "票",
-    "reading": "piào",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "禁止:jin4zhi3",
     "headword": "禁止",
     "reading": "jìn zhǐ",
@@ -28976,43 +26128,11 @@
     ]
   },
   {
-    "id": "离:chi1",
-    "headword": "离",
-    "reading": "chī",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "离:li2",
-    "headword": "离",
-    "reading": "lí",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "离:Li2",
-    "headword": "离",
-    "reading": "Lí",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "离婚:li2hun1",
     "headword": "离婚",
     "reading": "lí hūn",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "离开:li2kai1",
-    "headword": "离开",
-    "reading": "lí kāi",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -29037,30 +26157,6 @@
     "reading": "tū",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "秋:Qiu1",
-    "headword": "秋",
-    "reading": "Qiū",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "种:zhong3",
-    "headword": "种",
-    "reading": "zhǒng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "种:zhong4",
-    "headword": "种",
-    "reading": "zhòng",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -29352,14 +26448,6 @@
     ]
   },
   {
-    "id": "空调:kong1tiao2",
-    "headword": "空调",
-    "reading": "kōng tiáo",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "空闲:kong4xian2",
     "headword": "空闲",
     "reading": "kòng xián",
@@ -29384,14 +26472,6 @@
     ]
   },
   {
-    "id": "穿:chuan1",
-    "headword": "穿",
-    "reading": "chuān",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "穿越:chuan1yue4",
     "headword": "穿越",
     "reading": "chuān yuè",
@@ -29405,14 +26485,6 @@
     "reading": "tū chū",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "突然:tu1ran2",
-    "headword": "突然",
-    "reading": "tū rán",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -29528,14 +26600,6 @@
     ]
   },
   {
-    "id": "站:zhan4",
-    "headword": "站",
-    "reading": "zhàn",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "竞争:jing4zheng1",
     "headword": "竞争",
     "reading": "jìng zhēng",
@@ -29600,14 +26664,6 @@
     ]
   },
   {
-    "id": "笑:xiao4",
-    "headword": "笑",
-    "reading": "xiào",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "笑话:xiao4hua5",
     "headword": "笑话",
     "reading": "xiào hua",
@@ -29653,14 +26709,6 @@
     "reading": "bèn zhuō",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "第一:di4yi1",
-    "headword": "第一",
-    "reading": "dì yī",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -29776,14 +26824,6 @@
     ]
   },
   {
-    "id": "筷子:kuai4zi5",
-    "headword": "筷子",
-    "reading": "kuài zi",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "筹备:chou2bei4",
     "headword": "筹备",
     "reading": "chóu bèi",
@@ -29837,14 +26877,6 @@
     "reading": "jiǎn huà",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "简单:jian3dan1",
-    "headword": "简单",
-    "reading": "jiǎn dān",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -29949,22 +26981,6 @@
     "reading": "jí guàn",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "米:mi3",
-    "headword": "米",
-    "reading": "mǐ",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "米:Mi3",
-    "headword": "米",
-    "reading": "Mǐ",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -30176,14 +27192,6 @@
     ]
   },
   {
-    "id": "糖:tang2",
-    "headword": "糖",
-    "reading": "táng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "糖葫芦:tang2hu2lu5",
     "headword": "糖葫芦",
     "reading": "táng hú lu",
@@ -30245,22 +27253,6 @@
     "reading": "jiū fēn",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "红:hong2",
-    "headword": "红",
-    "reading": "hóng",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "红:Hong2",
-    "headword": "红",
-    "reading": "Hóng",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -30472,43 +27464,11 @@
     ]
   },
   {
-    "id": "累:lei2",
-    "headword": "累",
-    "reading": "léi",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "累:lei3",
-    "headword": "累",
-    "reading": "lěi",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "累:lei4",
-    "headword": "累",
-    "reading": "lèi",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "线索:xian4suo3",
     "headword": "线索",
     "reading": "xiàn suǒ",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "练习:lian4xi2",
-    "headword": "练习",
-    "reading": "liàn xí",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -30584,14 +27544,6 @@
     ]
   },
   {
-    "id": "终于:zhong1yu2",
-    "headword": "终于",
-    "reading": "zhōng yú",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "终年:zhong1nian2",
     "headword": "终年",
     "reading": "zhōng nián",
@@ -30656,27 +27608,11 @@
     ]
   },
   {
-    "id": "经常:jing1chang2",
-    "headword": "经常",
-    "reading": "jīng cháng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "经济:jing1ji4",
     "headword": "经济",
     "reading": "jīng jì",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "经理:jing1li3",
-    "headword": "经理",
-    "reading": "jīng lǐ",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -30704,14 +27640,6 @@
     ]
   },
   {
-    "id": "经过:jing1guo4",
-    "headword": "经过",
-    "reading": "jīng guò",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "经验:jing1yan4",
     "headword": "经验",
     "reading": "jīng yàn",
@@ -30733,14 +27661,6 @@
     "reading": "jié hé",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "结婚:jie2hun1",
-    "headword": "结婚",
-    "reading": "jié hūn",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -30773,14 +27693,6 @@
     "reading": "jié jīng",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "结束:jie2shu4",
-    "headword": "结束",
-    "reading": "jié shù",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -30829,22 +27741,6 @@
     "reading": "jié zhàng",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "给:gei3",
-    "headword": "给",
-    "reading": "gěi",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "给:ji3",
-    "headword": "给",
-    "reading": "jǐ",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -30997,14 +27893,6 @@
     "reading": "zōng hé",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "绿:lv4",
-    "headword": "绿",
-    "reading": "lǜ",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -31240,14 +28128,6 @@
     ]
   },
   {
-    "id": "羊肉:yang2rou4",
-    "headword": "羊肉",
-    "reading": "yáng ròu",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "美丽:mei3li4",
     "headword": "美丽",
     "reading": "měi lì",
@@ -31400,14 +28280,6 @@
     ]
   },
   {
-    "id": "老:lao3",
-    "headword": "老",
-    "reading": "lǎo",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "老实:lao3shi5",
     "headword": "老实",
     "reading": "lǎo shi",
@@ -31488,14 +28360,6 @@
     ]
   },
   {
-    "id": "考试:kao3shi4",
-    "headword": "考试",
-    "reading": "kǎo shì",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "考验:kao3yan4",
     "headword": "考验",
     "reading": "kǎo yàn",
@@ -31509,14 +28373,6 @@
     "reading": "ér",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "而且:er2qie3",
-    "headword": "而且",
-    "reading": "ér qiě",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -31573,14 +28429,6 @@
     "reading": "hào fèi",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "耳朵:er3duo5",
-    "headword": "耳朵",
-    "reading": "ěr duo",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -31725,14 +28573,6 @@
     "reading": "jù jīng huì shén",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "聪明:cong1ming5",
-    "headword": "聪明",
-    "reading": "cōng ming",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -31912,22 +28752,6 @@
     ]
   },
   {
-    "id": "胖:pan2",
-    "headword": "胖",
-    "reading": "pán",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "胖:pang4",
-    "headword": "胖",
-    "reading": "pàng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "胜利:sheng4li4",
     "headword": "胜利",
     "reading": "shèng lì",
@@ -32104,22 +28928,6 @@
     ]
   },
   {
-    "id": "脚:jiao3",
-    "headword": "脚",
-    "reading": "jiǎo",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "脚:jue2",
-    "headword": "脚",
-    "reading": "jué",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "脱:tuo1",
     "headword": "脱",
     "reading": "tuō",
@@ -32133,14 +28941,6 @@
     "reading": "tuō lí",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "脸:lian3",
-    "headword": "脸",
-    "reading": "liǎn",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -32296,14 +29096,6 @@
     ]
   },
   {
-    "id": "自己:zi4ji3",
-    "headword": "自己",
-    "reading": "zì jǐ",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "自愿:zi4yuan4",
     "headword": "自愿",
     "reading": "zì yuàn",
@@ -32341,14 +29133,6 @@
     "reading": "zì sī",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "自行车:zi4xing2che1",
-    "headword": "自行车",
-    "reading": "zì xíng chē",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -32456,14 +29240,6 @@
     ]
   },
   {
-    "id": "舒服:shu1fu5",
-    "headword": "舒服",
-    "reading": "shū fu",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "舒畅:shu1chang4",
     "headword": "舒畅",
     "reading": "shū chàng",
@@ -32549,14 +29325,6 @@
     "reading": "cāng",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "船:chuan2",
-    "headword": "船",
-    "reading": "chuán",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -32656,22 +29424,6 @@
     ]
   },
   {
-    "id": "节日:jie2ri4",
-    "headword": "节日",
-    "reading": "jié rì",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "节目:jie2mu4",
-    "headword": "节目",
-    "reading": "jié mù",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "节省:jie2sheng3",
     "headword": "节省",
     "reading": "jié shěng",
@@ -32685,22 +29437,6 @@
     "reading": "jié yuē",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "花:Hua1",
-    "headword": "花",
-    "reading": "Huā",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "花园:hua1yuan2",
-    "headword": "花园",
-    "reading": "huā yuán",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -32848,14 +29584,6 @@
     ]
   },
   {
-    "id": "草:cao3",
-    "headword": "草",
-    "reading": "cǎo",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "草案:cao3an4",
     "headword": "草案",
     "reading": "cǎo àn",
@@ -32936,14 +29664,6 @@
     ]
   },
   {
-    "id": "菜单:cai4dan1",
-    "headword": "菜单",
-    "reading": "cài dān",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "萌芽:meng2ya2",
     "headword": "萌芽",
     "reading": "méng yá",
@@ -33008,14 +29728,6 @@
     ]
   },
   {
-    "id": "葡萄:pu2tao5",
-    "headword": "葡萄",
-    "reading": "pú tao",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "董事长:dong3shi4zhang3",
     "headword": "董事长",
     "reading": "dǒng shì zhǎng",
@@ -33037,22 +29749,6 @@
     "reading": "Měng",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "蓝:lan2",
-    "headword": "蓝",
-    "reading": "lán",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "蓝:Lan2",
-    "headword": "蓝",
-    "reading": "Lán",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -33176,14 +29872,6 @@
     ]
   },
   {
-    "id": "虽然:sui1ran2",
-    "headword": "虽然",
-    "reading": "suī rán",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "蛇:she2",
     "headword": "蛇",
     "reading": "shé",
@@ -33197,14 +29885,6 @@
     "reading": "dàn bái zhì",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "蛋糕:dan4gao1",
-    "headword": "蛋糕",
-    "reading": "dàn gāo",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -33336,27 +30016,11 @@
     ]
   },
   {
-    "id": "行李箱:xing2li5xiang1",
-    "headword": "行李箱",
-    "reading": "xíng li xiāng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "衔接:xian2jie1",
     "headword": "衔接",
     "reading": "xián jiē",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "街道:jie1dao4",
-    "headword": "街道",
-    "reading": "jiē dào",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -33456,27 +30120,11 @@
     ]
   },
   {
-    "id": "表演:biao3yan3",
-    "headword": "表演",
-    "reading": "biǎo yǎn",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "表现:biao3xian4",
     "headword": "表现",
     "reading": "biǎo xiàn",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "表示:biao3shi4",
-    "headword": "表示",
-    "reading": "biǎo shì",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -33493,14 +30141,6 @@
     "reading": "biǎo miàn",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "衬衫:chen4shan1",
-    "headword": "衬衫",
-    "reading": "chèn shān",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -33533,14 +30173,6 @@
     "reading": "wà zi",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "被:bei4",
-    "headword": "被",
-    "reading": "bèi",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -33640,67 +30272,11 @@
     ]
   },
   {
-    "id": "裙子:qun2zi5",
-    "headword": "裙子",
-    "reading": "qún zi",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "裤子:ku4zi5",
-    "headword": "裤子",
-    "reading": "kù zi",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "西:xi1",
-    "headword": "西",
-    "reading": "xī",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "西:Xi1",
-    "headword": "西",
-    "reading": "Xī",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "西瓜:xi1gua1",
-    "headword": "西瓜",
-    "reading": "xī guā",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "西红柿:xi1hong2shi4",
     "headword": "西红柿",
     "reading": "xī hóng shì",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "要:yao1",
-    "headword": "要",
-    "reading": "yāo",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "要:yao4",
-    "headword": "要",
-    "reading": "yào",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -33733,14 +30309,6 @@
     "reading": "yào shi",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "要求:yao1qiu2",
-    "headword": "要求",
-    "reading": "yāo qiú",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -33797,14 +30365,6 @@
     "reading": "jiàn wén",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "见面:jian4mian4",
-    "headword": "见面",
-    "reading": "jiàn miàn",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -33920,14 +30480,6 @@
     ]
   },
   {
-    "id": "觉得:jue2de5",
-    "headword": "觉得",
-    "reading": "jué de",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "觉悟:jue2wu4",
     "headword": "觉悟",
     "reading": "jué wù",
@@ -33941,30 +30493,6 @@
     "reading": "jué xǐng",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "角:jiao3",
-    "headword": "角",
-    "reading": "jiǎo",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "角:jue2",
-    "headword": "角",
-    "reading": "jué",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "角:Jue2",
-    "headword": "角",
-    "reading": "Jué",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -33997,14 +30525,6 @@
     "reading": "jiě tǐ",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "解决:jie3jue2",
-    "headword": "解决",
-    "reading": "jiě jué",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -34104,14 +30624,6 @@
     ]
   },
   {
-    "id": "认为:ren4wei2",
-    "headword": "认为",
-    "reading": "rèn wéi",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "认可:ren4ke3",
     "headword": "认可",
     "reading": "rèn kě",
@@ -34125,14 +30637,6 @@
     "reading": "rèn dìng",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "认真:ren4zhen1",
-    "headword": "认真",
-    "reading": "rèn zhēn",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -34168,14 +30672,6 @@
     ]
   },
   {
-    "id": "让:rang4",
-    "headword": "让",
-    "reading": "ràng",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "让步:rang4bu4",
     "headword": "让步",
     "reading": "ràng bù",
@@ -34208,14 +30704,6 @@
     ]
   },
   {
-    "id": "记得:ji4de5",
-    "headword": "记得",
-    "reading": "jì de",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "记忆:ji4yi4",
     "headword": "记忆",
     "reading": "jì yì",
@@ -34245,14 +30733,6 @@
     "reading": "jì zǎi",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "讲:jiang3",
-    "headword": "讲",
-    "reading": "jiǎng",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -34485,14 +30965,6 @@
     "reading": "cí huì",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "词语:ci2yu3",
-    "headword": "词语",
-    "reading": "cí yǔ",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -34773,14 +31245,6 @@
     "reading": "fěi bàng",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "课:ke4",
-    "headword": "课",
-    "reading": "kè",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -35240,14 +31704,6 @@
     ]
   },
   {
-    "id": "贵:gui4",
-    "headword": "贵",
-    "reading": "guì",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "贵族:gui4zu2",
     "headword": "贵族",
     "reading": "guì zú",
@@ -35488,14 +31944,6 @@
     ]
   },
   {
-    "id": "走:zou3",
-    "headword": "走",
-    "reading": "zǒu",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "走廊:zou3lang2",
     "headword": "走廊",
     "reading": "zǒu láng",
@@ -35568,14 +32016,6 @@
     ]
   },
   {
-    "id": "起床:qi3chuang2",
-    "headword": "起床",
-    "reading": "qǐ chuáng",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "起来:qi3lai5",
     "headword": "起来",
     "reading": "qǐ lai",
@@ -35632,14 +32072,6 @@
     ]
   },
   {
-    "id": "超市:chao1shi4",
-    "headword": "超市",
-    "reading": "chāo shì",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "超级:chao1ji2",
     "headword": "超级",
     "reading": "chāo jí",
@@ -35661,22 +32093,6 @@
     "reading": "chāo guò",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "越:yue4",
-    "headword": "越",
-    "reading": "yuè",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "越:Yue4",
-    "headword": "越",
-    "reading": "Yuè",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -35736,14 +32152,6 @@
     ]
   },
   {
-    "id": "跑步:pao3bu4",
-    "headword": "跑步",
-    "reading": "pǎo bù",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "距离:ju4li2",
     "headword": "距离",
     "reading": "jù lí",
@@ -35757,14 +32165,6 @@
     "reading": "jiàn tà",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "跟:gen1",
-    "headword": "跟",
-    "reading": "gēn",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -35816,30 +32216,6 @@
     ]
   },
   {
-    "id": "路:lu4",
-    "headword": "路",
-    "reading": "lù",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "路:Lu4",
-    "headword": "路",
-    "reading": "Lù",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "跳舞:tiao4wu3",
-    "headword": "跳舞",
-    "reading": "tiào wǔ",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "跳跃:tiao4yue4",
     "headword": "跳跃",
     "reading": "tiào yuè",
@@ -35869,14 +32245,6 @@
     "reading": "tā shi",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "踢:ti1",
-    "headword": "踢",
-    "reading": "tī",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -35925,14 +32293,6 @@
     "reading": "shēn fèn",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "身体:shen1ti3",
-    "headword": "身体",
-    "reading": "shēn tǐ",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -36141,14 +32501,6 @@
     "reading": "fǔ dǎo",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "辆:liang4",
-    "headword": "辆",
-    "reading": "liàng",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -36416,22 +32768,6 @@
     ]
   },
   {
-    "id": "过去:guo4qu4",
-    "headword": "过去",
-    "reading": "guò qù",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "过去:guo4qu5",
-    "headword": "过去",
-    "reading": "guò qu",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "过失:guo4shi1",
     "headword": "过失",
     "reading": "guò shī",
@@ -36536,14 +32872,6 @@
     ]
   },
   {
-    "id": "运动:yun4dong4",
-    "headword": "运动",
-    "reading": "yùn dòng",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "运气:yun4qi5",
     "headword": "运气",
     "reading": "yùn qi",
@@ -36584,14 +32912,6 @@
     ]
   },
   {
-    "id": "近:jin4",
-    "headword": "近",
-    "reading": "jìn",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "近代:jin4dai4",
     "headword": "近代",
     "reading": "jìn dài",
@@ -36616,51 +32936,11 @@
     ]
   },
   {
-    "id": "还:hai2",
-    "headword": "还",
-    "reading": "hái",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "还:huan2",
-    "headword": "还",
-    "reading": "huán",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "还:Huan2",
-    "headword": "还",
-    "reading": "Huán",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "还原:huan2yuan2",
     "headword": "还原",
     "reading": "huán yuán",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "还是:hai2shi5",
-    "headword": "还是",
-    "reading": "hái shi",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "进:jin4",
-    "headword": "进",
-    "reading": "jìn",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -36717,22 +32997,6 @@
     "reading": "jìn xíng",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "远:yuan3",
-    "headword": "远",
-    "reading": "yuǎn",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "远:yuan4",
-    "headword": "远",
-    "reading": "yuàn",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -36805,14 +33069,6 @@
     "reading": "lián suǒ",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "迟到:chi2dao4",
-    "headword": "迟到",
-    "reading": "chí dào",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -36960,14 +33216,6 @@
     ]
   },
   {
-    "id": "送:song4",
-    "headword": "送",
-    "reading": "sòng",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "适合:shi4he2",
     "headword": "适合",
     "reading": "shì hé",
@@ -37029,14 +33277,6 @@
     "reading": "xuǎn bá",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "选择:xuan3ze2",
-    "headword": "选择",
-    "reading": "xuǎn zé",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -37240,14 +33480,6 @@
     ]
   },
   {
-    "id": "遇到:yu4dao4",
-    "headword": "遇到",
-    "reading": "yù dào",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "遍:bian4",
     "headword": "遍",
     "reading": "biàn",
@@ -37421,14 +33653,6 @@
     "reading": "yóu jú",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "邻居:lin2ju1",
-    "headword": "邻居",
-    "reading": "lín jū",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -37720,14 +33944,6 @@
     ]
   },
   {
-    "id": "重要:zhong4yao4",
-    "headword": "重要",
-    "reading": "zhòng yào",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "重量:zhong4liang4",
     "headword": "重量",
     "reading": "zhòng liàng",
@@ -37888,14 +34104,6 @@
     ]
   },
   {
-    "id": "铅笔:qian1bi3",
-    "headword": "铅笔",
-    "reading": "qiān bǐ",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "铜:tong2",
     "headword": "铜",
     "reading": "tóng",
@@ -37917,14 +34125,6 @@
     "reading": "yín",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "银行:yin2hang2",
-    "headword": "银行",
-    "reading": "yín háng",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -37984,22 +34184,6 @@
     ]
   },
   {
-    "id": "错:cuo4",
-    "headword": "错",
-    "reading": "cuò",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "错:Cuo4",
-    "headword": "错",
-    "reading": "Cuò",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "错误:cuo4wu4",
     "headword": "错误",
     "reading": "cuò wù",
@@ -38037,14 +34221,6 @@
     "reading": "qiè ér bù shě",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "锻炼:duan4lian4",
-    "headword": "锻炼",
-    "reading": "duàn liàn",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -38096,22 +34272,6 @@
     ]
   },
   {
-    "id": "长:chang2",
-    "headword": "长",
-    "reading": "cháng",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "长:zhang3",
-    "headword": "长",
-    "reading": "zhǎng",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "长城:Chang2cheng2",
     "headword": "长城",
     "reading": "Cháng chéng",
@@ -38141,22 +34301,6 @@
     "reading": "cháng tú",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "门:men2",
-    "headword": "门",
-    "reading": "mén",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "门:Men2",
-    "headword": "门",
-    "reading": "Mén",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -38192,14 +34336,6 @@
     ]
   },
   {
-    "id": "问:wen4",
-    "headword": "问",
-    "reading": "wèn",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "问世:wen4shi4",
     "headword": "问世",
     "reading": "wèn shì",
@@ -38213,14 +34349,6 @@
     "reading": "wèn hòu",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "问题:wen4ti2",
-    "headword": "问题",
-    "reading": "wèn tí",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -38360,22 +34488,6 @@
     ]
   },
   {
-    "id": "阴:yin1",
-    "headword": "阴",
-    "reading": "yīn",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "阴:Yin1",
-    "headword": "阴",
-    "reading": "Yīn",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "阴谋:yin1mou2",
     "headword": "阴谋",
     "reading": "yīn móu",
@@ -38456,14 +34568,6 @@
     ]
   },
   {
-    "id": "阿姨:a1yi2",
-    "headword": "阿姨",
-    "reading": "ā yí",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "附件:fu4jian4",
     "headword": "附件",
     "reading": "fù jiàn",
@@ -38485,14 +34589,6 @@
     "reading": "fù shǔ",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "附近:fu4jin4",
-    "headword": "附近",
-    "reading": "fù jìn",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -38589,14 +34685,6 @@
     "reading": "chú",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "除了:chu2le5",
-    "headword": "除了",
-    "reading": "chú le",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -38792,22 +34880,6 @@
     ]
   },
   {
-    "id": "难:nan2",
-    "headword": "难",
-    "reading": "nán",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "难:nan4",
-    "headword": "难",
-    "reading": "nàn",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "难免:nan2mian3",
     "headword": "难免",
     "reading": "nán miǎn",
@@ -38861,14 +34933,6 @@
     "reading": "nán néng kě guì",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "难过:nan2guo4",
-    "headword": "难过",
-    "reading": "nán guò",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -38952,22 +35016,6 @@
     ]
   },
   {
-    "id": "雪:xue3",
-    "headword": "雪",
-    "reading": "xuě",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "雪:Xue3",
-    "headword": "雪",
-    "reading": "Xuě",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "雪上加霜:xue3shang4jia1shuang1",
     "headword": "雪上加霜",
     "reading": "xuě shàng jiā shuāng",
@@ -39045,14 +35093,6 @@
     "reading": "xū qiú",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "需要:xu1yao4",
-    "headword": "需要",
-    "reading": "xū yào",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -39144,14 +35184,6 @@
     ]
   },
   {
-    "id": "非常:fei1chang2",
-    "headword": "非常",
-    "reading": "fēi cháng",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "非法:fei1fa3",
     "headword": "非法",
     "reading": "fēi fǎ",
@@ -39176,27 +35208,11 @@
     ]
   },
   {
-    "id": "面包:mian4bao1",
-    "headword": "面包",
-    "reading": "miàn bāo",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "面对:mian4dui4",
     "headword": "面对",
     "reading": "miàn duì",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "面条:mian4tiao2",
-    "headword": "面条",
-    "reading": "miàn tiáo",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -39224,14 +35240,6 @@
     ]
   },
   {
-    "id": "鞋:xie2",
-    "headword": "鞋",
-    "reading": "xié",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "鞠躬:ju1gong1",
     "headword": "鞠躬",
     "reading": "jū gōng",
@@ -39253,14 +35261,6 @@
     "reading": "biān cè",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "音乐:yin1yue4",
-    "headword": "音乐",
-    "reading": "yīn yuè",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -39664,22 +35664,6 @@
     ]
   },
   {
-    "id": "题:ti2",
-    "headword": "题",
-    "reading": "tí",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "题:Ti2",
-    "headword": "题",
-    "reading": "Tí",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "题材:ti2cai2",
     "headword": "题材",
     "reading": "tí cái",
@@ -39693,14 +35677,6 @@
     "reading": "tí mù",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "颜色:yan2se4",
-    "headword": "颜色",
-    "reading": "yán sè",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -39912,14 +35888,6 @@
     ]
   },
   {
-    "id": "饱:bao3",
-    "headword": "饱",
-    "reading": "bǎo",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "饱和:bao3he2",
     "headword": "饱和",
     "reading": "bǎo hé",
@@ -39976,14 +35944,6 @@
     ]
   },
   {
-    "id": "饿:e4",
-    "headword": "饿",
-    "reading": "è",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "馅儿:xian4r5",
     "headword": "馅儿",
     "reading": "xiànr",
@@ -40037,38 +35997,6 @@
     "reading": "xiāng",
     "levels": [
       "4"
-    ]
-  },
-  {
-    "id": "香蕉:xiang1jiao1",
-    "headword": "香蕉",
-    "reading": "xiāng jiāo",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "马:ma3",
-    "headword": "马",
-    "reading": "mǎ",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "马:Ma3",
-    "headword": "马",
-    "reading": "Mǎ",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "马上:ma3shang4",
-    "headword": "马上",
-    "reading": "mǎ shàng",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -40136,22 +36064,6 @@
     ]
   },
   {
-    "id": "骑:ji4",
-    "headword": "骑",
-    "reading": "jì",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "骑:qi2",
-    "headword": "骑",
-    "reading": "qí",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "骗:pian4",
     "headword": "骗",
     "reading": "piàn",
@@ -40173,22 +36085,6 @@
     "reading": "gǔ gàn",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "高:gao1",
-    "headword": "高",
-    "reading": "gāo",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "高:Gao1",
-    "headword": "高",
-    "reading": "Gāo",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -40312,22 +36208,6 @@
     ]
   },
   {
-    "id": "鱼:yu2",
-    "headword": "鱼",
-    "reading": "yú",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "鱼:Yu2",
-    "headword": "鱼",
-    "reading": "Yú",
-    "levels": [
-      "2"
-    ]
-  },
-  {
     "id": "鲜明:xian1ming2",
     "headword": "鲜明",
     "reading": "xiān míng",
@@ -40341,30 +36221,6 @@
     "reading": "xiān yàn",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "鸟:diao3",
-    "headword": "鸟",
-    "reading": "diǎo",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "鸟:niao3",
-    "headword": "鸟",
-    "reading": "niǎo",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "鸡蛋:ji1dan4",
-    "headword": "鸡蛋",
-    "reading": "jī dàn",
-    "levels": [
-      "2"
     ]
   },
   {
@@ -40416,22 +36272,6 @@
     ]
   },
   {
-    "id": "黄:huang2",
-    "headword": "黄",
-    "reading": "huáng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
-    "id": "黄:Huang2",
-    "headword": "黄",
-    "reading": "Huáng",
-    "levels": [
-      "3"
-    ]
-  },
-  {
     "id": "黄昏:huang2hun1",
     "headword": "黄昏",
     "reading": "huáng hūn",
@@ -40461,30 +36301,6 @@
     "reading": "lí míng",
     "levels": [
       "6"
-    ]
-  },
-  {
-    "id": "黑:hei1",
-    "headword": "黑",
-    "reading": "hēi",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "黑:Hei1",
-    "headword": "黑",
-    "reading": "Hēi",
-    "levels": [
-      "2"
-    ]
-  },
-  {
-    "id": "黑板:hei1ban3",
-    "headword": "黑板",
-    "reading": "hēi bǎn",
-    "levels": [
-      "3"
     ]
   },
   {
@@ -40541,14 +36357,6 @@
     "reading": "shǔ biāo",
     "levels": [
       "5"
-    ]
-  },
-  {
-    "id": "鼻子:bi2zi5",
-    "headword": "鼻子",
-    "reading": "bí zi",
-    "levels": [
-      "3"
     ]
   },
   {
