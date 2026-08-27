@@ -54,6 +54,22 @@ jobs:
         # the only field a rebuild is allowed to change. Everything else in
         # the decks, plus the manifest and review queue, must not drift.
 
+      - name: Build CC-CEDICT lookup index (DEC-037, custom-deck word lookup)
+        run: npm run build:lookup
+        # Independent of build:data (build-lookup.ts's own docstring): reads
+        # the pinned CC-CEDICT source directly, emits
+        # public/cedict-lookup/{index,detail-*,meta}.json.
+
+      - name: Fail if the lookup build drifted from committed output
+        run: |
+          set -euo pipefail
+          diff <(jq 'del(.builtAt)' public/cedict-lookup/meta.json) \
+               <(git show HEAD:public/cedict-lookup/meta.json | jq 'del(.builtAt)')
+          git diff --exit-code -- public/cedict-lookup/index.json public/cedict-lookup/detail-*.json
+        # Same reasoning as the data-build drift check above: meta.json's
+        # own builtAt legitimately differs on every run and is stripped
+        # before comparing; the index and every detail shard must not drift.
+
       # --- Slots for later work orders (testing-strategy.md §7) ---
       #
       # - name: E2E (Playwright)

@@ -85,7 +85,7 @@ describe('StudySession', () => {
     loadDeckMock.mockResolvedValue(makeDeck(3));
     render(
       <StudySession
-        levels={['1']}
+        source={{ kind: 'hsk', levels: ['1'] }}
         settings={SEQUENTIAL_SETTINGS}
         onTogglePinyin={() => {}}
         onExit={() => {}}
@@ -102,7 +102,7 @@ describe('StudySession', () => {
     const user = userEvent.setup();
     render(
       <StudySession
-        levels={['1']}
+        source={{ kind: 'hsk', levels: ['1'] }}
         settings={SEQUENTIAL_SETTINGS}
         onTogglePinyin={() => {}}
         onExit={() => {}}
@@ -119,7 +119,7 @@ describe('StudySession', () => {
     const user = userEvent.setup();
     render(
       <StudySession
-        levels={['1']}
+        source={{ kind: 'hsk', levels: ['1'] }}
         settings={SEQUENTIAL_SETTINGS}
         onTogglePinyin={() => {}}
         onExit={() => {}}
@@ -154,7 +154,7 @@ describe('StudySession', () => {
     const user = userEvent.setup();
     render(
       <StudySession
-        levels={['1']}
+        source={{ kind: 'hsk', levels: ['1'] }}
         settings={SEQUENTIAL_SETTINGS}
         onTogglePinyin={onTogglePinyin}
         onExit={() => {}}
@@ -173,7 +173,7 @@ describe('StudySession', () => {
     const user = userEvent.setup();
     render(
       <StudySession
-        levels={['1']}
+        source={{ kind: 'hsk', levels: ['1'] }}
         settings={SEQUENTIAL_SETTINGS}
         onTogglePinyin={() => {}}
         onExit={() => {}}
@@ -194,7 +194,7 @@ describe('StudySession', () => {
     const user = userEvent.setup();
     render(
       <StudySession
-        levels={['1']}
+        source={{ kind: 'hsk', levels: ['1'] }}
         settings={SEQUENTIAL_SETTINGS}
         onTogglePinyin={() => {}}
         onExit={() => {}}
@@ -212,7 +212,7 @@ describe('StudySession', () => {
     const user = userEvent.setup();
     render(
       <StudySession
-        levels={['1']}
+        source={{ kind: 'hsk', levels: ['1'] }}
         settings={autoplaySettings}
         onTogglePinyin={() => {}}
         onExit={() => {}}
@@ -239,7 +239,7 @@ describe('StudySession', () => {
     const user = userEvent.setup();
     render(
       <StudySession
-        levels={['1']}
+        source={{ kind: 'hsk', levels: ['1'] }}
         settings={SEQUENTIAL_SETTINGS}
         onTogglePinyin={() => {}}
         onExit={() => {}}
@@ -265,7 +265,7 @@ describe('StudySession — multi-level sessions (WO-014, FR-23)', () => {
     );
     render(
       <StudySession
-        levels={['1', '2']}
+        source={{ kind: 'hsk', levels: ['1', '2'] }}
         settings={SEQUENTIAL_SETTINGS}
         onTogglePinyin={() => {}}
         onExit={() => {}}
@@ -289,7 +289,7 @@ describe('StudySession — multi-level sessions (WO-014, FR-23)', () => {
 
     render(
       <StudySession
-        levels={['1', '2']}
+        source={{ kind: 'hsk', levels: ['1', '2'] }}
         settings={SEQUENTIAL_SETTINGS}
         onTogglePinyin={() => {}}
         onExit={() => {}}
@@ -304,7 +304,7 @@ describe('StudySession — multi-level sessions (WO-014, FR-23)', () => {
     const user = userEvent.setup();
     render(
       <StudySession
-        levels={['1', '2', '3']}
+        source={{ kind: 'hsk', levels: ['1', '2', '3'] }}
         settings={SEQUENTIAL_SETTINGS}
         onTogglePinyin={() => {}}
         onExit={() => {}}
@@ -322,7 +322,7 @@ describe('StudySession — multi-level sessions (WO-014, FR-23)', () => {
     );
     render(
       <StudySession
-        levels={['1', '2']}
+        source={{ kind: 'hsk', levels: ['1', '2'] }}
         settings={SEQUENTIAL_SETTINGS}
         onTogglePinyin={() => {}}
         onExit={() => {}}

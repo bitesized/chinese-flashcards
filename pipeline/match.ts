@@ -258,7 +258,10 @@ function groupKey(simplified: string, readingNumeric: string): string {
 const CROSS_REFERENCE_PATTERN =
   /^(?:variant of|old variant of|abbr\. for|also written|see)\s+(\S+)/i;
 
-function isCrossReferenceOnly(entry: CedictEntry): boolean {
+/** Exported for `pipeline/build-lookup.ts` (DEC-037), which needs the exact
+ *  same "is this entry just a pointer to another headword" test this module
+ *  already implements — never re-derive it a second way. */
+export function isCrossReferenceOnly(entry: CedictEntry): boolean {
   return (
     entry.senses.length > 0 && entry.senses.every((sense) => CROSS_REFERENCE_PATTERN.test(sense))
   );
@@ -315,7 +318,9 @@ function resolveCrossReferenceSenses(
   return undefined;
 }
 
-function convertClassifier(classifier: CedictClassifier): Classifier {
+/** Exported for `pipeline/build-lookup.ts` (DEC-037) — same conversion, one
+ *  implementation. */
+export function convertClassifier(classifier: CedictClassifier): Classifier {
   return {
     simplified: classifier.simplified,
     traditional: classifier.traditional,

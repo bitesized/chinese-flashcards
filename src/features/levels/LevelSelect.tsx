@@ -49,6 +49,8 @@ export interface LevelSelectProps {
   onStartSession: (levels: HskLevel[]) => void;
   onOpenSettings: () => void;
   onOpenHanzi: () => void;
+  /** DEC-036/WO-019: custom, editable, JSON-shareable decks. */
+  onOpenCustomDecks: () => void;
 }
 
 export function LevelSelect({
@@ -56,6 +58,7 @@ export function LevelSelect({
   onStartSession,
   onOpenSettings,
   onOpenHanzi,
+  onOpenCustomDecks,
 }: LevelSelectProps) {
   const [manifest, setManifest] = useState<Manifest | null>(null);
   const [selected, setSelected] = useState<Set<HskLevel>>(() => new Set(initialSelection));
@@ -103,6 +106,9 @@ export function LevelSelect({
         <div className={styles.topBarLinks}>
           <button type="button" className={styles.settingsLink} onClick={onOpenHanzi}>
             Hanzi
+          </button>
+          <button type="button" className={styles.settingsLink} onClick={onOpenCustomDecks}>
+            My Decks
           </button>
           <button type="button" className={styles.settingsLink} onClick={onOpenSettings}>
             Settings

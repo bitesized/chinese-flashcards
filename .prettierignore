@@ -7,6 +7,12 @@ public/decks
 public/fonts
 public/strokes
 public/hanzi
+# Deliberately unminified-JSON-avoiding output (pipeline/build-lookup.ts's own
+# docstring) — Prettier pretty-printing this ~120,000-entry dataset roughly
+# doubles its size for no benefit, and breaks byte-parity with what a fresh
+# `npm run build:lookup` regenerates, which is exactly what CI's drift check
+# compares against (DEC-037).
+public/cedict-lookup
 
 # Compiled by tsconfig.build-data.json (npm run build:data), in place next
 # to their .ts sources — see pipeline/build-data.ts. Generated, gitignored.

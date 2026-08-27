@@ -49,6 +49,7 @@ describe('LevelSelect — availability (DEC-025: only reviewed levels are select
         onStartSession={() => {}}
         onOpenSettings={() => {}}
         onOpenHanzi={() => {}}
+        onOpenCustomDecks={() => {}}
       />,
     );
     const hsk1 = await screen.findByRole('button', { name: /HSK 1/ });
@@ -65,6 +66,7 @@ describe('LevelSelect — availability (DEC-025: only reviewed levels are select
         onStartSession={onStartSession}
         onOpenSettings={() => {}}
         onOpenHanzi={() => {}}
+        onOpenCustomDecks={() => {}}
       />,
     );
     const hsk3 = await screen.findByRole('button', { name: /HSK 3/ });
@@ -81,6 +83,7 @@ describe('LevelSelect — availability (DEC-025: only reviewed levels are select
         onStartSession={() => {}}
         onOpenSettings={() => {}}
         onOpenHanzi={() => {}}
+        onOpenCustomDecks={() => {}}
       />,
     );
     const hsk6 = await screen.findByRole('button', { name: /HSK 6/ });
@@ -96,6 +99,7 @@ describe('LevelSelect — availability (DEC-025: only reviewed levels are select
         onStartSession={() => {}}
         onOpenSettings={onOpenSettings}
         onOpenHanzi={() => {}}
+        onOpenCustomDecks={() => {}}
       />,
     );
     await waitFor(() => screen.getByRole('button', { name: 'Settings' }));
@@ -120,6 +124,7 @@ describe('LevelSelect — multi-select and last-level memory (FR-23, FR-25)', ()
         onStartSession={() => {}}
         onOpenSettings={() => {}}
         onOpenHanzi={() => {}}
+        onOpenCustomDecks={() => {}}
       />,
     );
     await screen.findByRole('button', { name: /HSK 1/ });
@@ -135,6 +140,7 @@ describe('LevelSelect — multi-select and last-level memory (FR-23, FR-25)', ()
         onStartSession={onStartSession}
         onOpenSettings={() => {}}
         onOpenHanzi={() => {}}
+        onOpenCustomDecks={() => {}}
       />,
     );
     const hsk1 = await screen.findByRole('button', { name: /HSK 1/ });
@@ -154,6 +160,7 @@ describe('LevelSelect — multi-select and last-level memory (FR-23, FR-25)', ()
         onStartSession={onStartSession}
         onOpenSettings={() => {}}
         onOpenHanzi={() => {}}
+        onOpenCustomDecks={() => {}}
       />,
     );
     const hsk2 = await screen.findByRole('button', { name: /HSK 2/ });
@@ -173,6 +180,7 @@ describe('LevelSelect — multi-select and last-level memory (FR-23, FR-25)', ()
         onStartSession={() => {}}
         onOpenSettings={() => {}}
         onOpenHanzi={() => {}}
+        onOpenCustomDecks={() => {}}
       />,
     );
     const hsk1 = await screen.findByRole('button', { name: /HSK 1/ });
@@ -190,6 +198,7 @@ describe('LevelSelect — multi-select and last-level memory (FR-23, FR-25)', ()
         onStartSession={() => {}}
         onOpenSettings={() => {}}
         onOpenHanzi={() => {}}
+        onOpenCustomDecks={() => {}}
       />,
     );
     const hsk1 = await screen.findByRole('button', { name: /HSK 1/ });
@@ -204,6 +213,7 @@ describe('LevelSelect — multi-select and last-level memory (FR-23, FR-25)', ()
         onStartSession={() => {}}
         onOpenSettings={() => {}}
         onOpenHanzi={() => {}}
+        onOpenCustomDecks={() => {}}
       />,
     );
     const hsk3 = await screen.findByRole('button', { name: /HSK 3/ });
@@ -220,6 +230,7 @@ describe('LevelSelect — multi-select and last-level memory (FR-23, FR-25)', ()
         onStartSession={onStartSession}
         onOpenSettings={() => {}}
         onOpenHanzi={() => {}}
+        onOpenCustomDecks={() => {}}
       />,
     );
     await screen.findByRole('button', { name: /HSK 1/ });

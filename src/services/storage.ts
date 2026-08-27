@@ -29,8 +29,10 @@
 
 import { DEFAULT_SETTINGS, SETTINGS_SCHEMA_VERSION } from '../domain/runtime.js';
 import type { Settings } from '../domain/runtime.js';
+import type { CustomDeck } from '../domain/customDeck.js';
 
 const SETTINGS_KEY = 'chinese-flashcards:settings';
+const CUSTOM_DECKS_KEY = 'chinese-flashcards:custom-decks';
 
 /**
  * Reads persisted settings, falling back to defaults if nothing is stored,
@@ -72,5 +74,47 @@ export function saveSettings(settings: Settings): void {
     window.localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings));
   } catch {
     // Intentionally swallowed — see docstring.
+  }
+}
+
+/**
+ * Reads the learner's custom decks (DEC-036). Unlike Settings, a malformed
+ * or unreadable record is *not* silently replaced with an empty list only
+ * on the happy path being assumed — this is user-authored content with no
+ * source of truth to regenerate from, so a parse failure here is treated
+ * the same as "no decks yet" only because there is genuinely nothing safer
+ * to do; validity of each deck's own shape is customDecks.ts's job, not
+ * this seam's.
+ */
+export function loadCustomDecks(): CustomDeck[] {
+  let raw: string | null;
+  try {
+    raw = window.localStorage.getItem(CUSTOM_DECKS_KEY);
+  } catch {
+    return [];
+  }
+  if (raw === null) return [];
+
+  try {
+    const parsed: unknown = JSON.parse(raw);
+    return Array.isArray(parsed) ? (parsed as CustomDeck[]) : [];
+  } catch {
+    return [];
+  }
+}
+
+/**
+ * Persists the full custom-deck list verbatim. Unlike `saveSettings`,
+ * failure is reported to the caller rather than swallowed: losing a
+ * learner's own hand-authored deck (e.g. to a full `localStorage` quota) is
+ * a real data-loss event the UI must surface, not a degraded-but-safe
+ * default like a settings write failing.
+ */
+export function saveCustomDecks(decks: CustomDeck[]): boolean {
+  try {
+    window.localStorage.setItem(CUSTOM_DECKS_KEY, JSON.stringify(decks));
+    return true;
+  } catch {
+    return false;
   }
 }

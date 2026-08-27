@@ -1,6 +1,7 @@
 Chinese Flashcards — Dictionary Data Licence
 
-This licence covers `data/` and `public/decks/` only. Application source code is
+This licence covers `data/`, `public/decks/`, and `public/cedict-lookup/`
+(DEC-037 — docs/project/decision-log.md) only. Application source code is
 licensed separately under GPL-3.0 — see the repository root `LICENSE`.
 
 Content under these paths is compiled from CC-CEDICT

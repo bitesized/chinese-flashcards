@@ -22,7 +22,8 @@
     "test:e2e": "playwright test",
     "license-check": "node scripts/check-licenses.mjs",
     "build:data": "node scripts/run-build-data.mjs",
-    "build:hanzi": "node scripts/run-build-hanzi.mjs"
+    "build:hanzi": "node scripts/run-build-hanzi.mjs",
+    "build:lookup": "node scripts/run-build-lookup.mjs"
   },
   "dependencies": {
     "hanzi-writer": "^3.7.3",

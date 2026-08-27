@@ -1,0 +1,268 @@
+/*
+ * Chinese Flashcards — a spaced-repetition Hanzi flashcard app.
+ * Copyright (C) 2026 the Chinese Flashcards contributors.
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <https://www.gnu.org/licenses/>.
+ */
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: var(--space-6) var(--space-4);
+  padding-top: max(var(--space-6), env(safe-area-inset-top));
+  padding-bottom: var(--space-12);
+  gap: var(--space-6);
+  max-width: 640px;
+  margin: 0 auto;
+  width: 100%;
+  font-family: var(--font-en-ui);
+  color: var(--color-ink);
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.backButton {
+  background: none;
+  border: none;
+  color: var(--color-ink-muted);
+  font-family: var(--font-en-ui);
+  cursor: pointer;
+  min-height: var(--touch-target-min);
+}
+
+.heading {
+  font-family: var(--font-en);
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.sectionHeading {
+  font-family: var(--font-en);
+  font-size: 1.125rem;
+  margin: 0;
+}
+
+.metaForm,
+.cardForm,
+.lookupBox {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-4);
+  border-radius: var(--control-radius);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-raised);
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.attributionNotice {
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--control-radius);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-raised);
+  color: var(--color-ink-muted);
+  font-size: var(--text-small);
+}
+
+.lookupHint {
+  color: var(--color-ink-muted);
+  font-size: var(--text-small);
+  margin: 0;
+}
+
+.lookupRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.lookupRow .textInput {
+  flex: 1;
+  min-width: 160px;
+}
+
+.lookupResults {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lookupResultButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  width: 100%;
+  min-height: var(--touch-target-min);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--control-radius);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-en-ui);
+  cursor: pointer;
+  text-align: left;
+}
+
+.lookupResultButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.lookupResultHeadword {
+  font-family: var(--font-zh);
+  font-size: 1.125rem;
+}
+
+.lookupResultReading {
+  font-size: var(--text-small);
+  color: var(--color-ink-muted);
+}
+
+.sourceHint {
+  color: var(--color-ink-muted);
+  font-size: var(--text-small);
+  margin: 0;
+}
+
+.fieldLabel {
+  font-size: var(--text-small);
+  color: var(--color-ink-muted);
+}
+
+.textInput,
+.textArea {
+  min-height: var(--touch-target-min);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--control-radius);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-en-ui);
+  font-size: var(--text-ui);
+}
+
+.textArea {
+  resize: vertical;
+}
+
+.errorMessage {
+  color: var(--color-danger);
+  font-size: var(--text-small);
+}
+
+.emptyState {
+  color: var(--color-ink-muted);
+}
+
+.primaryButton {
+  align-self: flex-start;
+  min-height: var(--touch-target-min);
+  padding: 0 var(--space-4);
+  border-radius: var(--control-radius);
+  border: none;
+  background: var(--color-accent);
+  color: var(--color-accent-ink);
+  font-family: var(--font-en-ui);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.secondaryButton {
+  min-height: var(--touch-target-min);
+  padding: 0 var(--space-4);
+  border-radius: var(--control-radius);
+  border: 1px solid var(--color-border);
+  background: none;
+  color: var(--color-ink);
+  font-family: var(--font-en-ui);
+  cursor: pointer;
+}
+
+.dangerButton {
+  min-height: var(--touch-target-min);
+  padding: 0 var(--space-4);
+  border-radius: var(--control-radius);
+  border: 1px solid var(--color-danger);
+  background: none;
+  color: var(--color-danger);
+  font-family: var(--font-en-ui);
+  cursor: pointer;
+}
+
+.cardList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cardRow {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--control-radius);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-raised);
+}
+
+.cardSummary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-3);
+}
+
+.cardHeadword {
+  font-family: var(--font-zh);
+  font-size: 1.25rem;
+}
+
+.cardReading {
+  font-size: var(--text-small);
+  color: var(--color-ink-muted);
+}
+
+.cardSenses {
+  font-size: var(--text-small);
+  color: var(--color-ink-muted);
+  flex-basis: 100%;
+}
+
+.cardActions {
+  display: flex;
+  gap: var(--space-2);
+}

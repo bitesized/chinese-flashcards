@@ -30,14 +30,16 @@
 
 import { useState } from 'react';
 import type { KeyboardEvent } from 'react';
-import type { Card as CardData } from '../../domain/card.js';
+import type { StudyableCard } from '../../domain/card.js';
 import styles from './Card.module.css';
 
 const MAX_SENSES_SHOWN = 4;
 const MAX_SENSES_BEFORE_TRUNCATION = 6;
 
 export interface CardProps {
-  card: CardData;
+  /** HSK `Card` and a custom card's display projection both satisfy this —
+   *  see domain/card.ts's `StudyableCard` docstring (DEC-036). */
+  card: StudyableCard;
   face: 'front' | 'back';
   pinyinFront: boolean;
   pinyinBack: boolean;
@@ -125,7 +127,7 @@ export function Card({
           <p className={`${styles.hanzi} ${styles.front}`} lang="zh-Hans">
             {card.headword}
           </p>
-          {pinyinFront && (
+          {pinyinFront && card.reading && (
             <p className={styles.pinyin} lang="zh-Latn-pinyin">
               {card.reading}
             </p>
@@ -138,7 +140,7 @@ export function Card({
           <p className={`${styles.hanzi} ${styles.back}`} lang="zh-Hans">
             {card.headword}
           </p>
-          {pinyinBack && (
+          {pinyinBack && card.reading && (
             <p className={styles.pinyin} lang="zh-Latn-pinyin">
               {card.reading}
             </p>

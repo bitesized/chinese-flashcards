@@ -26,21 +26,26 @@
 import { useEffect, useState } from 'react';
 import { LevelSelect } from '../features/levels/LevelSelect.js';
 import { StudySession } from '../features/study/StudySession.js';
+import type { StudySource } from '../features/study/StudySession.js';
 import { SettingsScreen } from '../features/settings/SettingsScreen.js';
 import { HanziList } from '../features/hanzi/HanziList.js';
 import { HanziDetail } from '../features/hanzi/HanziDetail.js';
 import { PracticeGrid } from '../features/hanzi/PracticeGrid.js';
+import { CustomDeckList } from '../features/customDecks/CustomDeckList.js';
+import { CustomDeckEditor } from '../features/customDecks/CustomDeckEditor.js';
 import { loadSettings, saveSettings } from '../services/storage.js';
 import type { Settings } from '../domain/runtime.js';
-import type { HskLevel } from '../domain/card.js';
+import type { CustomDeck } from '../domain/customDeck.js';
 
 type View =
   | { name: 'level-select' }
-  | { name: 'study'; levels: HskLevel[] }
+  | { name: 'study'; source: StudySource }
   | { name: 'settings' }
   | { name: 'hanzi-list' }
   | { name: 'hanzi-detail'; character: string }
-  | { name: 'practice-grid'; pinned?: string[] };
+  | { name: 'practice-grid'; pinned?: string[] }
+  | { name: 'custom-deck-list' }
+  | { name: 'custom-deck-editor'; deck: CustomDeck };
 
 export function App() {
   const [settings, setSettings] = useState<Settings>(() => loadSettings());
@@ -84,10 +89,30 @@ export function App() {
   if (view.name === 'study') {
     return (
       <StudySession
-        levels={view.levels}
+        source={view.source}
         settings={settings}
         onTogglePinyin={togglePinyin}
-        onExit={() => setView({ name: 'level-select' })}
+        onExit={() =>
+          setView(
+            view.source.kind === 'custom' ? { name: 'custom-deck-list' } : { name: 'level-select' },
+          )
+        }
+      />
+    );
+  }
+
+  if (view.name === 'custom-deck-editor') {
+    return (
+      <CustomDeckEditor deck={view.deck} onBack={() => setView({ name: 'custom-deck-list' })} />
+    );
+  }
+
+  if (view.name === 'custom-deck-list') {
+    return (
+      <CustomDeckList
+        onBack={() => setView({ name: 'level-select' })}
+        onStudy={(deck) => setView({ name: 'study', source: { kind: 'custom', deck } })}
+        onEdit={(deck) => setView({ name: 'custom-deck-editor', deck })}
       />
     );
   }
@@ -129,10 +154,11 @@ export function App() {
         // FR-25: the exact selection used to start a session is what's
         // remembered, not merely updated on some other schedule.
         updateSettings({ ...settings, lastLevels: levels });
-        setView({ name: 'study', levels });
+        setView({ name: 'study', source: { kind: 'hsk', levels } });
       }}
       onOpenSettings={() => setView({ name: 'settings' })}
       onOpenHanzi={() => setView({ name: 'hanzi-list' })}
+      onOpenCustomDecks={() => setView({ name: 'custom-deck-list' })}
     />
   );
 }

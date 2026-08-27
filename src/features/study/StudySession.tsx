@@ -28,6 +28,12 @@
  * (FR-23): every selected level's deck is fetched in parallel and merged
  * into one card set, de-duplicated by id (a card can legitimately belong
  * to more than one level's compiled file), before the queue is built.
+ *
+ * WO-019/DEC-036 generalised the load source to a `StudySource` union: an
+ * HSK level set (fetched, as before) or a pre-loaded `CustomDeck` (already
+ * in memory — no fetch). Both resolve to the same `StudyableCard[]`
+ * (domain/card.ts), so every mechanic below this point (flip, Pinyin
+ * toggle, order, speak, keyboard nav) is unmodified and shared.
  */
 
 import { useEffect, useMemo, useRef, useState } from 'react';
@@ -35,11 +41,16 @@ import type { KeyboardEvent } from 'react';
 import { Card } from './Card.js';
 import styles from './StudySession.module.css';
 import { loadDeck } from '../../services/decks.js';
+import { toStudyableCard } from '../../services/customDecks.js';
 import { shuffle } from '../../services/shuffle.js';
 import { speak } from '../../services/speech.js';
 import { useSpeechAvailable } from '../../services/useSpeechAvailable.js';
-import type { Card as CardData, HskLevel } from '../../domain/card.js';
+import type { HskLevel, StudyableCard } from '../../domain/card.js';
+import type { CustomDeck } from '../../domain/customDeck.js';
 import type { Settings } from '../../domain/runtime.js';
+
+export type StudySource =
+  { kind: 'hsk'; levels: HskLevel[] } | { kind: 'custom'; deck: CustomDeck };
 
 /** "HSK 1" / "HSK 1 & 2" / "HSK 1, 2 & 3" — never a bare comma-joined list,
  *  since this appears in reader-facing copy (loading/error/end-state). */
@@ -49,8 +60,20 @@ function formatLevels(levels: readonly HskLevel[]): string {
   return `HSK ${rest.reverse().join(', ')} & ${last}`;
 }
 
+function sourceLabel(source: StudySource): string {
+  return source.kind === 'hsk' ? formatLevels(source.levels) : source.deck.name;
+}
+
+/** Stable across renders (unlike a fresh `deck` object identity) so the
+ *  loading effect only re-runs when the source actually changes. */
+function sourceKey(source: StudySource): string {
+  return source.kind === 'hsk'
+    ? `hsk:${source.levels.join(',')}`
+    : `custom:${source.deck.id}:${source.deck.updatedAt}`;
+}
+
 export interface StudySessionProps {
-  levels: HskLevel[];
+  source: StudySource;
   settings: Settings;
   onTogglePinyin: (side: 'front' | 'back') => void;
   onExit: () => void;
@@ -59,9 +82,9 @@ export interface StudySessionProps {
 type LoadState =
   | { status: 'loading' }
   | { status: 'error'; message: string }
-  | { status: 'ready'; cards: CardData[] };
+  | { status: 'ready'; cards: StudyableCard[] };
 
-export function StudySession({ levels, settings, onTogglePinyin, onExit }: StudySessionProps) {
+export function StudySession({ source, settings, onTogglePinyin, onExit }: StudySessionProps) {
   const [loadState, setLoadState] = useState<LoadState>({ status: 'loading' });
   const [queue, setQueue] = useState<string[]>([]);
   const [position, setPosition] = useState(0);
@@ -77,16 +100,16 @@ export function StudySession({ levels, settings, onTogglePinyin, onExit }: Study
     cardOrderRef.current = settings.cardOrder;
   }, [settings.cardOrder]);
 
-  const levelsKey = levels.join(',');
+  const sourceKeyValue = sourceKey(source);
 
   // Same reasoning as cardOrderRef above, for a different problem: the
-  // loading effect below is keyed on levelsKey (a stable string) rather
-  // than `levels` itself (a new array identity every render), so it needs
-  // a stable way to read the current levels array without adding the
-  // unstable array reference to its own dependency list.
-  const levelsRef = useRef(levels);
+  // loading effect below is keyed on sourceKeyValue (a stable string)
+  // rather than `source` itself (a new object identity every render), so
+  // it needs a stable way to read the current source without adding the
+  // unstable reference to its own dependency list.
+  const sourceRef = useRef(source);
   useEffect(() => {
-    levelsRef.current = levels;
+    sourceRef.current = source;
   });
 
   // Reset to loading whenever the load key changes, adjusted synchronously
@@ -94,7 +117,7 @@ export function StudySession({ levels, settings, onTogglePinyin, onExit }: Study
   // some-state-when-a-prop-changes) rather than as a setState call inside
   // the effect body, which the effect below then only uses for the async
   // load's own eventual result.
-  const loadKey = `${levelsKey}:${reloadToken}`;
+  const loadKey = `${sourceKeyValue}:${reloadToken}`;
   const [loadedKey, setLoadedKey] = useState<string | null>(null);
   if (loadedKey !== loadKey) {
     setLoadedKey(loadKey);
@@ -103,14 +126,21 @@ export function StudySession({ levels, settings, onTogglePinyin, onExit }: Study
 
   useEffect(() => {
     let cancelled = false;
-    Promise.all(levelsRef.current.map((level) => loadDeck(level)))
-      .then((decks) => {
+    const currentSource = sourceRef.current;
+    const load: Promise<StudyableCard[]> =
+      currentSource.kind === 'custom'
+        ? Promise.resolve(currentSource.deck.cards.map(toStudyableCard))
+        : Promise.all(currentSource.levels.map((level) => loadDeck(level))).then((decks) => {
+            const uniqueCards = new Map<string, StudyableCard>();
+            for (const deck of decks) {
+              for (const card of deck.cards) uniqueCards.set(card.id, card);
+            }
+            return [...uniqueCards.values()];
+          });
+
+    load
+      .then((cards) => {
         if (cancelled) return;
-        const uniqueCards = new Map<string, CardData>();
-        for (const deck of decks) {
-          for (const card of deck.cards) uniqueCards.set(card.id, card);
-        }
-        const cards = [...uniqueCards.values()];
         const ids = cards.map((c) => c.id);
         setQueue(cardOrderRef.current === 'shuffled' ? shuffle(ids) : ids);
         setPosition(0);
@@ -125,10 +155,10 @@ export function StudySession({ levels, settings, onTogglePinyin, onExit }: Study
     return () => {
       cancelled = true;
     };
-  }, [levelsKey, reloadToken]);
+  }, [sourceKeyValue, reloadToken]);
 
-  const cardsById = useMemo((): Map<string, CardData> => {
-    if (loadState.status !== 'ready') return new Map<string, CardData>();
+  const cardsById = useMemo((): Map<string, StudyableCard> => {
+    if (loadState.status !== 'ready') return new Map<string, StudyableCard>();
     return new Map(loadState.cards.map((c) => [c.id, c] as const));
   }, [loadState]);
 
@@ -203,7 +233,8 @@ export function StudySession({ levels, settings, onTogglePinyin, onExit }: Study
     }
   }
 
-  const levelLabel = formatLevels(levels);
+  const levelLabel = sourceLabel(source);
+  const backLabel = source.kind === 'custom' ? 'My Decks' : 'Level Select';
 
   if (loadState.status === 'loading') {
     return (
@@ -228,7 +259,7 @@ export function StudySession({ levels, settings, onTogglePinyin, onExit }: Study
           Retry
         </button>
         <button type="button" className={styles.iconButton} onClick={onExit}>
-          Back to Level Select
+          Back to {backLabel}
         </button>
       </div>
     );
@@ -241,7 +272,7 @@ export function StudySession({ levels, settings, onTogglePinyin, onExit }: Study
       <div className={styles.centeredMessage} role="alert">
         <p>{levelLabel} has no cards yet.</p>
         <button type="button" className={styles.primaryButton} onClick={onExit}>
-          Back to Level Select
+          Back to {backLabel}
         </button>
       </div>
     );
@@ -265,7 +296,7 @@ export function StudySession({ levels, settings, onTogglePinyin, onExit }: Study
           </button>
         </div>
         <button type="button" className={styles.iconButton} onClick={onExit}>
-          Back to Level Select
+          Back to {backLabel}
         </button>
       </div>
     );
@@ -276,7 +307,7 @@ export function StudySession({ levels, settings, onTogglePinyin, onExit }: Study
       <div className={styles.centeredMessage} role="alert">
         <p>Something went wrong loading this card.</p>
         <button type="button" className={styles.primaryButton} onClick={onExit}>
-          Back to Level Select
+          Back to {backLabel}
         </button>
       </div>
     );
@@ -286,7 +317,7 @@ export function StudySession({ levels, settings, onTogglePinyin, onExit }: Study
     <div className={styles.screen} onKeyDown={handleKeyDown}>
       <div className={styles.topBar}>
         <button type="button" className={styles.iconButton} onClick={onExit}>
-          ← Level Select
+          ← {backLabel}
         </button>
         <span>
           {position + 1} / {queue.length}

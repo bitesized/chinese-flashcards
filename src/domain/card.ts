@@ -53,6 +53,21 @@ export interface Classifier {
   readingNumeric: string; // numbered
 }
 
+/**
+ * The minimal shape the study UI (`Card.tsx`) actually reads. `Card` below
+ * and a `CustomCard`'s display projection (customDeck.ts, via
+ * `services/customDecks.ts`'s `toStudyableCard`) both satisfy this
+ * structurally — introduced by DEC-036 so the same flip/Pinyin/speech UI
+ * serves HSK and custom decks without forking it.
+ */
+export interface StudyableCard {
+  id: string;
+  headword: string;
+  reading: string;
+  senses: string[];
+  classifiers?: Classifier[];
+}
+
 export interface Card {
   /** Stable, deterministic. Format and derivation in domain-model.md §5. Never reused. */
   id: string;
